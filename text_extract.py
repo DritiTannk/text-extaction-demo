@@ -1,6 +1,9 @@
 import PyPDF2
 
 def pdf_text_extraction(filename):
+    """
+    It handles text extraction process from PDF files.
+    """
 
     input_path = 'input_files/' + filename
 
