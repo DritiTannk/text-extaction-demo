@@ -1,21 +1,34 @@
 import PyPDF2
 
-file_obj = open('input_files/paper1.pdf', 'rb')
-pdf_reader = PyPDF2.PdfFileReader(file_obj)  # PDF file reader object
+def pdf_text_extraction(filename):
 
-output_file = open('Paper1_output', 'w')  # Output file
+    input_path = 'input_files/' + filename
 
-total_pages = pdf_reader.getNumPages()  # Get total pages
-information = pdf_reader.getDocumentInfo()  # Get file details
+    file_obj = open(input_path, 'rb')
+    output_file = open('Paper1_output.txt', 'w')  # Output file
 
-output_file.write("Document Information: \n \n " + str(information) + "\n \n")
-output_file.write("Total Pages: \n \n " + str(total_pages) + "\n \n ")
+    try:
+        pdf_reader = PyPDF2.PdfFileReader(file_obj)  # PDF file reader object
 
-# Iterating through each page and extract text
-for page_count in range(0, total_pages):
-    page_data = pdf_reader.getPage(page_count)
-    output_file.write(page_data.extractText())  # Writing to text file
+        total_pages = pdf_reader.getNumPages()  # Get total pages
+        information = pdf_reader.getDocumentInfo()  # Get file details
 
-output_file.close()
-file_obj.close()
+        output_file.write("Document Information: \n \n " + str(information) + "\n \n")
+        output_file.write("Total Pages:\t" + str(total_pages) + "\n \n ")
+
+        # Iterating through each page, extract text & writing to the file.
+        for page_count in range(0, total_pages):
+            page_data = pdf_reader.getPage(page_count)
+            output_file.write(page_data.extractText())
+
+    except Exception as e:
+        print("\n \n Exception Arise \n \n ", e)
+
+    finally:
+        output_file.close()
+        file_obj.close()
+
+
+if __name__ == '__main__':
+    pdf_text_extraction('paper1.pdf')
 
