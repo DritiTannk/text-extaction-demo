@@ -1,13 +1,16 @@
+import os
+import glob
 import PyPDF2
 
-def pdf_text_extraction(filename):
+
+def pdf_text_extraction(filepath, filename):
     """
     It handles text extraction process from PDF files.
     """
-    input_path = 'input_files/' + filename
+
     output_filename = str(filename.split('.')[0]) + '_output.txt'
 
-    file_obj = open(input_path, 'rb')
+    file_obj = open(filepath, 'rb')
     output_file = open(f'output_files/{output_filename}', 'w')  # Output file
 
     try:
@@ -34,5 +37,12 @@ def pdf_text_extraction(filename):
         file_obj.close()
 
 if __name__ == '__main__':
-    pdf_text_extraction('paper_1.pdf')
+    i_path = './input_files/*'  # Input files path
+
+    for file in glob.glob(i_path):
+        fname = os.path.basename(file)  # Get file name from path
+        filename, ext = os.path.splitext(fname)  # Extract filename & extension
+
+        if fname.endswith('.pdf') and ext == '.pdf':
+            pdf_text_extraction(file, fname)
 
