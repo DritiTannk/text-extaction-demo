@@ -1,13 +1,13 @@
 import os
 import glob
 import PyPDF2
+from tika import parser
 
 
 def pdf_text_extraction(filepath, filename):
     """
     It handles text extraction process from PDF files.
     """
-
     output_filename = str(filename.split('.')[0]) + '_output.txt'
 
     file_obj = open(filepath, 'rb')
@@ -36,6 +36,19 @@ def pdf_text_extraction(filepath, filename):
         output_file.close()
         file_obj.close()
 
+
+def pdf_to_text_using_tikka(filepath, filename):
+    """
+    This method extract text from PDF using tikka library.
+    """
+    output_file_name = filename + '_tikka.txt'
+    parsed_file = parser.from_file(filepath)  # Parsing PDF file
+    content = parsed_file['content']  # Extracting content
+
+    with open(f'output_files/{output_file_name}', 'w') as f:
+        f.write(content.strip())
+
+
 if __name__ == '__main__':
     i_path = './input_files/*'  # Input files path
 
@@ -45,4 +58,5 @@ if __name__ == '__main__':
 
         if fname.endswith('.pdf') and ext == '.pdf':
             pdf_text_extraction(file, fname)
+            pdf_to_text_using_tikka(file, fname)
 
