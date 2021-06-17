@@ -8,10 +8,11 @@ def pdf_text_extraction(filepath, filename, output_path):
     """
     It handles text extraction process from PDF files.
     """
-    output_filename = filename + '_output.txt'
+    output_file_name = filename + '_output.txt'
+    output_file_path = o_path + output_file_name
 
     file_obj = open(filepath, 'rb')
-    output_file = open(f'{output_path}/{output_filename}', 'w')  # Output file
+    output_file = open(output_file_path, 'w')  # Output file
 
     try:
         pdf_reader = PyPDF2.PdfFileReader(file_obj, strict=False)  # PDF file reader object
@@ -42,10 +43,11 @@ def pdf_to_text_using_tikka(filepath, filename, output_path):
     This method extract text from PDF using tika library.
     """
     output_file_name = filename + '_tikka.txt'
+    output_file_path = o_path + output_file_name
     parsed_file = parser.from_file(filepath)  # Parsing PDF file
     content = parsed_file['content']  # Extracting content
 
-    with open(f'{output_path}/{output_file_name}', 'w') as f:
+    with open(output_file_path, 'w') as f:
         res = f.write(content.strip())
 
     return res
@@ -56,10 +58,11 @@ def html_to_text(filepath, filename, output_path):
     This method extract text from HTML files using tika library.
     """
     output_file_name = filename + '.txt'
+    output_file_path = o_path + output_file_name
     parsed_file = parser.from_file(filepath)
     content = parsed_file['content']
 
-    with open(f'{output_path}/{output_file_name}', 'w') as file1:
+    with open(output_file_path, 'w') as file1:
         res = file1.write(content.strip())
 
     return res
@@ -70,10 +73,11 @@ def ppt_to_text(filepath, filename, output_path):
     This method extract text from power-point presentation files using tika library.
     """
     output_file_name = filename + '.txt'
+    output_file_path = o_path + output_file_name
     parsed_file = parser.from_file(filepath)
     content = parsed_file['content']
 
-    with open(f'{output_path}/{output_file_name}', 'w') as file1:
+    with open(output_file_path, 'w') as file1:
         res = file1.write(content.strip())
 
     return res
@@ -83,11 +87,12 @@ def word_to_text(filepath, filename, o_path):
     """
     This method extract text from word files using tika library.
     """
-    output_file = filename + '.txt'
+    output_file_name = filename + '.txt'
     parsed_file = parser.from_file(filepath)
     content = parsed_file['content']
+    output_file_path = o_path + output_file_name
 
-    with open(f'{o_path}/{output_file}', 'w') as file1:
+    with open(output_file_path, 'w') as file1:
         res = file1.write(content.strip())
 
     return res
@@ -103,8 +108,7 @@ def file_search(input_path, output_path):
     :return: statistics dictionary
     """
     pdf_counter, ppt_counter, html_counter, word_counter = 0, 0, 0, 0
-    input_path = input_path + '/*'
-    print(input_path)
+    input_path = input_path + '*'
 
     for file in glob.glob(input_path):
         fname = os.path.basename(file)  # Get file name from path
