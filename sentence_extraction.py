@@ -2,7 +2,9 @@ import os
 import glob
 import re
 
+import nltk
 from nltk import sent_tokenize, word_tokenize
+from nltk.corpus import stopwords
 
 
 def sentence_extraction(output_path, filename, data):
@@ -15,9 +17,10 @@ def sentence_extraction(output_path, filename, data):
     data -- file content
 
     """
-
     output_file_name = filename + '_nltk.txt'
     output_file_path = output_path + output_file_name
+
+    stop_words = set(stopwords.words('english'))
 
     pattern = '\se.g.\s'
 
@@ -33,6 +36,8 @@ def sentence_extraction(output_path, filename, data):
             fw.write(f'{sentence_cnt} --> {str(s)} \n')
             tokens = word_tokenize(s)  # Words tokenization
             fw.write(f'\n TOKENS --> {tokens} \n\n')
+            tokens_post = nltk.pos_tag(tokens)  # POS tagging for tokens
+            fw.write(f'\n POST --> {tokens_post} \n\n')
             sentence_cnt += 1
 
     return sentence_cnt

@@ -9,7 +9,7 @@ def pdf_text_extraction(filepath, filename, output_path):
     It handles text extraction process from PDF files.
     """
     output_file_name = filename + '_output.txt'
-    output_file_path = o_path + output_file_name
+    output_file_path = output_path + output_file_name
 
     file_obj = open(filepath, 'rb')
     output_file = open(output_file_path, 'w')  # Output file
@@ -43,7 +43,7 @@ def pdf_to_text_using_tikka(filepath, filename, output_path):
     This method extract text from PDF using tika library.
     """
     output_file_name = filename + '_tikka.txt'
-    output_file_path = o_path + output_file_name
+    output_file_path = output_path + output_file_name
     parsed_file = parser.from_file(filepath)  # Parsing PDF file
     content = parsed_file['content']  # Extracting content
 
@@ -58,7 +58,7 @@ def html_to_text(filepath, filename, output_path):
     This method extract text from HTML files using tika library.
     """
     output_file_name = filename + '.txt'
-    output_file_path = o_path + output_file_name
+    output_file_path = output_path + output_file_name
     parsed_file = parser.from_file(filepath)
     content = parsed_file['content']
 
@@ -73,7 +73,7 @@ def ppt_to_text(filepath, filename, output_path):
     This method extract text from power-point presentation files using tika library.
     """
     output_file_name = filename + '.txt'
-    output_file_path = o_path + output_file_name
+    output_file_path = output_path + output_file_name
     parsed_file = parser.from_file(filepath)
     content = parsed_file['content']
 
@@ -83,14 +83,14 @@ def ppt_to_text(filepath, filename, output_path):
     return res
 
 
-def word_to_text(filepath, filename, o_path):
+def word_to_text(filepath, filename, output_path):
     """
     This method extract text from word files using tika library.
     """
     output_file_name = filename + '.txt'
     parsed_file = parser.from_file(filepath)
     content = parsed_file['content']
-    output_file_path = o_path + output_file_name
+    output_file_path = output_path + output_file_name
 
     with open(output_file_path, 'w') as file1:
         res = file1.write(content.strip())
