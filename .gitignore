@@ -1,2 +1,9 @@
 .idea/*
+__pycache__
+
+.ipynb_checkpoints/*
+
+stanford-parser-4.2.0.zip/*
+stanford-parser-4.2.0/*
+
 Pipfile.lock
