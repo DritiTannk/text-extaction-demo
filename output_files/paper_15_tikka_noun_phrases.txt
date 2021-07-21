@@ -1,0 +1,412 @@
+
+
+ ['white paper', 'language', 'language']
+
+
+
+ ['Speech-enabled automation', 'p3', 'translation', 'book', ' p4', 'recognize', 'p4', 'p4', 'flexible script', 'language', 'speech recognition', 'ability']
+
+
+
+ ['term', 'family', 'accuracy', 'speech', 'system']
+
+
+
+ ['Natural language', 'caller list', 'anything', 'context understood', 'system']
+
+
+
+ ['Speech', 'research', 'labs', 'talk', 'technology', 'contact', 'vendor', 'industry', 'press', 'proclaim', 'future', 'speech', 'recognition']
+
+
+
+ ['problem', 'term', 'natural language', 'become meaningless']
+
+
+
+ ['standard speech', 'industry', 'terminology', 'anything', 'standard']
+
+
+
+ ['travel service', 'flight', 'infant lap', 'aisle', '” term', 'natural language', 'vague', 'full promise', 'nothing']
+
+
+
+ ['mean something']
+
+
+
+ ['paper', 'natural language', 'speech', 'recognition', 'detail']
+
+
+
+ ['time', 'reading', 'natural language', 'overall accuracy', 'system', 'experience']
+
+
+
+ ['Speech-enabled automation', 'heart', 'today', 'contact', 'center']
+
+
+
+ ['contact', 'operating']
+
+
+
+ ['common customer', 'service']
+
+
+
+ ['overall automation', 'rate']
+
+
+
+ ['touchtone', 'speech-based self-ser- vice', 'system', 'address', 'increase automation']
+
+
+
+ ['increase', 'automation', 'center']
+
+
+
+ ['automation', 'rate', 'good accuracy', 'caller', 'entire interaction', 'speech', 'recognition', 'system']
+
+
+
+ ['Several recognition', 'automation', 'rate', 'speech', 'system']
+
+
+
+ ['language', 'example', 'speech']
+
+
+
+ ['Source', '%', '%', 'dialog', '%', 'tone', 'hard system', 'complete call']
+
+
+
+ ['course', 'ability', 'agent']
+
+
+
+ ['much advancement', 'technology', 'possible speech', 'recognition', 'engine', 'mistake']
+
+
+
+ ['speak customer-ese contact', 'center', 'clear obvious manner']
+
+
+
+ ['fact', 'caller', '‘ customer-ese ’', 'personal dialect', 'decode']
+
+
+
+ ['interpretation', 'process', 'new foreign language']
+
+
+
+ ['address', 'many speech', 'recognition', 'grammar', 'system', 'time']
+
+
+
+ ['speech recognition', 'engine', '“ new speech', 'nudist beach', '”', 'agent', 'operator', 'speak', 'someone', 'direct caller', 'live person']
+
+
+
+ ['speech-enabled self-service system', 'foreign language', 'grammar', 'translation', 'book', 'com- mon', 'meaning']
+
+
+
+ ['book']
+
+
+
+ ['caller', 'speech system', 'response', 'likely caller', 'something', 'out-of- grammar—the', 'system', 'caller', 'respond']
+
+
+
+ ['analysis', 'number', 'representative speech', 'misrecognition']
+
+
+
+ ['problem', 'caller', 'said…', 'caller', 'meant']
+
+
+
+ ['accuracy', 'automation', 'rate', 'use', 'system', 'center—a critical factor']
+
+
+
+ ['teach', 'speech', 'recognition', 'system', 'speak language', 'customer']
+
+
+
+ ['natural language', 'problem']
+
+
+
+ ['language', 'guess', 'billing']
+
+
+
+ ['billing']
+
+
+
+ ['Billing']
+
+
+
+ ['BILLING']
+
+
+
+ ['account', 'information', 'billing', 'technical support']
+
+
+
+ ['SYSTEM', '’', 'sorry', 'understand', '’', 'sorry', 'understand', 'please', 'next available agent']
+
+
+
+ ['translation', 'book', 'grammar', 'contain', 'list', 'natural language', 'work']
+
+
+
+ ['pick', 'number', '– instance', 'confirmation', 'dialog', 'yup', 'betcha', 'heck yeah', 'positive response']
+
+
+
+ ['straightforward', 'brute-force', 'technique', 'semblance', 'natural language', 'understanding']
+
+
+
+ ['approach', 'list']
+
+
+
+ ['tune', 'maintain', 'system', 'track']
+
+
+
+ ['possible overall performance', 'system', 'decrease', 'recognition', 'engine', 'caller', 'response', 'confusing list']
+
+
+
+ ['reality', 'impossible foresee', 'capture', 'every conceivable response', 'variant', 'large grammar']
+
+
+
+ ['self-service system', 'natural language']
+
+
+
+ ['every caller', 'unique manner', 'extraneous information', 'response', 'another approach', 'automation']
+
+
+
+ ['spotting', 'robust parsing', 'caller', 'system', 'response', 'filler']
+
+
+
+ ['”', 'think', '”']
+
+
+
+ ['keyword', 'approach', 'effective short menus', '%', 'speech-enabled application']
+
+
+
+ ['statistical technique', 'filler', 'refined time']
+
+
+
+ ['%', 'increase', 'recognition', 'accuracy']
+
+
+
+ ['caller', 'accuracy', 'keyword', 'spotting']
+
+
+
+ ['increase', 'accuracy', 'retry']
+
+
+
+ ['self-service system', 'big step', 'caller', '’', 'use']
+
+
+
+ ['natural language']
+
+
+
+ ['fluent', 'focusing', 'grammar', 'another approach', 'problem']
+
+
+
+ ['approach', 'open-ended prompt “', 'strange charge', 'credit', 'card', 'statement', '”']
+
+
+
+ ['system', 'sophisticated statistical modeling', 'identify', 'match list', 'example']
+
+
+
+ ['case', 'likely meaning', 'word', '‘', 'billing', '’']
+
+
+
+ ['technology', 'caller']
+
+
+
+ ['language', 'transcription', 'result', 'high automation', 'high customer', 'satisfaction']
+
+
+
+ ['open-ended approach']
+
+
+
+ ['caller', 'unexpected response', 'pizza', 'electricity', 'provider', 'system', 'match']
+
+
+
+ ['match', 'system', 'caller', 'intent', 'sorry', 'get', 'credit', 'keyword', 'approach', 'successful interaction']
+
+
+
+ ['open-ended response', 'powerful approach', 'effective call', 'routing']
+
+
+
+ ['arcane', 'jargon']
+
+
+
+ ['flexible script', 'caller', 'part', 'natural language', 'automation']
+
+
+
+ ['next step', 'speak customer-ese self-service', 'system', 'conversation', 'caller']
+
+
+
+ ['conversational approach', 'adapt information']
+
+
+
+ ['way', 'caller', 'experience', 'control', 'conversation']
+
+
+
+ ['example', 'information']
+
+
+
+ ['system', 'respond', 'information', 'productive shorter']
+
+
+
+ ['dialog', 'caller', '‘ extra ’', 'information', 'return', 'date', 'system', 'avoid ask']
+
+
+
+ ['information', 'natural language', 'conversation']
+
+
+
+ ['system', 'conversation', 'reject']
+
+
+
+ ['prompt engaging', 'automation']
+
+
+
+ ['dialog', 'system', 'caller', 'seat']
+
+
+
+ ['technology', 'open-ended caller']
+
+
+
+ ['language']
+
+
+
+ ['SYSTEM', 'window aisle seat']
+
+
+
+ ['piece', 'information', 'way', 'system', 'information']
+
+
+
+ ['Information']
+
+
+
+ ['day']
+
+
+
+ ['SYSTEM', 'language', 'understanding6 dialog', 'flexibility', 'system', 'respond', 'guide']
+
+
+
+ ['characteristic natural language', 'experience']
+
+
+
+ ['importance']
+
+
+
+ ['effective natural language', 'system', 'automation']
+
+
+
+ ['paper', 'natural language', 'caller', 'interaction', 'automation']
+
+
+
+ ['complementary natural language', 'recognition', 'accuracy']
+
+
+
+ ['©']
+
+
+
+ ['Nuance', 'logo']
+
+
+
+ ['brand', 'product']
+
+
+
+ ['relationship', 'technology']
+
+
+
+ ['voice', 'language', 'company', 'human conversation', 'apps']
+
+
+
+ ['Every day', 'understand', 'learn', 'adapt life', 'work']
+
+
+
+ ['information', 'visit', 'nuance.com']
+
+
+
+ ['building', 'create intuitive speech-', 'drive automation']
+
+
+
+ ['http', '']
+

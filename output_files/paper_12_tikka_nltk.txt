@@ -1,0 +1,2360 @@
+1 --> UNSILO White Paper (Benchmark) - Google Docs    Comparing   UNSILO   concept   extraction  to   leading   NLP   cloud   solutions   By   Mario   Juric,   Head   of   R&D   at   UNSILO,   and   Mads   Rydahl,   CVO   at   UNSILO. 
+
+
+ ---- TOKENS ----
+
+ ['UNSILO', 'White', 'Paper', '(', 'Benchmark', ')', '-', 'Google', 'Docs', 'Comparing', 'UNSILO', 'concept', 'extraction', 'to', 'leading', 'NLP', 'cloud', 'solutions', 'By', 'Mario', 'Juric', ',', 'Head', 'of', 'R', '&', 'D', 'at', 'UNSILO', ',', 'and', 'Mads', 'Rydahl', ',', 'CVO', 'at', 'UNSILO', '.'] 
+
+ TOTAL TOKENS ==> 38
+
+ ---- POST ----
+
+ [('UNSILO', 'NNP'), ('White', 'NNP'), ('Paper', 'NNP'), ('(', '('), ('Benchmark', 'NNP'), (')', ')'), ('-', ':'), ('Google', 'NNP'), ('Docs', 'NNP'), ('Comparing', 'NNP'), ('UNSILO', 'NNP'), ('concept', 'NN'), ('extraction', 'NN'), ('to', 'TO'), ('leading', 'VBG'), ('NLP', 'NNP'), ('cloud', 'JJ'), ('solutions', 'NNS'), ('By', 'IN'), ('Mario', 'NNP'), ('Juric', 'NNP'), (',', ','), ('Head', 'NNP'), ('of', 'IN'), ('R', 'NNP'), ('&', 'CC'), ('D', 'NNP'), ('at', 'IN'), ('UNSILO', 'NNP'), (',', ','), ('and', 'CC'), ('Mads', 'NNP'), ('Rydahl', 'NNP'), (',', ','), ('CVO', 'NNP'), ('at', 'IN'), ('UNSILO', 'NNP'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['UNSILO', 'White', 'Paper', '(', 'Benchmark', ')', '-', 'Google', 'Docs', 'Comparing', 'UNSILO', 'concept', 'extraction', 'leading', 'NLP', 'cloud', 'solutions', 'Mario', 'Juric', ',', 'Head', 'R', '&', 'UNSILO', ',', 'Mads', 'Rydahl', ',', 'CVO', 'UNSILO', '.']
+
+ TOTAL FILTERED TOKENS ==>  31
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('UNSILO', 'NNP'), ('White', 'NNP'), ('Paper', 'NNP'), ('(', '('), ('Benchmark', 'NNP'), (')', ')'), ('-', ':'), ('Google', 'NNP'), ('Docs', 'NNP'), ('Comparing', 'NNP'), ('UNSILO', 'NNP'), ('concept', 'NN'), ('extraction', 'NN'), ('leading', 'VBG'), ('NLP', 'NNP'), ('cloud', 'JJ'), ('solutions', 'NNS'), ('Mario', 'NNP'), ('Juric', 'NNP'), (',', ','), ('Head', 'NNP'), ('R', 'NNP'), ('&', 'CC'), ('UNSILO', 'NNP'), (',', ','), ('Mads', 'NNP'), ('Rydahl', 'NNP'), (',', ','), ('CVO', 'NNP'), ('UNSILO', 'NNP'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['UNSILO White', 'White Paper', 'Paper (', '( Benchmark', 'Benchmark )', ') -', '- Google', 'Google Docs', 'Docs Comparing', 'Comparing UNSILO', 'UNSILO concept', 'concept extraction', 'extraction leading', 'leading NLP', 'NLP cloud', 'cloud solutions', 'solutions Mario', 'Mario Juric', 'Juric ,', ', Head', 'Head R', 'R &', '& UNSILO', 'UNSILO ,', ', Mads', 'Mads Rydahl', 'Rydahl ,', ', CVO', 'CVO UNSILO', 'UNSILO .'] 
+
+ TOTAL BIGRAMS --> 30 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['UNSILO White Paper', 'White Paper (', 'Paper ( Benchmark', '( Benchmark )', 'Benchmark ) -', ') - Google', '- Google Docs', 'Google Docs Comparing', 'Docs Comparing UNSILO', 'Comparing UNSILO concept', 'UNSILO concept extraction', 'concept extraction leading', 'extraction leading NLP', 'leading NLP cloud', 'NLP cloud solutions', 'cloud solutions Mario', 'solutions Mario Juric', 'Mario Juric ,', 'Juric , Head', ', Head R', 'Head R &', 'R & UNSILO', '& UNSILO ,', 'UNSILO , Mads', ', Mads Rydahl', 'Mads Rydahl ,', 'Rydahl , CVO', ', CVO UNSILO', 'CVO UNSILO .'] 
+
+ TOTAL TRIGRAMS --> 29 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['concept', 'extraction'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['UNSILO', 'NLP', 'UNSILO', 'CVO']
+ TOTAL ORGANIZATION ENTITY --> 4 
+
+
+ PERSON ---> ['Google Docs', 'Mario Juric', 'Head R', 'Mads Rydahl']
+ TOTAL PERSON ENTITY --> 4 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['unsilo', 'white', 'paper', '(', 'benchmark', ')', '-', 'googl', 'doc', 'compar', 'unsilo', 'concept', 'extract', 'lead', 'nlp', 'cloud', 'solut', 'mario', 'juric', ',', 'head', 'r', '&', 'unsilo', ',', 'mad', 'rydahl', ',', 'cvo', 'unsilo', '.']
+
+ TOTAL PORTER STEM WORDS ==> 31
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['unsilo', 'white', 'paper', '(', 'benchmark', ')', '-', 'googl', 'doc', 'compar', 'unsilo', 'concept', 'extract', 'lead', 'nlp', 'cloud', 'solut', 'mario', 'juric', ',', 'head', 'r', '&', 'unsilo', ',', 'mad', 'rydahl', ',', 'cvo', 'unsilo', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 31
+
+
+
+ ---- LEMMATIZATION ----
+
+['UNSILO', 'White', 'Paper', '(', 'Benchmark', ')', '-', 'Google', 'Docs', 'Comparing', 'UNSILO', 'concept', 'extraction', 'leading', 'NLP', 'cloud', 'solution', 'Mario', 'Juric', ',', 'Head', 'R', '&', 'UNSILO', ',', 'Mads', 'Rydahl', ',', 'CVO', 'UNSILO', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 31
+
+************************************************************************************************************************
+
+2 --> Machine learning and artificial intelligence tools are promoted as                  solutions to some of mankind’s hardest challenges. 
+
+
+ ---- TOKENS ----
+
+ ['Machine', 'learning', 'and', 'artificial', 'intelligence', 'tools', 'are', 'promoted', 'as', 'solutions', 'to', 'some', 'of', 'mankind', '’', 's', 'hardest', 'challenges', '.'] 
+
+ TOTAL TOKENS ==> 19
+
+ ---- POST ----
+
+ [('Machine', 'NN'), ('learning', 'NN'), ('and', 'CC'), ('artificial', 'JJ'), ('intelligence', 'NN'), ('tools', 'NNS'), ('are', 'VBP'), ('promoted', 'VBN'), ('as', 'IN'), ('solutions', 'NNS'), ('to', 'TO'), ('some', 'DT'), ('of', 'IN'), ('mankind', 'NN'), ('’', 'NNP'), ('s', 'NN'), ('hardest', 'NN'), ('challenges', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Machine', 'learning', 'artificial', 'intelligence', 'tools', 'promoted', 'solutions', 'mankind', '’', 'hardest', 'challenges', '.']
+
+ TOTAL FILTERED TOKENS ==>  12
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Machine', 'NN'), ('learning', 'VBG'), ('artificial', 'JJ'), ('intelligence', 'NN'), ('tools', 'NNS'), ('promoted', 'VBD'), ('solutions', 'NNS'), ('mankind', 'VBP'), ('’', 'JJ'), ('hardest', 'NN'), ('challenges', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Machine learning', 'learning artificial', 'artificial intelligence', 'intelligence tools', 'tools promoted', 'promoted solutions', 'solutions mankind', 'mankind ’', '’ hardest', 'hardest challenges', 'challenges .'] 
+
+ TOTAL BIGRAMS --> 11 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Machine learning artificial', 'learning artificial intelligence', 'artificial intelligence tools', 'intelligence tools promoted', 'tools promoted solutions', 'promoted solutions mankind', 'solutions mankind ’', 'mankind ’ hardest', '’ hardest challenges', 'hardest challenges .'] 
+
+ TOTAL TRIGRAMS --> 10 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['Machine', 'artificial intelligence', '’ hardest'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Machine']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['machin', 'learn', 'artifici', 'intellig', 'tool', 'promot', 'solut', 'mankind', '’', 'hardest', 'challeng', '.']
+
+ TOTAL PORTER STEM WORDS ==> 12
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['machin', 'learn', 'artifici', 'intellig', 'tool', 'promot', 'solut', 'mankind', '’', 'hardest', 'challeng', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 12
+
+
+
+ ---- LEMMATIZATION ----
+
+['Machine', 'learning', 'artificial', 'intelligence', 'tool', 'promoted', 'solution', 'mankind', '’', 'hardest', 'challenge', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 12
+
+************************************************************************************************************************
+
+3 --> But in reality,                    novel technology solutions are o�en either accepted or rejected based                    on highly subjective judgement, either because they are “black box”                    solutions that provide little transparency, or because no one has the                      resources to properly evaluate the quality or accuracy of a proposed                      solution. 
+
+
+ ---- TOKENS ----
+
+ ['But', 'in', 'reality', ',', 'novel', 'technology', 'solutions', 'are', 'o�en', 'either', 'accepted', 'or', 'rejected', 'based', 'on', 'highly', 'subjective', 'judgement', ',', 'either', 'because', 'they', 'are', '“', 'black', 'box', '”', 'solutions', 'that', 'provide', 'little', 'transparency', ',', 'or', 'because', 'no', 'one', 'has', 'the', 'resources', 'to', 'properly', 'evaluate', 'the', 'quality', 'or', 'accuracy', 'of', 'a', 'proposed', 'solution', '.'] 
+
+ TOTAL TOKENS ==> 52
+
+ ---- POST ----
+
+ [('But', 'CC'), ('in', 'IN'), ('reality', 'NN'), (',', ','), ('novel', 'JJ'), ('technology', 'NN'), ('solutions', 'NNS'), ('are', 'VBP'), ('o�en', 'IN'), ('either', 'RB'), ('accepted', 'VBD'), ('or', 'CC'), ('rejected', 'VBN'), ('based', 'VBN'), ('on', 'IN'), ('highly', 'RB'), ('subjective', 'JJ'), ('judgement', 'NN'), (',', ','), ('either', 'RB'), ('because', 'IN'), ('they', 'PRP'), ('are', 'VBP'), ('“', 'JJ'), ('black', 'JJ'), ('box', 'NN'), ('”', 'JJ'), ('solutions', 'NNS'), ('that', 'WDT'), ('provide', 'VBP'), ('little', 'JJ'), ('transparency', 'NN'), (',', ','), ('or', 'CC'), ('because', 'IN'), ('no', 'DT'), ('one', 'NN'), ('has', 'VBZ'), ('the', 'DT'), ('resources', 'NNS'), ('to', 'TO'), ('properly', 'VB'), ('evaluate', 'VB'), ('the', 'DT'), ('quality', 'NN'), ('or', 'CC'), ('accuracy', 'NN'), ('of', 'IN'), ('a', 'DT'), ('proposed', 'VBN'), ('solution', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['reality', ',', 'novel', 'technology', 'solutions', 'o�en', 'either', 'accepted', 'rejected', 'based', 'highly', 'subjective', 'judgement', ',', 'either', '“', 'black', 'box', '”', 'solutions', 'provide', 'little', 'transparency', ',', 'one', 'resources', 'properly', 'evaluate', 'quality', 'accuracy', 'proposed', 'solution', '.']
+
+ TOTAL FILTERED TOKENS ==>  33
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('reality', 'NN'), (',', ','), ('novel', 'JJ'), ('technology', 'NN'), ('solutions', 'NNS'), ('o�en', 'VBP'), ('either', 'RB'), ('accepted', 'VBN'), ('rejected', 'VBD'), ('based', 'VBN'), ('highly', 'RB'), ('subjective', 'JJ'), ('judgement', 'NN'), (',', ','), ('either', 'CC'), ('“', 'JJ'), ('black', 'JJ'), ('box', 'NN'), ('”', 'JJ'), ('solutions', 'NNS'), ('provide', 'VBP'), ('little', 'JJ'), ('transparency', 'NN'), (',', ','), ('one', 'CD'), ('resources', 'NNS'), ('properly', 'RB'), ('evaluate', 'VBP'), ('quality', 'NN'), ('accuracy', 'NN'), ('proposed', 'VBN'), ('solution', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['reality ,', ', novel', 'novel technology', 'technology solutions', 'solutions o�en', 'o�en either', 'either accepted', 'accepted rejected', 'rejected based', 'based highly', 'highly subjective', 'subjective judgement', 'judgement ,', ', either', 'either “', '“ black', 'black box', 'box ”', '” solutions', 'solutions provide', 'provide little', 'little transparency', 'transparency ,', ', one', 'one resources', 'resources properly', 'properly evaluate', 'evaluate quality', 'quality accuracy', 'accuracy proposed', 'proposed solution', 'solution .'] 
+
+ TOTAL BIGRAMS --> 32 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['reality , novel', ', novel technology', 'novel technology solutions', 'technology solutions o�en', 'solutions o�en either', 'o�en either accepted', 'either accepted rejected', 'accepted rejected based', 'rejected based highly', 'based highly subjective', 'highly subjective judgement', 'subjective judgement ,', 'judgement , either', ', either “', 'either “ black', '“ black box', 'black box ”', 'box ” solutions', '” solutions provide', 'solutions provide little', 'provide little transparency', 'little transparency ,', 'transparency , one', ', one resources', 'one resources properly', 'resources properly evaluate', 'properly evaluate quality', 'evaluate quality accuracy', 'quality accuracy proposed', 'accuracy proposed solution', 'proposed solution .'] 
+
+ TOTAL TRIGRAMS --> 31 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['reality', 'novel technology', 'subjective judgement', '“ black box', 'little transparency', 'quality', 'accuracy', 'solution'] 
+
+ TOTAL NOUN PHRASES --> 8 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['realiti', ',', 'novel', 'technolog', 'solut', 'o�en', 'either', 'accept', 'reject', 'base', 'highli', 'subject', 'judgement', ',', 'either', '“', 'black', 'box', '”', 'solut', 'provid', 'littl', 'transpar', ',', 'one', 'resourc', 'properli', 'evalu', 'qualiti', 'accuraci', 'propos', 'solut', '.']
+
+ TOTAL PORTER STEM WORDS ==> 33
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['realiti', ',', 'novel', 'technolog', 'solut', 'o�en', 'either', 'accept', 'reject', 'base', 'high', 'subject', 'judgement', ',', 'either', '“', 'black', 'box', '”', 'solut', 'provid', 'littl', 'transpar', ',', 'one', 'resourc', 'proper', 'evalu', 'qualiti', 'accuraci', 'propos', 'solut', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 33
+
+
+
+ ---- LEMMATIZATION ----
+
+['reality', ',', 'novel', 'technology', 'solution', 'o�en', 'either', 'accepted', 'rejected', 'based', 'highly', 'subjective', 'judgement', ',', 'either', '“', 'black', 'box', '”', 'solution', 'provide', 'little', 'transparency', ',', 'one', 'resource', 'properly', 'evaluate', 'quality', 'accuracy', 'proposed', 'solution', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 33
+
+************************************************************************************************************************
+
+4 --> Machine Learning can be applied to the same problem in                      many ways, and two different service providers may even apply the                      same methods and return different results. 
+
+
+ ---- TOKENS ----
+
+ ['Machine', 'Learning', 'can', 'be', 'applied', 'to', 'the', 'same', 'problem', 'in', 'many', 'ways', ',', 'and', 'two', 'different', 'service', 'providers', 'may', 'even', 'apply', 'the', 'same', 'methods', 'and', 'return', 'different', 'results', '.'] 
+
+ TOTAL TOKENS ==> 29
+
+ ---- POST ----
+
+ [('Machine', 'NN'), ('Learning', 'NNP'), ('can', 'MD'), ('be', 'VB'), ('applied', 'VBN'), ('to', 'TO'), ('the', 'DT'), ('same', 'JJ'), ('problem', 'NN'), ('in', 'IN'), ('many', 'JJ'), ('ways', 'NNS'), (',', ','), ('and', 'CC'), ('two', 'CD'), ('different', 'JJ'), ('service', 'NN'), ('providers', 'NNS'), ('may', 'MD'), ('even', 'RB'), ('apply', 'VB'), ('the', 'DT'), ('same', 'JJ'), ('methods', 'NNS'), ('and', 'CC'), ('return', 'VB'), ('different', 'JJ'), ('results', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Machine', 'Learning', 'applied', 'problem', 'many', 'ways', ',', 'two', 'different', 'service', 'providers', 'may', 'even', 'apply', 'methods', 'return', 'different', 'results', '.']
+
+ TOTAL FILTERED TOKENS ==>  19
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Machine', 'NN'), ('Learning', 'NNP'), ('applied', 'VBD'), ('problem', 'NN'), ('many', 'JJ'), ('ways', 'NNS'), (',', ','), ('two', 'CD'), ('different', 'JJ'), ('service', 'NN'), ('providers', 'NNS'), ('may', 'MD'), ('even', 'RB'), ('apply', 'VB'), ('methods', 'NNS'), ('return', 'VB'), ('different', 'JJ'), ('results', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Machine Learning', 'Learning applied', 'applied problem', 'problem many', 'many ways', 'ways ,', ', two', 'two different', 'different service', 'service providers', 'providers may', 'may even', 'even apply', 'apply methods', 'methods return', 'return different', 'different results', 'results .'] 
+
+ TOTAL BIGRAMS --> 18 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Machine Learning applied', 'Learning applied problem', 'applied problem many', 'problem many ways', 'many ways ,', 'ways , two', ', two different', 'two different service', 'different service providers', 'service providers may', 'providers may even', 'may even apply', 'even apply methods', 'apply methods return', 'methods return different', 'return different results', 'different results .'] 
+
+ TOTAL TRIGRAMS --> 17 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['Machine', 'problem', 'different service'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> ['Machine Learning']
+ TOTAL PERSON ENTITY --> 1 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['machin', 'learn', 'appli', 'problem', 'mani', 'way', ',', 'two', 'differ', 'servic', 'provid', 'may', 'even', 'appli', 'method', 'return', 'differ', 'result', '.']
+
+ TOTAL PORTER STEM WORDS ==> 19
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['machin', 'learn', 'appli', 'problem', 'mani', 'way', ',', 'two', 'differ', 'servic', 'provid', 'may', 'even', 'appli', 'method', 'return', 'differ', 'result', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 19
+
+
+
+ ---- LEMMATIZATION ----
+
+['Machine', 'Learning', 'applied', 'problem', 'many', 'way', ',', 'two', 'different', 'service', 'provider', 'may', 'even', 'apply', 'method', 'return', 'different', 'result', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 19
+
+************************************************************************************************************************
+
+5 --> How can we meaningfully                    compare the results of machine learning tools from different                  providers? 
+
+
+ ---- TOKENS ----
+
+ ['How', 'can', 'we', 'meaningfully', 'compare', 'the', 'results', 'of', 'machine', 'learning', 'tools', 'from', 'different', 'providers', '?'] 
+
+ TOTAL TOKENS ==> 15
+
+ ---- POST ----
+
+ [('How', 'WRB'), ('can', 'MD'), ('we', 'PRP'), ('meaningfully', 'RB'), ('compare', 'VBP'), ('the', 'DT'), ('results', 'NNS'), ('of', 'IN'), ('machine', 'NN'), ('learning', 'NN'), ('tools', 'NNS'), ('from', 'IN'), ('different', 'JJ'), ('providers', 'NNS'), ('?', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['meaningfully', 'compare', 'results', 'machine', 'learning', 'tools', 'different', 'providers', '?']
+
+ TOTAL FILTERED TOKENS ==>  9
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('meaningfully', 'RB'), ('compare', 'JJ'), ('results', 'NNS'), ('machine', 'NN'), ('learning', 'NN'), ('tools', 'NNS'), ('different', 'JJ'), ('providers', 'NNS'), ('?', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['meaningfully compare', 'compare results', 'results machine', 'machine learning', 'learning tools', 'tools different', 'different providers', 'providers ?'] 
+
+ TOTAL BIGRAMS --> 8 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['meaningfully compare results', 'compare results machine', 'results machine learning', 'machine learning tools', 'learning tools different', 'tools different providers', 'different providers ?'] 
+
+ TOTAL TRIGRAMS --> 7 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['machine', 'learning'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['meaning', 'compar', 'result', 'machin', 'learn', 'tool', 'differ', 'provid', '?']
+
+ TOTAL PORTER STEM WORDS ==> 9
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['meaning', 'compar', 'result', 'machin', 'learn', 'tool', 'differ', 'provid', '?']
+
+ TOTAL SNOWBALL STEM WORDS ==> 9
+
+
+
+ ---- LEMMATIZATION ----
+
+['meaningfully', 'compare', 'result', 'machine', 'learning', 'tool', 'different', 'provider', '?']
+
+ TOTAL LEMMATIZE WORDS ==> 9
+
+************************************************************************************************************************
+
+6 --> In this paper we provide an overview of the machine                      learning techniques used by UNSILO, and compare the output of the                      UNSILO Concept Extraction Service to that of other leading concept                    extraction   tools. 
+
+
+ ---- TOKENS ----
+
+ ['In', 'this', 'paper', 'we', 'provide', 'an', 'overview', 'of', 'the', 'machine', 'learning', 'techniques', 'used', 'by', 'UNSILO', ',', 'and', 'compare', 'the', 'output', 'of', 'the', 'UNSILO', 'Concept', 'Extraction', 'Service', 'to', 'that', 'of', 'other', 'leading', 'concept', 'extraction', 'tools', '.'] 
+
+ TOTAL TOKENS ==> 35
+
+ ---- POST ----
+
+ [('In', 'IN'), ('this', 'DT'), ('paper', 'NN'), ('we', 'PRP'), ('provide', 'VBP'), ('an', 'DT'), ('overview', 'NN'), ('of', 'IN'), ('the', 'DT'), ('machine', 'NN'), ('learning', 'VBG'), ('techniques', 'NNS'), ('used', 'VBN'), ('by', 'IN'), ('UNSILO', 'NNP'), (',', ','), ('and', 'CC'), ('compare', 'VB'), ('the', 'DT'), ('output', 'NN'), ('of', 'IN'), ('the', 'DT'), ('UNSILO', 'NNP'), ('Concept', 'NNP'), ('Extraction', 'NNP'), ('Service', 'NNP'), ('to', 'TO'), ('that', 'DT'), ('of', 'IN'), ('other', 'JJ'), ('leading', 'VBG'), ('concept', 'JJ'), ('extraction', 'NN'), ('tools', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['paper', 'provide', 'overview', 'machine', 'learning', 'techniques', 'used', 'UNSILO', ',', 'compare', 'output', 'UNSILO', 'Concept', 'Extraction', 'Service', 'leading', 'concept', 'extraction', 'tools', '.']
+
+ TOTAL FILTERED TOKENS ==>  20
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('paper', 'NN'), ('provide', 'NN'), ('overview', 'IN'), ('machine', 'NN'), ('learning', 'VBG'), ('techniques', 'NNS'), ('used', 'VBN'), ('UNSILO', 'NNP'), (',', ','), ('compare', 'NN'), ('output', 'NN'), ('UNSILO', 'NNP'), ('Concept', 'NNP'), ('Extraction', 'NNP'), ('Service', 'NNP'), ('leading', 'VBG'), ('concept', 'JJ'), ('extraction', 'NN'), ('tools', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['paper provide', 'provide overview', 'overview machine', 'machine learning', 'learning techniques', 'techniques used', 'used UNSILO', 'UNSILO ,', ', compare', 'compare output', 'output UNSILO', 'UNSILO Concept', 'Concept Extraction', 'Extraction Service', 'Service leading', 'leading concept', 'concept extraction', 'extraction tools', 'tools .'] 
+
+ TOTAL BIGRAMS --> 19 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['paper provide overview', 'provide overview machine', 'overview machine learning', 'machine learning techniques', 'learning techniques used', 'techniques used UNSILO', 'used UNSILO ,', 'UNSILO , compare', ', compare output', 'compare output UNSILO', 'output UNSILO Concept', 'UNSILO Concept Extraction', 'Concept Extraction Service', 'Extraction Service leading', 'Service leading concept', 'leading concept extraction', 'concept extraction tools', 'extraction tools .'] 
+
+ TOTAL TRIGRAMS --> 18 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['paper', 'provide', 'machine', 'compare', 'output', 'concept extraction'] 
+
+ TOTAL NOUN PHRASES --> 6 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['UNSILO', 'UNSILO Concept Extraction']
+ TOTAL ORGANIZATION ENTITY --> 2 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['paper', 'provid', 'overview', 'machin', 'learn', 'techniqu', 'use', 'unsilo', ',', 'compar', 'output', 'unsilo', 'concept', 'extract', 'servic', 'lead', 'concept', 'extract', 'tool', '.']
+
+ TOTAL PORTER STEM WORDS ==> 20
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['paper', 'provid', 'overview', 'machin', 'learn', 'techniqu', 'use', 'unsilo', ',', 'compar', 'output', 'unsilo', 'concept', 'extract', 'servic', 'lead', 'concept', 'extract', 'tool', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 20
+
+
+
+ ---- LEMMATIZATION ----
+
+['paper', 'provide', 'overview', 'machine', 'learning', 'technique', 'used', 'UNSILO', ',', 'compare', 'output', 'UNSILO', 'Concept', 'Extraction', 'Service', 'leading', 'concept', 'extraction', 'tool', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 20
+
+************************************************************************************************************************
+
+7 --> Background  Although machine learning and artificial intelligence tools can be used                    to solve a number of different tasks that were previously the exclusive                        domain of Subject Matter Experts (SMEs), they do not “understand”                    knowledge like a human expert, and much less are these algorithms                      capable of qualitative evaluation of subject matter without significant                  human engineering effort towards extrapolating a coherent model of all                    possible   contributing   factors. 
+
+
+ ---- TOKENS ----
+
+ ['Background', 'Although', 'machine', 'learning', 'and', 'artificial', 'intelligence', 'tools', 'can', 'be', 'used', 'to', 'solve', 'a', 'number', 'of', 'different', 'tasks', 'that', 'were', 'previously', 'the', 'exclusive', 'domain', 'of', 'Subject', 'Matter', 'Experts', '(', 'SMEs', ')', ',', 'they', 'do', 'not', '“', 'understand', '”', 'knowledge', 'like', 'a', 'human', 'expert', ',', 'and', 'much', 'less', 'are', 'these', 'algorithms', 'capable', 'of', 'qualitative', 'evaluation', 'of', 'subject', 'matter', 'without', 'significant', 'human', 'engineering', 'effort', 'towards', 'extrapolating', 'a', 'coherent', 'model', 'of', 'all', 'possible', 'contributing', 'factors', '.'] 
+
+ TOTAL TOKENS ==> 73
+
+ ---- POST ----
+
+ [('Background', 'IN'), ('Although', 'IN'), ('machine', 'NN'), ('learning', 'NN'), ('and', 'CC'), ('artificial', 'JJ'), ('intelligence', 'NN'), ('tools', 'NNS'), ('can', 'MD'), ('be', 'VB'), ('used', 'VBN'), ('to', 'TO'), ('solve', 'VB'), ('a', 'DT'), ('number', 'NN'), ('of', 'IN'), ('different', 'JJ'), ('tasks', 'NNS'), ('that', 'WDT'), ('were', 'VBD'), ('previously', 'RB'), ('the', 'DT'), ('exclusive', 'JJ'), ('domain', 'NN'), ('of', 'IN'), ('Subject', 'JJ'), ('Matter', 'NNP'), ('Experts', 'NNP'), ('(', '('), ('SMEs', 'NNP'), (')', ')'), (',', ','), ('they', 'PRP'), ('do', 'VBP'), ('not', 'RB'), ('“', 'VB'), ('understand', 'JJ'), ('”', 'NNP'), ('knowledge', 'NN'), ('like', 'IN'), ('a', 'DT'), ('human', 'JJ'), ('expert', 'NN'), (',', ','), ('and', 'CC'), ('much', 'RB'), ('less', 'JJR'), ('are', 'VBP'), ('these', 'DT'), ('algorithms', 'NNS'), ('capable', 'NN'), ('of', 'IN'), ('qualitative', 'JJ'), ('evaluation', 'NN'), ('of', 'IN'), ('subject', 'JJ'), ('matter', 'NN'), ('without', 'IN'), ('significant', 'JJ'), ('human', 'JJ'), ('engineering', 'NN'), ('effort', 'NN'), ('towards', 'NNS'), ('extrapolating', 'VBG'), ('a', 'DT'), ('coherent', 'JJ'), ('model', 'NN'), ('of', 'IN'), ('all', 'DT'), ('possible', 'JJ'), ('contributing', 'NN'), ('factors', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Background', 'Although', 'machine', 'learning', 'artificial', 'intelligence', 'tools', 'used', 'solve', 'number', 'different', 'tasks', 'previously', 'exclusive', 'domain', 'Subject', 'Matter', 'Experts', '(', 'SMEs', ')', ',', '“', 'understand', '”', 'knowledge', 'like', 'human', 'expert', ',', 'much', 'less', 'algorithms', 'capable', 'qualitative', 'evaluation', 'subject', 'matter', 'without', 'significant', 'human', 'engineering', 'effort', 'towards', 'extrapolating', 'coherent', 'model', 'possible', 'contributing', 'factors', '.']
+
+ TOTAL FILTERED TOKENS ==>  51
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Background', 'IN'), ('Although', 'IN'), ('machine', 'NN'), ('learning', 'VBG'), ('artificial', 'JJ'), ('intelligence', 'NN'), ('tools', 'NNS'), ('used', 'VBD'), ('solve', 'JJ'), ('number', 'NN'), ('different', 'JJ'), ('tasks', 'NNS'), ('previously', 'RB'), ('exclusive', 'JJ'), ('domain', 'NN'), ('Subject', 'JJ'), ('Matter', 'NNP'), ('Experts', 'NNP'), ('(', '('), ('SMEs', 'NNP'), (')', ')'), (',', ','), ('“', 'JJ'), ('understand', 'VBP'), ('”', 'JJ'), ('knowledge', 'NN'), ('like', 'IN'), ('human', 'JJ'), ('expert', 'NN'), (',', ','), ('much', 'RB'), ('less', 'JJR'), ('algorithms', 'JJ'), ('capable', 'JJ'), ('qualitative', 'JJ'), ('evaluation', 'NN'), ('subject', 'JJ'), ('matter', 'NN'), ('without', 'IN'), ('significant', 'JJ'), ('human', 'JJ'), ('engineering', 'NN'), ('effort', 'NN'), ('towards', 'NNS'), ('extrapolating', 'VBG'), ('coherent', 'NN'), ('model', 'NN'), ('possible', 'JJ'), ('contributing', 'JJ'), ('factors', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Background Although', 'Although machine', 'machine learning', 'learning artificial', 'artificial intelligence', 'intelligence tools', 'tools used', 'used solve', 'solve number', 'number different', 'different tasks', 'tasks previously', 'previously exclusive', 'exclusive domain', 'domain Subject', 'Subject Matter', 'Matter Experts', 'Experts (', '( SMEs', 'SMEs )', ') ,', ', “', '“ understand', 'understand ”', '” knowledge', 'knowledge like', 'like human', 'human expert', 'expert ,', ', much', 'much less', 'less algorithms', 'algorithms capable', 'capable qualitative', 'qualitative evaluation', 'evaluation subject', 'subject matter', 'matter without', 'without significant', 'significant human', 'human engineering', 'engineering effort', 'effort towards', 'towards extrapolating', 'extrapolating coherent', 'coherent model', 'model possible', 'possible contributing', 'contributing factors', 'factors .'] 
+
+ TOTAL BIGRAMS --> 50 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Background Although machine', 'Although machine learning', 'machine learning artificial', 'learning artificial intelligence', 'artificial intelligence tools', 'intelligence tools used', 'tools used solve', 'used solve number', 'solve number different', 'number different tasks', 'different tasks previously', 'tasks previously exclusive', 'previously exclusive domain', 'exclusive domain Subject', 'domain Subject Matter', 'Subject Matter Experts', 'Matter Experts (', 'Experts ( SMEs', '( SMEs )', 'SMEs ) ,', ') , “', ', “ understand', '“ understand ”', 'understand ” knowledge', '” knowledge like', 'knowledge like human', 'like human expert', 'human expert ,', 'expert , much', ', much less', 'much less algorithms', 'less algorithms capable', 'algorithms capable qualitative', 'capable qualitative evaluation', 'qualitative evaluation subject', 'evaluation subject matter', 'subject matter without', 'matter without significant', 'without significant human', 'significant human engineering', 'human engineering effort', 'engineering effort towards', 'effort towards extrapolating', 'towards extrapolating coherent', 'extrapolating coherent model', 'coherent model possible', 'model possible contributing', 'possible contributing factors', 'contributing factors .'] 
+
+ TOTAL TRIGRAMS --> 49 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['machine', 'artificial intelligence', 'solve number', 'exclusive domain', '” knowledge', 'human expert', 'algorithms capable qualitative evaluation', 'subject matter', 'significant human engineering', 'effort', 'coherent', 'model'] 
+
+ TOTAL NOUN PHRASES --> 12 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> ['Subject Matter Experts']
+ TOTAL PERSON ENTITY --> 1 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['background', 'although', 'machin', 'learn', 'artifici', 'intellig', 'tool', 'use', 'solv', 'number', 'differ', 'task', 'previous', 'exclus', 'domain', 'subject', 'matter', 'expert', '(', 'sme', ')', ',', '“', 'understand', '”', 'knowledg', 'like', 'human', 'expert', ',', 'much', 'less', 'algorithm', 'capabl', 'qualit', 'evalu', 'subject', 'matter', 'without', 'signific', 'human', 'engin', 'effort', 'toward', 'extrapol', 'coher', 'model', 'possibl', 'contribut', 'factor', '.']
+
+ TOTAL PORTER STEM WORDS ==> 51
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['background', 'although', 'machin', 'learn', 'artifici', 'intellig', 'tool', 'use', 'solv', 'number', 'differ', 'task', 'previous', 'exclus', 'domain', 'subject', 'matter', 'expert', '(', 'smes', ')', ',', '“', 'understand', '”', 'knowledg', 'like', 'human', 'expert', ',', 'much', 'less', 'algorithm', 'capabl', 'qualit', 'evalu', 'subject', 'matter', 'without', 'signific', 'human', 'engin', 'effort', 'toward', 'extrapol', 'coher', 'model', 'possibl', 'contribut', 'factor', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 51
+
+
+
+ ---- LEMMATIZATION ----
+
+['Background', 'Although', 'machine', 'learning', 'artificial', 'intelligence', 'tool', 'used', 'solve', 'number', 'different', 'task', 'previously', 'exclusive', 'domain', 'Subject', 'Matter', 'Experts', '(', 'SMEs', ')', ',', '“', 'understand', '”', 'knowledge', 'like', 'human', 'expert', ',', 'much', 'le', 'algorithm', 'capable', 'qualitative', 'evaluation', 'subject', 'matter', 'without', 'significant', 'human', 'engineering', 'effort', 'towards', 'extrapolating', 'coherent', 'model', 'possible', 'contributing', 'factor', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 51
+
+************************************************************************************************************************
+
+8 --> Like most natural-language analytics providers, UNSILO uses a                combination of probabilistic Natural Language Processing (NLP),              structured knowledge in the form of dictionaries, ontologies, and                  thesauri, hard-coded rule sets, and adaptive machine learning to                  determine the most important elements in text, and facilitate the                    development of features like document similarity, reader interest                profiles,   and   trend   analysis. 
+
+
+ ---- TOKENS ----
+
+ ['Like', 'most', 'natural-language', 'analytics', 'providers', ',', 'UNSILO', 'uses', 'a', 'combination', 'of', 'probabilistic', 'Natural', 'Language', 'Processing', '(', 'NLP', ')', ',', 'structured', 'knowledge', 'in', 'the', 'form', 'of', 'dictionaries', ',', 'ontologies', ',', 'and', 'thesauri', ',', 'hard-coded', 'rule', 'sets', ',', 'and', 'adaptive', 'machine', 'learning', 'to', 'determine', 'the', 'most', 'important', 'elements', 'in', 'text', ',', 'and', 'facilitate', 'the', 'development', 'of', 'features', 'like', 'document', 'similarity', ',', 'reader', 'interest', 'profiles', ',', 'and', 'trend', 'analysis', '.'] 
+
+ TOTAL TOKENS ==> 67
+
+ ---- POST ----
+
+ [('Like', 'IN'), ('most', 'JJS'), ('natural-language', 'JJ'), ('analytics', 'NNS'), ('providers', 'NNS'), (',', ','), ('UNSILO', 'NNP'), ('uses', 'VBZ'), ('a', 'DT'), ('combination', 'NN'), ('of', 'IN'), ('probabilistic', 'JJ'), ('Natural', 'NNP'), ('Language', 'NNP'), ('Processing', 'NNP'), ('(', '('), ('NLP', 'NNP'), (')', ')'), (',', ','), ('structured', 'VBD'), ('knowledge', 'NN'), ('in', 'IN'), ('the', 'DT'), ('form', 'NN'), ('of', 'IN'), ('dictionaries', 'NNS'), (',', ','), ('ontologies', 'NNS'), (',', ','), ('and', 'CC'), ('thesauri', 'NN'), (',', ','), ('hard-coded', 'JJ'), ('rule', 'NN'), ('sets', 'NNS'), (',', ','), ('and', 'CC'), ('adaptive', 'JJ'), ('machine', 'NN'), ('learning', 'NN'), ('to', 'TO'), ('determine', 'VB'), ('the', 'DT'), ('most', 'RBS'), ('important', 'JJ'), ('elements', 'NNS'), ('in', 'IN'), ('text', 'NN'), (',', ','), ('and', 'CC'), ('facilitate', 'VB'), ('the', 'DT'), ('development', 'NN'), ('of', 'IN'), ('features', 'NNS'), ('like', 'IN'), ('document', 'NN'), ('similarity', 'NN'), (',', ','), ('reader', 'NN'), ('interest', 'NN'), ('profiles', 'NNS'), (',', ','), ('and', 'CC'), ('trend', 'NN'), ('analysis', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Like', 'natural-language', 'analytics', 'providers', ',', 'UNSILO', 'uses', 'combination', 'probabilistic', 'Natural', 'Language', 'Processing', '(', 'NLP', ')', ',', 'structured', 'knowledge', 'form', 'dictionaries', ',', 'ontologies', ',', 'thesauri', ',', 'hard-coded', 'rule', 'sets', ',', 'adaptive', 'machine', 'learning', 'determine', 'important', 'elements', 'text', ',', 'facilitate', 'development', 'features', 'like', 'document', 'similarity', ',', 'reader', 'interest', 'profiles', ',', 'trend', 'analysis', '.']
+
+ TOTAL FILTERED TOKENS ==>  51
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Like', 'IN'), ('natural-language', 'JJ'), ('analytics', 'NNS'), ('providers', 'NNS'), (',', ','), ('UNSILO', 'NNP'), ('uses', 'VBZ'), ('combination', 'NN'), ('probabilistic', 'JJ'), ('Natural', 'NNP'), ('Language', 'NNP'), ('Processing', 'NNP'), ('(', '('), ('NLP', 'NNP'), (')', ')'), (',', ','), ('structured', 'VBD'), ('knowledge', 'NN'), ('form', 'NN'), ('dictionaries', 'NNS'), (',', ','), ('ontologies', 'NNS'), (',', ','), ('thesauri', 'NN'), (',', ','), ('hard-coded', 'JJ'), ('rule', 'NN'), ('sets', 'NNS'), (',', ','), ('adaptive', 'JJ'), ('machine', 'NN'), ('learning', 'VBG'), ('determine', 'JJ'), ('important', 'JJ'), ('elements', 'NNS'), ('text', 'NN'), (',', ','), ('facilitate', 'NN'), ('development', 'NN'), ('features', 'NNS'), ('like', 'IN'), ('document', 'NN'), ('similarity', 'NN'), (',', ','), ('reader', 'NN'), ('interest', 'NN'), ('profiles', 'NNS'), (',', ','), ('trend', 'NN'), ('analysis', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Like natural-language', 'natural-language analytics', 'analytics providers', 'providers ,', ', UNSILO', 'UNSILO uses', 'uses combination', 'combination probabilistic', 'probabilistic Natural', 'Natural Language', 'Language Processing', 'Processing (', '( NLP', 'NLP )', ') ,', ', structured', 'structured knowledge', 'knowledge form', 'form dictionaries', 'dictionaries ,', ', ontologies', 'ontologies ,', ', thesauri', 'thesauri ,', ', hard-coded', 'hard-coded rule', 'rule sets', 'sets ,', ', adaptive', 'adaptive machine', 'machine learning', 'learning determine', 'determine important', 'important elements', 'elements text', 'text ,', ', facilitate', 'facilitate development', 'development features', 'features like', 'like document', 'document similarity', 'similarity ,', ', reader', 'reader interest', 'interest profiles', 'profiles ,', ', trend', 'trend analysis', 'analysis .'] 
+
+ TOTAL BIGRAMS --> 50 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Like natural-language analytics', 'natural-language analytics providers', 'analytics providers ,', 'providers , UNSILO', ', UNSILO uses', 'UNSILO uses combination', 'uses combination probabilistic', 'combination probabilistic Natural', 'probabilistic Natural Language', 'Natural Language Processing', 'Language Processing (', 'Processing ( NLP', '( NLP )', 'NLP ) ,', ') , structured', ', structured knowledge', 'structured knowledge form', 'knowledge form dictionaries', 'form dictionaries ,', 'dictionaries , ontologies', ', ontologies ,', 'ontologies , thesauri', ', thesauri ,', 'thesauri , hard-coded', ', hard-coded rule', 'hard-coded rule sets', 'rule sets ,', 'sets , adaptive', ', adaptive machine', 'adaptive machine learning', 'machine learning determine', 'learning determine important', 'determine important elements', 'important elements text', 'elements text ,', 'text , facilitate', ', facilitate development', 'facilitate development features', 'development features like', 'features like document', 'like document similarity', 'document similarity ,', 'similarity , reader', ', reader interest', 'reader interest profiles', 'interest profiles ,', 'profiles , trend', ', trend analysis', 'trend analysis .'] 
+
+ TOTAL TRIGRAMS --> 49 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['combination', 'knowledge', 'form', 'thesauri', 'hard-coded rule', 'adaptive machine', 'text', 'facilitate', 'development', 'document', 'similarity', 'reader', 'interest', 'trend', 'analysis'] 
+
+ TOTAL NOUN PHRASES --> 15 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['UNSILO', 'Natural Language']
+ TOTAL ORGANIZATION ENTITY --> 2 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['like', 'natural-languag', 'analyt', 'provid', ',', 'unsilo', 'use', 'combin', 'probabilist', 'natur', 'languag', 'process', '(', 'nlp', ')', ',', 'structur', 'knowledg', 'form', 'dictionari', ',', 'ontolog', ',', 'thesauri', ',', 'hard-cod', 'rule', 'set', ',', 'adapt', 'machin', 'learn', 'determin', 'import', 'element', 'text', ',', 'facilit', 'develop', 'featur', 'like', 'document', 'similar', ',', 'reader', 'interest', 'profil', ',', 'trend', 'analysi', '.']
+
+ TOTAL PORTER STEM WORDS ==> 51
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['like', 'natural-languag', 'analyt', 'provid', ',', 'unsilo', 'use', 'combin', 'probabilist', 'natur', 'languag', 'process', '(', 'nlp', ')', ',', 'structur', 'knowledg', 'form', 'dictionari', ',', 'ontolog', ',', 'thesauri', ',', 'hard-cod', 'rule', 'set', ',', 'adapt', 'machin', 'learn', 'determin', 'import', 'element', 'text', ',', 'facilit', 'develop', 'featur', 'like', 'document', 'similar', ',', 'reader', 'interest', 'profil', ',', 'trend', 'analysi', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 51
+
+
+
+ ---- LEMMATIZATION ----
+
+['Like', 'natural-language', 'analytics', 'provider', ',', 'UNSILO', 'us', 'combination', 'probabilistic', 'Natural', 'Language', 'Processing', '(', 'NLP', ')', ',', 'structured', 'knowledge', 'form', 'dictionary', ',', 'ontology', ',', 'thesaurus', ',', 'hard-coded', 'rule', 'set', ',', 'adaptive', 'machine', 'learning', 'determine', 'important', 'element', 'text', ',', 'facilitate', 'development', 'feature', 'like', 'document', 'similarity', ',', 'reader', 'interest', 'profile', ',', 'trend', 'analysis', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 51
+
+************************************************************************************************************************
+
+9 --> Methodology  For this White Paper, the UNSILO Concept Extraction API was compared                      with the most widely adopted concept extraction services available                  today the Google Cloud Natural Language API, The Microso� Cognitive                    Services Text Analytics API, and the IBM Watson Alchemy Language API. 
+
+
+ ---- TOKENS ----
+
+ ['Methodology', 'For', 'this', 'White', 'Paper', ',', 'the', 'UNSILO', 'Concept', 'Extraction', 'API', 'was', 'compared', 'with', 'the', 'most', 'widely', 'adopted', 'concept', 'extraction', 'services', 'available', 'today', 'the', 'Google', 'Cloud', 'Natural', 'Language', 'API', ',', 'The', 'Microso�', 'Cognitive', 'Services', 'Text', 'Analytics', 'API', ',', 'and', 'the', 'IBM', 'Watson', 'Alchemy', 'Language', 'API', '.'] 
+
+ TOTAL TOKENS ==> 46
+
+ ---- POST ----
+
+ [('Methodology', 'NN'), ('For', 'IN'), ('this', 'DT'), ('White', 'NNP'), ('Paper', 'NNP'), (',', ','), ('the', 'DT'), ('UNSILO', 'NNP'), ('Concept', 'NNP'), ('Extraction', 'NNP'), ('API', 'NNP'), ('was', 'VBD'), ('compared', 'VBN'), ('with', 'IN'), ('the', 'DT'), ('most', 'RBS'), ('widely', 'RB'), ('adopted', 'VBN'), ('concept', 'NN'), ('extraction', 'NN'), ('services', 'NNS'), ('available', 'JJ'), ('today', 'NN'), ('the', 'DT'), ('Google', 'NNP'), ('Cloud', 'NNP'), ('Natural', 'NNP'), ('Language', 'NNP'), ('API', 'NNP'), (',', ','), ('The', 'DT'), ('Microso�', 'NNP'), ('Cognitive', 'NNP'), ('Services', 'NNPS'), ('Text', 'NNP'), ('Analytics', 'NNP'), ('API', 'NNP'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('IBM', 'NNP'), ('Watson', 'NNP'), ('Alchemy', 'NNP'), ('Language', 'NNP'), ('API', 'NNP'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Methodology', 'White', 'Paper', ',', 'UNSILO', 'Concept', 'Extraction', 'API', 'compared', 'widely', 'adopted', 'concept', 'extraction', 'services', 'available', 'today', 'Google', 'Cloud', 'Natural', 'Language', 'API', ',', 'Microso�', 'Cognitive', 'Services', 'Text', 'Analytics', 'API', ',', 'IBM', 'Watson', 'Alchemy', 'Language', 'API', '.']
+
+ TOTAL FILTERED TOKENS ==>  35
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Methodology', 'NNP'), ('White', 'NNP'), ('Paper', 'NNP'), (',', ','), ('UNSILO', 'NNP'), ('Concept', 'NNP'), ('Extraction', 'NNP'), ('API', 'NNP'), ('compared', 'VBN'), ('widely', 'RB'), ('adopted', 'VBN'), ('concept', 'NN'), ('extraction', 'NN'), ('services', 'NNS'), ('available', 'JJ'), ('today', 'NN'), ('Google', 'NNP'), ('Cloud', 'NNP'), ('Natural', 'NNP'), ('Language', 'NNP'), ('API', 'NNP'), (',', ','), ('Microso�', 'NNP'), ('Cognitive', 'NNP'), ('Services', 'NNPS'), ('Text', 'NNP'), ('Analytics', 'NNP'), ('API', 'NNP'), (',', ','), ('IBM', 'NNP'), ('Watson', 'NNP'), ('Alchemy', 'NNP'), ('Language', 'NNP'), ('API', 'NNP'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Methodology White', 'White Paper', 'Paper ,', ', UNSILO', 'UNSILO Concept', 'Concept Extraction', 'Extraction API', 'API compared', 'compared widely', 'widely adopted', 'adopted concept', 'concept extraction', 'extraction services', 'services available', 'available today', 'today Google', 'Google Cloud', 'Cloud Natural', 'Natural Language', 'Language API', 'API ,', ', Microso�', 'Microso� Cognitive', 'Cognitive Services', 'Services Text', 'Text Analytics', 'Analytics API', 'API ,', ', IBM', 'IBM Watson', 'Watson Alchemy', 'Alchemy Language', 'Language API', 'API .'] 
+
+ TOTAL BIGRAMS --> 34 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Methodology White Paper', 'White Paper ,', 'Paper , UNSILO', ', UNSILO Concept', 'UNSILO Concept Extraction', 'Concept Extraction API', 'Extraction API compared', 'API compared widely', 'compared widely adopted', 'widely adopted concept', 'adopted concept extraction', 'concept extraction services', 'extraction services available', 'services available today', 'available today Google', 'today Google Cloud', 'Google Cloud Natural', 'Cloud Natural Language', 'Natural Language API', 'Language API ,', 'API , Microso�', ', Microso� Cognitive', 'Microso� Cognitive Services', 'Cognitive Services Text', 'Services Text Analytics', 'Text Analytics API', 'Analytics API ,', 'API , IBM', ', IBM Watson', 'IBM Watson Alchemy', 'Watson Alchemy Language', 'Alchemy Language API', 'Language API .'] 
+
+ TOTAL TRIGRAMS --> 33 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['concept', 'extraction', 'available today'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['Methodology', 'UNSILO Concept Extraction', 'IBM Watson Alchemy Language']
+ TOTAL ORGANIZATION ENTITY --> 3 
+
+
+ PERSON ---> ['Google Cloud Natural Language API', 'Text Analytics API']
+ TOTAL PERSON ENTITY --> 2 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['methodolog', 'white', 'paper', ',', 'unsilo', 'concept', 'extract', 'api', 'compar', 'wide', 'adopt', 'concept', 'extract', 'servic', 'avail', 'today', 'googl', 'cloud', 'natur', 'languag', 'api', ',', 'microso�', 'cognit', 'servic', 'text', 'analyt', 'api', ',', 'ibm', 'watson', 'alchemi', 'languag', 'api', '.']
+
+ TOTAL PORTER STEM WORDS ==> 35
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['methodolog', 'white', 'paper', ',', 'unsilo', 'concept', 'extract', 'api', 'compar', 'wide', 'adopt', 'concept', 'extract', 'servic', 'avail', 'today', 'googl', 'cloud', 'natur', 'languag', 'api', ',', 'microso�', 'cognit', 'servic', 'text', 'analyt', 'api', ',', 'ibm', 'watson', 'alchemi', 'languag', 'api', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 35
+
+
+
+ ---- LEMMATIZATION ----
+
+['Methodology', 'White', 'Paper', ',', 'UNSILO', 'Concept', 'Extraction', 'API', 'compared', 'widely', 'adopted', 'concept', 'extraction', 'service', 'available', 'today', 'Google', 'Cloud', 'Natural', 'Language', 'API', ',', 'Microso�', 'Cognitive', 'Services', 'Text', 'Analytics', 'API', ',', 'IBM', 'Watson', 'Alchemy', 'Language', 'API', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 35
+
+************************************************************************************************************************
+
+10 --> To test performance across a variety of different subjects and                    terminologies, we randomly selected four scholarly articles from four                  different domains Nanotechnology, Biomedical Science, Computer            Science,   and   Food   Science   and   Nutrition. 
+
+
+ ---- TOKENS ----
+
+ ['To', 'test', 'performance', 'across', 'a', 'variety', 'of', 'different', 'subjects', 'and', 'terminologies', ',', 'we', 'randomly', 'selected', 'four', 'scholarly', 'articles', 'from', 'four', 'different', 'domains', 'Nanotechnology', ',', 'Biomedical', 'Science', ',', 'Computer', 'Science', ',', 'and', 'Food', 'Science', 'and', 'Nutrition', '.'] 
+
+ TOTAL TOKENS ==> 36
+
+ ---- POST ----
+
+ [('To', 'TO'), ('test', 'VB'), ('performance', 'NN'), ('across', 'IN'), ('a', 'DT'), ('variety', 'NN'), ('of', 'IN'), ('different', 'JJ'), ('subjects', 'NNS'), ('and', 'CC'), ('terminologies', 'NNS'), (',', ','), ('we', 'PRP'), ('randomly', 'RB'), ('selected', 'VBD'), ('four', 'CD'), ('scholarly', 'JJ'), ('articles', 'NNS'), ('from', 'IN'), ('four', 'CD'), ('different', 'JJ'), ('domains', 'NNS'), ('Nanotechnology', 'NNP'), (',', ','), ('Biomedical', 'NNP'), ('Science', 'NNP'), (',', ','), ('Computer', 'NNP'), ('Science', 'NNP'), (',', ','), ('and', 'CC'), ('Food', 'NNP'), ('Science', 'NNP'), ('and', 'CC'), ('Nutrition', 'NNP'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['test', 'performance', 'across', 'variety', 'different', 'subjects', 'terminologies', ',', 'randomly', 'selected', 'four', 'scholarly', 'articles', 'four', 'different', 'domains', 'Nanotechnology', ',', 'Biomedical', 'Science', ',', 'Computer', 'Science', ',', 'Food', 'Science', 'Nutrition', '.']
+
+ TOTAL FILTERED TOKENS ==>  28
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('test', 'NN'), ('performance', 'NN'), ('across', 'IN'), ('variety', 'NN'), ('different', 'JJ'), ('subjects', 'NNS'), ('terminologies', 'NNS'), (',', ','), ('randomly', 'RB'), ('selected', 'VBN'), ('four', 'CD'), ('scholarly', 'JJ'), ('articles', 'NNS'), ('four', 'CD'), ('different', 'JJ'), ('domains', 'NNS'), ('Nanotechnology', 'NNP'), (',', ','), ('Biomedical', 'NNP'), ('Science', 'NNP'), (',', ','), ('Computer', 'NNP'), ('Science', 'NNP'), (',', ','), ('Food', 'NNP'), ('Science', 'NNP'), ('Nutrition', 'NNP'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['test performance', 'performance across', 'across variety', 'variety different', 'different subjects', 'subjects terminologies', 'terminologies ,', ', randomly', 'randomly selected', 'selected four', 'four scholarly', 'scholarly articles', 'articles four', 'four different', 'different domains', 'domains Nanotechnology', 'Nanotechnology ,', ', Biomedical', 'Biomedical Science', 'Science ,', ', Computer', 'Computer Science', 'Science ,', ', Food', 'Food Science', 'Science Nutrition', 'Nutrition .'] 
+
+ TOTAL BIGRAMS --> 27 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['test performance across', 'performance across variety', 'across variety different', 'variety different subjects', 'different subjects terminologies', 'subjects terminologies ,', 'terminologies , randomly', ', randomly selected', 'randomly selected four', 'selected four scholarly', 'four scholarly articles', 'scholarly articles four', 'articles four different', 'four different domains', 'different domains Nanotechnology', 'domains Nanotechnology ,', 'Nanotechnology , Biomedical', ', Biomedical Science', 'Biomedical Science ,', 'Science , Computer', ', Computer Science', 'Computer Science ,', 'Science , Food', ', Food Science', 'Food Science Nutrition', 'Science Nutrition .'] 
+
+ TOTAL TRIGRAMS --> 26 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['test', 'performance', 'variety'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['Computer Science']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> ['Nanotechnology', 'Biomedical Science', 'Food Science Nutrition']
+ TOTAL PERSON ENTITY --> 3 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['test', 'perform', 'across', 'varieti', 'differ', 'subject', 'terminolog', ',', 'randomli', 'select', 'four', 'scholarli', 'articl', 'four', 'differ', 'domain', 'nanotechnolog', ',', 'biomed', 'scienc', ',', 'comput', 'scienc', ',', 'food', 'scienc', 'nutrit', '.']
+
+ TOTAL PORTER STEM WORDS ==> 28
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['test', 'perform', 'across', 'varieti', 'differ', 'subject', 'terminolog', ',', 'random', 'select', 'four', 'scholar', 'articl', 'four', 'differ', 'domain', 'nanotechnolog', ',', 'biomed', 'scienc', ',', 'comput', 'scienc', ',', 'food', 'scienc', 'nutrit', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 28
+
+
+
+ ---- LEMMATIZATION ----
+
+['test', 'performance', 'across', 'variety', 'different', 'subject', 'terminology', ',', 'randomly', 'selected', 'four', 'scholarly', 'article', 'four', 'different', 'domain', 'Nanotechnology', ',', 'Biomedical', 'Science', ',', 'Computer', 'Science', ',', 'Food', 'Science', 'Nutrition', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 28
+
+************************************************************************************************************************
+
+11 --> The full text of each article was submitted to each of the four designated                            API services, and from each service, the top 20 concepts were examined                        according to a set of qualitative criteria and categorized into four                      classes, each with a different scoring weight. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'full', 'text', 'of', 'each', 'article', 'was', 'submitted', 'to', 'each', 'of', 'the', 'four', 'designated', 'API', 'services', ',', 'and', 'from', 'each', 'service', ',', 'the', 'top', '20', 'concepts', 'were', 'examined', 'according', 'to', 'a', 'set', 'of', 'qualitative', 'criteria', 'and', 'categorized', 'into', 'four', 'classes', ',', 'each', 'with', 'a', 'different', 'scoring', 'weight', '.'] 
+
+ TOTAL TOKENS ==> 48
+
+ ---- POST ----
+
+ [('The', 'DT'), ('full', 'JJ'), ('text', 'NN'), ('of', 'IN'), ('each', 'DT'), ('article', 'NN'), ('was', 'VBD'), ('submitted', 'VBN'), ('to', 'TO'), ('each', 'DT'), ('of', 'IN'), ('the', 'DT'), ('four', 'CD'), ('designated', 'VBD'), ('API', 'NNP'), ('services', 'NNS'), (',', ','), ('and', 'CC'), ('from', 'IN'), ('each', 'DT'), ('service', 'NN'), (',', ','), ('the', 'DT'), ('top', 'JJ'), ('20', 'CD'), ('concepts', 'NNS'), ('were', 'VBD'), ('examined', 'VBN'), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('set', 'NN'), ('of', 'IN'), ('qualitative', 'JJ'), ('criteria', 'NNS'), ('and', 'CC'), ('categorized', 'VBN'), ('into', 'IN'), ('four', 'CD'), ('classes', 'NNS'), (',', ','), ('each', 'DT'), ('with', 'IN'), ('a', 'DT'), ('different', 'JJ'), ('scoring', 'NN'), ('weight', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['full', 'text', 'article', 'submitted', 'four', 'designated', 'API', 'services', ',', 'service', ',', 'top', '20', 'concepts', 'examined', 'according', 'set', 'qualitative', 'criteria', 'categorized', 'four', 'classes', ',', 'different', 'scoring', 'weight', '.']
+
+ TOTAL FILTERED TOKENS ==>  27
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('full', 'JJ'), ('text', 'NN'), ('article', 'NN'), ('submitted', 'VBD'), ('four', 'CD'), ('designated', 'VBN'), ('API', 'NNP'), ('services', 'NNS'), (',', ','), ('service', 'NN'), (',', ','), ('top', 'JJ'), ('20', 'CD'), ('concepts', 'NNS'), ('examined', 'VBD'), ('according', 'VBG'), ('set', 'VBN'), ('qualitative', 'JJ'), ('criteria', 'NNS'), ('categorized', 'VBN'), ('four', 'CD'), ('classes', 'NNS'), (',', ','), ('different', 'JJ'), ('scoring', 'VBG'), ('weight', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['full text', 'text article', 'article submitted', 'submitted four', 'four designated', 'designated API', 'API services', 'services ,', ', service', 'service ,', ', top', 'top 20', '20 concepts', 'concepts examined', 'examined according', 'according set', 'set qualitative', 'qualitative criteria', 'criteria categorized', 'categorized four', 'four classes', 'classes ,', ', different', 'different scoring', 'scoring weight', 'weight .'] 
+
+ TOTAL BIGRAMS --> 26 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['full text article', 'text article submitted', 'article submitted four', 'submitted four designated', 'four designated API', 'designated API services', 'API services ,', 'services , service', ', service ,', 'service , top', ', top 20', 'top 20 concepts', '20 concepts examined', 'concepts examined according', 'examined according set', 'according set qualitative', 'set qualitative criteria', 'qualitative criteria categorized', 'criteria categorized four', 'categorized four classes', 'four classes ,', 'classes , different', ', different scoring', 'different scoring weight', 'scoring weight .'] 
+
+ TOTAL TRIGRAMS --> 25 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['full text', 'article', 'service', 'weight'] 
+
+ TOTAL NOUN PHRASES --> 4 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['API']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['full', 'text', 'articl', 'submit', 'four', 'design', 'api', 'servic', ',', 'servic', ',', 'top', '20', 'concept', 'examin', 'accord', 'set', 'qualit', 'criteria', 'categor', 'four', 'class', ',', 'differ', 'score', 'weight', '.']
+
+ TOTAL PORTER STEM WORDS ==> 27
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['full', 'text', 'articl', 'submit', 'four', 'design', 'api', 'servic', ',', 'servic', ',', 'top', '20', 'concept', 'examin', 'accord', 'set', 'qualit', 'criteria', 'categor', 'four', 'class', ',', 'differ', 'score', 'weight', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 27
+
+
+
+ ---- LEMMATIZATION ----
+
+['full', 'text', 'article', 'submitted', 'four', 'designated', 'API', 'service', ',', 'service', ',', 'top', '20', 'concept', 'examined', 'according', 'set', 'qualitative', 'criterion', 'categorized', 'four', 'class', ',', 'different', 'scoring', 'weight', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 27
+
+************************************************************************************************************************
+
+12 --> The qualitative criteria                    were a) Relevance to the subject matter of the article, b) Specificity and                          unambiguity, c) Syntactic completeness, and finally d) Uniqueness                whether a concept is a synonym of another concept in the same set. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'qualitative', 'criteria', 'were', 'a', ')', 'Relevance', 'to', 'the', 'subject', 'matter', 'of', 'the', 'article', ',', 'b', ')', 'Specificity', 'and', 'unambiguity', ',', 'c', ')', 'Syntactic', 'completeness', ',', 'and', 'finally', 'd', ')', 'Uniqueness', 'whether', 'a', 'concept', 'is', 'a', 'synonym', 'of', 'another', 'concept', 'in', 'the', 'same', 'set', '.'] 
+
+ TOTAL TOKENS ==> 45
+
+ ---- POST ----
+
+ [('The', 'DT'), ('qualitative', 'JJ'), ('criteria', 'NNS'), ('were', 'VBD'), ('a', 'DT'), (')', ')'), ('Relevance', 'NN'), ('to', 'TO'), ('the', 'DT'), ('subject', 'JJ'), ('matter', 'NN'), ('of', 'IN'), ('the', 'DT'), ('article', 'NN'), (',', ','), ('b', 'NN'), (')', ')'), ('Specificity', 'NN'), ('and', 'CC'), ('unambiguity', 'NN'), (',', ','), ('c', 'NN'), (')', ')'), ('Syntactic', 'NNP'), ('completeness', 'NN'), (',', ','), ('and', 'CC'), ('finally', 'RB'), ('d', 'VB'), (')', ')'), ('Uniqueness', 'NNP'), ('whether', 'IN'), ('a', 'DT'), ('concept', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('synonym', 'NN'), ('of', 'IN'), ('another', 'DT'), ('concept', 'NN'), ('in', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('set', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['qualitative', 'criteria', ')', 'Relevance', 'subject', 'matter', 'article', ',', 'b', ')', 'Specificity', 'unambiguity', ',', 'c', ')', 'Syntactic', 'completeness', ',', 'finally', ')', 'Uniqueness', 'whether', 'concept', 'synonym', 'another', 'concept', 'set', '.']
+
+ TOTAL FILTERED TOKENS ==>  28
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('qualitative', 'JJ'), ('criteria', 'NNS'), (')', ')'), ('Relevance', 'NNP'), ('subject', 'JJ'), ('matter', 'NN'), ('article', 'NN'), (',', ','), ('b', 'NN'), (')', ')'), ('Specificity', 'NNP'), ('unambiguity', 'NN'), (',', ','), ('c', 'NN'), (')', ')'), ('Syntactic', 'NNP'), ('completeness', 'NN'), (',', ','), ('finally', 'RB'), (')', ')'), ('Uniqueness', 'IN'), ('whether', 'IN'), ('concept', 'NN'), ('synonym', 'NN'), ('another', 'DT'), ('concept', 'NN'), ('set', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['qualitative criteria', 'criteria )', ') Relevance', 'Relevance subject', 'subject matter', 'matter article', 'article ,', ', b', 'b )', ') Specificity', 'Specificity unambiguity', 'unambiguity ,', ', c', 'c )', ') Syntactic', 'Syntactic completeness', 'completeness ,', ', finally', 'finally )', ') Uniqueness', 'Uniqueness whether', 'whether concept', 'concept synonym', 'synonym another', 'another concept', 'concept set', 'set .'] 
+
+ TOTAL BIGRAMS --> 27 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['qualitative criteria )', 'criteria ) Relevance', ') Relevance subject', 'Relevance subject matter', 'subject matter article', 'matter article ,', 'article , b', ', b )', 'b ) Specificity', ') Specificity unambiguity', 'Specificity unambiguity ,', 'unambiguity , c', ', c )', 'c ) Syntactic', ') Syntactic completeness', 'Syntactic completeness ,', 'completeness , finally', ', finally )', 'finally ) Uniqueness', ') Uniqueness whether', 'Uniqueness whether concept', 'whether concept synonym', 'concept synonym another', 'synonym another concept', 'another concept set', 'concept set .'] 
+
+ TOTAL TRIGRAMS --> 26 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ [] 
+
+ TOTAL NOUN PHRASES --> 0 
+
+
+
+ ---- NER ----
+
+ 
+ []
+
+ ---- PORTER STEMMING ----
+
+['qualit', 'criteria', ')', 'relev', 'subject', 'matter', 'articl', ',', 'b', ')', 'specif', 'unambigu', ',', 'c', ')', 'syntact', 'complet', ',', 'final', ')', 'uniqu', 'whether', 'concept', 'synonym', 'anoth', 'concept', 'set', '.']
+
+ TOTAL PORTER STEM WORDS ==> 28
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['qualit', 'criteria', ')', 'relev', 'subject', 'matter', 'articl', ',', 'b', ')', 'specif', 'unambigu', ',', 'c', ')', 'syntact', 'complet', ',', 'final', ')', 'uniqu', 'whether', 'concept', 'synonym', 'anoth', 'concept', 'set', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 28
+
+
+
+ ---- LEMMATIZATION ----
+
+['qualitative', 'criterion', ')', 'Relevance', 'subject', 'matter', 'article', ',', 'b', ')', 'Specificity', 'unambiguity', ',', 'c', ')', 'Syntactic', 'completeness', ',', 'finally', ')', 'Uniqueness', 'whether', 'concept', 'synonym', 'another', 'concept', 'set', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 28
+
+************************************************************************************************************************
+
+13 --> Based on these qualitative criteria, each concept was assigned to one of                        four classes, and a corresponding point score was awarded, leading to                      an aggregated document evaluation score, calculated as the sum total                    of the class score of the top 20 concepts. 
+
+
+ ---- TOKENS ----
+
+ ['Based', 'on', 'these', 'qualitative', 'criteria', ',', 'each', 'concept', 'was', 'assigned', 'to', 'one', 'of', 'four', 'classes', ',', 'and', 'a', 'corresponding', 'point', 'score', 'was', 'awarded', ',', 'leading', 'to', 'an', 'aggregated', 'document', 'evaluation', 'score', ',', 'calculated', 'as', 'the', 'sum', 'total', 'of', 'the', 'class', 'score', 'of', 'the', 'top', '20', 'concepts', '.'] 
+
+ TOTAL TOKENS ==> 47
+
+ ---- POST ----
+
+ [('Based', 'VBN'), ('on', 'IN'), ('these', 'DT'), ('qualitative', 'JJ'), ('criteria', 'NNS'), (',', ','), ('each', 'DT'), ('concept', 'NN'), ('was', 'VBD'), ('assigned', 'VBN'), ('to', 'TO'), ('one', 'CD'), ('of', 'IN'), ('four', 'CD'), ('classes', 'NNS'), (',', ','), ('and', 'CC'), ('a', 'DT'), ('corresponding', 'JJ'), ('point', 'NN'), ('score', 'NN'), ('was', 'VBD'), ('awarded', 'VBN'), (',', ','), ('leading', 'VBG'), ('to', 'TO'), ('an', 'DT'), ('aggregated', 'JJ'), ('document', 'NN'), ('evaluation', 'NN'), ('score', 'NN'), (',', ','), ('calculated', 'VBN'), ('as', 'IN'), ('the', 'DT'), ('sum', 'JJ'), ('total', 'NN'), ('of', 'IN'), ('the', 'DT'), ('class', 'NN'), ('score', 'NN'), ('of', 'IN'), ('the', 'DT'), ('top', 'JJ'), ('20', 'CD'), ('concepts', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Based', 'qualitative', 'criteria', ',', 'concept', 'assigned', 'one', 'four', 'classes', ',', 'corresponding', 'point', 'score', 'awarded', ',', 'leading', 'aggregated', 'document', 'evaluation', 'score', ',', 'calculated', 'sum', 'total', 'class', 'score', 'top', '20', 'concepts', '.']
+
+ TOTAL FILTERED TOKENS ==>  30
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Based', 'VBN'), ('qualitative', 'JJ'), ('criteria', 'NNS'), (',', ','), ('concept', 'NN'), ('assigned', 'VBD'), ('one', 'CD'), ('four', 'CD'), ('classes', 'NNS'), (',', ','), ('corresponding', 'VBG'), ('point', 'NN'), ('score', 'NN'), ('awarded', 'VBD'), (',', ','), ('leading', 'VBG'), ('aggregated', 'VBN'), ('document', 'JJ'), ('evaluation', 'NN'), ('score', 'NN'), (',', ','), ('calculated', 'VBD'), ('sum', 'JJ'), ('total', 'JJ'), ('class', 'NN'), ('score', 'NN'), ('top', 'JJ'), ('20', 'CD'), ('concepts', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Based qualitative', 'qualitative criteria', 'criteria ,', ', concept', 'concept assigned', 'assigned one', 'one four', 'four classes', 'classes ,', ', corresponding', 'corresponding point', 'point score', 'score awarded', 'awarded ,', ', leading', 'leading aggregated', 'aggregated document', 'document evaluation', 'evaluation score', 'score ,', ', calculated', 'calculated sum', 'sum total', 'total class', 'class score', 'score top', 'top 20', '20 concepts', 'concepts .'] 
+
+ TOTAL BIGRAMS --> 29 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Based qualitative criteria', 'qualitative criteria ,', 'criteria , concept', ', concept assigned', 'concept assigned one', 'assigned one four', 'one four classes', 'four classes ,', 'classes , corresponding', ', corresponding point', 'corresponding point score', 'point score awarded', 'score awarded ,', 'awarded , leading', ', leading aggregated', 'leading aggregated document', 'aggregated document evaluation', 'document evaluation score', 'evaluation score ,', 'score , calculated', ', calculated sum', 'calculated sum total', 'sum total class', 'total class score', 'class score top', 'score top 20', 'top 20 concepts', '20 concepts .'] 
+
+ TOTAL TRIGRAMS --> 28 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['concept', 'point', 'score', 'document evaluation', 'score', 'sum total class', 'score'] 
+
+ TOTAL NOUN PHRASES --> 7 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['base', 'qualit', 'criteria', ',', 'concept', 'assign', 'one', 'four', 'class', ',', 'correspond', 'point', 'score', 'award', ',', 'lead', 'aggreg', 'document', 'evalu', 'score', ',', 'calcul', 'sum', 'total', 'class', 'score', 'top', '20', 'concept', '.']
+
+ TOTAL PORTER STEM WORDS ==> 30
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['base', 'qualit', 'criteria', ',', 'concept', 'assign', 'one', 'four', 'class', ',', 'correspond', 'point', 'score', 'award', ',', 'lead', 'aggreg', 'document', 'evalu', 'score', ',', 'calcul', 'sum', 'total', 'class', 'score', 'top', '20', 'concept', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 30
+
+
+
+ ---- LEMMATIZATION ----
+
+['Based', 'qualitative', 'criterion', ',', 'concept', 'assigned', 'one', 'four', 'class', ',', 'corresponding', 'point', 'score', 'awarded', ',', 'leading', 'aggregated', 'document', 'evaluation', 'score', ',', 'calculated', 'sum', 'total', 'class', 'score', 'top', '20', 'concept', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 30
+
+************************************************************************************************************************
+
+14 --> For example, correctly                        identified one-gram ontology terms like “KNN” and “Vitamin D” were                    classified as “Relevant broad Concepts”, which contribute one point to                    the the document evaluation score, while longer phrases with an                    unambiguous meaning that are in common use within the domain were                      classified as “Relevant Precise Concepts”. 
+
+
+ ---- TOKENS ----
+
+ ['For', 'example', ',', 'correctly', 'identified', 'one-gram', 'ontology', 'terms', 'like', '“', 'KNN', '”', 'and', '“', 'Vitamin', 'D', '”', 'were', 'classified', 'as', '“', 'Relevant', 'broad', 'Concepts', '”', ',', 'which', 'contribute', 'one', 'point', 'to', 'the', 'the', 'document', 'evaluation', 'score', ',', 'while', 'longer', 'phrases', 'with', 'an', 'unambiguous', 'meaning', 'that', 'are', 'in', 'common', 'use', 'within', 'the', 'domain', 'were', 'classified', 'as', '“', 'Relevant', 'Precise', 'Concepts', '”', '.'] 
+
+ TOTAL TOKENS ==> 61
+
+ ---- POST ----
+
+ [('For', 'IN'), ('example', 'NN'), (',', ','), ('correctly', 'RB'), ('identified', 'VBN'), ('one-gram', 'JJ'), ('ontology', 'NN'), ('terms', 'NNS'), ('like', 'IN'), ('“', 'NNP'), ('KNN', 'NNP'), ('”', 'NNP'), ('and', 'CC'), ('“', 'NNP'), ('Vitamin', 'NNP'), ('D', 'NNP'), ('”', 'NNP'), ('were', 'VBD'), ('classified', 'VBN'), ('as', 'IN'), ('“', 'NN'), ('Relevant', 'NNP'), ('broad', 'JJ'), ('Concepts', 'NNP'), ('”', 'NNP'), (',', ','), ('which', 'WDT'), ('contribute', 'VBP'), ('one', 'CD'), ('point', 'NN'), ('to', 'TO'), ('the', 'DT'), ('the', 'DT'), ('document', 'NN'), ('evaluation', 'NN'), ('score', 'NN'), (',', ','), ('while', 'IN'), ('longer', 'JJR'), ('phrases', 'NNS'), ('with', 'IN'), ('an', 'DT'), ('unambiguous', 'JJ'), ('meaning', 'NN'), ('that', 'WDT'), ('are', 'VBP'), ('in', 'IN'), ('common', 'JJ'), ('use', 'NN'), ('within', 'IN'), ('the', 'DT'), ('domain', 'NN'), ('were', 'VBD'), ('classified', 'VBN'), ('as', 'IN'), ('“', 'NN'), ('Relevant', 'NNP'), ('Precise', 'NNP'), ('Concepts', 'NNP'), ('”', 'NNP'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['example', ',', 'correctly', 'identified', 'one-gram', 'ontology', 'terms', 'like', '“', 'KNN', '”', '“', 'Vitamin', '”', 'classified', '“', 'Relevant', 'broad', 'Concepts', '”', ',', 'contribute', 'one', 'point', 'document', 'evaluation', 'score', ',', 'longer', 'phrases', 'unambiguous', 'meaning', 'common', 'use', 'within', 'domain', 'classified', '“', 'Relevant', 'Precise', 'Concepts', '”', '.']
+
+ TOTAL FILTERED TOKENS ==>  43
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('example', 'NN'), (',', ','), ('correctly', 'RB'), ('identified', 'VBN'), ('one-gram', 'JJ'), ('ontology', 'NN'), ('terms', 'NNS'), ('like', 'IN'), ('“', 'NNP'), ('KNN', 'NNP'), ('”', 'NNP'), ('“', 'NNP'), ('Vitamin', 'NNP'), ('”', 'NNP'), ('classified', 'VBD'), ('“', 'NNP'), ('Relevant', 'NNP'), ('broad', 'JJ'), ('Concepts', 'NNP'), ('”', 'NNP'), (',', ','), ('contribute', 'VBP'), ('one', 'CD'), ('point', 'NN'), ('document', 'NN'), ('evaluation', 'NN'), ('score', 'NN'), (',', ','), ('longer', 'JJR'), ('phrases', 'VBZ'), ('unambiguous', 'JJ'), ('meaning', 'VBG'), ('common', 'JJ'), ('use', 'NN'), ('within', 'IN'), ('domain', 'NN'), ('classified', 'VBD'), ('“', 'NNP'), ('Relevant', 'NNP'), ('Precise', 'NNP'), ('Concepts', 'NNP'), ('”', 'NNP'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['example ,', ', correctly', 'correctly identified', 'identified one-gram', 'one-gram ontology', 'ontology terms', 'terms like', 'like “', '“ KNN', 'KNN ”', '” “', '“ Vitamin', 'Vitamin ”', '” classified', 'classified “', '“ Relevant', 'Relevant broad', 'broad Concepts', 'Concepts ”', '” ,', ', contribute', 'contribute one', 'one point', 'point document', 'document evaluation', 'evaluation score', 'score ,', ', longer', 'longer phrases', 'phrases unambiguous', 'unambiguous meaning', 'meaning common', 'common use', 'use within', 'within domain', 'domain classified', 'classified “', '“ Relevant', 'Relevant Precise', 'Precise Concepts', 'Concepts ”', '” .'] 
+
+ TOTAL BIGRAMS --> 42 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['example , correctly', ', correctly identified', 'correctly identified one-gram', 'identified one-gram ontology', 'one-gram ontology terms', 'ontology terms like', 'terms like “', 'like “ KNN', '“ KNN ”', 'KNN ” “', '” “ Vitamin', '“ Vitamin ”', 'Vitamin ” classified', '” classified “', 'classified “ Relevant', '“ Relevant broad', 'Relevant broad Concepts', 'broad Concepts ”', 'Concepts ” ,', '” , contribute', ', contribute one', 'contribute one point', 'one point document', 'point document evaluation', 'document evaluation score', 'evaluation score ,', 'score , longer', ', longer phrases', 'longer phrases unambiguous', 'phrases unambiguous meaning', 'unambiguous meaning common', 'meaning common use', 'common use within', 'use within domain', 'within domain classified', 'domain classified “', 'classified “ Relevant', '“ Relevant Precise', 'Relevant Precise Concepts', 'Precise Concepts ”', 'Concepts ” .'] 
+
+ TOTAL TRIGRAMS --> 41 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['example', 'one-gram ontology', 'point', 'document', 'evaluation', 'score', 'common use', 'domain'] 
+
+ TOTAL NOUN PHRASES --> 8 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['Concepts']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> ['Vitamin']
+ TOTAL PERSON ENTITY --> 1 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['exampl', ',', 'correctli', 'identifi', 'one-gram', 'ontolog', 'term', 'like', '“', 'knn', '”', '“', 'vitamin', '”', 'classifi', '“', 'relev', 'broad', 'concept', '”', ',', 'contribut', 'one', 'point', 'document', 'evalu', 'score', ',', 'longer', 'phrase', 'unambigu', 'mean', 'common', 'use', 'within', 'domain', 'classifi', '“', 'relev', 'precis', 'concept', '”', '.']
+
+ TOTAL PORTER STEM WORDS ==> 43
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['exampl', ',', 'correct', 'identifi', 'one-gram', 'ontolog', 'term', 'like', '“', 'knn', '”', '“', 'vitamin', '”', 'classifi', '“', 'relev', 'broad', 'concept', '”', ',', 'contribut', 'one', 'point', 'document', 'evalu', 'score', ',', 'longer', 'phrase', 'unambigu', 'mean', 'common', 'use', 'within', 'domain', 'classifi', '“', 'relev', 'precis', 'concept', '”', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 43
+
+
+
+ ---- LEMMATIZATION ----
+
+['example', ',', 'correctly', 'identified', 'one-gram', 'ontology', 'term', 'like', '“', 'KNN', '”', '“', 'Vitamin', '”', 'classified', '“', 'Relevant', 'broad', 'Concepts', '”', ',', 'contribute', 'one', 'point', 'document', 'evaluation', 'score', ',', 'longer', 'phrase', 'unambiguous', 'meaning', 'common', 'use', 'within', 'domain', 'classified', '“', 'Relevant', 'Precise', 'Concepts', '”', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 43
+
+************************************************************************************************************************
+
+15 --> Duplicate concepts and                concepts that were deemed synonymous with another concept in the                    same set were classified as “Irrelevant or Redundant”, as were concepts                      with no connection to the subject matter, including names and                    geolocations of authors and sponsoring organizations, which should be                  provided   as   metadata   properties   instead. 
+
+
+ ---- TOKENS ----
+
+ ['Duplicate', 'concepts', 'and', 'concepts', 'that', 'were', 'deemed', 'synonymous', 'with', 'another', 'concept', 'in', 'the', 'same', 'set', 'were', 'classified', 'as', '“', 'Irrelevant', 'or', 'Redundant', '”', ',', 'as', 'were', 'concepts', 'with', 'no', 'connection', 'to', 'the', 'subject', 'matter', ',', 'including', 'names', 'and', 'geolocations', 'of', 'authors', 'and', 'sponsoring', 'organizations', ',', 'which', 'should', 'be', 'provided', 'as', 'metadata', 'properties', 'instead', '.'] 
+
+ TOTAL TOKENS ==> 54
+
+ ---- POST ----
+
+ [('Duplicate', 'NNP'), ('concepts', 'NNS'), ('and', 'CC'), ('concepts', 'NNS'), ('that', 'WDT'), ('were', 'VBD'), ('deemed', 'VBN'), ('synonymous', 'JJ'), ('with', 'IN'), ('another', 'DT'), ('concept', 'NN'), ('in', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('set', 'NN'), ('were', 'VBD'), ('classified', 'VBN'), ('as', 'IN'), ('“', 'JJ'), ('Irrelevant', 'NNP'), ('or', 'CC'), ('Redundant', 'NNP'), ('”', 'NNP'), (',', ','), ('as', 'IN'), ('were', 'VBD'), ('concepts', 'NNS'), ('with', 'IN'), ('no', 'DT'), ('connection', 'NN'), ('to', 'TO'), ('the', 'DT'), ('subject', 'JJ'), ('matter', 'NN'), (',', ','), ('including', 'VBG'), ('names', 'NNS'), ('and', 'CC'), ('geolocations', 'NNS'), ('of', 'IN'), ('authors', 'NNS'), ('and', 'CC'), ('sponsoring', 'VBG'), ('organizations', 'NNS'), (',', ','), ('which', 'WDT'), ('should', 'MD'), ('be', 'VB'), ('provided', 'VBN'), ('as', 'IN'), ('metadata', 'NN'), ('properties', 'NNS'), ('instead', 'RB'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Duplicate', 'concepts', 'concepts', 'deemed', 'synonymous', 'another', 'concept', 'set', 'classified', '“', 'Irrelevant', 'Redundant', '”', ',', 'concepts', 'connection', 'subject', 'matter', ',', 'including', 'names', 'geolocations', 'authors', 'sponsoring', 'organizations', ',', 'provided', 'metadata', 'properties', 'instead', '.']
+
+ TOTAL FILTERED TOKENS ==>  31
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Duplicate', 'NNP'), ('concepts', 'NNS'), ('concepts', 'NNS'), ('deemed', 'VBD'), ('synonymous', 'JJ'), ('another', 'DT'), ('concept', 'NN'), ('set', 'VBN'), ('classified', 'VBN'), ('“', 'JJ'), ('Irrelevant', 'NNP'), ('Redundant', 'NNP'), ('”', 'NNP'), (',', ','), ('concepts', 'VBZ'), ('connection', 'NN'), ('subject', 'JJ'), ('matter', 'NN'), (',', ','), ('including', 'VBG'), ('names', 'NNS'), ('geolocations', 'NNS'), ('authors', 'NNS'), ('sponsoring', 'VBG'), ('organizations', 'NNS'), (',', ','), ('provided', 'VBN'), ('metadata', 'NN'), ('properties', 'NNS'), ('instead', 'RB'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Duplicate concepts', 'concepts concepts', 'concepts deemed', 'deemed synonymous', 'synonymous another', 'another concept', 'concept set', 'set classified', 'classified “', '“ Irrelevant', 'Irrelevant Redundant', 'Redundant ”', '” ,', ', concepts', 'concepts connection', 'connection subject', 'subject matter', 'matter ,', ', including', 'including names', 'names geolocations', 'geolocations authors', 'authors sponsoring', 'sponsoring organizations', 'organizations ,', ', provided', 'provided metadata', 'metadata properties', 'properties instead', 'instead .'] 
+
+ TOTAL BIGRAMS --> 30 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Duplicate concepts concepts', 'concepts concepts deemed', 'concepts deemed synonymous', 'deemed synonymous another', 'synonymous another concept', 'another concept set', 'concept set classified', 'set classified “', 'classified “ Irrelevant', '“ Irrelevant Redundant', 'Irrelevant Redundant ”', 'Redundant ” ,', '” , concepts', ', concepts connection', 'concepts connection subject', 'connection subject matter', 'subject matter ,', 'matter , including', ', including names', 'including names geolocations', 'names geolocations authors', 'geolocations authors sponsoring', 'authors sponsoring organizations', 'sponsoring organizations ,', 'organizations , provided', ', provided metadata', 'provided metadata properties', 'metadata properties instead', 'properties instead .'] 
+
+ TOTAL TRIGRAMS --> 29 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['another concept', 'connection', 'subject matter', 'metadata'] 
+
+ TOTAL NOUN PHRASES --> 4 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['Irrelevant Redundant']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Duplicate']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['duplic', 'concept', 'concept', 'deem', 'synonym', 'anoth', 'concept', 'set', 'classifi', '“', 'irrelev', 'redund', '”', ',', 'concept', 'connect', 'subject', 'matter', ',', 'includ', 'name', 'geoloc', 'author', 'sponsor', 'organ', ',', 'provid', 'metadata', 'properti', 'instead', '.']
+
+ TOTAL PORTER STEM WORDS ==> 31
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['duplic', 'concept', 'concept', 'deem', 'synonym', 'anoth', 'concept', 'set', 'classifi', '“', 'irrelev', 'redund', '”', ',', 'concept', 'connect', 'subject', 'matter', ',', 'includ', 'name', 'geoloc', 'author', 'sponsor', 'organ', ',', 'provid', 'metadata', 'properti', 'instead', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 31
+
+
+
+ ---- LEMMATIZATION ----
+
+['Duplicate', 'concept', 'concept', 'deemed', 'synonymous', 'another', 'concept', 'set', 'classified', '“', 'Irrelevant', 'Redundant', '”', ',', 'concept', 'connection', 'subject', 'matter', ',', 'including', 'name', 'geolocations', 'author', 'sponsoring', 'organization', ',', 'provided', 'metadata', 'property', 'instead', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 31
+
+************************************************************************************************************************
+
+16 --> Relevant   Precise   Concept 2 points  Relevant   Broad   Concept 1 point  Irrelevant,   Redundant,   Ambiguous 0 point  Fragment,   Error,   Noise -1 point  Caution In contrast to all other services, the publicly available Microso�                      Cognitive Services Text Analytics API only parses the first 5K of each                        document. 
+
+
+ ---- TOKENS ----
+
+ ['Relevant', 'Precise', 'Concept', '2', 'points', 'Relevant', 'Broad', 'Concept', '1', 'point', 'Irrelevant', ',', 'Redundant', ',', 'Ambiguous', '0', 'point', 'Fragment', ',', 'Error', ',', 'Noise', '-1', 'point', 'Caution', 'In', 'contrast', 'to', 'all', 'other', 'services', ',', 'the', 'publicly', 'available', 'Microso�', 'Cognitive', 'Services', 'Text', 'Analytics', 'API', 'only', 'parses', 'the', 'first', '5K', 'of', 'each', 'document', '.'] 
+
+ TOTAL TOKENS ==> 50
+
+ ---- POST ----
+
+ [('Relevant', 'JJ'), ('Precise', 'NNP'), ('Concept', 'NNP'), ('2', 'CD'), ('points', 'NNS'), ('Relevant', 'JJ'), ('Broad', 'NNP'), ('Concept', 'NNP'), ('1', 'CD'), ('point', 'NN'), ('Irrelevant', 'NNP'), (',', ','), ('Redundant', 'NNP'), (',', ','), ('Ambiguous', 'NNP'), ('0', 'CD'), ('point', 'NN'), ('Fragment', 'NNP'), (',', ','), ('Error', 'NNP'), (',', ','), ('Noise', 'NNP'), ('-1', 'NNP'), ('point', 'NN'), ('Caution', 'NNP'), ('In', 'IN'), ('contrast', 'NN'), ('to', 'TO'), ('all', 'DT'), ('other', 'JJ'), ('services', 'NNS'), (',', ','), ('the', 'DT'), ('publicly', 'RB'), ('available', 'JJ'), ('Microso�', 'NNP'), ('Cognitive', 'NNP'), ('Services', 'NNPS'), ('Text', 'NNP'), ('Analytics', 'NNP'), ('API', 'NNP'), ('only', 'RB'), ('parses', 'VBZ'), ('the', 'DT'), ('first', 'JJ'), ('5K', 'CD'), ('of', 'IN'), ('each', 'DT'), ('document', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Relevant', 'Precise', 'Concept', '2', 'points', 'Relevant', 'Broad', 'Concept', '1', 'point', 'Irrelevant', ',', 'Redundant', ',', 'Ambiguous', '0', 'point', 'Fragment', ',', 'Error', ',', 'Noise', '-1', 'point', 'Caution', 'contrast', 'services', ',', 'publicly', 'available', 'Microso�', 'Cognitive', 'Services', 'Text', 'Analytics', 'API', 'parses', 'first', '5K', 'document', '.']
+
+ TOTAL FILTERED TOKENS ==>  41
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Relevant', 'JJ'), ('Precise', 'NNP'), ('Concept', 'NNP'), ('2', 'CD'), ('points', 'NNS'), ('Relevant', 'JJ'), ('Broad', 'NNP'), ('Concept', 'NNP'), ('1', 'CD'), ('point', 'NN'), ('Irrelevant', 'NNP'), (',', ','), ('Redundant', 'NNP'), (',', ','), ('Ambiguous', 'NNP'), ('0', 'CD'), ('point', 'NN'), ('Fragment', 'NNP'), (',', ','), ('Error', 'NNP'), (',', ','), ('Noise', 'NNP'), ('-1', 'NNP'), ('point', 'NN'), ('Caution', 'NNP'), ('contrast', 'NN'), ('services', 'NNS'), (',', ','), ('publicly', 'RB'), ('available', 'JJ'), ('Microso�', 'NNP'), ('Cognitive', 'NNP'), ('Services', 'NNPS'), ('Text', 'NNP'), ('Analytics', 'NNP'), ('API', 'NNP'), ('parses', 'VBZ'), ('first', 'RB'), ('5K', 'CD'), ('document', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Relevant Precise', 'Precise Concept', 'Concept 2', '2 points', 'points Relevant', 'Relevant Broad', 'Broad Concept', 'Concept 1', '1 point', 'point Irrelevant', 'Irrelevant ,', ', Redundant', 'Redundant ,', ', Ambiguous', 'Ambiguous 0', '0 point', 'point Fragment', 'Fragment ,', ', Error', 'Error ,', ', Noise', 'Noise -1', '-1 point', 'point Caution', 'Caution contrast', 'contrast services', 'services ,', ', publicly', 'publicly available', 'available Microso�', 'Microso� Cognitive', 'Cognitive Services', 'Services Text', 'Text Analytics', 'Analytics API', 'API parses', 'parses first', 'first 5K', '5K document', 'document .'] 
+
+ TOTAL BIGRAMS --> 40 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Relevant Precise Concept', 'Precise Concept 2', 'Concept 2 points', '2 points Relevant', 'points Relevant Broad', 'Relevant Broad Concept', 'Broad Concept 1', 'Concept 1 point', '1 point Irrelevant', 'point Irrelevant ,', 'Irrelevant , Redundant', ', Redundant ,', 'Redundant , Ambiguous', ', Ambiguous 0', 'Ambiguous 0 point', '0 point Fragment', 'point Fragment ,', 'Fragment , Error', ', Error ,', 'Error , Noise', ', Noise -1', 'Noise -1 point', '-1 point Caution', 'point Caution contrast', 'Caution contrast services', 'contrast services ,', 'services , publicly', ', publicly available', 'publicly available Microso�', 'available Microso� Cognitive', 'Microso� Cognitive Services', 'Cognitive Services Text', 'Services Text Analytics', 'Text Analytics API', 'Analytics API parses', 'API parses first', 'parses first 5K', 'first 5K document', '5K document .'] 
+
+ TOTAL TRIGRAMS --> 39 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['point', 'point', 'point', 'contrast', 'document'] 
+
+ TOTAL NOUN PHRASES --> 5 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['Relevant Broad', 'Irrelevant']
+ TOTAL ORGANIZATION ENTITY --> 2 
+
+
+ PERSON ---> ['Error', 'Noise', 'Text Analytics']
+ TOTAL PERSON ENTITY --> 3 
+
+
+ GPE ---> ['Redundant']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['relev', 'precis', 'concept', '2', 'point', 'relev', 'broad', 'concept', '1', 'point', 'irrelev', ',', 'redund', ',', 'ambigu', '0', 'point', 'fragment', ',', 'error', ',', 'nois', '-1', 'point', 'caution', 'contrast', 'servic', ',', 'publicli', 'avail', 'microso�', 'cognit', 'servic', 'text', 'analyt', 'api', 'pars', 'first', '5k', 'document', '.']
+
+ TOTAL PORTER STEM WORDS ==> 41
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['relev', 'precis', 'concept', '2', 'point', 'relev', 'broad', 'concept', '1', 'point', 'irrelev', ',', 'redund', ',', 'ambigu', '0', 'point', 'fragment', ',', 'error', ',', 'nois', '-1', 'point', 'caution', 'contrast', 'servic', ',', 'public', 'avail', 'microso�', 'cognit', 'servic', 'text', 'analyt', 'api', 'pars', 'first', '5k', 'document', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 41
+
+
+
+ ---- LEMMATIZATION ----
+
+['Relevant', 'Precise', 'Concept', '2', 'point', 'Relevant', 'Broad', 'Concept', '1', 'point', 'Irrelevant', ',', 'Redundant', ',', 'Ambiguous', '0', 'point', 'Fragment', ',', 'Error', ',', 'Noise', '-1', 'point', 'Caution', 'contrast', 'service', ',', 'publicly', 'available', 'Microso�', 'Cognitive', 'Services', 'Text', 'Analytics', 'API', 'par', 'first', '5K', 'document', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 41
+
+************************************************************************************************************************
+
+17 --> Perhaps counterintuitively, this may favour the Microso�                service, since the documents used were scholarly articles starting with                    an abstract of approximately 5K, in which almost any concept or phrase                        mentioned may be assumed to be highly relevant to the subject matter                        of   the   whole   article. 
+
+
+ ---- TOKENS ----
+
+ ['Perhaps', 'counterintuitively', ',', 'this', 'may', 'favour', 'the', 'Microso�', 'service', ',', 'since', 'the', 'documents', 'used', 'were', 'scholarly', 'articles', 'starting', 'with', 'an', 'abstract', 'of', 'approximately', '5K', ',', 'in', 'which', 'almost', 'any', 'concept', 'or', 'phrase', 'mentioned', 'may', 'be', 'assumed', 'to', 'be', 'highly', 'relevant', 'to', 'the', 'subject', 'matter', 'of', 'the', 'whole', 'article', '.'] 
+
+ TOTAL TOKENS ==> 49
+
+ ---- POST ----
+
+ [('Perhaps', 'RB'), ('counterintuitively', 'RB'), (',', ','), ('this', 'DT'), ('may', 'MD'), ('favour', 'VB'), ('the', 'DT'), ('Microso�', 'NNP'), ('service', 'NN'), (',', ','), ('since', 'IN'), ('the', 'DT'), ('documents', 'NNS'), ('used', 'VBN'), ('were', 'VBD'), ('scholarly', 'JJ'), ('articles', 'NNS'), ('starting', 'VBG'), ('with', 'IN'), ('an', 'DT'), ('abstract', 'NN'), ('of', 'IN'), ('approximately', 'RB'), ('5K', 'CD'), (',', ','), ('in', 'IN'), ('which', 'WDT'), ('almost', 'RB'), ('any', 'DT'), ('concept', 'NN'), ('or', 'CC'), ('phrase', 'NN'), ('mentioned', 'VBN'), ('may', 'MD'), ('be', 'VB'), ('assumed', 'VBN'), ('to', 'TO'), ('be', 'VB'), ('highly', 'RB'), ('relevant', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('subject', 'JJ'), ('matter', 'NN'), ('of', 'IN'), ('the', 'DT'), ('whole', 'JJ'), ('article', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Perhaps', 'counterintuitively', ',', 'may', 'favour', 'Microso�', 'service', ',', 'since', 'documents', 'used', 'scholarly', 'articles', 'starting', 'abstract', 'approximately', '5K', ',', 'almost', 'concept', 'phrase', 'mentioned', 'may', 'assumed', 'highly', 'relevant', 'subject', 'matter', 'whole', 'article', '.']
+
+ TOTAL FILTERED TOKENS ==>  31
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Perhaps', 'RB'), ('counterintuitively', 'RB'), (',', ','), ('may', 'MD'), ('favour', 'VB'), ('Microso�', 'NNP'), ('service', 'NN'), (',', ','), ('since', 'IN'), ('documents', 'NNS'), ('used', 'VBN'), ('scholarly', 'RB'), ('articles', 'NNS'), ('starting', 'VBG'), ('abstract', 'NN'), ('approximately', 'RB'), ('5K', 'CD'), (',', ','), ('almost', 'RB'), ('concept', 'JJ'), ('phrase', 'NN'), ('mentioned', 'VBD'), ('may', 'MD'), ('assumed', 'VB'), ('highly', 'RB'), ('relevant', 'JJ'), ('subject', 'JJ'), ('matter', 'NN'), ('whole', 'JJ'), ('article', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Perhaps counterintuitively', 'counterintuitively ,', ', may', 'may favour', 'favour Microso�', 'Microso� service', 'service ,', ', since', 'since documents', 'documents used', 'used scholarly', 'scholarly articles', 'articles starting', 'starting abstract', 'abstract approximately', 'approximately 5K', '5K ,', ', almost', 'almost concept', 'concept phrase', 'phrase mentioned', 'mentioned may', 'may assumed', 'assumed highly', 'highly relevant', 'relevant subject', 'subject matter', 'matter whole', 'whole article', 'article .'] 
+
+ TOTAL BIGRAMS --> 30 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Perhaps counterintuitively ,', 'counterintuitively , may', ', may favour', 'may favour Microso�', 'favour Microso� service', 'Microso� service ,', 'service , since', ', since documents', 'since documents used', 'documents used scholarly', 'used scholarly articles', 'scholarly articles starting', 'articles starting abstract', 'starting abstract approximately', 'abstract approximately 5K', 'approximately 5K ,', '5K , almost', ', almost concept', 'almost concept phrase', 'concept phrase mentioned', 'phrase mentioned may', 'mentioned may assumed', 'may assumed highly', 'assumed highly relevant', 'highly relevant subject', 'relevant subject matter', 'subject matter whole', 'matter whole article', 'whole article .'] 
+
+ TOTAL TRIGRAMS --> 29 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['service', 'abstract', 'concept phrase', 'relevant subject matter', 'whole article'] 
+
+ TOTAL NOUN PHRASES --> 5 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['perhap', 'counterintuit', ',', 'may', 'favour', 'microso�', 'servic', ',', 'sinc', 'document', 'use', 'scholarli', 'articl', 'start', 'abstract', 'approxim', '5k', ',', 'almost', 'concept', 'phrase', 'mention', 'may', 'assum', 'highli', 'relev', 'subject', 'matter', 'whole', 'articl', '.']
+
+ TOTAL PORTER STEM WORDS ==> 31
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['perhap', 'counterintuit', ',', 'may', 'favour', 'microso�', 'servic', ',', 'sinc', 'document', 'use', 'scholar', 'articl', 'start', 'abstract', 'approxim', '5k', ',', 'almost', 'concept', 'phrase', 'mention', 'may', 'assum', 'high', 'relev', 'subject', 'matter', 'whole', 'articl', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 31
+
+
+
+ ---- LEMMATIZATION ----
+
+['Perhaps', 'counterintuitively', ',', 'may', 'favour', 'Microso�', 'service', ',', 'since', 'document', 'used', 'scholarly', 'article', 'starting', 'abstract', 'approximately', '5K', ',', 'almost', 'concept', 'phrase', 'mentioned', 'may', 'assumed', 'highly', 'relevant', 'subject', 'matter', 'whole', 'article', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 31
+
+************************************************************************************************************************
+
+18 --> Results   and   Analysis  Results clearly show that the UNSILO Concept Extraction API does a                      much better job in identifying relevant concepts in every tested domain,                      scoring on average 33.0 points per article compared to 14.8 points for all                          other services across all domains. 
+
+
+ ---- TOKENS ----
+
+ ['Results', 'and', 'Analysis', 'Results', 'clearly', 'show', 'that', 'the', 'UNSILO', 'Concept', 'Extraction', 'API', 'does', 'a', 'much', 'better', 'job', 'in', 'identifying', 'relevant', 'concepts', 'in', 'every', 'tested', 'domain', ',', 'scoring', 'on', 'average', '33.0', 'points', 'per', 'article', 'compared', 'to', '14.8', 'points', 'for', 'all', 'other', 'services', 'across', 'all', 'domains', '.'] 
+
+ TOTAL TOKENS ==> 45
+
+ ---- POST ----
+
+ [('Results', 'NNS'), ('and', 'CC'), ('Analysis', 'NNP'), ('Results', 'NNP'), ('clearly', 'RB'), ('show', 'VBP'), ('that', 'IN'), ('the', 'DT'), ('UNSILO', 'NNP'), ('Concept', 'NNP'), ('Extraction', 'NNP'), ('API', 'NNP'), ('does', 'VBZ'), ('a', 'DT'), ('much', 'RB'), ('better', 'JJR'), ('job', 'NN'), ('in', 'IN'), ('identifying', 'VBG'), ('relevant', 'JJ'), ('concepts', 'NNS'), ('in', 'IN'), ('every', 'DT'), ('tested', 'JJ'), ('domain', 'NN'), (',', ','), ('scoring', 'VBG'), ('on', 'IN'), ('average', 'JJ'), ('33.0', 'CD'), ('points', 'NNS'), ('per', 'IN'), ('article', 'NN'), ('compared', 'VBN'), ('to', 'TO'), ('14.8', 'CD'), ('points', 'NNS'), ('for', 'IN'), ('all', 'DT'), ('other', 'JJ'), ('services', 'NNS'), ('across', 'IN'), ('all', 'DT'), ('domains', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Results', 'Analysis', 'Results', 'clearly', 'show', 'UNSILO', 'Concept', 'Extraction', 'API', 'much', 'better', 'job', 'identifying', 'relevant', 'concepts', 'every', 'tested', 'domain', ',', 'scoring', 'average', '33.0', 'points', 'per', 'article', 'compared', '14.8', 'points', 'services', 'across', 'domains', '.']
+
+ TOTAL FILTERED TOKENS ==>  32
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Results', 'NNS'), ('Analysis', 'NNP'), ('Results', 'NNP'), ('clearly', 'RB'), ('show', 'VBP'), ('UNSILO', 'NNP'), ('Concept', 'NNP'), ('Extraction', 'NNP'), ('API', 'NNP'), ('much', 'RB'), ('better', 'JJR'), ('job', 'NN'), ('identifying', 'VBG'), ('relevant', 'JJ'), ('concepts', 'NNS'), ('every', 'DT'), ('tested', 'VBN'), ('domain', 'NN'), (',', ','), ('scoring', 'VBG'), ('average', 'JJ'), ('33.0', 'CD'), ('points', 'NNS'), ('per', 'IN'), ('article', 'NN'), ('compared', 'VBN'), ('14.8', 'CD'), ('points', 'NNS'), ('services', 'NNS'), ('across', 'IN'), ('domains', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Results Analysis', 'Analysis Results', 'Results clearly', 'clearly show', 'show UNSILO', 'UNSILO Concept', 'Concept Extraction', 'Extraction API', 'API much', 'much better', 'better job', 'job identifying', 'identifying relevant', 'relevant concepts', 'concepts every', 'every tested', 'tested domain', 'domain ,', ', scoring', 'scoring average', 'average 33.0', '33.0 points', 'points per', 'per article', 'article compared', 'compared 14.8', '14.8 points', 'points services', 'services across', 'across domains', 'domains .'] 
+
+ TOTAL BIGRAMS --> 31 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Results Analysis Results', 'Analysis Results clearly', 'Results clearly show', 'clearly show UNSILO', 'show UNSILO Concept', 'UNSILO Concept Extraction', 'Concept Extraction API', 'Extraction API much', 'API much better', 'much better job', 'better job identifying', 'job identifying relevant', 'identifying relevant concepts', 'relevant concepts every', 'concepts every tested', 'every tested domain', 'tested domain ,', 'domain , scoring', ', scoring average', 'scoring average 33.0', 'average 33.0 points', '33.0 points per', 'points per article', 'per article compared', 'article compared 14.8', 'compared 14.8 points', '14.8 points services', 'points services across', 'services across domains', 'across domains .'] 
+
+ TOTAL TRIGRAMS --> 30 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['job', 'domain', 'article'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['UNSILO Concept Extraction']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> ['Analysis Results']
+ TOTAL PERSON ENTITY --> 1 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['result', 'analysi', 'result', 'clearli', 'show', 'unsilo', 'concept', 'extract', 'api', 'much', 'better', 'job', 'identifi', 'relev', 'concept', 'everi', 'test', 'domain', ',', 'score', 'averag', '33.0', 'point', 'per', 'articl', 'compar', '14.8', 'point', 'servic', 'across', 'domain', '.']
+
+ TOTAL PORTER STEM WORDS ==> 32
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['result', 'analysi', 'result', 'clear', 'show', 'unsilo', 'concept', 'extract', 'api', 'much', 'better', 'job', 'identifi', 'relev', 'concept', 'everi', 'test', 'domain', ',', 'score', 'averag', '33.0', 'point', 'per', 'articl', 'compar', '14.8', 'point', 'servic', 'across', 'domain', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 32
+
+
+
+ ---- LEMMATIZATION ----
+
+['Results', 'Analysis', 'Results', 'clearly', 'show', 'UNSILO', 'Concept', 'Extraction', 'API', 'much', 'better', 'job', 'identifying', 'relevant', 'concept', 'every', 'tested', 'domain', ',', 'scoring', 'average', '33.0', 'point', 'per', 'article', 'compared', '14.8', 'point', 'service', 'across', 'domain', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 32
+
+************************************************************************************************************************
+
+19 --> This corresponds to an average score                      122% higher than the competition. 
+
+
+ ---- TOKENS ----
+
+ ['This', 'corresponds', 'to', 'an', 'average', 'score', '122', '%', 'higher', 'than', 'the', 'competition', '.'] 
+
+ TOTAL TOKENS ==> 13
+
+ ---- POST ----
+
+ [('This', 'DT'), ('corresponds', 'VBZ'), ('to', 'TO'), ('an', 'DT'), ('average', 'JJ'), ('score', 'NN'), ('122', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('than', 'IN'), ('the', 'DT'), ('competition', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['corresponds', 'average', 'score', '122', '%', 'higher', 'competition', '.']
+
+ TOTAL FILTERED TOKENS ==>  8
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('corresponds', 'NNS'), ('average', 'JJ'), ('score', 'RB'), ('122', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('competition', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['corresponds average', 'average score', 'score 122', '122 %', '% higher', 'higher competition', 'competition .'] 
+
+ TOTAL BIGRAMS --> 7 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['corresponds average score', 'average score 122', 'score 122 %', '122 % higher', '% higher competition', 'higher competition .'] 
+
+ TOTAL TRIGRAMS --> 6 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['%', 'competition'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['correspond', 'averag', 'score', '122', '%', 'higher', 'competit', '.']
+
+ TOTAL PORTER STEM WORDS ==> 8
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['correspond', 'averag', 'score', '122', '%', 'higher', 'competit', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 8
+
+
+
+ ---- LEMMATIZATION ----
+
+['corresponds', 'average', 'score', '122', '%', 'higher', 'competition', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 8
+
+************************************************************************************************************************
+
+20 --> The second best score was obtained                      by the Microso� Cognitive Services API, which averaged 22.5 points                    across   all   domains. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'second', 'best', 'score', 'was', 'obtained', 'by', 'the', 'Microso�', 'Cognitive', 'Services', 'API', ',', 'which', 'averaged', '22.5', 'points', 'across', 'all', 'domains', '.'] 
+
+ TOTAL TOKENS ==> 21
+
+ ---- POST ----
+
+ [('The', 'DT'), ('second', 'JJ'), ('best', 'JJS'), ('score', 'NN'), ('was', 'VBD'), ('obtained', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('Microso�', 'NNP'), ('Cognitive', 'NNP'), ('Services', 'NNPS'), ('API', 'NNP'), (',', ','), ('which', 'WDT'), ('averaged', 'VBD'), ('22.5', 'CD'), ('points', 'NNS'), ('across', 'IN'), ('all', 'DT'), ('domains', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['second', 'best', 'score', 'obtained', 'Microso�', 'Cognitive', 'Services', 'API', ',', 'averaged', '22.5', 'points', 'across', 'domains', '.']
+
+ TOTAL FILTERED TOKENS ==>  15
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('second', 'JJ'), ('best', 'RBS'), ('score', 'NN'), ('obtained', 'VBD'), ('Microso�', 'NNP'), ('Cognitive', 'NNP'), ('Services', 'NNPS'), ('API', 'NNP'), (',', ','), ('averaged', 'VBD'), ('22.5', 'CD'), ('points', 'NNS'), ('across', 'IN'), ('domains', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['second best', 'best score', 'score obtained', 'obtained Microso�', 'Microso� Cognitive', 'Cognitive Services', 'Services API', 'API ,', ', averaged', 'averaged 22.5', '22.5 points', 'points across', 'across domains', 'domains .'] 
+
+ TOTAL BIGRAMS --> 14 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['second best score', 'best score obtained', 'score obtained Microso�', 'obtained Microso� Cognitive', 'Microso� Cognitive Services', 'Cognitive Services API', 'Services API ,', 'API , averaged', ', averaged 22.5', 'averaged 22.5 points', '22.5 points across', 'points across domains', 'across domains .'] 
+
+ TOTAL TRIGRAMS --> 13 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['score'] 
+
+ TOTAL NOUN PHRASES --> 1 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['second', 'best', 'score', 'obtain', 'microso�', 'cognit', 'servic', 'api', ',', 'averag', '22.5', 'point', 'across', 'domain', '.']
+
+ TOTAL PORTER STEM WORDS ==> 15
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['second', 'best', 'score', 'obtain', 'microso�', 'cognit', 'servic', 'api', ',', 'averag', '22.5', 'point', 'across', 'domain', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 15
+
+
+
+ ---- LEMMATIZATION ----
+
+['second', 'best', 'score', 'obtained', 'Microso�', 'Cognitive', 'Services', 'API', ',', 'averaged', '22.5', 'point', 'across', 'domain', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 15
+
+************************************************************************************************************************
+
+21 --> See   the   performance   summary   in   Table   1   below. 
+
+
+ ---- TOKENS ----
+
+ ['See', 'the', 'performance', 'summary', 'in', 'Table', '1', 'below', '.'] 
+
+ TOTAL TOKENS ==> 9
+
+ ---- POST ----
+
+ [('See', 'VB'), ('the', 'DT'), ('performance', 'NN'), ('summary', 'NN'), ('in', 'IN'), ('Table', 'JJ'), ('1', 'CD'), ('below', 'IN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['See', 'performance', 'summary', 'Table', '1', '.']
+
+ TOTAL FILTERED TOKENS ==>  6
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('See', 'VB'), ('performance', 'NN'), ('summary', 'JJ'), ('Table', 'NNP'), ('1', 'CD'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['See performance', 'performance summary', 'summary Table', 'Table 1', '1 .'] 
+
+ TOTAL BIGRAMS --> 5 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['See performance summary', 'performance summary Table', 'summary Table 1', 'Table 1 .'] 
+
+ TOTAL TRIGRAMS --> 4 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['performance'] 
+
+ TOTAL NOUN PHRASES --> 1 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['see', 'perform', 'summari', 'tabl', '1', '.']
+
+ TOTAL PORTER STEM WORDS ==> 6
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['see', 'perform', 'summari', 'tabl', '1', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 6
+
+
+
+ ---- LEMMATIZATION ----
+
+['See', 'performance', 'summary', 'Table', '1', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 6
+
+************************************************************************************************************************
+
+22 --> Most of the competing services return numerous broad ontology                  concepts like “HIV” or “Ceramics” or ambiguous concepts like “Study”                    or “Feature”, which have little descriptive value, and are unsuited for                      classification   or   fingerprinting   of   documents. 
+
+
+ ---- TOKENS ----
+
+ ['Most', 'of', 'the', 'competing', 'services', 'return', 'numerous', 'broad', 'ontology', 'concepts', 'like', '“', 'HIV', '”', 'or', '“', 'Ceramics', '”', 'or', 'ambiguous', 'concepts', 'like', '“', 'Study', '”', 'or', '“', 'Feature', '”', ',', 'which', 'have', 'little', 'descriptive', 'value', ',', 'and', 'are', 'unsuited', 'for', 'classification', 'or', 'fingerprinting', 'of', 'documents', '.'] 
+
+ TOTAL TOKENS ==> 46
+
+ ---- POST ----
+
+ [('Most', 'JJS'), ('of', 'IN'), ('the', 'DT'), ('competing', 'VBG'), ('services', 'NNS'), ('return', 'VBP'), ('numerous', 'JJ'), ('broad', 'JJ'), ('ontology', 'NN'), ('concepts', 'NNS'), ('like', 'IN'), ('“', 'NNP'), ('HIV', 'NNP'), ('”', 'NNP'), ('or', 'CC'), ('“', 'VB'), ('Ceramics', 'NNPS'), ('”', 'NN'), ('or', 'CC'), ('ambiguous', 'JJ'), ('concepts', 'NNS'), ('like', 'IN'), ('“', 'NNP'), ('Study', 'NNP'), ('”', 'NNP'), ('or', 'CC'), ('“', 'JJ'), ('Feature', 'NNP'), ('”', 'NNP'), (',', ','), ('which', 'WDT'), ('have', 'VBP'), ('little', 'JJ'), ('descriptive', 'JJ'), ('value', 'NN'), (',', ','), ('and', 'CC'), ('are', 'VBP'), ('unsuited', 'VBN'), ('for', 'IN'), ('classification', 'NN'), ('or', 'CC'), ('fingerprinting', 'NN'), ('of', 'IN'), ('documents', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['competing', 'services', 'return', 'numerous', 'broad', 'ontology', 'concepts', 'like', '“', 'HIV', '”', '“', 'Ceramics', '”', 'ambiguous', 'concepts', 'like', '“', 'Study', '”', '“', 'Feature', '”', ',', 'little', 'descriptive', 'value', ',', 'unsuited', 'classification', 'fingerprinting', 'documents', '.']
+
+ TOTAL FILTERED TOKENS ==>  33
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('competing', 'VBG'), ('services', 'NNS'), ('return', 'VBP'), ('numerous', 'JJ'), ('broad', 'JJ'), ('ontology', 'NN'), ('concepts', 'NNS'), ('like', 'IN'), ('“', 'NNP'), ('HIV', 'NNP'), ('”', 'NNP'), ('“', 'NNP'), ('Ceramics', 'NNPS'), ('”', 'NNP'), ('ambiguous', 'JJ'), ('concepts', 'NNS'), ('like', 'IN'), ('“', 'NNP'), ('Study', 'NNP'), ('”', 'NNP'), ('“', 'NNP'), ('Feature', 'NNP'), ('”', 'NNP'), (',', ','), ('little', 'JJ'), ('descriptive', 'JJ'), ('value', 'NN'), (',', ','), ('unsuited', 'JJ'), ('classification', 'NN'), ('fingerprinting', 'VBG'), ('documents', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['competing services', 'services return', 'return numerous', 'numerous broad', 'broad ontology', 'ontology concepts', 'concepts like', 'like “', '“ HIV', 'HIV ”', '” “', '“ Ceramics', 'Ceramics ”', '” ambiguous', 'ambiguous concepts', 'concepts like', 'like “', '“ Study', 'Study ”', '” “', '“ Feature', 'Feature ”', '” ,', ', little', 'little descriptive', 'descriptive value', 'value ,', ', unsuited', 'unsuited classification', 'classification fingerprinting', 'fingerprinting documents', 'documents .'] 
+
+ TOTAL BIGRAMS --> 32 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['competing services return', 'services return numerous', 'return numerous broad', 'numerous broad ontology', 'broad ontology concepts', 'ontology concepts like', 'concepts like “', 'like “ HIV', '“ HIV ”', 'HIV ” “', '” “ Ceramics', '“ Ceramics ”', 'Ceramics ” ambiguous', '” ambiguous concepts', 'ambiguous concepts like', 'concepts like “', 'like “ Study', '“ Study ”', 'Study ” “', '” “ Feature', '“ Feature ”', 'Feature ” ,', '” , little', ', little descriptive', 'little descriptive value', 'descriptive value ,', 'value , unsuited', ', unsuited classification', 'unsuited classification fingerprinting', 'classification fingerprinting documents', 'fingerprinting documents .'] 
+
+ TOTAL TRIGRAMS --> 31 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['numerous broad ontology', 'little descriptive value', 'unsuited classification'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['compet', 'servic', 'return', 'numer', 'broad', 'ontolog', 'concept', 'like', '“', 'hiv', '”', '“', 'ceram', '”', 'ambigu', 'concept', 'like', '“', 'studi', '”', '“', 'featur', '”', ',', 'littl', 'descript', 'valu', ',', 'unsuit', 'classif', 'fingerprint', 'document', '.']
+
+ TOTAL PORTER STEM WORDS ==> 33
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['compet', 'servic', 'return', 'numer', 'broad', 'ontolog', 'concept', 'like', '“', 'hiv', '”', '“', 'ceram', '”', 'ambigu', 'concept', 'like', '“', 'studi', '”', '“', 'featur', '”', ',', 'littl', 'descript', 'valu', ',', 'unsuit', 'classif', 'fingerprint', 'document', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 33
+
+
+
+ ---- LEMMATIZATION ----
+
+['competing', 'service', 'return', 'numerous', 'broad', 'ontology', 'concept', 'like', '“', 'HIV', '”', '“', 'Ceramics', '”', 'ambiguous', 'concept', 'like', '“', 'Study', '”', '“', 'Feature', '”', ',', 'little', 'descriptive', 'value', ',', 'unsuited', 'classification', 'fingerprinting', 'document', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 33
+
+************************************************************************************************************************
+
+23 --> The service output and classifications can be viewed in detail in Table 2. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'service', 'output', 'and', 'classifications', 'can', 'be', 'viewed', 'in', 'detail', 'in', 'Table', '2', '.'] 
+
+ TOTAL TOKENS ==> 14
+
+ ---- POST ----
+
+ [('The', 'DT'), ('service', 'NN'), ('output', 'NN'), ('and', 'CC'), ('classifications', 'NNS'), ('can', 'MD'), ('be', 'VB'), ('viewed', 'VBN'), ('in', 'IN'), ('detail', 'NN'), ('in', 'IN'), ('Table', 'JJ'), ('2', 'CD'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['service', 'output', 'classifications', 'viewed', 'detail', 'Table', '2', '.']
+
+ TOTAL FILTERED TOKENS ==>  8
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('service', 'NN'), ('output', 'NN'), ('classifications', 'NNS'), ('viewed', 'VBD'), ('detail', 'NN'), ('Table', 'NN'), ('2', 'CD'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['service output', 'output classifications', 'classifications viewed', 'viewed detail', 'detail Table', 'Table 2', '2 .'] 
+
+ TOTAL BIGRAMS --> 7 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['service output classifications', 'output classifications viewed', 'classifications viewed detail', 'viewed detail Table', 'detail Table 2', 'Table 2 .'] 
+
+ TOTAL TRIGRAMS --> 6 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['service', 'output', 'detail', 'Table'] 
+
+ TOTAL NOUN PHRASES --> 4 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['servic', 'output', 'classif', 'view', 'detail', 'tabl', '2', '.']
+
+ TOTAL PORTER STEM WORDS ==> 8
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['servic', 'output', 'classif', 'view', 'detail', 'tabl', '2', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 8
+
+
+
+ ---- LEMMATIZATION ----
+
+['service', 'output', 'classification', 'viewed', 'detail', 'Table', '2', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 8
+
+************************************************************************************************************************
+
+24 --> In particular, it should be noted that Google almost exclusively returns                      single terms, such as “phase”, “group”, and “model”, while Microso�                    includes more speculative phrases, like “Significant percent of HIV                  infected individuals” but Microso� also has the highest percentage of                    noise   ratio   at   10%   compared   to   zero   for   UNSILO. 
+
+
+ ---- TOKENS ----
+
+ ['In', 'particular', ',', 'it', 'should', 'be', 'noted', 'that', 'Google', 'almost', 'exclusively', 'returns', 'single', 'terms', ',', 'such', 'as', '“', 'phase', '”', ',', '“', 'group', '”', ',', 'and', '“', 'model', '”', ',', 'while', 'Microso�', 'includes', 'more', 'speculative', 'phrases', ',', 'like', '“', 'Significant', 'percent', 'of', 'HIV', 'infected', 'individuals', '”', 'but', 'Microso�', 'also', 'has', 'the', 'highest', 'percentage', 'of', 'noise', 'ratio', 'at', '10', '%', 'compared', 'to', 'zero', 'for', 'UNSILO', '.'] 
+
+ TOTAL TOKENS ==> 65
+
+ ---- POST ----
+
+ [('In', 'IN'), ('particular', 'JJ'), (',', ','), ('it', 'PRP'), ('should', 'MD'), ('be', 'VB'), ('noted', 'VBN'), ('that', 'IN'), ('Google', 'NNP'), ('almost', 'RB'), ('exclusively', 'RB'), ('returns', 'JJ'), ('single', 'JJ'), ('terms', 'NNS'), (',', ','), ('such', 'JJ'), ('as', 'IN'), ('“', 'JJ'), ('phase', 'NN'), ('”', 'NNP'), (',', ','), ('“', 'NNP'), ('group', 'NN'), ('”', 'NNP'), (',', ','), ('and', 'CC'), ('“', 'NNP'), ('model', 'NN'), ('”', 'NNP'), (',', ','), ('while', 'IN'), ('Microso�', 'NNP'), ('includes', 'VBZ'), ('more', 'RBR'), ('speculative', 'JJ'), ('phrases', 'NNS'), (',', ','), ('like', 'IN'), ('“', 'NNP'), ('Significant', 'NNP'), ('percent', 'NN'), ('of', 'IN'), ('HIV', 'NNP'), ('infected', 'JJ'), ('individuals', 'NNS'), ('”', 'VBP'), ('but', 'CC'), ('Microso�', 'NNP'), ('also', 'RB'), ('has', 'VBZ'), ('the', 'DT'), ('highest', 'JJS'), ('percentage', 'NN'), ('of', 'IN'), ('noise', 'NN'), ('ratio', 'NN'), ('at', 'IN'), ('10', 'CD'), ('%', 'NN'), ('compared', 'VBN'), ('to', 'TO'), ('zero', 'CD'), ('for', 'IN'), ('UNSILO', 'NNP'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['particular', ',', 'noted', 'Google', 'almost', 'exclusively', 'returns', 'single', 'terms', ',', '“', 'phase', '”', ',', '“', 'group', '”', ',', '“', 'model', '”', ',', 'Microso�', 'includes', 'speculative', 'phrases', ',', 'like', '“', 'Significant', 'percent', 'HIV', 'infected', 'individuals', '”', 'Microso�', 'also', 'highest', 'percentage', 'noise', 'ratio', '10', '%', 'compared', 'zero', 'UNSILO', '.']
+
+ TOTAL FILTERED TOKENS ==>  47
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('particular', 'JJ'), (',', ','), ('noted', 'VBD'), ('Google', 'NNP'), ('almost', 'RB'), ('exclusively', 'RB'), ('returns', 'JJ'), ('single', 'JJ'), ('terms', 'NNS'), (',', ','), ('“', 'NNP'), ('phase', 'NN'), ('”', 'NNP'), (',', ','), ('“', 'NNP'), ('group', 'NN'), ('”', 'NNP'), (',', ','), ('“', 'NNP'), ('model', 'NN'), ('”', 'NNP'), (',', ','), ('Microso�', 'NNP'), ('includes', 'VBZ'), ('speculative', 'JJ'), ('phrases', 'NNS'), (',', ','), ('like', 'IN'), ('“', 'NNP'), ('Significant', 'NNP'), ('percent', 'NN'), ('HIV', 'NNP'), ('infected', 'VBD'), ('individuals', 'NNS'), ('”', 'NNP'), ('Microso�', 'NNP'), ('also', 'RB'), ('highest', 'JJS'), ('percentage', 'NN'), ('noise', 'NN'), ('ratio', 'VBP'), ('10', 'CD'), ('%', 'NN'), ('compared', 'VBN'), ('zero', 'CD'), ('UNSILO', 'NNP'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['particular ,', ', noted', 'noted Google', 'Google almost', 'almost exclusively', 'exclusively returns', 'returns single', 'single terms', 'terms ,', ', “', '“ phase', 'phase ”', '” ,', ', “', '“ group', 'group ”', '” ,', ', “', '“ model', 'model ”', '” ,', ', Microso�', 'Microso� includes', 'includes speculative', 'speculative phrases', 'phrases ,', ', like', 'like “', '“ Significant', 'Significant percent', 'percent HIV', 'HIV infected', 'infected individuals', 'individuals ”', '” Microso�', 'Microso� also', 'also highest', 'highest percentage', 'percentage noise', 'noise ratio', 'ratio 10', '10 %', '% compared', 'compared zero', 'zero UNSILO', 'UNSILO .'] 
+
+ TOTAL BIGRAMS --> 46 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['particular , noted', ', noted Google', 'noted Google almost', 'Google almost exclusively', 'almost exclusively returns', 'exclusively returns single', 'returns single terms', 'single terms ,', 'terms , “', ', “ phase', '“ phase ”', 'phase ” ,', '” , “', ', “ group', '“ group ”', 'group ” ,', '” , “', ', “ model', '“ model ”', 'model ” ,', '” , Microso�', ', Microso� includes', 'Microso� includes speculative', 'includes speculative phrases', 'speculative phrases ,', 'phrases , like', ', like “', 'like “ Significant', '“ Significant percent', 'Significant percent HIV', 'percent HIV infected', 'HIV infected individuals', 'infected individuals ”', 'individuals ” Microso�', '” Microso� also', 'Microso� also highest', 'also highest percentage', 'highest percentage noise', 'percentage noise ratio', 'noise ratio 10', 'ratio 10 %', '10 % compared', '% compared zero', 'compared zero UNSILO', 'zero UNSILO .'] 
+
+ TOTAL TRIGRAMS --> 45 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['phase', 'group', 'model', 'percent', 'percentage', 'noise', '%'] 
+
+ TOTAL NOUN PHRASES --> 7 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['HIV', 'UNSILO']
+ TOTAL ORGANIZATION ENTITY --> 2 
+
+
+ PERSON ---> ['Google']
+ TOTAL PERSON ENTITY --> 1 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['particular', ',', 'note', 'googl', 'almost', 'exclus', 'return', 'singl', 'term', ',', '“', 'phase', '”', ',', '“', 'group', '”', ',', '“', 'model', '”', ',', 'microso�', 'includ', 'specul', 'phrase', ',', 'like', '“', 'signific', 'percent', 'hiv', 'infect', 'individu', '”', 'microso�', 'also', 'highest', 'percentag', 'nois', 'ratio', '10', '%', 'compar', 'zero', 'unsilo', '.']
+
+ TOTAL PORTER STEM WORDS ==> 47
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['particular', ',', 'note', 'googl', 'almost', 'exclus', 'return', 'singl', 'term', ',', '“', 'phase', '”', ',', '“', 'group', '”', ',', '“', 'model', '”', ',', 'microso�', 'includ', 'specul', 'phrase', ',', 'like', '“', 'signific', 'percent', 'hiv', 'infect', 'individu', '”', 'microso�', 'also', 'highest', 'percentag', 'nois', 'ratio', '10', '%', 'compar', 'zero', 'unsilo', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 47
+
+
+
+ ---- LEMMATIZATION ----
+
+['particular', ',', 'noted', 'Google', 'almost', 'exclusively', 'return', 'single', 'term', ',', '“', 'phase', '”', ',', '“', 'group', '”', ',', '“', 'model', '”', ',', 'Microso�', 'includes', 'speculative', 'phrase', ',', 'like', '“', 'Significant', 'percent', 'HIV', 'infected', 'individual', '”', 'Microso�', 'also', 'highest', 'percentage', 'noise', 'ratio', '10', '%', 'compared', 'zero', 'UNSILO', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 47
+
+************************************************************************************************************************
+
+25 --> Table   1:   Concept   Quality   Across   Academic   Domains          UNSILO.ai Inge   Lehmanns   Gade   10,   8000   Aarhus   C,   Denmark www.unsilo.ai   Table   2:   Service   Output   and   Classification   of   Concepts   found   in   Scholarly   Articles      UNSILO.ai Inge   Lehmanns   Gade   10,   8000   Aarhus   C,   Denmark www.unsilo.ai 
+
+
+ ---- TOKENS ----
+
+ ['Table', '1', ':', 'Concept', 'Quality', 'Across', 'Academic', 'Domains', 'UNSILO.ai', 'Inge', 'Lehmanns', 'Gade', '10', ',', '8000', 'Aarhus', 'C', ',', 'Denmark', 'www.unsilo.ai', 'Table', '2', ':', 'Service', 'Output', 'and', 'Classification', 'of', 'Concepts', 'found', 'in', 'Scholarly', 'Articles', 'UNSILO.ai', 'Inge', 'Lehmanns', 'Gade', '10', ',', '8000', 'Aarhus', 'C', ',', 'Denmark', 'www.unsilo.ai'] 
+
+ TOTAL TOKENS ==> 45
+
+ ---- POST ----
+
+ [('Table', 'JJ'), ('1', 'CD'), (':', ':'), ('Concept', 'NNP'), ('Quality', 'NNP'), ('Across', 'NNP'), ('Academic', 'NNP'), ('Domains', 'NNP'), ('UNSILO.ai', 'NNP'), ('Inge', 'NNP'), ('Lehmanns', 'NNP'), ('Gade', 'NNP'), ('10', 'CD'), (',', ','), ('8000', 'CD'), ('Aarhus', 'NNP'), ('C', 'NNP'), (',', ','), ('Denmark', 'NNP'), ('www.unsilo.ai', 'VBD'), ('Table', 'JJ'), ('2', 'CD'), (':', ':'), ('Service', 'NNP'), ('Output', 'NNP'), ('and', 'CC'), ('Classification', 'NNP'), ('of', 'IN'), ('Concepts', 'NNP'), ('found', 'VBD'), ('in', 'IN'), ('Scholarly', 'NNP'), ('Articles', 'NNP'), ('UNSILO.ai', 'NNP'), ('Inge', 'NNP'), ('Lehmanns', 'NNP'), ('Gade', 'NNP'), ('10', 'CD'), (',', ','), ('8000', 'CD'), ('Aarhus', 'NNP'), ('C', 'NNP'), (',', ','), ('Denmark', 'NNP'), ('www.unsilo.ai', 'NN')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Table', '1', ':', 'Concept', 'Quality', 'Across', 'Academic', 'Domains', 'UNSILO.ai', 'Inge', 'Lehmanns', 'Gade', '10', ',', '8000', 'Aarhus', 'C', ',', 'Denmark', 'www.unsilo.ai', 'Table', '2', ':', 'Service', 'Output', 'Classification', 'Concepts', 'found', 'Scholarly', 'Articles', 'UNSILO.ai', 'Inge', 'Lehmanns', 'Gade', '10', ',', '8000', 'Aarhus', 'C', ',', 'Denmark', 'www.unsilo.ai']
+
+ TOTAL FILTERED TOKENS ==>  42
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Table', 'JJ'), ('1', 'CD'), (':', ':'), ('Concept', 'NNP'), ('Quality', 'NNP'), ('Across', 'NNP'), ('Academic', 'NNP'), ('Domains', 'NNP'), ('UNSILO.ai', 'NNP'), ('Inge', 'NNP'), ('Lehmanns', 'NNP'), ('Gade', 'NNP'), ('10', 'CD'), (',', ','), ('8000', 'CD'), ('Aarhus', 'NNP'), ('C', 'NNP'), (',', ','), ('Denmark', 'NNP'), ('www.unsilo.ai', 'VBD'), ('Table', 'JJ'), ('2', 'CD'), (':', ':'), ('Service', 'NNP'), ('Output', 'NNP'), ('Classification', 'NNP'), ('Concepts', 'NNP'), ('found', 'VBD'), ('Scholarly', 'NNP'), ('Articles', 'NNP'), ('UNSILO.ai', 'NNP'), ('Inge', 'NNP'), ('Lehmanns', 'NNP'), ('Gade', 'NNP'), ('10', 'CD'), (',', ','), ('8000', 'CD'), ('Aarhus', 'NNP'), ('C', 'NNP'), (',', ','), ('Denmark', 'NNP'), ('www.unsilo.ai', 'NN')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Table 1', '1 :', ': Concept', 'Concept Quality', 'Quality Across', 'Across Academic', 'Academic Domains', 'Domains UNSILO.ai', 'UNSILO.ai Inge', 'Inge Lehmanns', 'Lehmanns Gade', 'Gade 10', '10 ,', ', 8000', '8000 Aarhus', 'Aarhus C', 'C ,', ', Denmark', 'Denmark www.unsilo.ai', 'www.unsilo.ai Table', 'Table 2', '2 :', ': Service', 'Service Output', 'Output Classification', 'Classification Concepts', 'Concepts found', 'found Scholarly', 'Scholarly Articles', 'Articles UNSILO.ai', 'UNSILO.ai Inge', 'Inge Lehmanns', 'Lehmanns Gade', 'Gade 10', '10 ,', ', 8000', '8000 Aarhus', 'Aarhus C', 'C ,', ', Denmark', 'Denmark www.unsilo.ai'] 
+
+ TOTAL BIGRAMS --> 41 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Table 1 :', '1 : Concept', ': Concept Quality', 'Concept Quality Across', 'Quality Across Academic', 'Across Academic Domains', 'Academic Domains UNSILO.ai', 'Domains UNSILO.ai Inge', 'UNSILO.ai Inge Lehmanns', 'Inge Lehmanns Gade', 'Lehmanns Gade 10', 'Gade 10 ,', '10 , 8000', ', 8000 Aarhus', '8000 Aarhus C', 'Aarhus C ,', 'C , Denmark', ', Denmark www.unsilo.ai', 'Denmark www.unsilo.ai Table', 'www.unsilo.ai Table 2', 'Table 2 :', '2 : Service', ': Service Output', 'Service Output Classification', 'Output Classification Concepts', 'Classification Concepts found', 'Concepts found Scholarly', 'found Scholarly Articles', 'Scholarly Articles UNSILO.ai', 'Articles UNSILO.ai Inge', 'UNSILO.ai Inge Lehmanns', 'Inge Lehmanns Gade', 'Lehmanns Gade 10', 'Gade 10 ,', '10 , 8000', ', 8000 Aarhus', '8000 Aarhus C', 'Aarhus C ,', 'C , Denmark', ', Denmark www.unsilo.ai'] 
+
+ TOTAL TRIGRAMS --> 40 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['www.unsilo.ai'] 
+
+ TOTAL NOUN PHRASES --> 1 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> ['Concept Quality Across Academic Domains', 'Denmark', 'Scholarly Articles']
+ TOTAL PERSON ENTITY --> 3 
+
+
+ GPE ---> ['Denmark']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['tabl', '1', ':', 'concept', 'qualiti', 'across', 'academ', 'domain', 'unsilo.ai', 'ing', 'lehmann', 'gade', '10', ',', '8000', 'aarhu', 'c', ',', 'denmark', 'www.unsilo.ai', 'tabl', '2', ':', 'servic', 'output', 'classif', 'concept', 'found', 'scholarli', 'articl', 'unsilo.ai', 'ing', 'lehmann', 'gade', '10', ',', '8000', 'aarhu', 'c', ',', 'denmark', 'www.unsilo.ai']
+
+ TOTAL PORTER STEM WORDS ==> 42
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['tabl', '1', ':', 'concept', 'qualiti', 'across', 'academ', 'domain', 'unsilo.ai', 'ing', 'lehmann', 'gade', '10', ',', '8000', 'aarhus', 'c', ',', 'denmark', 'www.unsilo.ai', 'tabl', '2', ':', 'servic', 'output', 'classif', 'concept', 'found', 'scholar', 'articl', 'unsilo.ai', 'ing', 'lehmann', 'gade', '10', ',', '8000', 'aarhus', 'c', ',', 'denmark', 'www.unsilo.ai']
+
+ TOTAL SNOWBALL STEM WORDS ==> 42
+
+
+
+ ---- LEMMATIZATION ----
+
+['Table', '1', ':', 'Concept', 'Quality', 'Across', 'Academic', 'Domains', 'UNSILO.ai', 'Inge', 'Lehmanns', 'Gade', '10', ',', '8000', 'Aarhus', 'C', ',', 'Denmark', 'www.unsilo.ai', 'Table', '2', ':', 'Service', 'Output', 'Classification', 'Concepts', 'found', 'Scholarly', 'Articles', 'UNSILO.ai', 'Inge', 'Lehmanns', 'Gade', '10', ',', '8000', 'Aarhus', 'C', ',', 'Denmark', 'www.unsilo.ai']
+
+ TOTAL LEMMATIZE WORDS ==> 42
+
+************************************************************************************************************************
+

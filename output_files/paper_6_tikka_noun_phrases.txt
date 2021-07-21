@@ -1,0 +1,344 @@
+
+
+ ['art', 'language-to-language translation', 'text-to-voice translation']
+
+
+
+ ['active research', 'program', 'adopt natural language', 'processing']
+
+
+
+ ['research', 'team']
+
+
+
+ ['white paper', 'way', 'lab']
+
+
+
+ ['language-to-language', 'translation', 'text-to-voice translation']
+
+
+
+ ['information', 'publication', 'kind', 'respect', 'information', 'publication', 'merchantability', 'fitness', 'particular purpose']
+
+
+
+ ['distribution', 'software', 'publication', 'require', 'applicable software', 'license']
+
+
+
+ ['©']
+
+
+
+ ['property', 'respective']
+
+
+
+ ['information', 'document', 'accurate', 'publication', 'date']
+
+
+
+ ['information', 'subject change', 'notice']
+
+
+
+ ['TABLE']
+
+
+
+ ['language', 'processing', 'form', 'artificial intelligence', 'computer', 'application', 'human language']
+
+
+
+ ['concept', 'human language']
+
+
+
+ ['convert voice', 'text', 'text voice', 'help']
+
+
+
+ ['field', 'shift statistical machine']
+
+
+
+ ['possible build']
+
+
+
+ ['day', 'wide range']
+
+
+
+ ['help', 'trend', 'active research', 'program', 'development']
+
+
+
+ ['research', 'team']
+
+
+
+ ['way', 'realm']
+
+
+
+ ['language-to-language', 'translation', 'text-to-voice translation']
+
+
+
+ ['lab', 'research', 'project', 'language-to-language translation', 'solve', 'human language', 'neural network']
+
+
+
+ ['process', 'source', 'language', 'target', 'language']
+
+
+
+ ['process', 'translation', 'model', 'sentence', 'source', 'language', 'intermediate representation']
+
+
+
+ ['intermediate representation', 'decoder', 'intermediate representation', 'produce', 'sentence', 'target', 'language']
+
+
+
+ ['language-to-language translation', 'project', 'stock', 'topology']
+
+
+
+ ['goal', 'model', 'time']
+
+
+
+ ['optimization', 'process', 'team', 'system', 'memory', 'system', 'computation', 'system']
+
+
+
+ ['ran', 'sure model', 'end accurate']
+
+
+
+ ['validation', 'accuracy', 'model', 'assurance', 'speed', 'computation', '’ end', 'lower-quality']
+
+
+
+ ['project', 'research', 'team', 'supercomputer']
+
+
+
+ ['system', 'partnership', 'system', 'resource']
+
+
+
+ ['addition', 'team', 'power', 'supercomputer']
+
+
+
+ ['Intel-based system', 'list', 'strategic national resource']
+
+
+
+ ['project', 'process', 'training', 'language-to- language', 'translation', 'extreme level']
+
+
+
+ ['result', 'pace', 'much large scale', 'current state', 'art']
+
+
+
+ ['translation', 'audio']
+
+
+
+ ['objective generate', 'complete audio', 'wave', 'form', 'clip', 'telephone']
+
+
+
+ ['voice', 'actor', 'transcript']
+
+
+
+ ['foundation', 'creation', 'voice', 'computer', 'mimic']
+
+
+
+ ['neural network', 'voice', 'similar actor', '’ voice', 'person', 'speaking']
+
+
+
+ ['’ neural network', 'voice', 'scratch']
+
+
+
+ ['lab', 'square foot', 'center', 'high-performance', 'artificial intelligence']
+
+
+
+ ['cluster', 'wide range', 'storage', 'network']
+
+
+
+ ['addition', 'access', 'world', 'class', 'infrastructure', 'operational excellence', 'expertise']
+
+
+
+ ['group', 'computer', 'matter', 'partner', 'collaborate', 'community']
+
+
+
+ ['team', 'early access']
+
+
+
+ ['https', ' https', ' https', 'text-to-voice', 'translation', 'project', 'two-part process', 'deep learning', '•', 'text', 'spectrogram image', 'deep', 'learning', 'model']
+
+
+
+ ['spectrogram image', 'frequency', 'distribution', 'resulting voice']
+
+
+
+ ['second model', 'complete audio waveform', 'synthetic voice', 'voice', 'actor', 'training', 'process']
+
+
+
+ ['voice', 'actor']
+
+
+
+ ['’', 'synthetic voice', 'lot']
+
+
+
+ ['project', 'accelerate process']
+
+
+
+ ['work', 'work', 'supercomputer']
+
+
+
+ ['cluster', 'result', 'partnership']
+
+
+
+ ['showcase extreme', 'scalability', 'application-specific benchmarking']
+
+
+
+ ['lab research', 'create voice', 'voice', 'mimic', 'parallelization', 'create', 'model', 'task', 'short period', 'time']
+
+
+
+ ['reduced process', 'realistic voice', 'month', 'process', 'supercomputer']
+
+
+
+ ['work', 'share', 'capitalize', 'high performance', 'artificial intelligence']
+
+
+
+ ['mind', 'organization', 'project']
+
+
+
+ ['work']
+
+
+
+ ['example', 'research', 'work', 'open source', 'organization', 'access', 'try', 'replicate']
+
+
+
+ ['’']
+
+
+
+ ['process', 'application']
+
+
+
+ ['path', 'see', 'sort']
+
+
+
+ ['another path', 'another path']
+
+
+
+ ['research', 'tweaking']
+
+
+
+ ['WILLING']
+
+
+
+ ['development', 'application', 'one-and-done', 'undertaking']
+
+
+
+ ['need', 'willing fail short term', 'order', 'success', 'long run']
+
+
+
+ ['board', 'new path', 'forward']
+
+
+
+ ['https', ' https']
+
+
+
+ ['’ try', 'big vision', 'right', 'gate']
+
+
+
+ ['figure', 'tease', 'possible machine', 'deep learning']
+
+
+
+ ['build']
+
+
+
+ ['development', 'application', 'complex undertaking', 'end']
+
+
+
+ ['mathematical model', 'human brain']
+
+
+
+ ['’', 'happen overnight']
+
+
+
+ ['work', 'big goal', '— application', 'work', 'drive', 'business']
+
+
+
+ ['language', 'processing', 'powerful tool']
+
+
+
+ ['help', 'opportunity', 'development', 'language-to-language translation', 'text-to-voice translation']
+
+
+
+ ['visit', 'delltechnologies.com']
+
+
+
+ ['look', 'article', 'scientist', 'look', 'recent neural machine', 'translation', 'project', 'read white paper', '“', 'sparse', 'visit', 'delltechnologies.com']
+
+
+
+ ['learn', 'visit', 'hpcatdell.com']
+
+
+
+ ['http', ' https', ' https', ' https', ' https', ' https', ' http', ' http', 'language', 'Language-to-language translation', 'translation', 'project']
+

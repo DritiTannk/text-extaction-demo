@@ -1,0 +1,88 @@
+
+
+ ['comprehensive', 'systematic value', 'business', 'importance', 'many life', 'science', 'healthcare', 'unstructured semi']
+
+
+
+ ['Manual abstraction', 'time-consuming', 'niche point', 'extract integrate information', 'multiple', 'business']
+
+
+
+ ['interest', 'scale', 'configurable pipeline']
+
+
+
+ ['efficiency', 'productivity', 'enterprise', 'reproducible extraction', 'enrichment delivery', 'critical data']
+
+
+
+ ['data', 'warehouse', 'graph', '....']
+
+
+
+ ['million+', 'hour', 'range', 'disparate', 'important information', 'hidden', 'vast', 'unstructured semi', 'time', 'curation', 'Expensive point', 'scope lack', 'critical domain', 'knowledge', 'transform', 'prepare', 'analysis', 'use', 'scale', 'value', 'scale', 'organization', 'invested •', 'process', 'range', 'business', 'metadata', 'easy consumption', 'new use', 'pipeline', '•', 'ready-to-use', 'business', 'extraction', 'enrichment delivery']
+
+
+
+ ['ri', 'gh', 'ts', 'r', 'es', 'er', 'd.', 'r', 'eg', 'te', 'tr', 'ad', 'em', 'ar', 'k', 'c.', 'h', 'e', 'es', 'h', 'e', 'ro', 'p', 'ea', 'ni', 'n va', 'ri', 'ou', 'ot', 'h', 'er c', 'ou', 'n tr', 'ie']
+
+
+
+ ['robust solution', 'value', 'free text']
+
+
+
+ ['surface', 'transform', 'wide range', 'text', 'enterprise', 'on-premise', 'hybrid implementation', '•', 'cancer', 'technology']
+
+
+
+ ['power', 'normalization', 'standardization', 'input']
+
+
+
+ ['blend', 'machine', 'learning', 'terminology', 'matching', 'pattern extraction', 'relationship', 'identification', 'possible accuracy', 'task', 'hand']
+
+
+
+ ['architecture']
+
+
+
+ ['power', 'optimize efficiency', 'system']
+
+
+
+ ['internal orchestration', 'component', 'availability']
+
+
+
+ ['framework']
+
+
+
+ ['flexible nature', 'query', 'effort']
+
+
+
+ ['powerful browser-based query', 'tool']
+
+
+
+ ['Easy deployment']
+
+
+
+ ['system', 'simpler management']
+
+
+
+ ['full system', 'equivalent', 'installation', 'service', 'monitoring', 'system']
+
+
+
+ ['trial', 'discovery', 'target', 'intelligence', 'health', 'enrichment', 'case', 'processingNLP', 'transform', 'business', 'nlp', 'iqvia.com', 'information', 'organization', 'scale']
+
+
+
+ ['http', ' mailto', 'nlp', '%', 'subject=']
+

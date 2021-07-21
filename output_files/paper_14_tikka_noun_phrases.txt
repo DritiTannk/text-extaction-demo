@@ -1,0 +1,232 @@
+
+
+ ['–', '–', 'paper', 'analysis', 'analysis', 'algorithm', 'brand', 'perception', 'market', 'brand', 'reputation', 'revenue']
+
+
+
+ ['Index', 'analysis']
+
+
+
+ ['analysis', 'quick reaction', 'customer', 'opinion', 'company', 'brand', 'product', 'inevitable success', 'business']
+
+
+
+ ['trend', 'tone customer', 'company', 'ecommerce', 'significant portion', 'valuable business', 'intelligence']
+
+
+
+ ['BUSINESS', 'ecommerce', 'understand brand', 'reputation', 'product', 'negative impact', 'content marketing']
+
+
+
+ ['customer', 'experience', 'analysis', 'customer', 'sentiment']
+
+
+
+ ['Ecommerce', 'use', 'customer', 'experience', 'brand', 'image']
+
+
+
+ ['competitive e.g.-', 'sixty', 'company']
+
+
+
+ ['crucial customer', 'support', 'team', 'customer', 'post']
+
+
+
+ ['Sentiment', 'analysis', 'customer', 'competitive advantage']
+
+
+
+ ['business', 'intelligence', 'meet', 'customer', 'service', 'delivery']
+
+
+
+ ['Sentiment analysis', 'customer', 'expectation', 'define', 'improvement', 'customer', 'service']
+
+
+
+ ['analysis', 'analysis', 'help', 'new business']
+
+
+
+ ['market', 'brand']
+
+
+
+ ['revitalization', '–', 'image', 'none', 'customer', 'perception', 'overall company']
+
+
+
+ ['Sentiment', 'analysis', 'customer', 'perception', 'competitive e.g.- market']
+
+
+
+ ['process', 'consumer', 'content', 'status']
+
+
+
+ ['status', 'dictionary']
+
+
+
+ ['exclude']
+
+
+
+ ['trend', 'analysis', 'commonality']
+
+
+
+ ['sentiment', 'product', 'brand']
+
+
+
+ ['bad day', 'remark']
+
+
+
+ ['sentiment change', 'period', 'mood']
+
+
+
+ ['large sample']
+
+
+
+ ['difficult algorithm understand', 'sarcasm', 'ironic language', 'interpret sentiment', 'isolation']
+
+
+
+ ['model']
+
+
+
+ ['available implementation', 'sentiment', 'analysis', 'hand', 'ecommerce', 'know brand', 'reputation', 'market', 'comprehensive', 'topic']
+
+
+
+ ['study', 'analysis']
+
+
+
+ ['study', 'view', 'Sentiment', 'Analysis']
+
+
+
+ ['Mining']
+
+
+
+ ['subjective objective sentence', 'texts']
+
+
+
+ ['pp']
+
+
+
+ ['Sentiment analysis', 'capturing', 'favorability', 'natural language', 'processing']
+
+
+
+ ['international conference', 'capture']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['product']
+
+
+
+ ['international conference', 'discovery', 'data', 'mining', 'pp']
+
+
+
+ ['Sentiment']
+
+
+
+ ['pp.79-86']
+
+
+
+ ['–']
+
+
+
+ ['operational system', 'on-line discussion']
+
+
+
+ ['Semantic orientation', 'unsupervised classification']
+
+
+
+ ['pp']
+
+
+
+ ['contextual polarity', 'exploration', 'phrase level', 'sentiment', 'analysis']
+
+
+
+ ['pp']
+
+
+
+ ['semantic orientation']
+
+
+
+ ['conference', 'chapter', 'association', 'pp.174-181']
+
+
+
+ ['sentimental education', 'sentiment', 'analysis', 'subjectivity', 'summarization']
+
+
+
+ ['annual meeting', 'pp']
+
+
+
+ ['Yi']
+
+
+
+ ['Sentiment analyzer', 'extracting', 'natural language', 'processing']
+
+
+
+ ['international conference', 'mining', 'pp']
+
+
+
+ ['sentiment', 'analysis', 'machine', 'translation', 'technology']
+
+
+
+ ['international conference', 'pp']
+
+
+
+ ['mood', 'stock', 'market']
+
+
+
+ ['pp']
+
+
+
+ ['–']
+

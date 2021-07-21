@@ -1,0 +1,1412 @@
+
+
+ ['hype', 'guide', 'artificial intelligence', 'business', 'hype', 'guide', 'artificial intelligence', 'business', 'hype', 'guide', 'artificial intelligence', 'business']
+
+
+
+ ['system', 'learn']
+
+
+
+ ['driven development']
+
+
+
+ ['today']
+
+
+
+ ['value', 'today']
+
+
+
+ ['organization', 'implementation', 'implement', 'organization', 'need understand', 'value']
+
+
+
+ ['white paper', 'business', 'practical advice', 'leverage', 'artificial intelligence']
+
+
+
+ ['fact', 'real value', 'driver']
+
+
+
+ ['Chinese government', 'core']
+
+
+
+ ['pack']
+
+
+
+ ['value', 'multiple']
+
+
+
+ ['high value', 'potential']
+
+
+
+ ['competitive edge']
+
+
+
+ ['company', '’', 'critical evaluate', 'organization']
+
+
+
+ ['’ mean', 'hire', 'science', 'clear strategy']
+
+
+
+ ['process']
+
+
+
+ ['costly failure']
+
+
+
+ ['paper', 'knowledge', 'need', 'type', 'give company', 'competitive advantage']
+
+
+
+ ['today', 'mundane', 'simple—but', 'mean']
+
+
+
+ ['Another misconception', 'high-profile research', 'business', 'situation']
+
+
+
+ ['right create', 'extreme return', 'instance', 'automation', 'precise', 'prediction']
+
+
+
+ ['thought', 'time', 'proper implementation']
+
+
+
+ ['success', 'value', 'grounded understanding expectation', 'technology']
+
+
+
+ ['brink']
+
+
+
+ ['revolution', 'inception']
+
+
+
+ ['human intelligence']
+
+
+
+ ['visual recognition', 'speech', 'recognition', 'natural language', 'processing', 'translation']
+
+
+
+ ['expert', 'domain', 'expert']
+
+
+
+ ['defined ability']
+
+
+
+ ['term', 'popularity', 'first mention']
+
+
+
+ ['bit confusion', 'difference', 'machine', 'deep learning—but']
+
+
+
+ ['intelligence', 'program', 'sense', 'reason', 'act', 'adapt']
+
+
+
+ ['Machine', 'performance', 'data', 'time']
+
+
+
+ ['learning', 'machine', 'learning', 'vast amount']
+
+
+
+ ['Figure', 'distinction']
+
+
+
+ ['science', 'by—but', 'sense', 'learn', 'reason', 'action.', 'big rise', 'day-to-day use']
+
+
+
+ ['computer', 'science', 'psychology', 'customer', 'service', 'algorithms detect', 'fraud']
+
+
+
+ ['every day']
+
+
+
+ ['hype', 'guide', 'artificial intelligence', 'business', 'learning', 'machine', 'learn']
+
+
+
+ ['essence']
+
+
+
+ ['programming', 'let', 'algorithm', 'accuracy', 'algorithm']
+
+
+
+ ['Traditional science', 'algorithms', 'process', 'machine', 'algorithm fit model']
+
+
+
+ ['lot', 'familiar decision', 'clustering', 'regression', 'deep learning', 'reinforcement', 'learning']
+
+
+
+ ['common machine']
+
+
+
+ ['Implementation', 'stock', 'market', 'customer', 'churn', 'company']
+
+
+
+ ['learning', 'machine']
+
+
+
+ ['se', 'family']
+
+
+
+ ['computation', 'train', 'addition']
+
+
+
+ ['problem', 'complex understand', 'engineer']
+
+
+
+ ['image', 'classification', 'natural language', 'processing', 'speech', 'recognition']
+
+
+
+ ['example', 'melanoma', 'machine', 'translation']
+
+
+
+ ['Figure', 'Deep neural network', 'layers.5', 'neural network', 'performance', 'neural network', 'provide']
+
+
+
+ ['impossible determine', 'system', 'certain conclusion']
+
+
+
+ ['“ black box', '”', 'problem', 'model']
+
+
+
+ ['deep learning', 'extensive training', 'lot', 'specific', 'hardware', 'solution', 'problem']
+
+
+
+ ['conclusion', 'algorithm', 'fit', 'solve']
+
+
+
+ ['problem', 'need']
+
+
+
+ ['problem', 'need', 'hybrid approach', 'problem']
+
+
+
+ ['problem', 'extensive investigation', 'best-fit type', 'algorithm']
+
+
+
+ ['account', 'transparency', 'time', 'long time', 'run']
+
+
+
+ ['layer', 'layer', 'layer', 'layer', 'system', 'learn']
+
+
+
+ ['illustrate', 'system', 'next describe', 'scientist', 'machine', 'process']
+
+
+
+ ['science', 'team']
+
+
+
+ ['scientist', 'scientist', 'statistical methods6']
+
+
+
+ ['scientist']
+
+
+
+ ['data', 'problem']
+
+
+
+ ['next step', 'define', 'way', 'model']
+
+
+
+ ['model', 'output', 'scientist']
+
+
+
+ ['scientist']
+
+
+
+ ['Machine', 'machine']
+
+
+
+ ['machine', 'network', 'feedback', 'get', 'correct outcome']
+
+
+
+ ['feedback', 'trainer—the', 'scientist']
+
+
+
+ ['scientist', 'happen']
+
+
+
+ ['correction', 'network', 'error', 'rate']
+
+
+
+ ['iteration', 'model', 'error', 'rate']
+
+
+
+ ['appendix section', 'paper', 'section', '’', 'learning']
+
+
+
+ ['transferred reinforcement', 'learning']
+
+
+
+ ['reinforcement transfer', 'economic value']
+
+
+
+ ['development']
+
+
+
+ ['power', 'potential value', 'algorithms']
+
+
+
+ ['strategy', 'innovation']
+
+
+
+ ['power', 'algorithms', 'amount', 'use']
+
+
+
+ ['essential value']
+
+
+
+ ['drive efficiency', 'employee', 'experience', 'capability', 'decrease', 'revenue']
+
+
+
+ ['certain point', 'machine']
+
+
+
+ ['instance', 'implement', 'speech', 'recognition', 'project', 'spent']
+
+
+
+ ['main funding']
+
+
+
+ ['barely government', 'hype', 'guide', 'artificial intelligence', 'business', 'multiple', 'belief feasibility']
+
+
+
+ ['period', 'lead successful business', 'value']
+
+
+
+ ['Today', 'big value']
+
+
+
+ ['— evolution', 'factor', 'massive adoption', 'exponential growth']
+
+
+
+ ['introduction', 'proliferation', 'fact', 'storage']
+
+
+
+ ['— evolution', 'algorithms']
+
+
+
+ ['development']
+
+
+
+ ['— evolution', 'computing', 'Another major factor', 'current success', 'power']
+
+
+
+ ['beginning', 'power', 'minimal']
+
+
+
+ ['place', 'business', 'value']
+
+
+
+ ['Figure']
+
+
+
+ ['“ point', 'machine', 'algorithm', 'perceptron', 'hard drive', 'neural network', 'second generation', 'general purpose', 'winter', 'belief', 'machine', 'power', 'network', 'capacity', 'hard drive']
+
+
+
+ ['convolutional neural network', 'internet', 'natural language']
+
+
+
+ ['deep blue', 'rank', 'adoption', 'cloud']
+
+
+
+ ['question', 'machine', 'champion', 'traffic', 'month', 'world', 'debater', 'ability', 'process', 'news', 'prose—a', 'task', 'computer', 'today']
+
+
+
+ ['split term', 'broad narrow']
+
+
+
+ ['human-', 'certain task—and', 'transfer', 'knowledge']
+
+
+
+ ['“ common knowledge.', 'reason', 'consumer', 'world', 'lot']
+
+
+
+ ['contrary naming']
+
+
+
+ ['Figure']
+
+
+
+ ['today']
+
+
+
+ ['collection']
+
+
+
+ ['call']
+
+
+
+ ['Another example', 'system', 'bank', 'analyzes balance', 'sheet', 'currency', 'strategy']
+
+
+
+ ['Another example', 'system', 'complex maintenance']
+
+
+
+ ['specific business', 'process', 'enterprise', 'business- enterprise-specific knowledge', 'type system']
+
+
+
+ ['consumer', 'world', 'knowledge', 'industry']
+
+
+
+ ['valuable type']
+
+
+
+ ['another couple']
+
+
+
+ ['intellectual task', 'human']
+
+
+
+ ['ability']
+
+
+
+ ['couple', 'all.8', 'hype', 'guide', 'artificial intelligence', 'business', 'value', 'today']
+
+
+
+ ['use', 'every industry', 'main macro', 'drive adoption']
+
+
+
+ ['—', 'Cognitive engagement']
+
+
+
+ ['knowledge', 'overwhelmed information', 'knowledge']
+
+
+
+ ['Cognitive automation', 'process', 'automation', 'human intelligence', 'facilitate', 'complex knowledge-intense', 'business']
+
+
+
+ ['vast amount', 'deliver', 'business', 'value', 'macro', 'previous section']
+
+
+
+ ['want', 'explain', 'couple', 'use', 'team', 'demonstrate', 'bring', 'value']
+
+
+
+ ['Manufacturer', 'engine', 'anomaly', 'detection', 'neural network', 'many different available sensor', 'large truck', 'neural network', 'normal abnormal engine', 'behavior']
+
+
+
+ ['high dimensional', 'neural network']
+
+
+
+ ['model', 'certain operating', 'detect']
+
+
+
+ ['Anomalous sensor', 'engine']
+
+
+
+ ['Car', 'manufacturer', 'predictive failure', 'detection', 'predictive maintenance', 'assessment', 'early warning', 'failure', 'different system', 'stream production', 'line']
+
+
+
+ ['early warning', 'maintenance', 'downtime']
+
+
+
+ ['proof value', 'quality', 'value']
+
+
+
+ ['Figure']
+
+
+
+ ['new customer', 'engagement', 'engagement', 'knowledge', 'expertise', 'knowledge', 'agility', 'operational efficiency', 'automation', 'company', 'micro-grid energy', 'production', 'mix', 'optimization', 'output', 'machine', 'mathematical optimization', 'optimal mix', 'power', 'production', 'predicted demand', 'minimize']
+
+
+
+ ['prediction', 'demand', 'prediction', 'available solar wind', 'energy', 'capacity']
+
+
+
+ ['Material producer', 'client', '’', 'business', 'inventory', 'relevant data']
+
+
+
+ ['Several machine', 'learn price', 'behavior', 'forecast', 'future price', 'development']
+
+
+
+ ['service', 'relevant news', 'material interest']
+
+
+
+ ['user interactive dashboard', 'consume', 'buying']
+
+
+
+ ['organization']
+
+
+
+ ['case']
+
+
+
+ ['’', 'company']
+
+
+
+ ['—', 'strategy', 'roadmap', 'small scale', 'strategy', 'roadmap', 'important understand', 'research', 'organization']
+
+
+
+ ['get', 'scientist', 'good understanding', 'implementation', 'implement']
+
+
+
+ ['overall project', 'value']
+
+
+
+ ['understood', 'next question', 'ask', '“', 'specific problem', 'solve', 'opportunity', '” company', 'drive', 'efficiency', 'office', 'digital proposition', 'new revenue', 'entire business']
+
+
+
+ ['hype', 'guide', 'artificial intelligence', 'business', 'thought', 'many different use']
+
+
+
+ ['point', 'critical prioritize', 'transformation', 'roadmap', 'long-term vision']
+
+
+
+ ['value']
+
+
+
+ ['track', 'type', 'data—as', 'stored way']
+
+
+
+ ['first step', 'case']
+
+
+
+ ['supply', 'organization']
+
+
+
+ ['build', 'in-house', 'important plan', 'grow', 'leverage', 'concept', 'perform', 'partnership']
+
+
+
+ ['team', 'right mindset', 'way', 'rest', 'organization']
+
+
+
+ ['conjunction', 'platform', 'current architecture', 'implement', 'scale']
+
+
+
+ ['small scale', 'phase', 'bring', 'business']
+
+
+
+ ['business']
+
+
+
+ ['business']
+
+
+
+ ['good duration']
+
+
+
+ ['experience', 'implementation', 'lead failure']
+
+
+
+ ['—', 'understandable key performance', 'sure project', 'understandable business—']
+
+
+
+ ['help', 'project']
+
+
+
+ ['second look', 'appropriate duration', 'project', 'successful discontinue']
+
+
+
+ ['business', 'pinpoint', 'measure', 'success', 'project', 'complex']
+
+
+
+ ['— Roll-out company', 'agreement', '’ time', 'company']
+
+
+
+ ['important way', 'implement', 'business', 'technical side']
+
+
+
+ ['implementation', 'experience']
+
+
+
+ ['feel']
+
+
+
+ ['Culture', 'last decade']
+
+
+
+ ['’', 'value']
+
+
+
+ ['pitfall', 'encounter culture', '’']
+
+
+
+ ['innovate agile fashion', 'room', 'trial', 'error', 'unwilling transform', 'process']
+
+
+
+ ['reluctance', 'fear job', 'loss', 'skepticism', 'knowledge', 'gap']
+
+
+
+ ['’', 'challenge', 'organization', 'ready embrace', 'data-driven culture', 'counter', 'intuitive process']
+
+
+
+ ['Recommendation', 'change', 'management', 'preparation', 'shift', 'thinking']
+
+
+
+ ['business', 'point', 'agile', 'development', 'design', 'process']
+
+
+
+ ['project', 'way']
+
+
+
+ ['data-driven culture', 'take', 'hold', 'whole organization']
+
+
+
+ ['message', '“', 'trust', 'company', 'step', 'implement', 'need', 'get', 'project', 'board']
+
+
+
+ ['business']
+
+
+
+ ['scientist', 'domain', 'knowledge', 'access', 'need', 'process']
+
+
+
+ ['need', 'education', 'devote', 'time', 'right user', 'interface']
+
+
+
+ ['Recommendation', 'Use form', 'change', 'management', 'user adoption']
+
+
+
+ ['practice', 'leverage', 'digital change', 'approach', 'involve', 'development', 'project', 'studio', '’ envision', 'co-create']
+
+
+
+ ['something', 'everyone', 'able grasp']
+
+
+
+ ['business', 'environment']
+
+
+
+ ['management', 'office', 'company']
+
+
+
+ ['disappointment', 'project', 'short timeframe']
+
+
+
+ ['disappointment lead', 'lack', 'belief', 'diminish implement', 'experience']
+
+
+
+ ['Recommendation', 'solid strategy', 'roadmap']
+
+
+
+ ['add organization', 'get']
+
+
+
+ ['governance', 'warehousing']
+
+
+
+ ['’', 'important implement', 'change', 'management', 'guide', 'company']
+
+
+
+ ['hype', 'guide', 'artificial intelligence', 'business', 'data', 'problem', 'bad-quality']
+
+
+
+ ['problem', 'many machine']
+
+
+
+ ['dirty', 'mean', 'punctuation']
+
+
+
+ ['data-driven decision', 'making']
+
+
+
+ ['lead', 'incorrect decision', 'making']
+
+
+
+ ['Recommendation', 'overcome incorrect decision', 'making', 'enterprise', 'incorporate', 'standardization', 'monitoring', 'control']
+
+
+
+ ['Sponsorship', 'implementing', 'strategy', 'important right', 'department', 'support', 'project']
+
+
+
+ ['organization', 'process', 'support', 'right', 'probability', 'project', 'fail']
+
+
+
+ ['problem', 'enough time', 'problem', 'definition', 'subject', 'knowledge', 'sharing']
+
+
+
+ ['Recommendation', '“ garage', '”', 'concept']
+
+
+
+ ['input', 'willingness', 'table']
+
+
+
+ ['buy-in support', 'management']
+
+
+
+ ['implement machine', 'right bat']
+
+
+
+ ['implement', 'science', 'talent', 'current infrastructure']
+
+
+
+ ['choose in-house route', 'route']
+
+
+
+ ['option', '’ important take', 'account', 'require time', 'research']
+
+
+
+ ['route', 'house', 'Project', 'team', 'track', '—', 'knowledge', 'business', 'environment', 'product', 'machine', 'process', '—', 'help', 'quality', 'something', 'masses—be', 'need', 'house']
+
+
+
+ ['second option', 'quicker', 'implement']
+
+
+
+ ['case', 'use', 'external party', 'offering', 'ability', 'use', 'complete internal department']
+
+
+
+ ['Recommendation', 'starting', 'project', 'define cost']
+
+
+
+ ['define', 'want hire', 'external experienced resource', 'access']
+
+
+
+ ['scale', 'correct architecture', 'integration', 'need place']
+
+
+
+ ['research', 'development', 'data', 'science', 'project', 'implementation']
+
+
+
+ ['enterprise demand']
+
+
+
+ ['require', 'bit time', 'train', 'amount']
+
+
+
+ ['perform', 'function', 'laptops.9 Recommendation', 'plan', 'architecture', 'platform', 'deploy', 'integration', 'strategy', 'data']
+
+
+
+ ['availability', 'company']
+
+
+
+ ['track', 'right']
+
+
+
+ ['Smaller', 'amount']
+
+
+
+ ['Recommendation', 'machine', 'learning']
+
+
+
+ ['situation', 'data', 'launch product', 'machine', 'learning']
+
+
+
+ ['choose option', 'overcome', 'problem', 'simpler']
+
+
+
+ ['common problem', 'unable train', 'system']
+
+
+
+ ['instance', 'predict', 'fraud', 'historical fraudulent', 'algorithm map', 'input']
+
+
+
+ ['Recommendation', 'case', 'sound model']
+
+
+
+ ['labeled—which expensive—or', 'use', 'algorithms accomplish task']
+
+
+
+ ['’', 'technique']
+
+
+
+ ['scientist', 'approach']
+
+
+
+ ['business']
+
+
+
+ ['line', 'ethical use']
+
+
+
+ ['kind', 'algorithm', 'conclusion']
+
+
+
+ ['black-box algorithms']
+
+
+
+ ['lot', 'explanation']
+
+
+
+ ['example', 'loan']
+
+
+
+ ['European law', 'deny', 'applicant', 'explain']
+
+
+
+ ['Recommendation', 'several new algorithms', 'help', '’ solve', 'problem']
+
+
+
+ ['define ’', 'use model']
+
+
+
+ ['model', 'certain conclusion', 'data', 'specific information']
+
+
+
+ ['hand-in-hand']
+
+
+
+ ['hype', 'guide', 'artificial intelligence', 'business', 'potential bring', 'lot', 'value', 'company']
+
+
+
+ ['paper', 'hope', 'clear achieve goal']
+
+
+
+ ['organization', '’']
+
+
+
+ ['sum paper', 'something', 'future', 'real today', 'see', 'paper', 'competitive advantage']
+
+
+
+ ['data-driven approach', 'valuable business']
+
+
+
+ ['implement data-driven strategy', 'lead', 'market', 'share']
+
+
+
+ ['careful evaluation', 'planning', 'need', 'help', 'company', 'address', 'take']
+
+
+
+ ['magic algorithm', 'solve', 'implementing', 'focus', 'help', 'solve']
+
+
+
+ ['right fit', 'solve']
+
+
+
+ ['economic value', 'form', 'value', 'wide variety']
+
+
+
+ ['enterprise', 'learning']
+
+
+
+ ['next section', 'paper', '’ talk', 'play', 'role', 'organization']
+
+
+
+ ['arena']
+
+
+
+ ['experience', 'knowledge', 'help']
+
+
+
+ ['experience', 'knowledge', 'help', 'company', 'business', 'technology', 'transformation']
+
+
+
+ ['practice', '“ garage', '”', 'concept']
+
+
+
+ ['new expertise', 'immediate market', 'impact']
+
+
+
+ ['holistic way']
+
+
+
+ ['client', 'enter', 'strategic alliance', 'transform', 'business', 'platform', 'continuous innovation']
+
+
+
+ ['speed start-up', 'scale rigor', 'enterprise']
+
+
+
+ ['space', 'work']
+
+
+
+ ['expertise', 'transform', 'way', 'work']
+
+
+
+ ['Figure']
+
+
+
+ ['engine', 'transformation', 'recruit', 'capability', 'capability', 'development', 'technology', 'infrastructure', 'data', 'implement', 'model', 'measure', 'performance', 'management', 'model', '+ integration', 'think', 'model', 'state', 'assessment', 'strategic direction']
+
+
+
+ ['integration', 'management', 'culture', 'strategy', 'alignment', 'management', 'communication', 'line', 'functional scope', 'process', 'growth', 'model', 'country', 'support', 'structure', 'governance', 'validate', 'transform']
+
+
+
+ ['demand', 'management', 'prioritisation', 'delivery', 'methodology', 'assurance', 'value', 'management', 'definition', 'generation', 'hype', 'guide', 'artificial intelligence', 'business', 'Figure']
+
+
+
+ ['Plan', 'start journey', 'ambition', 'organization', 'demand', 'innovate', 'production', 'phase', 'process', 'thinking', 'user heart', 'innovation']
+
+
+
+ ['start', 'feedback', 'real time']
+
+
+
+ ['pressure-cooker', 'environment']
+
+
+
+ ['journey']
+
+
+
+ ['innovation', 'system']
+
+
+
+ ['skilled staff']
+
+
+
+ ['— Organization', 'position', 'expertise', 'organization']
+
+
+
+ ['— Culture', 'operate', 'fashion']
+
+
+
+ ['— Technology', 'current architecture', 'enable']
+
+
+
+ ['define', 'high- level', 'strategic direction', 'persona', 'user']
+
+
+
+ ['persona', 'marketing', 'manager', 'product', 'developer']
+
+
+
+ ['ambition', 'roadmap high-level', 'business', 'case']
+
+
+
+ ['select', 'model', 'move']
+
+
+
+ ['prepared garage', 'design', 'identify define', 'use']
+
+
+
+ ['use', 'notion', 'business', 'value']
+
+
+
+ ['experience', 'design', 'effective way']
+
+
+
+ ['so-called “ demand', 'generation', '” garage', 'backlog', 'capacity', 'planning', 'garage']
+
+
+
+ ['first use', 'garage', 'playground deep technology', 'working—such design', 'thinking', 'agile', 'lean']
+
+
+
+ ['Innovation', 'business', 'technical feasibility', 'use', 'case', 'time-boxed agile', 'manner']
+
+
+
+ ['development', 'core', 'garage']
+
+
+
+ ['goal', 'scale']
+
+
+
+ ['speed', 'key']
+
+
+
+ ['move', 'pilot', 'implementation']
+
+
+
+ ['extensive asset', 'library', 'validate use', 'transformative change']
+
+
+
+ ['prepared step', 'comfort']
+
+
+
+ ['approach', 'shift way', 'see']
+
+
+
+ ['effort', 'change', 'thinking']
+
+
+
+ ['digital change', 'management', 'role']
+
+
+
+ ['organization']
+
+
+
+ ['academy']
+
+
+
+ ['phase', 'production', 'realize', 'business', 'customer', 'adoption']
+
+
+
+ ['third last phase', 'factory', 'phase', 'enterprise', 'last lifetime']
+
+
+
+ ['thrive phase', 'service', 'scale']
+
+
+
+ ['factory-like approach', 'production', 'something', 'consistent design', 'quality', 'innovation', 'execution']
+
+
+
+ ['successful delivery', 'platform', 'technology', 'governance']
+
+
+
+ ['method', 'method', 'project']
+
+
+
+ ['implementation', 'experience', 'help', 'world']
+
+
+
+ ['hype', 'guide', 'artificial intelligence', 'business', 'science', 'experience', 'part', 'branch', 'office', 'part', 'team']
+
+
+
+ ['master', 'degree', 'business', 'master', 'degree', 'management']
+
+
+
+ ['main author', 'paper', 'ibm.com']
+
+
+
+ ['’ experience', 'consulting']
+
+
+
+ ['European leader', 'innovation', 'programme', 'support', 'thinking']
+
+
+
+ ['@ nl.ibm.com']
+
+
+
+ ['experience', 'practice']
+
+
+
+ ['francesco.brenna', 'ch.ibm.com']
+
+
+
+ ['practice', 'experience', 'implementation', 'value', 'advice', 'document']
+
+
+
+ ['report', 'department']
+
+
+
+ ['artificial intelligence', 'machine', 'learning']
+
+
+
+ ['knowledge', 'feedback']
+
+
+
+ ['information', 'algorithm', 'feedback']
+
+
+
+ ['feedback']
+
+
+
+ ['machine', 'learning', 'reinforcement transfer']
+
+
+
+ ['type', 'learning', 'economical value', 'category']
+
+
+
+ ['mailto', '%', 'subject=Beyond', '%', '%', 'mailto', '%', 'subject=Beyond', '%', '%', 'mailto', 'francesco.brenna', '%', 'subject=Beyond', '%', '%', 'method', 'output', 'feedback', 'improve']
+
+
+
+ ['set']
+
+
+
+ ['example']
+
+
+
+ ['learning']
+
+
+
+ ['data', 'set', 'output']
+
+
+
+ ['type', 'classify predict']
+
+
+
+ ['regression', 'continuous value']
+
+
+
+ ['classifying', 'label', 'input']
+
+
+
+ ['speech recognition', 'examine', 'customer', 'service', 'center', 'image', 'recognition', 'define', 'warehouse']
+
+
+
+ ['learning', 'outcome']
+
+
+
+ ['learning', 'want classify', '’']
+
+
+
+ ['example', 'unsupervised learning', 'customer', 'kind']
+
+
+
+ ['user describe', 'label']
+
+
+
+ ['class', 'specific goal', 'trial', 'error']
+
+
+
+ ['main concept', 'specific action', 'sequence', 'reward']
+
+
+
+ ['maze', 'example', 'algorithm', 'goal', 'every time', 'completion']
+
+
+
+ ['recent example', 'reinforcement', 'deep reinforcement', 'network', 'game', 'performance', 'human']
+
+
+
+ ['TD-Gammon']
+
+
+
+ ['TD-Gammon backgammon-playing program', 'performance', 'time']
+
+
+
+ ['high potential']
+
+
+
+ ['lot', 'reinforcement learning', 'work']
+
+
+
+ ['Transfer', 'problem', 'information', 'problem', 'new problem', 'information']
+
+
+
+ ['lot', 'image', 'recognition']
+
+
+
+ ['logo', 'ibm.com']
+
+
+
+ ['product', 'service']
+
+
+
+ ['current list', 'available web www.ibm.com']
+
+
+
+ ['logo']
+
+
+
+ ['document', 'current initial date', 'publication', 'time']
+
+
+
+ ['every country']
+
+
+
+ ['performance', 'client']
+
+
+
+ ['Actual performance']
+
+
+
+ ['ai100.stanford.edu', 'www-01.ibm.com ssialias', 'htmlfid=KUM12390USEN', 'page', 'http', ' https', ' https', ' https', ' https', ' https', ' https', ' https', ' http', ' https', ' https', ' https', ' https', ' https', ' http', ' http', ' http', 'http', 'https', 'htmlfid=KUM12390USEN', 'https', 'htmlfid=KUM12390USEN', 'https', '']
+

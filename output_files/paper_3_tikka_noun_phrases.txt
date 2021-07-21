@@ -1,0 +1,520 @@
+
+
+ ['good use']
+
+
+
+ ['part', 'enterprise', 'percent']
+
+
+
+ ['text', 'research', 'voice', 'huge body', 'information']
+
+
+
+ ['much challenging', 'leverage']
+
+
+
+ ['Traditional search', 'great job']
+
+
+
+ ['search', 'maximize', 'use', 'resource', 'decision', 'making']
+
+
+
+ ['natural language', 'processing', 'field', 'artificial intelligence', '’', 'handle processing', 'analysis', 'real game', 'changer']
+
+
+
+ ['broad range', 'harness create', 'business', 'value', 'competitive advantage']
+
+
+
+ ['machine', 'learning', 'manage']
+
+
+
+ ['Vision', 'digital imaging', 'pattern recognition', 'interpret image', 'video']
+
+
+
+ ['Document', 'Understanding', 'combining', 'gain', 'natural language']
+
+
+
+ ['unlock value', 'essential enabler', 'evolution', 'today']
+
+
+
+ ['white paper', 'key insight discovery', 'technique']
+
+
+
+ ['machine', 'learning', 'deep learning', 'cognitive search', 'mainstream', 'rapid evolution']
+
+
+
+ ['sophisticated search', 'experience', 'workplace']
+
+
+
+ ['today', 'automation', 'scalability', 'accuracy']
+
+
+
+ ['understanding content', 'user experience', 'insight discovery', '•', 'intent', 'out-of-scope', 'business']
+
+
+
+ ['understand', 'natural language', 'content', '–']
+
+
+
+ ['–', 'natural language', 'understanding user', 'content']
+
+
+
+ ['every user']
+
+
+
+ ['Today', 'intelligent business', 'technology', 'ecosystem']
+
+
+
+ ['user', 'natural language', 'query', 'content', 'technology', 'ecosystem', 'demand', 'range', 'open source']
+
+
+
+ ['•', 'new enterprise', 'technology', 'every day']
+
+
+
+ ['improving', 'time', 'industry', 'accuracy']
+
+
+
+ ['ecosystem', 'flexibility', 'select', 'specific use']
+
+
+
+ ['Accenture', 'robust ecosystem', 'technology']
+
+
+
+ ['’']
+
+
+
+ ['next section']
+
+
+
+ ['source', 'action']
+
+
+
+ ['natural language']
+
+
+
+ ['experience', 'workplace']
+
+
+
+ ['emphasis', 'interact', 'understand text']
+
+
+
+ ['challenge']
+
+
+
+ ['sophisticated natural language', 'understanding', 'information', 'discovery', 'collaboration']
+
+
+
+ ['Gartner']
+
+
+
+ ['Gartner']
+
+
+
+ ['enterprise', 'everyday business']
+
+
+
+ ['deeper natural language', 'understanding', 'enhance', 'search', 'new way', 'work']
+
+
+
+ ['example', 'enterprise', 'chatbot', 'dialog', 'information']
+
+
+
+ ['and integrate', 'business', 'complete common office']
+
+
+
+ ['content', 'processing', 'voice', 'recognition']
+
+
+
+ ['’ question', 'technical support', 'consumer', 'product', 'partner', 'e-commerce website', 'investment', 'investor', 'portal', 'management', 'advice', 'hotel', 'franchisee', 'site', 'process', 'automation', 'user', 'experience', 'improvement']
+
+
+
+ ['business', 'support', 'search', 'knowledge-seeking', 'brand', 'reputation', 'customer', 'document', 'analysis', 'correspondence', 'every day', 'content']
+
+
+
+ ['automated analysis', 'approach', 'use', 'document', 'content', 'support', 'decision']
+
+
+
+ ['Intelligent document', 'analysis', 'entity', 'extraction', 'semantic understanding', 'analyze', 'content', 'extract meaning', 'aid', 'process', 'automation', 'decision', 'making']
+
+
+
+ ['information', 'date', 'order', 'number', 'policy', 'number']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['compliance', 'risk', 'management', 'business', 'search', 'match', 'store', 'critical able identify', 'match']
+
+
+
+ ['industry', 'example', 'race', 'right candidate', 'person', 'candidate']
+
+
+
+ ['lose track']
+
+
+
+ ['search match', 'standalone', 'provide convenience', 'basic resume', 'job', 'posting']
+
+
+
+ ['result', 'search', 'fill', 'experience']
+
+
+
+ ['ideal solution', 'application', 'job']
+
+
+
+ ['solution', 'job', 'description', 'search', 'request', 'comparison', 'system', 'short list']
+
+
+
+ ['job', 'seeker', 'system', 'list']
+
+
+
+ ['’ approach', 'search']
+
+
+
+ ['new job', 'start competition']
+
+
+
+ ['time']
+
+
+
+ ['solution', 'value']
+
+
+
+ ['example', 'project', 'manager', 'submit', 'project', 'requirement', 'document', 'search', 'request', 'ask question', '”', 'system', 'list', 'employee']
+
+
+
+ ['search', 'match']
+
+
+
+ ['•', 'time', 'fill', 'job', 'position', 'identify', 'organization', 'multiple', 'employee', 'project', 'revenue', 'recruiter', '’ database', 'job', 'multiple use', 'search', 'match', 'enterprise']
+
+
+
+ ['industry', 'cross-analyzing loan', 'mortgage']
+
+
+
+ ['storage', 'optimization', 'on-premise storage', 'stale obsolete content']
+
+
+
+ ['storage', 'management', 'software', 'count', 'compute', 'business', 'value', 'content', 'risk']
+
+
+
+ ['approach', 'migration', 'content lower-cost storage', 'file-level traceability', 'real-time tracking']
+
+
+
+ ['storage', '•', 'content']
+
+
+
+ ['content']
+
+
+
+ ['•', 'business', 'unit', 'content']
+
+
+
+ ['•']
+
+
+
+ ['much cost', 'store']
+
+
+
+ ['•', 'retention', 'policy']
+
+
+
+ ['• move', 'low-cost', 'cloud', 'storage']
+
+
+
+ ['storage', 'optimization', 'solution', 'content', 'content eligible deletion', 'migration', 'lower-cost storage']
+
+
+
+ ['enterprise', 'enterprise', 'context']
+
+
+
+ ['content source', 'source', 'indexed search', 'engine', 'accessible ad', 'hoc', 'search', 'visualization']
+
+
+
+ ['Business', 'movement', 'optimize storage', 'utilization', 'program']
+
+
+
+ ['business', 'eligible lower- cost', 'storage', 'deletion', 'obsolete']
+
+
+
+ ['automated process', 'traceability']
+
+
+
+ ['storage', 'cost', 'rapid detection', 'near-duplicate content', '360-degree view', 'enterprise']
+
+
+
+ ['storage', 'optimization']
+
+
+
+ ['Example business', 'primary storage', 'content', 'Archive content', 'actionable visibility', 'content high-cost storage', 'content', 'provenance', 'ownership', 'frequency', 'use', 'domain-specific business', 'eligible content migrate', 'lower-priced storage', 'compute', 'analysis', 'analysis', 'opinion', 'mining', 'automate', 'process', 'specific subject piece', 'content']
+
+
+
+ ['percent', 'organization', 'form', 'web', 'content']
+
+
+
+ ['Manual analysis', 'information', 'customer', 'product', 'employee', 'sentiment']
+
+
+
+ ['AI-driven sentiment', 'analysis', 'organization', 'detect']
+
+
+
+ ['form', 'sentiment', 'analysis', 'sentiment positive negative']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['text', 'linguistic analysis', 'sentiment', 'analysis', 'language']
+
+
+
+ ['analysis']
+
+
+
+ ['use', 'case', 'customer', 'sentiment', 'analysis', 'applied voice', 'customer', 'survey', 'healthcare', 'customer', 'service', 'clinical medicine']
+
+
+
+ ['sentiment', 'analysis', 'understand', 'predict demand', 'overall company', 'performance']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['insider']
+
+
+
+ ['authorized access', 'damage']
+
+
+
+ ['accessibility', 'grow', 'government']
+
+
+
+ ['Insider', 'fraud', 'theft', 'valuable information', 'theft', 'intellectual property', 'sabotage', 'computer', 'disclosure', 'information', 'company', 'brand', 'reputation']
+
+
+
+ ['difficult conduct', 'accurate', 'classification', 'monitoring', 'analysis']
+
+
+
+ ['search', 'help', 'challenge']
+
+
+
+ ['percent security', 'breach']
+
+
+
+ ['report', 'average', 'cost', 'insider', 'threat']
+
+
+
+ ['effective insider', 'threat', 'detection', 'solution', 'place', 'insider', 'trading', 'non-compliance', 'trade', 'government', 'intelligence']
+
+
+
+ ['NLP-based insider', 'threat', 'illegal nefarious intent', 'threat', 'rapid risk', 'mitigation']
+
+
+
+ ['https', 'https', 'threat', 'detection']
+
+
+
+ ['Solution', 'investigation', 'search', 'engine', 'flexibility', 'customization', 'in-depth analysis', '• 360-degree view', 'multiple', 'risk', 'pulse organization', 'risk', 'score', 'employee', 'time', 'incident response', 'comprehensive enterprise', 'visibility', 'full complement', 'threat', 'detection', 'enterprise']
+
+
+
+ ['Sophisticated business', 'decision', 'need']
+
+
+
+ ['use', 'show', 'unstructured content']
+
+
+
+ ['solution', 'place', 'understanding', 'unstructured content']
+
+
+
+ ['organization', 'staff', 'and implementation', 'expertise', 'conduct', 'thorough assessment', 'business']
+
+
+
+ ['organization', 'initial phase', 'preferred solution', 'implementation', 'best-suited solution', 'implementing', 'application']
+
+
+
+ ['support', 'leverage', 'expertise']
+
+
+
+ ['strategy', 'implementation', 'roadmap']
+
+
+
+ ['https', 'c=acn_glb_searchandcontenwhitepaperpdf_10977322', 'n=otc_0719', 'part']
+
+
+
+ ['live data-driven world']
+
+
+
+ ['everyone']
+
+
+
+ ['percent', '– imagine', 'unstructured enterprise', 'content', 'voice']
+
+
+
+ ['mission', 'help', 'full value']
+
+
+
+ ['combine', 'machine', 'natural language', 'processing', 'search', 'transform way']
+
+
+
+ ['’', 'intranet website search', 'insider', 'oil', 'wellhead', 'comprehensive search']
+
+
+
+ ['healthcare', 'manufacturing', 'government', 'sector']
+
+
+
+ ['knowledge']
+
+
+
+ ['webpage', 'learn', 'client', 'work']
+
+
+
+ ['Accenture', 'global professional', 'company', 'broad range', 'strategy', 'technology']
+
+
+
+ ['unmatched experience', 'business', 'underpinned world', 'delivery', 'network', 'intersection', 'business', 'technology', 'help', 'performance', 'create', 'sustainable value']
+
+
+
+ ['innovation', 'way', 'world']
+
+
+
+ ['©']
+
+
+
+ ['Accenture', 'logo', 'https', 'c=acn_glb_searchandcontenwhitepaperpdf_10977321', 'n=otc_0719', 'www.accenture.com']
+

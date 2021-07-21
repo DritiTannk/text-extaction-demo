@@ -1,0 +1,1116 @@
+
+
+ ['Scope']
+
+
+
+ ['j', 'r', 'l', 'l', 'ultimate goal', 'natural language', 'processing', 'ability']
+
+
+
+ ['Natural language', 'communication', 'mode expression', 'choice']
+
+
+
+ ['role', 'preparation', 'acquisition', 'transmission', 'monitoring', 'storage', 'analysis', 'transformation', 'information', 'ability', 'generate', 'information']
+
+
+
+ ['natural language', 'processing']
+
+
+
+ ['text', 'monitoring', 'information', 'intelligence', 'office', 'automation']
+
+
+
+ ['able assimilate compose']
+
+
+
+ ['Translation', 'spoken language', 'science', 'diplomacy', 'multinational commerce', 'intelligence']
+
+
+
+ ['able understand input', 'language', 'output', 'language', 'translate']
+
+
+
+ ['dominance', 'natural language', 'communication', 'broad range', 'medium', 'human-computer interaction']
+
+
+
+ ['case', 'strong environment', 'keyboard', 'display', 'mouse', 'spoken natural language']
+
+
+
+ ['speech recognition']
+
+
+
+ ['intended meaning', 'appropriate response']
+
+
+
+ ['user access', 'menu icon selection', 'programming', 'command', 'database', 'query']
+
+
+
+ ['easy present user', 'time', 'user operating']
+
+
+
+ ['l inear', 'well-defined control', 'axe difficult learn', 'advantage', 'screen']
+
+
+
+ ['substantial knowledge', 'user little guidance']
+
+
+
+ ['fact', 'interaction', 'artificial language', 'express language']
+
+
+
+ ['state', 'integrate', 'pointing', 'negotiate task']
+
+
+
+ ['Natural language', 'powerful addition', 'repertoire', 'human-machine interaction', 'replacement']
+
+
+
+ ['third major challenge', 'natural language', 'processing']
+
+
+
+ ['dialogue', 'effective access', 'computer', 'natural language', 'control']
+
+
+
+ ['database access', 'command', 'control', 'factory', 'control', 'office', 'automation', 'computer-assisted instruction']
+
+
+
+ ['Human- machine', 'interaction', 'multi-modal interaction']
+
+
+
+ ['quite time', 'flexibility', 'term', 'economic value']
+
+
+
+ ['include database', 'access', 'text', 'semi-automatic machine', 'translation']
+
+
+
+ ['necessary long- short-term progress', 'relevant transition', 'speech', 'recognition', 'spoken language', 'subject separate report', 'committee']
+
+
+
+ ['report', 'anything', 'attendant', 'signal processing']
+
+
+
+ ['r', 'r', 'e', 'r', 'r', 'g', 'r']
+
+
+
+ ['analysis', 'input', 'expression', 'representation', 'language', 'interpretation', 'determine', 'content', 'response', 'user', 'information', 'etc', 'generation', 'response', 'natural-language utterance', 'text']
+
+
+
+ ['translation', 'response', 'language', 'different input', 'language']
+
+
+
+ ['result', 'technology', 'productivity', 'fourth-generation', 'database', 'query']
+
+
+
+ ['case', 'study', 'person', 'relational database']
+
+
+
+ ['%', 'time', 'use', 'system', 'database', 'language', 'understood', 'system', 'success', 'rate', '%']
+
+
+
+ ['success', 'fact', 'sufficient coverage', 'language', 'simple semantic discourse']
+
+
+
+ ['fact', 'number', 'domain']
+
+
+
+ ['discourse', 'model', 'query', 'table output', 'previous answer', 'noun']
+
+
+
+ ['today', 'practical language', 'processing', 'technology', '•', 'current knowledge', 'representation']
+
+
+
+ ['Processing', 'application recursive tree', 'rewriting', 'certain pattern']
+
+
+
+ ['•', 'component technology', 'dependence', 'application', 'domain']
+
+
+
+ ['domain']
+
+
+
+ ['• user', 'machine']
+
+
+
+ ['interaction', 'translation', 'text', 'processing', 'sequence']
+
+
+
+ ['limited discourse']
+
+
+
+ ['language', 'processing']
+
+
+
+ ['progress', 'issue', 'akin problem', 'progress', 'field']
+
+
+
+ ['progress field', 'case', 'hard quantify', 'programming', 'language', 'example']
+
+
+
+ ['reason', 'defined progress']
+
+
+
+ ['hand', 'evaluation', 'science']
+
+
+
+ ['machine', 'translation', 'encompass', 'range', 'application', 'accuracy', 'translation']
+
+
+
+ ['Natural language', 'habitability', 'user get', 'task']
+
+
+
+ ['work']
+
+
+
+ ['subsequent human-machine clarification', 'rephrasing', 'yield', 'success']
+
+
+
+ ['evaluate performance', 'technology', 'task', 'domain', 'science', 'independent task']
+
+
+
+ ['field', 'task', 'issue', 'measure', 'research', 'scientific core', 'publication', 'scholarship']
+
+
+
+ ['r', 'current technology', 'discourse']
+
+
+
+ ['generation', 'interpretation', 'interactive dialogue', 'text', 'communication', 'range', 'discourse']
+
+
+
+ ['independent domain', 'application', 'word']
+
+
+
+ ['intbrmation']
+
+
+
+ ['e.g.']
+
+
+
+ ['information', 'necessary understanding', 'communication']
+
+
+
+ ['non-linguistic information', 'discourse']
+
+
+
+ ['calculus partial information']
+
+
+
+ ['single- multiple-sentence', 'texts', 'generation', 'interpretation', 'information', 'number', 'prosodic information']
+
+
+
+ ['true novel']
+
+
+
+ ['kind', 'information-they bring', 'hear interpretation']
+
+
+
+ ['system', 'extensive effort']
+
+
+
+ ['complete system', 'lack access', 'state-of-the-art software']
+
+
+
+ ['novel work', 'complete system', 'individual component']
+
+
+
+ ['community', 'appropriate backend']
+
+
+
+ ['Leverage', 'development', 'support', 'key']
+
+
+
+ ['dissemination', 'development', 'broad-coverage', 'systematic evaluation']
+
+
+
+ ['Funding']
+
+
+
+ ['Overall funding']
+
+
+
+ ['funding', 'technology', 'transfer']
+
+
+
+ ['emphasis', 'overall trend', 'cause', 'concern']
+
+
+
+ ['positive side', 'focus', 'term', 'performance', 'community', 'focus', 'development', 'evaluation', 'resource', 'sharing']
+
+
+
+ ['negative side', 'little room', 'theoretical basis', 'next generation']
+
+
+
+ ['responsibility', 'end']
+
+
+
+ ['serious concern', 'future', 'basic research', 'funding']
+
+
+
+ ['broad exposure', 'computer', 'science', 'logic']
+
+
+
+ ['important funding', 'research', 'allow student', 'participation']
+
+
+
+ ['n c', 'p', 'e', 'decade', 'shouM bring impact', 'noticable user', 'community']
+
+
+
+ ['•', 'support', 'partial information', 'understand', 'novel']
+
+
+
+ ['•', 'robust', 'thorough treatment', 'major application', 'time', 'tense', 'ellipsis']
+
+
+
+ ['acquisition']
+
+
+
+ ['algorithms']
+
+
+
+ ['discourse', 'structure', 'speaker', 'intention', 'adequate support', 'dialogue', 'participation', 'text', 'generation']
+
+
+
+ ['Technology', 'laboratory', 'next decade', 'new generation', 'analysis', 'automatic database', 'update', 'domain']
+
+
+
+ ['problem-solving', 'graphical access', 'several target', 'low-cost portability', 'application', 'domain']
+
+
+
+ ['generation', 'extended texts']
+
+
+
+ ['c', 'k', 'g', 'r']
+
+
+
+ ['u r', 'r', 'e']
+
+
+
+ ['decade', 'natural language', 'access']
+
+
+
+ ['message']
+
+
+
+ ['machine', 'translation']
+
+
+
+ ['current technology', 'Section', 'paper', 'access', 'application']
+
+
+
+ ['nature', 'task', 'system']
+
+
+
+ ['relational algebra', 'extensional information', 'tense modality']
+
+
+
+ ['content database', 'guarantee', 'certain interpretation']
+
+
+
+ ['geographical database', 'bank', 'financial institution', 'bank']
+
+
+
+ ['population']
+
+
+
+ ['country', 'mountain']
+
+
+
+ ['user', 'adapt', 'system', 'substitute', 'artificial language', 'interface', 'isolation', 'general', 'weak notion', 'tim', 'goal', 'utterance']
+
+
+
+ []
+
+
+
+ ['effort', 'build grammar', 'semantic model']
+
+
+
+ ['particular application']
+
+
+
+ ['size', 'se', 'factor', 'impact initial cost', 'bringing']
+
+
+
+ ['number', 'word', 'word', 'vocabulary', 'language']
+
+
+
+ ['progress']
+
+
+
+ ['scientific progress']
+
+
+
+ ['main development', 'syntax', 'shift']
+
+
+
+ ['contrast', 'unification', 'term', 'unification', 'equality', 'main operation']
+
+
+
+ ['nais', 'sequential parallel', 'analysis', 'generation']
+
+
+
+ ['development', 'variety']
+
+
+
+ ['Unification', 'speech recognition']
+
+
+
+ ['family', 'unification', 'class', 'expression', 'recognition', 'problem', 'polynomial-time', 'computable']
+
+
+
+ ['contribution', 'sentence', 'structure']
+
+
+
+ ['structure', 'interpretation', 'speaker', 'constrain', 'meant']
+
+
+
+ ['knowledge', 'belief', 'intention', 'action', 'structure', 'plan', 'recognition', 'discourse']
+
+
+
+ ['progress', 'query']
+
+
+
+ ['domain']
+
+
+
+ ['interactive problem', 'environment', 'decision', 'factory control']
+
+
+
+ ['Language generation', 'generate multi-sentence', 'system', 'object situation']
+
+
+
+ ['interaction', 'artificial intelligence', 'e.g.', 'work', 'knowledge', 'representation', 'planning']
+
+
+
+ ['collaboration', 'cognitive science', 'growing']
+
+
+
+ ['widespread availability', 'high-performance', 'limited algorithms', 'parallelism', 'work', 'connectionist', 'neural network', 'modeling', 'next decade']
+
+
+
+ ['interaction', 'speech', 'end']
+
+
+
+ ['natural language', 'contribute', 'spoken language']
+
+
+
+ ['true understanding', 'translation', 'speech', 'etc.', 'speech transcription']
+
+
+
+ ['error', 'rate', 'speech', 'recognition', 'perplexity', 'language']
+
+
+
+ ['Statistical language', 'transcription', 'perplexity', 'performance']
+
+
+
+ ['Language', 'processing', 'supplemental place', 'perplexity', 'speech', 'transcription']
+
+
+
+ ['e', 'e', 'r', 'c', 'h', 'p', 'p', 'r', 'u n e', 'discussion', 'scientific work', 'term', 'research', 'address evaluation']
+
+
+
+ ['corpora']
+
+
+
+ ['development', 'collection', 'text', 'analysis', 'machine', 'translation']
+
+
+
+ ['induction acquisition']
+
+
+
+ ['algorithms', 'handcrafted grammar', 'corpus']
+
+
+
+ []
+
+
+
+ ['expressive power']
+
+
+
+ ['database', 'query', 'expressive power', 'order']
+
+
+
+ ['intractable language', 'processing']
+
+
+
+ ['first-order logic', 'representation', 'reasoning', 'resource-limited shallow', 'reasoning', 'formulae subformulae']
+
+
+
+ ['Recent work', 'plan', 'recognition', 'problem', 'new algorithms']
+
+
+
+ ['used part', 'discourse', 'component', 'help', 'reference', 'quantification', 'modification', 'appropriate response']
+
+
+
+ ['interaction', 'discourse', 'structure', 'focus', 'attention']
+
+
+
+ ['incorporation', 'dialogue']
+
+
+
+ ['partial information']
+
+
+
+ ['standard control', 'structure', 'information', 'language', 'interpretanon']
+
+
+
+ ['flexible control', 'recendy', 'knowledge']
+
+
+
+ ['generalization', 'unification', 'use', 'weighted control', 'evidential reasoning']
+
+
+
+ ['robustness']
+
+
+
+ ['%', 'input', 'novel language']
+
+
+
+ ['frequency', 'occurrence', 'spoken language', 'wntten language']
+
+
+
+ ['text', 'bank']
+
+
+
+ ['domain-independent theory', 'partial understanding', 'novel', 'test']
+
+
+
+ ['employ unification', 'plan', 'recognition', 'control', 'likely interpretation', 'appropriate response']
+
+
+
+ ['relationship', 'linguistic conceptual knowledge']
+
+
+
+ ['interpretation', 'metaphor', 'prevalent relationship', 'linguistic conceptual knowledge']
+
+
+
+ ['example', 'obvious systematicity', 'engine', 'engine']
+
+
+
+ ['lab effective language', 'learning', 'learn', 'word']
+
+
+
+ ['domain-independent theory', 'relationship']
+
+
+
+ ['interpretation', 'action']
+
+
+
+ ['problem', 'relate', 'application']
+
+
+
+ ['fact']
+
+
+
+ ['relationship', 'crucial systematic separation', 'natural language', 'part', 'system', 'application', 'part']
+
+
+
+ ['approach', 'deal', 'automatic programming']
+
+
+
+ ['relationship', 'prosody', 'syntactic ambiguity', 'discourse structure']
+
+
+
+ ['Syntactic discourse', 'interpretation', 'ambiguity']
+
+
+
+ ['evidence', 'prosodic information', 'good indicator']
+
+
+
+ ['Automatic extraction', 'prosodic information', 'interpretation', 'language']
+
+
+
+ ['generation', 'prosodic information', 'signal syntactic structure', 'discourse', 'structure', 'leverage']
+
+
+
+ ['address', 'problem', 'lack', 'leverage', 'support', 'significant portion', 'community']
+
+
+
+ ['conduct', 'evaluation', 'natural language', 'work', 'duplication', 'effort', 'individual researcher', 'new work', 'infrastructure', 'compatibility', 'research', 'development']
+
+
+
+ ['infrastructure']
+
+
+
+ ['corpus']
+
+
+
+ ['part', 'speech', 'syntactic structure', 'reformation', 'co-reference', 'semantic information']
+
+
+
+ ['maintenance']
+
+
+
+ ['substantial lexicon feature', 'information']
+
+
+
+ ['knowledge', 'representation']
+
+
+
+ ['maintenance', 'natural language']
+
+
+
+ ['backend', 'target', 'f interface']
+
+
+
+ ['f measunng', 'progress', 'active area', 'discussion']
+
+
+
+ ['stated database', 'query', 'dialogue', 'text analysis', 'database entry']
+
+
+
+ ['much difficult state', 'system', 'subsequent user']
+
+
+
+ ['domain- task-independent way']
+
+
+
+ ['difficulty', 'f ambiguity', 'f language', 'model', 'analogous speech', 'recogmtion', 'perplexity', 'much difficult state']
+
+
+
+ ['critical able measure', 'performance', 'system', 'time', 'progress']
+
+
+
+ ['Cross-System', 'possible compare', 'overall performance']
+
+
+
+ ['whole-system performance', 'help', 'research', 'development']
+
+
+
+ ['Component', 'possible evaluate', 'compare', 'evaluate coverage', 'unknown phenomena']
+
+
+
+ ['focus', 'relative strength', 'specific research']
+
+
+
+ ['p']
+
+
+
+ ['e', 'l p', 'way', 'assess potential impact', 'subjective view']
+
+
+
+ ['summary market', 'survey', 'approach', 'question', 'feasibility']
+
+
+
+ ['issue', 'computer']
+
+
+
+ ['style', 'logic', 'natural language', 'satisfy price', 'performance']
+
+
+
+ ['routine action', 'quicker', 'convenient', 'communication', 'language', 'ovemding', 'human involvement', 'job', 'preservation']
+
+
+
+ ['tTim', 'language', 'computing', 'pp']
+
+
+
+ ['rule', 'number', 'broad conclusion', 'technology']
+
+
+
+ ['illustrate conclusion']
+
+
+
+ ['second way', 'view', 'impact', 'potential marketplace']
+
+
+
+ ['report', 'approach', 'Section']
+
+
+
+ ['difficult overestimate overstate', 'socio-economic value', 'human-machine interaction']
+
+
+
+ ['easy lose sight', 'importance', 'interface', 'effort', 'underlying functionality']
+
+
+
+ ['ideal interface', 'sense', 'natural easy use', 'aware interface']
+
+
+
+ ['usable everyone', 'special training']
+
+
+
+ ['work', 'every human-machine', 'system', 'supported government']
+
+
+
+ ['independent menu', 'DARPA-supported work', 'multimodal problem-solving', 'possible work', 'commonplace']
+
+
+
+ ['reference']
+
+
+
+ ['power', 'memory', 'office', 'staff', 'rapid growth', 'demand', 'timely information', 'wild speculation', 'foresee', 'crisis', 'information', 'gridlock']
+
+
+
+ ['necessary information']
+
+
+
+ ['problem', 'new information', 'productivity', 'retrieving', 'information']
+
+
+
+ ['potential area', 'intelligence', 'analysis']
+
+
+
+ ['intelligence', 'analysis', 'technology', 'help', 'analyst', 'use']
+
+
+
+ ['possible collect free text']
+
+
+
+ ['availability', 'deal availability']
+
+
+
+ ['Natural language', 'processing', 'selection', 'prioritization', 'filtering', 'analysis']
+
+
+
+ ['help', 'broad scope', 'n', 'g', 'u g', 'e', 'ident', 'f', 'icat', 'ion']
+
+
+
+ ['segment', 'free text']
+
+
+
+ ['ior', 'za', 'ion']
+
+
+
+ ['message', 'priority', 'message', 'content']
+
+
+
+ ['ing']
+
+
+
+ ['copy', 'text', 'content']
+
+
+
+ ['ing']
+
+
+
+ ['database', 'content free text']
+
+
+
+ ['ion']
+
+
+
+ ['new piece', 'text', 'information']
+
+
+
+ ['new message']
+
+
+
+ ['e', 'p', 'r', 'genera', 'ion']
+
+
+
+ ['Automatic preparation', 'text', 'message', 'situation']
+
+
+
+ ['• ler']
+
+
+
+ ['content knowledge', 'base', 'message']
+
+
+
+ ['Machine', 'extensive translation', 'human machine', 'importance', 'world', 'business', 'role', 'joint']
+
+
+
+ ['translation', 'success', 'world']
+
+
+
+ ['potential impact', 'quote', 'Today', 'computerized language', 'translation', 'funding', 'process']
+
+
+
+ ['once- derided technology', 'gold']
+
+
+
+ ['company', 'annual market', 'international translation', 'machine', 'translation', 'command', 'share', 'market', 'rate', 'percent', 'year']
+
+
+
+ ['key market', 'today', 'fact', 'need', 'automatic high-quality', 'translation', 'valuable product', 'tools increase', 'productivity', 'sufficient']
+
+
+
+ ['translation', 'sufficient', 'warrant', 'use']
+
+
+
+ ['funding', 'application', 'funding government', 'industry']
+
+
+
+ ['total Japanese investment']
+
+
+
+ ['15-year project', 'telephony', 'dialog', 'analysis', 'speech']
+
+
+
+ ['market', 'technology', 'laboratory', 'reliable process', 'cite feel', 'useful market', 'survey']
+
+
+
+ ['Figure', '..']
+
+
+
+ ['content', 'scanning', 'ultimate goal', 'text', 'reading', 'talkwriter', 'goal', 'automatic speech', 'transcription']
+
+
+
+ ['real world', 'appfication', 'database', 'retrieval', 'message', 'processing', 'document', 'translation']
+
+
+
+ ['previous section', 'transfer', 'technology']
+
+
+
+ ['government', 'support', 'technology', 'commercialization']
+
+
+
+ ['instance', 'text speech', 'processing', 'high-quality audio-visual hardware', 'hand', 'market', 'common denominator', 'hardware', 'dominant screen technology']
+
+
+
+ ['fund', 'current technology', 'likely high payoff']
+
+
+
+ ['science', 'technology', 'emerge', 'substantial government', 'funding']
+
+
+
+ ['Language Advantage']
+
+
+
+ []
+
+
+
+ ['[', 't4.4', 'l']
+
+
+
+ ['Figure', 'secondary effect', 'effort', 'natural language', 'technology']
+
+
+
+ ['investment', 'technology', 'transfer', 'prime pump', 'industrial investment']
+
+
+
+ ['laboratory', 'system', 'ready transfer', 'real world']
+
+
+
+ ['approach', 'system', 'ready measure', 'effort', 'level', 'performance', 'new application', 'domain']
+
+
+
+ ['measure', 'cost', 'applying', 'system', 'degree maturity']
+
+
+
+ ['reason', 'domain-independent discourse', 'processing', 'scientific research']
+
+
+
+ ['natural language', 'proce~mg', 'talk', '~r~a', 'ry']
+
+
+
+ ['c l', 'u n', 'e', 'c', 'e', 'n n impact', 'computer', 'use', 'effect', 'society', 'inexpensive fusion', 'genetic engineering']
+
+
+
+ ['impact', 'machine', 'impact', 'microprocessor', 'technology']
+
+
+
+ ['rationale simple', 'natural language', 'business', 'applicability', 'limitless']
+
+
+
+ ['analysis', 'generation', 'national ability', 'enter', 'access', 'textual reformation']
+
+
+
+ ['interaction', 'easy interaction']
+
+
+
+ ['computer', 'linguistic proficiency', 'great human']
+
+
+
+ ['existence', 'use', 'market', 'suggest invesunent', 'technology', 'term', 'mid-term']
+
+
+
+ ['technology', 'point']
+
+
+
+ ['offer', 'substantial progress']
+
+
+
+ ['research', 'system', 'integration', 'term', 'scientific breakthroughs', 'technology', 'transfer']
+
+
+
+ ['machine', 'lranslation', 'interactive dialogue', 'problem', 'consulting', 'text input']
+
+
+
+ ['scientific work', 'Section', 'high-payoff']
+
+
+
+ ['goal', 'creation']
+
+
+
+ ['infrastructure', 'leverage', 'research', 'corpora', 'common-sense knowledge', 'application']
+
+
+
+ ['overall funding', 'research', 'support', 'intelligence', 'analysis', 'alreadl¢', 'grow next decade']
+
+
+
+ ['machine', 'tramlation', 'Japanese emphasis', 'simultaneous translation', 'desirability', 'program', 'machine', 'translation', 'promise', 'Section', 'reading', 'text', 'translation', 'interactive dialogue']
+
+
+
+ ["whereas tl'~", 'community']
+

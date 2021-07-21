@@ -1,0 +1,676 @@
+
+
+ ['exponential growth', 'unstructured content', 'due digitization', 'regulatory compliance']
+
+
+
+ ['growth', 'capture', 'ingest manage', 'huge volume', 'platform']
+
+
+
+ ['ineffective']
+
+
+
+ ['hour', 'address', '“ intelligence', 'manage', 'unstructured content']
+
+
+
+ ['paper', 'difference']
+
+
+
+ ['first introduce', 'briefly', 'describe', 'capturing', 'managing']
+
+
+
+ ['language', 'processing', 'artificial intelligence', 'particular program', 'natural language']
+
+
+
+ ['text preprocessing', 'sentence', 'segmentation', 'tokenization', 'tagging', 'co-reference resolution', 'text', 'categorizer']
+
+
+
+ ['white paper', 'focus', 'categorizer']
+
+
+
+ ['unstructured content']
+
+
+
+ ['name', 'person', 'location', 'time', 'money']
+
+
+
+ ['extract business', 'number', 'tax', 'file', 'number', 'specific business']
+
+
+
+ ['capability', 'classification', 'extraction']
+
+
+
+ ['capability', 'categorizer', 'classification']
+
+
+
+ ['chunk', 'text']
+
+
+
+ ['example', 'categorizer', 'categorize news', 'different genre', 'sentiment', 'analysis', 'custom', 'document', 'organization']
+
+
+
+ ['predefined category', 'categorizer', 'classify', 'content']
+
+
+
+ ['identifiable separate object']
+
+
+
+ ['example', 'person', 'organization', 'city', 'number', 'number', 'entity']
+
+
+
+ ['semantic relationship', 'entity', 'relationship']
+
+
+
+ ['example', 'relationship', 'person', 'name', 'organization']
+
+
+
+ ['process', 'information', 'interest', 'entity', 'name']
+
+
+
+ ['example', 'entity', 'person_name']
+
+
+
+ ['content', 'content', 'classification', 'category', '“ training', 'content', 'training']
+
+
+
+ ['©', '©', 'content digital format']
+
+
+
+ ['content', 'information', 'customer', 'name', 'zip', 'code', 'type', 'document']
+
+
+
+ ['Current capture', 'process', 'location', 'information']
+
+
+
+ ['process', 'implement information', 'extraction', 'first step', 'model']
+
+
+
+ ['set']
+
+
+
+ ['information', 'text', 'document', 'train', 'engine']
+
+
+
+ ['number', 'fed capture', 'tool', 'tool', 'extract information', 'particular location', 'template']
+
+
+
+ ['location', 'information', 'extraction', 'productive due huge variation', 'content']
+
+
+
+ ['issue', 'extraction']
+
+
+
+ ['model', 'interested information', 'accuracy', 'model']
+
+
+
+ ['model', 'capture', 'information']
+
+
+
+ ['used extraction']
+
+
+
+ ['process', 'Cognitive Capture']
+
+
+
+ ['information', 'verification', 'processing']
+
+
+
+ ['Capture', 'process', 'depend', 'layout', 'content', 'able capture', 'appropriate information', 'change', 'layout', 'long information', 'context']
+
+
+
+ ['©', '©', 'different implementation', 'cognitive capture', 'metadata', 'information', 'content']
+
+
+
+ ['information', 'give', 'identity', 'content', 'content']
+
+
+
+ ['verified master', 'first step', 'model', 'metadata', 'information', 'document']
+
+
+
+ ['context', 'metadata identification']
+
+
+
+ ['training', 'process', 'annotate', 'training']
+
+
+
+ ['model']
+
+
+
+ ['train', 'categorizer', 'model']
+
+
+
+ ['example', 'implement', 'identification', 'classification', 'category', 'metadata', 'value']
+
+
+
+ ['next step', 'management', 'system', 'automatic processing', 'claim', 'processing']
+
+
+
+ ['process', 'content', 'platform', 'batch', 'process', 'user interface']
+
+
+
+ ['challenge', 'tag']
+
+
+
+ ['batch', 'process', 'metadata', 'available ingestion', 'process', 'database']
+
+
+
+ ['manual ingestion', 'upload', 'file', 'interface']
+
+
+
+ ['content', 'important business', 'content category', 'category']
+
+
+
+ ['list', 'category', 'business', 'engine', 'categorizer', 'model']
+
+
+
+ ['business', 'new unseen content', 'classified category']
+
+
+
+ ['unseen content']
+
+
+
+ ['time', 'train', 'accuracy', 'course', 'throughput']
+
+
+
+ ['text', 'audio', 'video', 'significant amount', 'time', 'metadata', 'content']
+
+
+
+ ['manual process']
+
+
+
+ ['help', 'metadata', 'content', 'ingestion']
+
+
+
+ ['engine', 'context', 'content']
+
+
+
+ ['content ingestion']
+
+
+
+ ['diagram', 'identification']
+
+
+
+ ['different implementation', 'cognitive content', 'ingestion']
+
+
+
+ ['batch', 'ingestion', 'process', 'complete process']
+
+
+
+ ['non-availability metadata']
+
+
+
+ ['help', 'expectation', 'context']
+
+
+
+ ['identify metadata', '©', '©', 'part', 'ingestion', 'process', 'load', 'content', 'appropriate metadata']
+
+
+
+ ['tool', 'part', 'ingestion', 'pipeline']
+
+
+
+ ['Manual content', 'upload', 'user interface', 'enter', 'metadata']
+
+
+
+ ['order', 'document', 'listen view', 'content', 'decide', 'metadata', 'content']
+
+
+
+ ['process time']
+
+
+
+ ['solve', 'challenge']
+
+
+
+ ['model', 'identify', 'metadata', 'content']
+
+
+
+ ['upload content', 'model', 'user interface']
+
+
+
+ ['verify submit']
+
+
+
+ ['time', 'user']
+
+
+
+ ['organization', 'store', 'content', 'network']
+
+
+
+ ['drive', 'directory', 'structure']
+
+
+
+ ['content']
+
+
+
+ ['content laying', 'drive', 'risk', 'adherence', 'compliance']
+
+
+
+ ['content', 'platform']
+
+
+
+ ['migrate', 'content', 'plugged-in migration', 'framework']
+
+
+
+ ['model', 'identify', 'metadata', 'content', 'content loading', 'content', 'content', 'service', 'platform']
+
+
+
+ ['content', 'order', 'locate', 'reuse', 'content', 'enable use', 'content', 'business']
+
+
+
+ ['proper identity', 'content']
+
+
+
+ ['identity', 'document']
+
+
+
+ ['various compliance', 'regulation', 'content', 'mandatory business', 'function']
+
+
+
+ ['information', 'content']
+
+
+
+ ['huge content', 'understand', 'context', 'content', 'task']
+
+
+
+ ['summary content']
+
+
+
+ ['diagram', 'value', 'content']
+
+
+
+ ['©', '©', 'implementation', 'cognitive content management']
+
+
+
+ ['metadata', 'identity', 'content', 'content']
+
+
+
+ ['content', 'inaccurate content', 'correct content']
+
+
+
+ ['quality', 'content']
+
+
+
+ ['sure content', 'metadata', 'content new metadata']
+
+
+
+ ['quality', 'similar metadata', 'identification', 'post', 'processing']
+
+
+
+ ['Process', 'quality', 'background', 'batch', 'process', 'sure metadata']
+
+
+
+ ['time', 'entire content', 'understand', 'content']
+
+
+
+ ['category content']
+
+
+
+ ['challenge', 'large content']
+
+
+
+ ['model', 'important business', 'content create', 'summary content', 'important business']
+
+
+
+ ['document new document', 'original content']
+
+
+
+ ['summary document', 'understand', 'complete content', 'lot', 'time']
+
+
+
+ ['Intelligent summarization', 'process', 'batch', 'process', 'real time', 'processing']
+
+
+
+ ['protection', 'information']
+
+
+
+ ['breach', 'loss', 'customer', 'trust', 'high penalty']
+
+
+
+ ['information', 'content', 'task']
+
+
+
+ ['model', 'information', 'content']
+
+
+
+ ['information', 'customer', 'name', 'zip', 'code', 'etc']
+
+
+
+ ['information', 'content']
+
+
+
+ ['information', 'information', 'content', 'retention', 'information']
+
+
+
+ ['implementation']
+
+
+
+ ['risk', 'contract', 'scenario']
+
+
+
+ ['contract', 'agreement']
+
+
+
+ ['content particular taxonomy', 'implementation']
+
+
+
+ ['level', 'taxonomy']
+
+
+
+ ['model', 'classify new unseen content taxonomy term']
+
+
+
+ ['relevancy', 'search', 'result', 'query enrichment']
+
+
+
+ ['search', 'query', 'search', 'engine']
+
+
+
+ ['query', 'additional selective', 'relevant search']
+
+
+
+ ['©', '©', 'section', 'high level', 'process']
+
+
+
+ ['train', 'model', 'content']
+
+
+
+ ['time', 'content', 'production', 'environment', 'content', 'building', 'model', 'content', 'secured way']
+
+
+
+ ['access', 'content', 'content']
+
+
+
+ ['training', 'used training']
+
+
+
+ ['processing', 'model']
+
+
+
+ ['training', 'model', 'annotation', 'tool']
+
+
+
+ ['annotation', 'tagtog', 'prodigy', 'etc.', 'content', 'relationship']
+
+
+
+ ['file', 'format', 'tool', 'different format']
+
+
+
+ ['example', 'audio file', 'text', 'file', '“ speech- to-text ”', 'plug-in', 'annotation', 'annotation', 'tool']
+
+
+
+ ['annotation', 'tagged entity', 'name']
+
+
+
+ ['example', 'employee', 'name', 'tagged entity', 'name']
+
+
+
+ ['relationship']
+
+
+
+ ['example', 'employee', 'name', 'person', 'bank', 'name', 'organization', 'sentence']
+
+
+
+ ['information']
+
+
+
+ ['annotation', 'content', 'hence', 'accuracy']
+
+
+
+ ['categorizer', 'model', 'business', 'content', 'category']
+
+
+
+ ['text file']
+
+
+
+ ['file', 'training', 'categorizer', 'model']
+
+
+
+ ['model', 'need', 'language', 'train', 'language']
+
+
+
+ ['model', 'annotation', 'machine', 'readable format', 'engine', 'understand']
+
+
+
+ ['annotation', 'convert', 'annotation', 'format', 'machine', 'readable format']
+
+
+
+ ['engine', 'turn', 'model']
+
+
+
+ ['categorizer', 'model', 'text', 'file', 'category', 'business', 'engine']
+
+
+
+ ['engine', 'model']
+
+
+
+ ['sub-set used test', 'accuracy', 'model']
+
+
+
+ ['content', 'classification', 'model']
+
+
+
+ ['model', 'category extract information', 'model', 'sufficient accuracy', 'hence', 'production', 'use']
+
+
+
+ ['model', 'perform', 'test run', 'content']
+
+
+
+ ['engine', 'model', 'new unseen content']
+
+
+
+ ['process', 'classification', 'extraction', 'result', 'post', 'processer']
+
+
+
+ ['example', 'case', 'metadata', 'identification', 'categorizer', 'model', 'give list', 'metadata', 'value']
+
+
+
+ ['processor', 'select', 'metadata', 'value', 'probability']
+
+
+
+ ['processor', 'implementation', 'scenario']
+
+
+
+ ['model', 'post', 'processor', 'pipeline', 'extract information']
+
+
+
+ ['new content', 'categorizer', 'model', 'use', 'case']
+
+
+
+ ['©', '©', '©']
+
+
+
+ ['information', 'document', 'accurate', 'publication', 'date', 'information', 'subject change', 'notice']
+
+
+
+ ['product', 'intellectual property', 'document']
+
+
+
+ ['neither documentation', 'part', 'retrieval', 'system', 'form', 'printing', 'photocopying', 'prior permission', 'and', 'intellectual property', 'document']
+
+
+
+ ['information', 'contact', 'askus', 'infosys.com', 'senior technology', 'architect', 'practice', 'financial unit']
+
+
+
+ ['key role', 'end end', 'globe']
+
+
+
+ ['girish_pande', '@', 'unit']
+
+
+
+ ['wide experience', 'architecting']
+
+
+
+ ['infosys.com', 'paper', 'infosys.com', 'discussion', 'play', 'crucial role']
+
+
+
+ ['help', 'time', 'content']
+
+
+
+ ['https', ' https', ' https', ' http', ' https', '']
+

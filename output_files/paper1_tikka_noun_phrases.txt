@@ -1,0 +1,620 @@
+
+
+ ['sentiment', 'recall', 'precision', 'part', 'speech', 'machine', 'ratio', 'syntax', 'entity', 'extraction', 'accuracy', 'training', 'www.lexalytics.com', 'https', ' https', 'www.lexalytics.com', 'toast', 'drug', 'discovery', 'designs']
+
+
+
+ ['term', 'artificial intelligence', '’ thing']
+
+
+
+ ['machine', 'learning', 'machine', 'learning']
+
+
+
+ ['core', 'text', 'engine', '“ narrow ”', 'machine', 'solve task', 'text']
+
+
+
+ ['machine', 'natural language', 'processing']
+
+
+
+ ['’ discuss', 'company', 'decade', 'experience', 'machine', 'learning', 'machine', 'natural language', 'processing']
+
+
+
+ ['reading', 'consult', 'machine', 'context', 'philosophy', 'customization', 'accuracy']
+
+
+
+ ['paper', 'complete view']
+
+
+
+ ['Machine', 'Train', 'Efficiency', 'https', ' https', ' https', ' https', 'www.lexalytics.com', 'basic machine']
+
+
+
+ ['machine', '“ machine', 'teaching.', '”', 'machine', 'task create', 'machine', 'learn']
+
+
+
+ ['goal', 'create', 'system', 'model', 'task', '’']
+
+
+
+ ['key']
+
+
+
+ ['algorithmic programming', 'machine', 'model', 'able generalize deal']
+
+
+
+ ['case', 'something', 'model', 'model', 'use', 'prior “', '” evaluate case']
+
+
+
+ ['talk', 'model', 'mathematical representation']
+
+
+
+ ['machine', 'model', 'sum', 'training']
+
+
+
+ ['model']
+
+
+
+ ['framework', 'machine', 'learn']
+
+
+
+ ['Machine', 'teaching', 'https', ' https', 'www.lexalytics.com', 'output', 'system', 'machine', 'model']
+
+
+
+ ['cake', '• training', '• time', 'temperature', '• cake', 'model', '’']
+
+
+
+ ['’ matter', 'line', 'code', 'model']
+
+
+
+ ['kind', 'direct approach', '“ algorithmic programming', '“ coding.', 'machine', 'learning', 'convince', 'model']
+
+
+
+ ['line', 'code', 'approach', '’', 'work machine', 'learning']
+
+
+
+ ['talk', 'white paper', '“', '’', 'right solution']
+
+
+
+ ['Machine', 'experience']
+
+
+
+ ['next section', 'review', 'machine', 'learning']
+
+
+
+ ['matter', 'line', 'code', 'model']
+
+
+
+ ['https', ' https', ' https', '', 'id=EeTkMc1o1uQ https', 'www.lexalytics.com', 'feeding machine', 'model', 'dataset']
+
+
+
+ ['machine', 'learning', 'learning', 'unsupervised learning', 'semi-supervised learning']
+
+
+
+ ['problem', 'solve']
+
+
+
+ ['learning', 'learning', 'machine', 'model', 'dataset', 'way']
+
+
+
+ ['example', 'customer', 'support', 'mark', 'related software', 'hardware']
+
+
+
+ ['machine', 'information', 'evaluate comment']
+
+
+
+ ['direct way', 'model', 'want']
+
+
+
+ ['’', 'work']
+
+
+
+ ['use', 'sentiment', 'analysis', 'categorization']
+
+
+
+ ['example', 'sentiment analysis', 'perspective sentiment', 'analysis', 'change', 'context']
+
+
+
+ ['last month.']
+
+
+
+ ['sentiment', 'statement']
+
+
+
+ ['Another example', 'grandmother.', 'grandmother']
+
+
+
+ ['extraction', 'machine', 'understand perspective', 'lots work']
+
+
+
+ ['https', ' https', 'www.lexalytics.com', 'learning hand', 'machine', 'whole bunch', 'content', 'tell']
+
+
+
+ ['syntax parser', 'Salience', 'text', 'parser', 'analyze', 'every sentence']
+
+
+
+ ['ball mountain.', 'way', 'understand syntax', 'parse', 'entire sentence', '’ sentence', 'grade']
+
+
+
+ ['’ high-volume content', 'long document', 'process']
+
+
+
+ ['process', 'bunch', 'content', 'time', 'ball', 'mountain']
+
+
+
+ ['human', '“', 'ball', 'mountain.', 'throw', 'throw']
+
+
+
+ ['sort', 'probabilistic relationship', 'unsupervised learning']
+
+
+
+ ['syntax', 'matrix', 'excellent candidate', 'learning', 'large corpus', 'content']
+
+
+
+ ['matrix', 'fast sentence', 'full parser']
+
+
+
+ ['amount', 'content', 'every day']
+
+
+
+ ['Semi-supervised learning combination', 'supervised learning']
+
+
+
+ ['approach']
+
+
+
+ ['machine']
+
+
+
+ ['’', 'machine', 'learning', 'combine machine', 'algorithmic natural language', 'processing', 'high-performing text']
+
+
+
+ ['combination', 'supervised learning']
+
+
+
+ ['Semi-supervised learning', 'machine', 'find']
+
+
+
+ ['https', ' https', 'www.lexalytics.com', 'learning', 'sentiment', 'polarity', 'document', 'word']
+
+
+
+ ['interpretation']
+
+
+
+ ['sentence', '“', 'text', 'company', 'obvious truth', 'know sentence']
+
+
+
+ ['’ sentiment']
+
+
+
+ ['particular industry']
+
+
+
+ ['sentiment', 'industry']
+
+
+
+ ['single machine', 'model', '’']
+
+
+
+ ['name', 'sentiment', 'entity', 'Industry', 'classification', 'sentiment', 'single model']
+
+
+
+ ['sentiment', 'entity', 'associate sentiment']
+
+
+
+ ['single model', 'sentiment', '’ end', 'rating', 'whole sentence']
+
+
+
+ ['term', 'text', '” ’', 'rate', 'sentence', 'positive phrase']
+
+
+
+ ['optimal language', 'machine', 'code']
+
+
+
+ ['text', 'parsing', 'https', ' https', 'www.lexalytics.com', 'task', 'interact']
+
+
+
+ ['create', 'kind', 'multi-model solution', 'building', 'software']
+
+
+
+ ['tool', 'sentiment', 'entity', 'extraction', 'intention', 'analysis']
+
+
+
+ ['use', 'custom', 'machine', 'learning']
+
+
+
+ ['model']
+
+
+
+ ['granular sentiment', 'analysis', 'difficult due model', 'complexity']
+
+
+
+ ['service', '–', 'document', 'sentiment', 'call']
+
+
+
+ ['Truth', 'entity', 'category sentiment', 'work']
+
+
+
+ ['business', 'business', 'growth']
+
+
+
+ ['another industry', 'imagine wonderful spy', 'satellite']
+
+
+
+ ['want', 'able say', '“ bunch', 'terrorist', 'gun', 'machine']
+
+
+
+ ['https', ' https', 'www.lexalytics.com']
+
+
+
+ ['sentence', 'next example']
+
+
+
+ ['text', 'company', '” look', 'period', 'end', 'sentence']
+
+
+
+ ['end sentence']
+
+
+
+ ['important able break', 'figure']
+
+
+
+ ['doctor', 'mister']
+
+
+
+ ['machine', 'period', 'end sentence', 'form', 'address']
+
+
+
+ ['machine', 'model', 'task']
+
+
+
+ ['efficient approach']
+
+
+
+ ['English language', 'period', 'anything', 'end sentence']
+
+
+
+ ['efficient', 'precise hard-code', 'code', 'algorithms']
+
+
+
+ ['code', 'code', 'use']
+
+
+
+ ['need', 'build']
+
+
+
+ ['need', 'code', 'need', 'build']
+
+
+
+ ['https', ' https', 'www.lexalytics.com', 'X', 'important understand', 'decision', 'model', 'decision']
+
+
+
+ ['business-relevant information', 'why.', 'example', 'certain survey', 'full negative feedback']
+
+
+
+ ['want']
+
+
+
+ ['somehow']
+
+
+
+ ['model', 'decision', 'affect decision', 'hard figure']
+
+
+
+ ['decision']
+
+
+
+ ['learning']
+
+
+
+ ['popularity', 'black box', 'algorithms']
+
+
+
+ ['https', ' https', '|', 'www.lexalytics.com', 'solution', 'black box', 'problem', 'break']
+
+
+
+ ['model', 'hidden view', 'sure model', '’', 'much first place']
+
+
+
+ ['example', 'big model', 'entire document', 'able work', 'document', 'level']
+
+
+
+ ['pipeline', 'interaction']
+
+
+
+ ['start', 'tokenization', 'move', 'speech', 'way', 'every level']
+
+
+
+ ['’ issue', 'pipeline', 'approach']
+
+
+
+ ['part', 'speech', 'tagger', 'configuration']
+
+
+
+ ['flexibility', 'determine issue']
+
+
+
+ ['phrase']
+
+
+
+ ['part-of-speech tagger', '“ proper noun', 'phrase', 'phrase', 'entity']
+
+
+
+ ['’ entity', 'greeting']
+
+
+
+ ['part', 'entity', 'name']
+
+
+
+ ['GOOD MORNING', 'trademark', 'brand', 'https', ' https', 'www.lexalytics.com', 'E', 'whole white paper', 'discussion']
+
+
+
+ ['talked machine', 'machine', 'teaching', 'model', 'something', 'convince']
+
+
+
+ ['achieve', 'make', 'model']
+
+
+
+ ['different tuning']
+
+
+
+ ['type', 'instruction']
+
+
+
+ ['tuning', 'airport term', 'gate', 'change', 'sentiment', 'value', 'every time', 'model']
+
+
+
+ ['new command', 'everything', 'entry']
+
+
+
+ ['Training', 'hand', 'model parse significant amount', 'change']
+
+
+
+ ['model', '“', '” score', 'something', 'particular way', 'work', 'change']
+
+
+
+ ['hard unlearn machine']
+
+
+
+ ['use', 'case']
+
+
+
+ ['particular word', 'ambiguous number', 'place', 'prohibitive']
+
+
+
+ ['machine']
+
+
+
+ ['model']
+
+
+
+ ['https', ' https', 'www.lexalytics.com']
+
+
+
+ ['bunch', 'effect', 'change', 'particular phrase']
+
+
+
+ ['phrase', 'document', 're-tuning']
+
+
+
+ ['enough end', 'model']
+
+
+
+ ['news']
+
+
+
+ ['awful business']
+
+
+
+ ['lot']
+
+
+
+ ['machine', 'content proportion', 'occurrence']
+
+
+
+ ['collateral damage', '“', 'first quarter', 'second quarter', 'third quarter', 'fourth quarter.', 'frequent conjunction', 'negative financial news']
+
+
+
+ ['machine', 'algorithm weight']
+
+
+
+ ['end']
+
+
+
+ ['number', 'system']
+
+
+
+ ['tell', 'software', 'quarter']
+
+
+
+ ['ThomsonOne', 'http']
+
+
+
+ ['model', 'https', ' https', 'www.lexalytics.com']
+
+
+
+ ['Language messy', 'complex']
+
+
+
+ ['speaker', 'speaker', 'listener', 'listener']
+
+
+
+ ['Machine', 'rich solution', 'complexity', 'way', 'relevant', 'problem', 'hand-in-hand', 'natural language', 'processing', 'code']
+
+
+
+ ['necessary use', 'machine', 'learning', 'sufficient', 'use', 'single type', 'model', '”', 'system']
+
+
+
+ ['Certain', 'machine', 'tuned match', 'perspective']
+
+
+
+ ['machine', 'learning', 'pure natural language', 'processing', 'code']
+
+
+
+ ['prejudice', 'algorithm', 'help', 'possible text', 'system']
+
+
+
+ ['explore', 'help', 'business', 'lexalytics.com', 'https', ' https', ' https', ' https', '', 'every day']
+
+
+
+ ['transform']
+
+
+
+ ['engine', 'natural language', 'artificial intelligence']
+
+
+
+ ['analyst', 'share', 'engineering', 'marketing', 'support', 'drive', 'business', 'growth']
+
+
+
+ ['information', 'visit', 'www.lexalytics.com', 'call', 'www.lexalytics.com', 'https', ' https', ' https', ' https', ' https', '']
+

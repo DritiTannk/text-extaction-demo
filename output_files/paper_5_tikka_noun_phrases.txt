@@ -1,0 +1,372 @@
+
+
+ ['software', 'tuning', 'significant enhancement', 'useful productive purpose', 'high accuracy', 'particular client.', 'accuracy', 'software', 'open source', 'commercial demonstration', 'pathology']
+
+
+
+ ['analysis', 'industrial strength', 'language', 'engineering', 'variety', 'real-world', 'research']
+
+
+
+ ['research', 'setting', 'address', 'answer', 'specific investigation', 'question', 'real-world usage', 'control', 'input']
+
+
+
+ ['simple example', 'language', 'engineering', 'application', 'format', 'matter']
+
+
+
+ ['research', 'project', 'delivery', 'mechanism', 'processing', 'available standard clinical setting']
+
+
+
+ ['organisation', 'system', 'document', 'need', 'potential impact']
+
+
+
+ ['• primary function']
+
+
+
+ ['secondary function']
+
+
+
+ ['processing']
+
+
+
+ ['conversation', 'text', 'mining', '” approach', 'language', 'analysis', 'inadequate clinical setting']
+
+
+
+ ['Software', '•', 'cTAKES', 'extent']
+
+
+
+ ['system']
+
+
+
+ ['•', 'task', 'system', 'context text']
+
+
+
+ ['class', 'information', 'document', 'structure', 'document']
+
+
+
+ ['uppercase title', 'case', 'orthography', 'whitespace']
+
+
+
+ ['tagset']
+
+
+
+ ['key information', 'shift', 'type', 'content', 'warrant different processing', 'objective', 'key information', 'major topic']
+
+
+
+ ['section']
+
+
+
+ ['headerless', 'topic', 'crucial high accuracy']
+
+
+
+ ['Failure', 'recognise', 'lead identification', 'incorrect entity', 'corroboration', 'entity', 'identification', 'description', 'examination', 'report']
+
+
+
+ ['system', 'difficulty']
+
+
+
+ ['important section', 'boundary detection', 'context', 'great deal', 'processing']
+
+
+
+ ['multi-specimen report', 'critical correct interpretation', 'disease', 'location']
+
+
+
+ ['disease', 'incorrect identification', 'description', 'result', 'identified disease']
+
+
+
+ ['tokenisation']
+
+
+
+ ['large range', 'non-alphabetic keyboard']
+
+
+
+ ['express', 'ratio', 'signify time', 'duration', 'date', 'proportion', 'lymph', 'malignant tumour']
+
+
+
+ ['side slash', 'correct time']
+
+
+
+ ['problem', 'context identification', 'correct analysis', 'high accuracy', 'level']
+
+
+
+ ['recognise', 'combination']
+
+
+
+ ['uncommon see', 'numeric component', 'value', 'entity', 'question', 'part', 'name']
+
+
+
+ ['bullet', 'point', 'entity', 'common present content series', 'bullet', 'reading']
+
+
+
+ ['bullet', 'case']
+
+
+
+ ['tokenisation', 'information', 'clinical entity', 'entity']
+
+
+
+ ['\\Newline', 'newline symbol']
+
+
+
+ ['newline symbol']
+
+
+
+ ['merge', 'n next word']
+
+
+
+ ['third tokeniser', 'whole newline symbol', 'next word']
+
+
+
+ ['tokeniser', 'reason']
+
+
+
+ ['subsequent processing', 'cope shift', 'incorrect position', 'due introduction']
+
+
+
+ ['recognise', 'faulty']
+
+
+
+ ['‘', 'use', 'hyphen']
+
+
+
+ ['join']
+
+
+
+ ['policy', 'side', 'hyphen', 'interpret']
+
+
+
+ ['treat whole combination', 'single token']
+
+
+
+ ['bad practice']
+
+
+
+ ['intact clinical processing', 'represent unit', 'record', 'identifier', 'sort']
+
+
+
+ ['tokeniser', 'split', 'false identification']
+
+
+
+ ['tokenisation', 'tokeniser', 'point', 'create']
+
+
+
+ ['value', 'example']
+
+
+
+ ['association']
+
+
+
+ ['replete acronyms accurate', 'interpretation']
+
+
+
+ ['name', 'treated separate entity']
+
+
+
+ ['weakness', 'content different contexts']
+
+
+
+ ['entity', 'context', 'fail', 'entity', 'different context']
+
+
+
+ ['generalisation', 'entity', 'recognition', 'function']
+
+
+
+ ['entity', 'different word', 'order']
+
+
+
+ ['critical aspect', 'entity', 'recognition', 'able recognise', 'content', 'variable word', 'order', 'high grade', 'serous carcinoma', 'versus', 'high grade', 'carcinoma']
+
+
+
+ ['rule', 'serious difficulty', 'common problem']
+
+
+
+ ['Statistical machine', 'circumvent', 'problem']
+
+
+
+ ['Failure', 'recognise', 'inability', 'identify', 'word', 'different lexical morphology']
+
+
+
+ ['change', 'form', 'malignant', 'malignancy']
+
+
+
+ ['different morphology', '” description', 'behaviour', '“ malignancy', 'statement', 'disorder']
+
+
+
+ ['clinical texts', 'vital importance', 'negative meaning', 'grammar', 'negation', 'representation']
+
+
+
+ ['grammatical negation', 'many control', 'positive aspect']
+
+
+
+ ['failure', 'lead', 'outcome']
+
+
+
+ ['assignment', 'incorrect identification']
+
+
+
+ ['detection', 'newline character']
+
+
+
+ ['“', 'n character', 'word', 'section', 'unidentifiable e.g.- “', 'nDiagnosis', '”']
+
+
+
+ ['regard', 'major failure', 'effect', 'document']
+
+
+
+ ['high accuracy', 'much research', 'topic']
+
+
+
+ ['create']
+
+
+
+ ['danger', 'graphical representation', 'lot']
+
+
+
+ ['correct extent', 'entity', 'due newline']
+
+
+
+ ['recognition', 'text commonplace', 'pathology']
+
+
+
+ ['important use', 'pre-processor cleaning', 'non- printable character', 'extent']
+
+
+
+ ['conventional anatomical hierarchy']
+
+
+
+ ['processing', 'awareness general anatomical hierarchy', 'e.g.- cell', 'anatomical class']
+
+
+
+ ['utilisation', 'body', 'structure', 'ontology']
+
+
+
+ ['comprehensive medical vocabulary']
+
+
+
+ ['known', 'name', 'e.g.- oophorectomy']
+
+
+
+ ['discrimination', 'meta-information', 'patient', 'specific information']
+
+
+
+ ['general information', 'body', 'knowledge', 'discipline', 'specific content', 'patient ’ disease', 'state', 'value', 'grade sample']
+
+
+
+ ['difference', 'name', 'attribute description', 'patient', 'actual condition']
+
+
+
+ ['lay pertinent', 'case', 'information', 'structure', 'pairs']
+
+
+
+ ['attribute', 'characteristic patient', 'health', 'conjunction', 'value', 'e.g.- Lymphovascular invasion', 'Absent', 'statement', 'presence', 'tumour invasion']
+
+
+
+ ['structure', 'use', 'mention', 'condition', 'validation', 'patient']
+
+
+
+ ['course', 'incorrect output']
+
+
+
+ ['’ recognise', 'entity']
+
+
+
+ ['system']
+
+
+
+ ['observed assignment']
+
+
+
+ ['useful context', 'create confusion']
+
+
+
+ ['proper identification', 'context', 'statistical processing', 'correct', 'interpretation']
+

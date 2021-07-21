@@ -1,0 +1,180 @@
+
+
+ ['Clinical natural language', 'processing', 'oncology', 'mining', 'natural language', 'processing', 'oncology', 'mining', 'surface', 'critical detailed oncology', 'proprietary natural language', 'processing', 'system', 'information', 'extraction', 'repository', 'electronic health', 'record', 'asset']
+
+
+
+ ['system', 'oncology', 'cancer', 'type', 'stage', 'enable exclusion', 'semantic contexts', 'oncology contexts']
+
+
+
+ ['example', 'goal', 'identify', 'prostate cancer', 'system', 'different semantic contexts', 'format']
+
+
+
+ ['contexts', 'cancer', 'text', 'stage', 'prostate', 'cancer', 'positive prostate', 'cancer', 'prostate', 'cancer', 'negative prostate', 'cancer', 'prostate', 'cancer', 'patient', 'additional imaging', 'prostate', 'cancer', 'situation', '“', 'prostate', 'cancer', 'prostate', 'cancer', 'statement', 'cancer', 'common cancer', 'cancer', 'relevant patient', 'oncology', 'essential information', 'oncology', 'patient']
+
+
+
+ ['Specific oncology', 'important understanding progression', 'disease', 'tumor', 'node metastasis', 'stage', 'information']
+
+
+
+ ['solid tumor', 'code2M', 'source', 'solid tumor', 'code']
+
+
+
+ ['research', 'scalable approach']
+
+
+
+ ['system', 'solution', 'large collection', 'grow day']
+
+
+
+ ['Page', 'Clinical natural language', 'processing', 'oncology', 'mining', 'Sentence', '“', 'breast', 'cancer', 'stage', 'tagging', 'Relation', 'direction', 'stage', 'cancer', 'breast', 'relation', 'frame extraction', 'Left stage_tnmdirection', 'cancer', 'stage_tnmdirection', 'cancer', 'breast', 'cancer', 'stage', 'breast', 'cancer', 'stage', 'extraction', 'process', 'system', 'Example', 'entity', 'extraction']
+
+
+
+ ['extraction', 'tag', 'another tag']
+
+
+
+ ['cancer', '“ direction']
+
+
+
+ ['extraction', 'parent', 'concept', 'structure']
+
+
+
+ ['frame', 'cancer', 'stage']
+
+
+
+ ['extractionThe extraction', 'concept', 'entity', 'free text']
+
+
+
+ ['extraction', 'extraction', 'extractionThe extraction', 'logical semantic group', 'collection']
+
+
+
+ ['Example']
+
+
+
+ ['Entity', 'relation', 'frame', 'extraction', 'natural language', 'processing', 'oncology', 'mining', 'approach', 'oncology', 'system', 'science', 'automation']
+
+
+
+ ['sophisticated system', 'machine', 'deep learning', 'order', 'correct identification', 'oncology context']
+
+
+
+ ['advantage', 'machine', 'ability', 'fashion', 'variable text']
+
+
+
+ ['human rule', 'machine', 'sample', 'enable system', 'relevant contexts']
+
+
+
+ ['annotated test', 'set']
+
+
+
+ ['help', 'model']
+
+
+
+ ['design', 'gold', 'standard', 'development', 'annotation', 'scheme', 'appropriate sampling']
+
+
+
+ ['annotation', 'design', 'methodology', 'field', 'close', 'consultation']
+
+
+
+ ['annotation', 'design', 'stage', 'team', 'extract']
+
+
+
+ ['design', 'clinical context', 'generalizability', 'concept', 'space', 'scalability', 'extensibility', 'approach', 'enrichment']
+
+
+
+ ['annotation', 'improved time', 'reviewed version', 'control', 'consistency', 'reliability', 'process']
+
+
+
+ ['iterative careful review', 'annotation', 'design', 'team', 'diverse', 'science', 'subject-matter', 'clinical content', 'science', 'design', 'structure']
+
+
+
+ ['annotation', 'design', 'random', 'methodology', 'random sample', 'annotation process']
+
+
+
+ ['note', 'resolved third review', 'curator']
+
+
+
+ ['process', 'document sample']
+
+
+
+ ['sample', 'validation test']
+
+
+
+ ['manner', 'collection']
+
+
+
+ ['order', 'variability', 'output', 'facilitate', 'analysis']
+
+
+
+ ['production', 'trademark']
+
+
+
+ ['brand', 'product', 'property', 'respective']
+
+
+
+ ['prior notice']
+
+
+
+ ['equal opportunity', 'employer']
+
+
+
+ ['©']
+
+
+
+ ['optum.com Figure']
+
+
+
+ ['development', 'production', 'process', 'rigorous approach', 'combination', 'scalability', 'comprehensive extraction', 'extraction', 'consistent reliable']
+
+
+
+ ['combination', 'traditional machine', 'deep learning']
+
+
+
+ ['extraction', 'cancer', 'stage', '%', 'precision', 'product', '%', 'precision']
+
+
+
+ ['high-quality', 'enough research']
+
+
+
+ ['Clinical natural language', 'processing', 'oncology', 'mining']
+

@@ -1,0 +1,2090 @@
+1 --> Fact Sheet IQVIA Natural Language Processing  (NLP) Data Factory  Deliver comprehensive, systematic value from textual data     across your business The importance of data in driving clinical and commercial  outcomes is absolute, yet many life science and  healthcare organizations leave 80 percent of potential  insights untapped, locked away in unstructured and semi  structured formats. 
+
+
+ ---- TOKENS ----
+
+ ['Fact', 'Sheet', 'IQVIA', 'Natural', 'Language', 'Processing', '(', 'NLP', ')', 'Data', 'Factory', 'Deliver', 'comprehensive', ',', 'systematic', 'value', 'from', 'textual', 'data', 'across', 'your', 'business', 'The', 'importance', 'of', 'data', 'in', 'driving', 'clinical', 'and', 'commercial', 'outcomes', 'is', 'absolute', ',', 'yet', 'many', 'life', 'science', 'and', 'healthcare', 'organizations', 'leave', '80', 'percent', 'of', 'potential', 'insights', 'untapped', ',', 'locked', 'away', 'in', 'unstructured', 'and', 'semi', 'structured', 'formats', '.'] 
+
+ TOTAL TOKENS ==> 59
+
+ ---- POST ----
+
+ [('Fact', 'NNP'), ('Sheet', 'NNP'), ('IQVIA', 'NNP'), ('Natural', 'NNP'), ('Language', 'NNP'), ('Processing', 'NNP'), ('(', '('), ('NLP', 'NNP'), (')', ')'), ('Data', 'NNP'), ('Factory', 'NNP'), ('Deliver', 'NNP'), ('comprehensive', 'NN'), (',', ','), ('systematic', 'JJ'), ('value', 'NN'), ('from', 'IN'), ('textual', 'JJ'), ('data', 'NNS'), ('across', 'IN'), ('your', 'PRP$'), ('business', 'NN'), ('The', 'DT'), ('importance', 'NN'), ('of', 'IN'), ('data', 'NNS'), ('in', 'IN'), ('driving', 'VBG'), ('clinical', 'JJ'), ('and', 'CC'), ('commercial', 'JJ'), ('outcomes', 'NNS'), ('is', 'VBZ'), ('absolute', 'JJ'), (',', ','), ('yet', 'RB'), ('many', 'JJ'), ('life', 'NN'), ('science', 'NN'), ('and', 'CC'), ('healthcare', 'NN'), ('organizations', 'NNS'), ('leave', 'VBP'), ('80', 'CD'), ('percent', 'NN'), ('of', 'IN'), ('potential', 'JJ'), ('insights', 'NNS'), ('untapped', 'VBD'), (',', ','), ('locked', 'VBD'), ('away', 'RB'), ('in', 'IN'), ('unstructured', 'JJ'), ('and', 'CC'), ('semi', 'JJ'), ('structured', 'JJ'), ('formats', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Fact', 'Sheet', 'IQVIA', 'Natural', 'Language', 'Processing', '(', 'NLP', ')', 'Data', 'Factory', 'Deliver', 'comprehensive', ',', 'systematic', 'value', 'textual', 'data', 'across', 'business', 'importance', 'data', 'driving', 'clinical', 'commercial', 'outcomes', 'absolute', ',', 'yet', 'many', 'life', 'science', 'healthcare', 'organizations', 'leave', '80', 'percent', 'potential', 'insights', 'untapped', ',', 'locked', 'away', 'unstructured', 'semi', 'structured', 'formats', '.']
+
+ TOTAL FILTERED TOKENS ==>  48
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Fact', 'NNP'), ('Sheet', 'NNP'), ('IQVIA', 'NNP'), ('Natural', 'NNP'), ('Language', 'NNP'), ('Processing', 'NNP'), ('(', '('), ('NLP', 'NNP'), (')', ')'), ('Data', 'NNP'), ('Factory', 'NNP'), ('Deliver', 'NNP'), ('comprehensive', 'NN'), (',', ','), ('systematic', 'JJ'), ('value', 'NN'), ('textual', 'JJ'), ('data', 'NNS'), ('across', 'IN'), ('business', 'NN'), ('importance', 'NN'), ('data', 'NNS'), ('driving', 'VBG'), ('clinical', 'JJ'), ('commercial', 'JJ'), ('outcomes', 'NNS'), ('absolute', 'VBP'), (',', ','), ('yet', 'RB'), ('many', 'JJ'), ('life', 'NN'), ('science', 'NN'), ('healthcare', 'NN'), ('organizations', 'NNS'), ('leave', 'VBP'), ('80', 'CD'), ('percent', 'JJ'), ('potential', 'JJ'), ('insights', 'NNS'), ('untapped', 'VBD'), (',', ','), ('locked', 'VBD'), ('away', 'RB'), ('unstructured', 'JJ'), ('semi', 'NN'), ('structured', 'VBD'), ('formats', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Fact Sheet', 'Sheet IQVIA', 'IQVIA Natural', 'Natural Language', 'Language Processing', 'Processing (', '( NLP', 'NLP )', ') Data', 'Data Factory', 'Factory Deliver', 'Deliver comprehensive', 'comprehensive ,', ', systematic', 'systematic value', 'value textual', 'textual data', 'data across', 'across business', 'business importance', 'importance data', 'data driving', 'driving clinical', 'clinical commercial', 'commercial outcomes', 'outcomes absolute', 'absolute ,', ', yet', 'yet many', 'many life', 'life science', 'science healthcare', 'healthcare organizations', 'organizations leave', 'leave 80', '80 percent', 'percent potential', 'potential insights', 'insights untapped', 'untapped ,', ', locked', 'locked away', 'away unstructured', 'unstructured semi', 'semi structured', 'structured formats', 'formats .'] 
+
+ TOTAL BIGRAMS --> 47 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Fact Sheet IQVIA', 'Sheet IQVIA Natural', 'IQVIA Natural Language', 'Natural Language Processing', 'Language Processing (', 'Processing ( NLP', '( NLP )', 'NLP ) Data', ') Data Factory', 'Data Factory Deliver', 'Factory Deliver comprehensive', 'Deliver comprehensive ,', 'comprehensive , systematic', ', systematic value', 'systematic value textual', 'value textual data', 'textual data across', 'data across business', 'across business importance', 'business importance data', 'importance data driving', 'data driving clinical', 'driving clinical commercial', 'clinical commercial outcomes', 'commercial outcomes absolute', 'outcomes absolute ,', 'absolute , yet', ', yet many', 'yet many life', 'many life science', 'life science healthcare', 'science healthcare organizations', 'healthcare organizations leave', 'organizations leave 80', 'leave 80 percent', '80 percent potential', 'percent potential insights', 'potential insights untapped', 'insights untapped ,', 'untapped , locked', ', locked away', 'locked away unstructured', 'away unstructured semi', 'unstructured semi structured', 'semi structured formats', 'structured formats .'] 
+
+ TOTAL TRIGRAMS --> 46 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['comprehensive', 'systematic value', 'business', 'importance', 'many life', 'science', 'healthcare', 'unstructured semi'] 
+
+ TOTAL NOUN PHRASES --> 8 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['Sheet']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> ['Fact', 'Data Factory Deliver']
+ TOTAL PERSON ENTITY --> 2 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['fact', 'sheet', 'iqvia', 'natur', 'languag', 'process', '(', 'nlp', ')', 'data', 'factori', 'deliv', 'comprehens', ',', 'systemat', 'valu', 'textual', 'data', 'across', 'busi', 'import', 'data', 'drive', 'clinic', 'commerci', 'outcom', 'absolut', ',', 'yet', 'mani', 'life', 'scienc', 'healthcar', 'organ', 'leav', '80', 'percent', 'potenti', 'insight', 'untap', ',', 'lock', 'away', 'unstructur', 'semi', 'structur', 'format', '.']
+
+ TOTAL PORTER STEM WORDS ==> 48
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['fact', 'sheet', 'iqvia', 'natur', 'languag', 'process', '(', 'nlp', ')', 'data', 'factori', 'deliv', 'comprehens', ',', 'systemat', 'valu', 'textual', 'data', 'across', 'busi', 'import', 'data', 'drive', 'clinic', 'commerci', 'outcom', 'absolut', ',', 'yet', 'mani', 'life', 'scienc', 'healthcar', 'organ', 'leav', '80', 'percent', 'potenti', 'insight', 'untap', ',', 'lock', 'away', 'unstructur', 'semi', 'structur', 'format', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 48
+
+
+
+ ---- LEMMATIZATION ----
+
+['Fact', 'Sheet', 'IQVIA', 'Natural', 'Language', 'Processing', '(', 'NLP', ')', 'Data', 'Factory', 'Deliver', 'comprehensive', ',', 'systematic', 'value', 'textual', 'data', 'across', 'business', 'importance', 'data', 'driving', 'clinical', 'commercial', 'outcome', 'absolute', ',', 'yet', 'many', 'life', 'science', 'healthcare', 'organization', 'leave', '80', 'percent', 'potential', 'insight', 'untapped', ',', 'locked', 'away', 'unstructured', 'semi', 'structured', 'format', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 48
+
+************************************************************************************************************************
+
+2 --> Manual abstraction of these vast  amounts of data is time-consuming and unsustainable,  and niche point solutions can’t extract and integrate  information across multiple business areas. 
+
+
+ ---- TOKENS ----
+
+ ['Manual', 'abstraction', 'of', 'these', 'vast', 'amounts', 'of', 'data', 'is', 'time-consuming', 'and', 'unsustainable', ',', 'and', 'niche', 'point', 'solutions', 'can', '’', 't', 'extract', 'and', 'integrate', 'information', 'across', 'multiple', 'business', 'areas', '.'] 
+
+ TOTAL TOKENS ==> 29
+
+ ---- POST ----
+
+ [('Manual', 'JJ'), ('abstraction', 'NN'), ('of', 'IN'), ('these', 'DT'), ('vast', 'JJ'), ('amounts', 'NNS'), ('of', 'IN'), ('data', 'NN'), ('is', 'VBZ'), ('time-consuming', 'JJ'), ('and', 'CC'), ('unsustainable', 'JJ'), (',', ','), ('and', 'CC'), ('niche', 'NN'), ('point', 'NN'), ('solutions', 'NNS'), ('can', 'MD'), ('’', 'VB'), ('t', 'JJ'), ('extract', 'NN'), ('and', 'CC'), ('integrate', 'JJ'), ('information', 'NN'), ('across', 'IN'), ('multiple', 'NN'), ('business', 'NN'), ('areas', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Manual', 'abstraction', 'vast', 'amounts', 'data', 'time-consuming', 'unsustainable', ',', 'niche', 'point', 'solutions', '’', 'extract', 'integrate', 'information', 'across', 'multiple', 'business', 'areas', '.']
+
+ TOTAL FILTERED TOKENS ==>  20
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Manual', 'JJ'), ('abstraction', 'NN'), ('vast', 'JJ'), ('amounts', 'NNS'), ('data', 'NNS'), ('time-consuming', 'NN'), ('unsustainable', 'JJ'), (',', ','), ('niche', 'JJ'), ('point', 'NN'), ('solutions', 'NNS'), ('’', 'VBP'), ('extract', 'JJ'), ('integrate', 'JJ'), ('information', 'NN'), ('across', 'IN'), ('multiple', 'NN'), ('business', 'NN'), ('areas', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Manual abstraction', 'abstraction vast', 'vast amounts', 'amounts data', 'data time-consuming', 'time-consuming unsustainable', 'unsustainable ,', ', niche', 'niche point', 'point solutions', 'solutions ’', '’ extract', 'extract integrate', 'integrate information', 'information across', 'across multiple', 'multiple business', 'business areas', 'areas .'] 
+
+ TOTAL BIGRAMS --> 19 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Manual abstraction vast', 'abstraction vast amounts', 'vast amounts data', 'amounts data time-consuming', 'data time-consuming unsustainable', 'time-consuming unsustainable ,', 'unsustainable , niche', ', niche point', 'niche point solutions', 'point solutions ’', 'solutions ’ extract', '’ extract integrate', 'extract integrate information', 'integrate information across', 'information across multiple', 'across multiple business', 'multiple business areas', 'business areas .'] 
+
+ TOTAL TRIGRAMS --> 18 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['Manual abstraction', 'time-consuming', 'niche point', 'extract integrate information', 'multiple', 'business'] 
+
+ TOTAL NOUN PHRASES --> 6 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Manual']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['manual', 'abstract', 'vast', 'amount', 'data', 'time-consum', 'unsustain', ',', 'nich', 'point', 'solut', '’', 'extract', 'integr', 'inform', 'across', 'multipl', 'busi', 'area', '.']
+
+ TOTAL PORTER STEM WORDS ==> 20
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['manual', 'abstract', 'vast', 'amount', 'data', 'time-consum', 'unsustain', ',', 'nich', 'point', 'solut', '’', 'extract', 'integr', 'inform', 'across', 'multipl', 'busi', 'area', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 20
+
+
+
+ ---- LEMMATIZATION ----
+
+['Manual', 'abstraction', 'vast', 'amount', 'data', 'time-consuming', 'unsustainable', ',', 'niche', 'point', 'solution', '’', 'extract', 'integrate', 'information', 'across', 'multiple', 'business', 'area', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 20
+
+************************************************************************************************************************
+
+3 --> The IQVIA NLP Data Factory accurately surfaces  and normalizes features of interest at scale, in an  automated, robust and easily configurable pipeline. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'IQVIA', 'NLP', 'Data', 'Factory', 'accurately', 'surfaces', 'and', 'normalizes', 'features', 'of', 'interest', 'at', 'scale', ',', 'in', 'an', 'automated', ',', 'robust', 'and', 'easily', 'configurable', 'pipeline', '.'] 
+
+ TOTAL TOKENS ==> 25
+
+ ---- POST ----
+
+ [('The', 'DT'), ('IQVIA', 'NNP'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('accurately', 'RB'), ('surfaces', 'NNS'), ('and', 'CC'), ('normalizes', 'JJ'), ('features', 'NNS'), ('of', 'IN'), ('interest', 'NN'), ('at', 'IN'), ('scale', 'NN'), (',', ','), ('in', 'IN'), ('an', 'DT'), ('automated', 'JJ'), (',', ','), ('robust', 'JJ'), ('and', 'CC'), ('easily', 'RB'), ('configurable', 'JJ'), ('pipeline', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['IQVIA', 'NLP', 'Data', 'Factory', 'accurately', 'surfaces', 'normalizes', 'features', 'interest', 'scale', ',', 'automated', ',', 'robust', 'easily', 'configurable', 'pipeline', '.']
+
+ TOTAL FILTERED TOKENS ==>  18
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('IQVIA', 'NNP'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('accurately', 'RB'), ('surfaces', 'VBZ'), ('normalizes', 'JJ'), ('features', 'NNS'), ('interest', 'NN'), ('scale', 'NN'), (',', ','), ('automated', 'VBN'), (',', ','), ('robust', 'JJ'), ('easily', 'RB'), ('configurable', 'JJ'), ('pipeline', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['IQVIA NLP', 'NLP Data', 'Data Factory', 'Factory accurately', 'accurately surfaces', 'surfaces normalizes', 'normalizes features', 'features interest', 'interest scale', 'scale ,', ', automated', 'automated ,', ', robust', 'robust easily', 'easily configurable', 'configurable pipeline', 'pipeline .'] 
+
+ TOTAL BIGRAMS --> 17 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['IQVIA NLP Data', 'NLP Data Factory', 'Data Factory accurately', 'Factory accurately surfaces', 'accurately surfaces normalizes', 'surfaces normalizes features', 'normalizes features interest', 'features interest scale', 'interest scale ,', 'scale , automated', ', automated ,', 'automated , robust', ', robust easily', 'robust easily configurable', 'easily configurable pipeline', 'configurable pipeline .'] 
+
+ TOTAL TRIGRAMS --> 16 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['interest', 'scale', 'configurable pipeline'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['IQVIA', 'NLP Data']
+ TOTAL ORGANIZATION ENTITY --> 2 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['iqvia', 'nlp', 'data', 'factori', 'accur', 'surfac', 'normal', 'featur', 'interest', 'scale', ',', 'autom', ',', 'robust', 'easili', 'configur', 'pipelin', '.']
+
+ TOTAL PORTER STEM WORDS ==> 18
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['iqvia', 'nlp', 'data', 'factori', 'accur', 'surfac', 'normal', 'featur', 'interest', 'scale', ',', 'autom', ',', 'robust', 'easili', 'configur', 'pipelin', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 18
+
+
+
+ ---- LEMMATIZATION ----
+
+['IQVIA', 'NLP', 'Data', 'Factory', 'accurately', 'surface', 'normalizes', 'feature', 'interest', 'scale', ',', 'automated', ',', 'robust', 'easily', 'configurable', 'pipeline', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 18
+
+************************************************************************************************************************
+
+4 --> Transform efficiency and productivity across the  enterprise with reproducible extraction, enrichment  and delivery of critical data. 
+
+
+ ---- TOKENS ----
+
+ ['Transform', 'efficiency', 'and', 'productivity', 'across', 'the', 'enterprise', 'with', 'reproducible', 'extraction', ',', 'enrichment', 'and', 'delivery', 'of', 'critical', 'data', '.'] 
+
+ TOTAL TOKENS ==> 18
+
+ ---- POST ----
+
+ [('Transform', 'NNP'), ('efficiency', 'NN'), ('and', 'CC'), ('productivity', 'NN'), ('across', 'IN'), ('the', 'DT'), ('enterprise', 'NN'), ('with', 'IN'), ('reproducible', 'JJ'), ('extraction', 'NN'), (',', ','), ('enrichment', 'NN'), ('and', 'CC'), ('delivery', 'NN'), ('of', 'IN'), ('critical', 'JJ'), ('data', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Transform', 'efficiency', 'productivity', 'across', 'enterprise', 'reproducible', 'extraction', ',', 'enrichment', 'delivery', 'critical', 'data', '.']
+
+ TOTAL FILTERED TOKENS ==>  13
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Transform', 'NNP'), ('efficiency', 'NN'), ('productivity', 'NN'), ('across', 'IN'), ('enterprise', 'NN'), ('reproducible', 'JJ'), ('extraction', 'NN'), (',', ','), ('enrichment', 'JJ'), ('delivery', 'NN'), ('critical', 'JJ'), ('data', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Transform efficiency', 'efficiency productivity', 'productivity across', 'across enterprise', 'enterprise reproducible', 'reproducible extraction', 'extraction ,', ', enrichment', 'enrichment delivery', 'delivery critical', 'critical data', 'data .'] 
+
+ TOTAL BIGRAMS --> 12 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Transform efficiency productivity', 'efficiency productivity across', 'productivity across enterprise', 'across enterprise reproducible', 'enterprise reproducible extraction', 'reproducible extraction ,', 'extraction , enrichment', ', enrichment delivery', 'enrichment delivery critical', 'delivery critical data', 'critical data .'] 
+
+ TOTAL TRIGRAMS --> 11 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['efficiency', 'productivity', 'enterprise', 'reproducible extraction', 'enrichment delivery', 'critical data'] 
+
+ TOTAL NOUN PHRASES --> 6 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Transform']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['transform', 'effici', 'product', 'across', 'enterpris', 'reproduc', 'extract', ',', 'enrich', 'deliveri', 'critic', 'data', '.']
+
+ TOTAL PORTER STEM WORDS ==> 13
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['transform', 'effici', 'product', 'across', 'enterpris', 'reproduc', 'extract', ',', 'enrich', 'deliveri', 'critic', 'data', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 13
+
+
+
+ ---- LEMMATIZATION ----
+
+['Transform', 'efficiency', 'productivity', 'across', 'enterprise', 'reproducible', 'extraction', ',', 'enrichment', 'delivery', 'critical', 'data', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 13
+
+************************************************************************************************************************
+
+5 --> • Enterprise data warehouse • Predictive analytics • Monitoring and alerts • Knowledge graph • BI platforms       e.g.- NLP Insights Hub XML, JSON,  SQL, CSV, .... 
+
+
+ ---- TOKENS ----
+
+ ['•', 'Enterprise', 'data', 'warehouse', '•', 'Predictive', 'analytics', '•', 'Monitoring', 'and', 'alerts', '•', 'Knowledge', 'graph', '•', 'BI', 'platforms', 'e.g.-', 'NLP', 'Insights', 'Hub', 'XML', ',', 'JSON', ',', 'SQL', ',', 'CSV', ',', '....'] 
+
+ TOTAL TOKENS ==> 30
+
+ ---- POST ----
+
+ [('•', 'JJ'), ('Enterprise', 'NNP'), ('data', 'NN'), ('warehouse', 'NN'), ('•', 'NNP'), ('Predictive', 'NNP'), ('analytics', 'NNS'), ('•', 'VBP'), ('Monitoring', 'NNP'), ('and', 'CC'), ('alerts', 'NNS'), ('•', 'VBP'), ('Knowledge', 'NNP'), ('graph', 'NN'), ('•', 'NNP'), ('BI', 'NNP'), ('platforms', 'VBZ'), ('e.g.-', 'JJ'), ('NLP', 'NNP'), ('Insights', 'NNP'), ('Hub', 'NNP'), ('XML', 'NNP'), (',', ','), ('JSON', 'NNP'), (',', ','), ('SQL', 'NNP'), (',', ','), ('CSV', 'NNP'), (',', ','), ('....', 'NN')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['•', 'Enterprise', 'data', 'warehouse', '•', 'Predictive', 'analytics', '•', 'Monitoring', 'alerts', '•', 'Knowledge', 'graph', '•', 'BI', 'platforms', 'e.g.-', 'NLP', 'Insights', 'Hub', 'XML', ',', 'JSON', ',', 'SQL', ',', 'CSV', ',', '....']
+
+ TOTAL FILTERED TOKENS ==>  29
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('•', 'JJ'), ('Enterprise', 'NNP'), ('data', 'NN'), ('warehouse', 'NN'), ('•', 'NNP'), ('Predictive', 'NNP'), ('analytics', 'NNS'), ('•', 'VBP'), ('Monitoring', 'VBG'), ('alerts', 'NNS'), ('•', 'NNP'), ('Knowledge', 'NNP'), ('graph', 'NN'), ('•', 'NNP'), ('BI', 'NNP'), ('platforms', 'VBZ'), ('e.g.-', 'JJ'), ('NLP', 'NNP'), ('Insights', 'NNP'), ('Hub', 'NNP'), ('XML', 'NNP'), (',', ','), ('JSON', 'NNP'), (',', ','), ('SQL', 'NNP'), (',', ','), ('CSV', 'NNP'), (',', ','), ('....', 'NN')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['• Enterprise', 'Enterprise data', 'data warehouse', 'warehouse •', '• Predictive', 'Predictive analytics', 'analytics •', '• Monitoring', 'Monitoring alerts', 'alerts •', '• Knowledge', 'Knowledge graph', 'graph •', '• BI', 'BI platforms', 'platforms e.g.-', 'e.g.- NLP', 'NLP Insights', 'Insights Hub', 'Hub XML', 'XML ,', ', JSON', 'JSON ,', ', SQL', 'SQL ,', ', CSV', 'CSV ,', ', ....'] 
+
+ TOTAL BIGRAMS --> 28 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['• Enterprise data', 'Enterprise data warehouse', 'data warehouse •', 'warehouse • Predictive', '• Predictive analytics', 'Predictive analytics •', 'analytics • Monitoring', '• Monitoring alerts', 'Monitoring alerts •', 'alerts • Knowledge', '• Knowledge graph', 'Knowledge graph •', 'graph • BI', '• BI platforms', 'BI platforms e.g.-', 'platforms e.g.- NLP', 'e.g.- NLP Insights', 'NLP Insights Hub', 'Insights Hub XML', 'Hub XML ,', 'XML , JSON', ', JSON ,', 'JSON , SQL', ', SQL ,', 'SQL , CSV', ', CSV ,', 'CSV , ....'] 
+
+ TOTAL TRIGRAMS --> 27 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['data', 'warehouse', 'graph', '....'] 
+
+ TOTAL NOUN PHRASES --> 4 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['NLP Insights Hub', 'JSON', 'SQL', 'CSV']
+ TOTAL ORGANIZATION ENTITY --> 4 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['•', 'enterpris', 'data', 'warehous', '•', 'predict', 'analyt', '•', 'monitor', 'alert', '•', 'knowledg', 'graph', '•', 'bi', 'platform', 'e.g.-', 'nlp', 'insight', 'hub', 'xml', ',', 'json', ',', 'sql', ',', 'csv', ',', '....']
+
+ TOTAL PORTER STEM WORDS ==> 29
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['•', 'enterpris', 'data', 'warehous', '•', 'predict', 'analyt', '•', 'monitor', 'alert', '•', 'knowledg', 'graph', '•', 'bi', 'platform', 'e.g.-', 'nlp', 'insight', 'hub', 'xml', ',', 'json', ',', 'sql', ',', 'csv', ',', '....']
+
+ TOTAL SNOWBALL STEM WORDS ==> 29
+
+
+
+ ---- LEMMATIZATION ----
+
+['•', 'Enterprise', 'data', 'warehouse', '•', 'Predictive', 'analytics', '•', 'Monitoring', 'alert', '•', 'Knowledge', 'graph', '•', 'BI', 'platform', 'e.g.-', 'NLP', 'Insights', 'Hub', 'XML', ',', 'JSON', ',', 'SQL', ',', 'CSV', ',', '....']
+
+ TOTAL LEMMATIZE WORDS ==> 29
+
+************************************************************************************************************************
+
+6 --> Highly scalable to  10 million+ documents  per hour NLP Data Factory Wide range of disparate data sources Data YOUR CHALLENGES • Missing important information hidden in vast  amounts of unstructured and semi structured text • Staff spend huge amounts of time and expense on  manual data curation – including inconsistencies in  structured data where the same data is recorded in  many ways • Expensive point solutions are narrow in scope and  lack critical domain knowledge • Lacking the tools to transform and prepare data for  analysis and use at scale YOUR NLP DATA FACTORY SOLUTION • Mobilizes value at scale from the key data your  organization has generated or invested in  • Automates NLP workflows which process millions of  documents and data fields across a range of business  lines, normalizing data and enhancing metadata for  easy consumption • Easily and efficiently scales to add new use cases to  the robust NLP Data Factory pipeline • Delivers ready-to-use data and solutions that improve  business outcomes Automate critical data extraction, enrichment and delivery  CONTACT US  iqvia.com ©2 02 1. 
+
+
+ ---- TOKENS ----
+
+ ['Highly', 'scalable', 'to', '10', 'million+', 'documents', 'per', 'hour', 'NLP', 'Data', 'Factory', 'Wide', 'range', 'of', 'disparate', 'data', 'sources', 'Data', 'YOUR', 'CHALLENGES', '•', 'Missing', 'important', 'information', 'hidden', 'in', 'vast', 'amounts', 'of', 'unstructured', 'and', 'semi', 'structured', 'text', '•', 'Staff', 'spend', 'huge', 'amounts', 'of', 'time', 'and', 'expense', 'on', 'manual', 'data', 'curation', '–', 'including', 'inconsistencies', 'in', 'structured', 'data', 'where', 'the', 'same', 'data', 'is', 'recorded', 'in', 'many', 'ways', '•', 'Expensive', 'point', 'solutions', 'are', 'narrow', 'in', 'scope', 'and', 'lack', 'critical', 'domain', 'knowledge', '•', 'Lacking', 'the', 'tools', 'to', 'transform', 'and', 'prepare', 'data', 'for', 'analysis', 'and', 'use', 'at', 'scale', 'YOUR', 'NLP', 'DATA', 'FACTORY', 'SOLUTION', '•', 'Mobilizes', 'value', 'at', 'scale', 'from', 'the', 'key', 'data', 'your', 'organization', 'has', 'generated', 'or', 'invested', 'in', '•', 'Automates', 'NLP', 'workflows', 'which', 'process', 'millions', 'of', 'documents', 'and', 'data', 'fields', 'across', 'a', 'range', 'of', 'business', 'lines', ',', 'normalizing', 'data', 'and', 'enhancing', 'metadata', 'for', 'easy', 'consumption', '•', 'Easily', 'and', 'efficiently', 'scales', 'to', 'add', 'new', 'use', 'cases', 'to', 'the', 'robust', 'NLP', 'Data', 'Factory', 'pipeline', '•', 'Delivers', 'ready-to-use', 'data', 'and', 'solutions', 'that', 'improve', 'business', 'outcomes', 'Automate', 'critical', 'data', 'extraction', ',', 'enrichment', 'and', 'delivery', 'CONTACT', 'US', 'iqvia.com', '©2', '02', '1', '.'] 
+
+ TOTAL TOKENS ==> 180
+
+ ---- POST ----
+
+ [('Highly', 'RB'), ('scalable', 'JJ'), ('to', 'TO'), ('10', 'CD'), ('million+', 'NN'), ('documents', 'NNS'), ('per', 'IN'), ('hour', 'NN'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('Wide', 'NNP'), ('range', 'NN'), ('of', 'IN'), ('disparate', 'NN'), ('data', 'NNS'), ('sources', 'NNS'), ('Data', 'NNP'), ('YOUR', 'NNP'), ('CHALLENGES', 'NNP'), ('•', 'NNP'), ('Missing', 'NNP'), ('important', 'JJ'), ('information', 'NN'), ('hidden', 'NN'), ('in', 'IN'), ('vast', 'JJ'), ('amounts', 'NNS'), ('of', 'IN'), ('unstructured', 'JJ'), ('and', 'CC'), ('semi', 'JJ'), ('structured', 'VBN'), ('text', 'NN'), ('•', 'JJ'), ('Staff', 'NNP'), ('spend', 'VBP'), ('huge', 'JJ'), ('amounts', 'NNS'), ('of', 'IN'), ('time', 'NN'), ('and', 'CC'), ('expense', 'NN'), ('on', 'IN'), ('manual', 'JJ'), ('data', 'NNS'), ('curation', 'NN'), ('–', 'IN'), ('including', 'VBG'), ('inconsistencies', 'NNS'), ('in', 'IN'), ('structured', 'VBN'), ('data', 'NNS'), ('where', 'WRB'), ('the', 'DT'), ('same', 'JJ'), ('data', 'NN'), ('is', 'VBZ'), ('recorded', 'VBN'), ('in', 'IN'), ('many', 'JJ'), ('ways', 'NNS'), ('•', 'VBP'), ('Expensive', 'JJ'), ('point', 'NN'), ('solutions', 'NNS'), ('are', 'VBP'), ('narrow', 'JJ'), ('in', 'IN'), ('scope', 'NN'), ('and', 'CC'), ('lack', 'VB'), ('critical', 'JJ'), ('domain', 'NN'), ('knowledge', 'NN'), ('•', 'NNP'), ('Lacking', 'VBG'), ('the', 'DT'), ('tools', 'NNS'), ('to', 'TO'), ('transform', 'VB'), ('and', 'CC'), ('prepare', 'VB'), ('data', 'NNS'), ('for', 'IN'), ('analysis', 'NN'), ('and', 'CC'), ('use', 'NN'), ('at', 'IN'), ('scale', 'JJ'), ('YOUR', 'NNP'), ('NLP', 'NNP'), ('DATA', 'NNP'), ('FACTORY', 'NNP'), ('SOLUTION', 'NNP'), ('•', 'NNP'), ('Mobilizes', 'NNP'), ('value', 'NN'), ('at', 'IN'), ('scale', 'NN'), ('from', 'IN'), ('the', 'DT'), ('key', 'JJ'), ('data', 'NNS'), ('your', 'PRP$'), ('organization', 'NN'), ('has', 'VBZ'), ('generated', 'VBN'), ('or', 'CC'), ('invested', 'VBN'), ('in', 'IN'), ('•', 'NNP'), ('Automates', 'NNP'), ('NLP', 'NNP'), ('workflows', 'VBZ'), ('which', 'WDT'), ('process', 'NN'), ('millions', 'NNS'), ('of', 'IN'), ('documents', 'NNS'), ('and', 'CC'), ('data', 'NNS'), ('fields', 'NNS'), ('across', 'IN'), ('a', 'DT'), ('range', 'NN'), ('of', 'IN'), ('business', 'NN'), ('lines', 'NNS'), (',', ','), ('normalizing', 'VBG'), ('data', 'NNS'), ('and', 'CC'), ('enhancing', 'VBG'), ('metadata', 'NNS'), ('for', 'IN'), ('easy', 'JJ'), ('consumption', 'NN'), ('•', 'NNP'), ('Easily', 'NNP'), ('and', 'CC'), ('efficiently', 'RB'), ('scales', 'NNS'), ('to', 'TO'), ('add', 'VB'), ('new', 'JJ'), ('use', 'NN'), ('cases', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('robust', 'JJ'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('pipeline', 'NN'), ('•', 'NN'), ('Delivers', 'NNP'), ('ready-to-use', 'NN'), ('data', 'NNS'), ('and', 'CC'), ('solutions', 'NNS'), ('that', 'WDT'), ('improve', 'VBP'), ('business', 'NN'), ('outcomes', 'NNS'), ('Automate', 'NNP'), ('critical', 'JJ'), ('data', 'NNS'), ('extraction', 'NN'), (',', ','), ('enrichment', 'NN'), ('and', 'CC'), ('delivery', 'NN'), ('CONTACT', 'NNP'), ('US', 'NNP'), ('iqvia.com', 'VBP'), ('©2', 'VBZ'), ('02', 'CD'), ('1', 'CD'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Highly', 'scalable', '10', 'million+', 'documents', 'per', 'hour', 'NLP', 'Data', 'Factory', 'Wide', 'range', 'disparate', 'data', 'sources', 'Data', 'CHALLENGES', '•', 'Missing', 'important', 'information', 'hidden', 'vast', 'amounts', 'unstructured', 'semi', 'structured', 'text', '•', 'Staff', 'spend', 'huge', 'amounts', 'time', 'expense', 'manual', 'data', 'curation', '–', 'including', 'inconsistencies', 'structured', 'data', 'data', 'recorded', 'many', 'ways', '•', 'Expensive', 'point', 'solutions', 'narrow', 'scope', 'lack', 'critical', 'domain', 'knowledge', '•', 'Lacking', 'tools', 'transform', 'prepare', 'data', 'analysis', 'use', 'scale', 'NLP', 'DATA', 'FACTORY', 'SOLUTION', '•', 'Mobilizes', 'value', 'scale', 'key', 'data', 'organization', 'generated', 'invested', '•', 'Automates', 'NLP', 'workflows', 'process', 'millions', 'documents', 'data', 'fields', 'across', 'range', 'business', 'lines', ',', 'normalizing', 'data', 'enhancing', 'metadata', 'easy', 'consumption', '•', 'Easily', 'efficiently', 'scales', 'add', 'new', 'use', 'cases', 'robust', 'NLP', 'Data', 'Factory', 'pipeline', '•', 'Delivers', 'ready-to-use', 'data', 'solutions', 'improve', 'business', 'outcomes', 'Automate', 'critical', 'data', 'extraction', ',', 'enrichment', 'delivery', 'CONTACT', 'US', 'iqvia.com', '©2', '02', '1', '.']
+
+ TOTAL FILTERED TOKENS ==>  134
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Highly', 'NNP'), ('scalable', 'JJ'), ('10', 'CD'), ('million+', 'NN'), ('documents', 'NNS'), ('per', 'IN'), ('hour', 'NN'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('Wide', 'NNP'), ('range', 'NN'), ('disparate', 'NN'), ('data', 'NNS'), ('sources', 'NNS'), ('Data', 'NNP'), ('CHALLENGES', 'NNP'), ('•', 'NNP'), ('Missing', 'NNP'), ('important', 'JJ'), ('information', 'NN'), ('hidden', 'NN'), ('vast', 'NN'), ('amounts', 'NNS'), ('unstructured', 'JJ'), ('semi', 'NN'), ('structured', 'VBD'), ('text', 'JJ'), ('•', 'JJ'), ('Staff', 'NNP'), ('spend', 'VBP'), ('huge', 'JJ'), ('amounts', 'NNS'), ('time', 'NN'), ('expense', 'JJ'), ('manual', 'JJ'), ('data', 'NNS'), ('curation', 'NN'), ('–', 'IN'), ('including', 'VBG'), ('inconsistencies', 'NNS'), ('structured', 'VBN'), ('data', 'NNS'), ('data', 'NNS'), ('recorded', 'VBD'), ('many', 'JJ'), ('ways', 'NNS'), ('•', 'VBP'), ('Expensive', 'JJ'), ('point', 'NN'), ('solutions', 'NNS'), ('narrow', 'VBP'), ('scope', 'JJ'), ('lack', 'NN'), ('critical', 'JJ'), ('domain', 'NN'), ('knowledge', 'NN'), ('•', 'NNP'), ('Lacking', 'NNP'), ('tools', 'NNS'), ('transform', 'NN'), ('prepare', 'NN'), ('data', 'NNS'), ('analysis', 'NN'), ('use', 'NN'), ('scale', 'NN'), ('NLP', 'NNP'), ('DATA', 'NNP'), ('FACTORY', 'NNP'), ('SOLUTION', 'NNP'), ('•', 'NNP'), ('Mobilizes', 'NNP'), ('value', 'NN'), ('scale', 'NN'), ('key', 'JJ'), ('data', 'NNS'), ('organization', 'NN'), ('generated', 'VBN'), ('invested', 'JJ'), ('•', 'NN'), ('Automates', 'NNP'), ('NLP', 'NNP'), ('workflows', 'VBZ'), ('process', 'NN'), ('millions', 'NNS'), ('documents', 'NNS'), ('data', 'VBP'), ('fields', 'NNS'), ('across', 'IN'), ('range', 'NN'), ('business', 'NN'), ('lines', 'NNS'), (',', ','), ('normalizing', 'VBG'), ('data', 'NNS'), ('enhancing', 'VBG'), ('metadata', 'NN'), ('easy', 'JJ'), ('consumption', 'NN'), ('•', 'NNP'), ('Easily', 'NNP'), ('efficiently', 'RB'), ('scales', 'VBZ'), ('add', 'VB'), ('new', 'JJ'), ('use', 'NN'), ('cases', 'NNS'), ('robust', 'VBP'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('pipeline', 'NN'), ('•', 'NN'), ('Delivers', 'NNP'), ('ready-to-use', 'NN'), ('data', 'NNS'), ('solutions', 'NNS'), ('improve', 'VBP'), ('business', 'NN'), ('outcomes', 'NNS'), ('Automate', 'NNP'), ('critical', 'JJ'), ('data', 'NNS'), ('extraction', 'NN'), (',', ','), ('enrichment', 'JJ'), ('delivery', 'NN'), ('CONTACT', 'NNP'), ('US', 'NNP'), ('iqvia.com', 'VBP'), ('©2', 'VBZ'), ('02', 'CD'), ('1', 'CD'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Highly scalable', 'scalable 10', '10 million+', 'million+ documents', 'documents per', 'per hour', 'hour NLP', 'NLP Data', 'Data Factory', 'Factory Wide', 'Wide range', 'range disparate', 'disparate data', 'data sources', 'sources Data', 'Data CHALLENGES', 'CHALLENGES •', '• Missing', 'Missing important', 'important information', 'information hidden', 'hidden vast', 'vast amounts', 'amounts unstructured', 'unstructured semi', 'semi structured', 'structured text', 'text •', '• Staff', 'Staff spend', 'spend huge', 'huge amounts', 'amounts time', 'time expense', 'expense manual', 'manual data', 'data curation', 'curation –', '– including', 'including inconsistencies', 'inconsistencies structured', 'structured data', 'data data', 'data recorded', 'recorded many', 'many ways', 'ways •', '• Expensive', 'Expensive point', 'point solutions', 'solutions narrow', 'narrow scope', 'scope lack', 'lack critical', 'critical domain', 'domain knowledge', 'knowledge •', '• Lacking', 'Lacking tools', 'tools transform', 'transform prepare', 'prepare data', 'data analysis', 'analysis use', 'use scale', 'scale NLP', 'NLP DATA', 'DATA FACTORY', 'FACTORY SOLUTION', 'SOLUTION •', '• Mobilizes', 'Mobilizes value', 'value scale', 'scale key', 'key data', 'data organization', 'organization generated', 'generated invested', 'invested •', '• Automates', 'Automates NLP', 'NLP workflows', 'workflows process', 'process millions', 'millions documents', 'documents data', 'data fields', 'fields across', 'across range', 'range business', 'business lines', 'lines ,', ', normalizing', 'normalizing data', 'data enhancing', 'enhancing metadata', 'metadata easy', 'easy consumption', 'consumption •', '• Easily', 'Easily efficiently', 'efficiently scales', 'scales add', 'add new', 'new use', 'use cases', 'cases robust', 'robust NLP', 'NLP Data', 'Data Factory', 'Factory pipeline', 'pipeline •', '• Delivers', 'Delivers ready-to-use', 'ready-to-use data', 'data solutions', 'solutions improve', 'improve business', 'business outcomes', 'outcomes Automate', 'Automate critical', 'critical data', 'data extraction', 'extraction ,', ', enrichment', 'enrichment delivery', 'delivery CONTACT', 'CONTACT US', 'US iqvia.com', 'iqvia.com ©2', '©2 02', '02 1', '1 .'] 
+
+ TOTAL BIGRAMS --> 133 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Highly scalable 10', 'scalable 10 million+', '10 million+ documents', 'million+ documents per', 'documents per hour', 'per hour NLP', 'hour NLP Data', 'NLP Data Factory', 'Data Factory Wide', 'Factory Wide range', 'Wide range disparate', 'range disparate data', 'disparate data sources', 'data sources Data', 'sources Data CHALLENGES', 'Data CHALLENGES •', 'CHALLENGES • Missing', '• Missing important', 'Missing important information', 'important information hidden', 'information hidden vast', 'hidden vast amounts', 'vast amounts unstructured', 'amounts unstructured semi', 'unstructured semi structured', 'semi structured text', 'structured text •', 'text • Staff', '• Staff spend', 'Staff spend huge', 'spend huge amounts', 'huge amounts time', 'amounts time expense', 'time expense manual', 'expense manual data', 'manual data curation', 'data curation –', 'curation – including', '– including inconsistencies', 'including inconsistencies structured', 'inconsistencies structured data', 'structured data data', 'data data recorded', 'data recorded many', 'recorded many ways', 'many ways •', 'ways • Expensive', '• Expensive point', 'Expensive point solutions', 'point solutions narrow', 'solutions narrow scope', 'narrow scope lack', 'scope lack critical', 'lack critical domain', 'critical domain knowledge', 'domain knowledge •', 'knowledge • Lacking', '• Lacking tools', 'Lacking tools transform', 'tools transform prepare', 'transform prepare data', 'prepare data analysis', 'data analysis use', 'analysis use scale', 'use scale NLP', 'scale NLP DATA', 'NLP DATA FACTORY', 'DATA FACTORY SOLUTION', 'FACTORY SOLUTION •', 'SOLUTION • Mobilizes', '• Mobilizes value', 'Mobilizes value scale', 'value scale key', 'scale key data', 'key data organization', 'data organization generated', 'organization generated invested', 'generated invested •', 'invested • Automates', '• Automates NLP', 'Automates NLP workflows', 'NLP workflows process', 'workflows process millions', 'process millions documents', 'millions documents data', 'documents data fields', 'data fields across', 'fields across range', 'across range business', 'range business lines', 'business lines ,', 'lines , normalizing', ', normalizing data', 'normalizing data enhancing', 'data enhancing metadata', 'enhancing metadata easy', 'metadata easy consumption', 'easy consumption •', 'consumption • Easily', '• Easily efficiently', 'Easily efficiently scales', 'efficiently scales add', 'scales add new', 'add new use', 'new use cases', 'use cases robust', 'cases robust NLP', 'robust NLP Data', 'NLP Data Factory', 'Data Factory pipeline', 'Factory pipeline •', 'pipeline • Delivers', '• Delivers ready-to-use', 'Delivers ready-to-use data', 'ready-to-use data solutions', 'data solutions improve', 'solutions improve business', 'improve business outcomes', 'business outcomes Automate', 'outcomes Automate critical', 'Automate critical data', 'critical data extraction', 'data extraction ,', 'extraction , enrichment', ', enrichment delivery', 'enrichment delivery CONTACT', 'delivery CONTACT US', 'CONTACT US iqvia.com', 'US iqvia.com ©2', 'iqvia.com ©2 02', '©2 02 1', '02 1 .'] 
+
+ TOTAL TRIGRAMS --> 132 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['million+', 'hour', 'range', 'disparate', 'important information', 'hidden', 'vast', 'unstructured semi', 'time', 'curation', 'Expensive point', 'scope lack', 'critical domain', 'knowledge', 'transform', 'prepare', 'analysis', 'use', 'scale', 'value', 'scale', 'organization', 'invested •', 'process', 'range', 'business', 'metadata', 'easy consumption', 'new use', 'pipeline', '•', 'ready-to-use', 'business', 'extraction', 'enrichment delivery'] 
+
+ TOTAL NOUN PHRASES --> 35 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['NLP Data Factory Wide', 'NLP', 'NLP Data Factory', 'Delivers', 'Automate', 'CONTACT']
+ TOTAL ORGANIZATION ENTITY --> 6 
+
+
+ PERSON ---> ['Data', 'Automates NLP']
+ TOTAL PERSON ENTITY --> 2 
+
+
+ GPE ---> ['Highly']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['highli', 'scalabl', '10', 'million+', 'document', 'per', 'hour', 'nlp', 'data', 'factori', 'wide', 'rang', 'dispar', 'data', 'sourc', 'data', 'challeng', '•', 'miss', 'import', 'inform', 'hidden', 'vast', 'amount', 'unstructur', 'semi', 'structur', 'text', '•', 'staff', 'spend', 'huge', 'amount', 'time', 'expens', 'manual', 'data', 'curat', '–', 'includ', 'inconsist', 'structur', 'data', 'data', 'record', 'mani', 'way', '•', 'expens', 'point', 'solut', 'narrow', 'scope', 'lack', 'critic', 'domain', 'knowledg', '•', 'lack', 'tool', 'transform', 'prepar', 'data', 'analysi', 'use', 'scale', 'nlp', 'data', 'factori', 'solut', '•', 'mobil', 'valu', 'scale', 'key', 'data', 'organ', 'gener', 'invest', '•', 'autom', 'nlp', 'workflow', 'process', 'million', 'document', 'data', 'field', 'across', 'rang', 'busi', 'line', ',', 'normal', 'data', 'enhanc', 'metadata', 'easi', 'consumpt', '•', 'easili', 'effici', 'scale', 'add', 'new', 'use', 'case', 'robust', 'nlp', 'data', 'factori', 'pipelin', '•', 'deliv', 'ready-to-us', 'data', 'solut', 'improv', 'busi', 'outcom', 'autom', 'critic', 'data', 'extract', ',', 'enrich', 'deliveri', 'contact', 'us', 'iqvia.com', '©2', '02', '1', '.']
+
+ TOTAL PORTER STEM WORDS ==> 134
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['high', 'scalabl', '10', 'million+', 'document', 'per', 'hour', 'nlp', 'data', 'factori', 'wide', 'rang', 'dispar', 'data', 'sourc', 'data', 'challeng', '•', 'miss', 'import', 'inform', 'hidden', 'vast', 'amount', 'unstructur', 'semi', 'structur', 'text', '•', 'staff', 'spend', 'huge', 'amount', 'time', 'expens', 'manual', 'data', 'curat', '–', 'includ', 'inconsist', 'structur', 'data', 'data', 'record', 'mani', 'way', '•', 'expens', 'point', 'solut', 'narrow', 'scope', 'lack', 'critic', 'domain', 'knowledg', '•', 'lack', 'tool', 'transform', 'prepar', 'data', 'analysi', 'use', 'scale', 'nlp', 'data', 'factori', 'solut', '•', 'mobil', 'valu', 'scale', 'key', 'data', 'organ', 'generat', 'invest', '•', 'autom', 'nlp', 'workflow', 'process', 'million', 'document', 'data', 'field', 'across', 'rang', 'busi', 'line', ',', 'normal', 'data', 'enhanc', 'metadata', 'easi', 'consumpt', '•', 'easili', 'effici', 'scale', 'add', 'new', 'use', 'case', 'robust', 'nlp', 'data', 'factori', 'pipelin', '•', 'deliv', 'ready-to-us', 'data', 'solut', 'improv', 'busi', 'outcom', 'autom', 'critic', 'data', 'extract', ',', 'enrich', 'deliveri', 'contact', 'us', 'iqvia.com', '©2', '02', '1', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 134
+
+
+
+ ---- LEMMATIZATION ----
+
+['Highly', 'scalable', '10', 'million+', 'document', 'per', 'hour', 'NLP', 'Data', 'Factory', 'Wide', 'range', 'disparate', 'data', 'source', 'Data', 'CHALLENGES', '•', 'Missing', 'important', 'information', 'hidden', 'vast', 'amount', 'unstructured', 'semi', 'structured', 'text', '•', 'Staff', 'spend', 'huge', 'amount', 'time', 'expense', 'manual', 'data', 'curation', '–', 'including', 'inconsistency', 'structured', 'data', 'data', 'recorded', 'many', 'way', '•', 'Expensive', 'point', 'solution', 'narrow', 'scope', 'lack', 'critical', 'domain', 'knowledge', '•', 'Lacking', 'tool', 'transform', 'prepare', 'data', 'analysis', 'use', 'scale', 'NLP', 'DATA', 'FACTORY', 'SOLUTION', '•', 'Mobilizes', 'value', 'scale', 'key', 'data', 'organization', 'generated', 'invested', '•', 'Automates', 'NLP', 'workflow', 'process', 'million', 'document', 'data', 'field', 'across', 'range', 'business', 'line', ',', 'normalizing', 'data', 'enhancing', 'metadata', 'easy', 'consumption', '•', 'Easily', 'efficiently', 'scale', 'add', 'new', 'use', 'case', 'robust', 'NLP', 'Data', 'Factory', 'pipeline', '•', 'Delivers', 'ready-to-use', 'data', 'solution', 'improve', 'business', 'outcome', 'Automate', 'critical', 'data', 'extraction', ',', 'enrichment', 'delivery', 'CONTACT', 'US', 'iqvia.com', '©2', '02', '1', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 134
+
+************************************************************************************************************************
+
+7 --> A ll  ri gh ts  r es er ve d.  IQ V IA ®  is  a  r eg is te re d  tr ad em ar k  of  IQ V IA  In c.  in  t h e  U ni te d  St at es , t h e  Eu ro p ea n  U ni on , a n d  va ri ou s  ot h er  c ou n tr ie s.  3 .2 02 1. 
+
+
+ ---- TOKENS ----
+
+ ['A', 'll', 'ri', 'gh', 'ts', 'r', 'es', 'er', 've', 'd.', 'IQ', 'V', 'IA', '®', 'is', 'a', 'r', 'eg', 'is', 'te', 're', 'd', 'tr', 'ad', 'em', 'ar', 'k', 'of', 'IQ', 'V', 'IA', 'In', 'c.', 'in', 't', 'h', 'e', 'U', 'ni', 'te', 'd', 'St', 'at', 'es', ',', 't', 'h', 'e', 'Eu', 'ro', 'p', 'ea', 'n', 'U', 'ni', 'on', ',', 'a', 'n', 'd', 'va', 'ri', 'ou', 's', 'ot', 'h', 'er', 'c', 'ou', 'n', 'tr', 'ie', 's.', '3', '.2', '02', '1', '.'] 
+
+ TOTAL TOKENS ==> 78
+
+ ---- POST ----
+
+ [('A', 'DT'), ('ll', 'JJ'), ('ri', 'NN'), ('gh', 'NN'), ('ts', 'NN'), ('r', 'NN'), ('es', 'NN'), ('er', 'NN'), ('ve', 'NN'), ('d.', 'NN'), ('IQ', 'NNP'), ('V', 'NNP'), ('IA', 'NNP'), ('®', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('r', 'NN'), ('eg', 'NN'), ('is', 'VBZ'), ('te', 'JJ'), ('re', 'NN'), ('d', 'NN'), ('tr', 'NN'), ('ad', 'NN'), ('em', 'NN'), ('ar', 'VBP'), ('k', 'NN'), ('of', 'IN'), ('IQ', 'NNP'), ('V', 'NNP'), ('IA', 'NNP'), ('In', 'IN'), ('c.', 'NN'), ('in', 'IN'), ('t', 'NN'), ('h', 'NN'), ('e', 'NN'), ('U', 'NNP'), ('ni', 'CC'), ('te', 'JJ'), ('d', 'NN'), ('St', 'NNP'), ('at', 'IN'), ('es', 'NN'), (',', ','), ('t', 'NN'), ('h', 'NN'), ('e', 'NN'), ('Eu', 'NNP'), ('ro', 'NN'), ('p', 'NN'), ('ea', 'NN'), ('n', 'JJ'), ('U', 'NNP'), ('ni', 'NN'), ('on', 'IN'), (',', ','), ('a', 'DT'), ('n', 'JJ'), ('d', 'NN'), ('va', 'NN'), ('ri', 'NN'), ('ou', 'NN'), ('s', 'NN'), ('ot', 'NN'), ('h', 'NN'), ('er', 'JJ'), ('c', 'NN'), ('ou', 'NN'), ('n', 'JJ'), ('tr', 'NN'), ('ie', 'NN'), ('s.', 'VBD'), ('3', 'CD'), ('.2', 'JJ'), ('02', 'CD'), ('1', 'CD'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['ri', 'gh', 'ts', 'r', 'es', 'er', 'd.', 'IQ', 'V', 'IA', '®', 'r', 'eg', 'te', 'tr', 'ad', 'em', 'ar', 'k', 'IQ', 'V', 'IA', 'c.', 'h', 'e', 'U', 'ni', 'te', 'St', 'es', ',', 'h', 'e', 'Eu', 'ro', 'p', 'ea', 'n', 'U', 'ni', ',', 'n', 'va', 'ri', 'ou', 'ot', 'h', 'er', 'c', 'ou', 'n', 'tr', 'ie', 's.', '3', '.2', '02', '1', '.']
+
+ TOTAL FILTERED TOKENS ==>  59
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('ri', 'NN'), ('gh', 'NN'), ('ts', 'NN'), ('r', 'NN'), ('es', 'NN'), ('er', 'NN'), ('d.', 'NN'), ('IQ', 'NNP'), ('V', 'NNP'), ('IA', 'NNP'), ('®', 'NNP'), ('r', 'NN'), ('eg', 'NN'), ('te', 'NN'), ('tr', 'NN'), ('ad', 'NN'), ('em', 'NN'), ('ar', 'NN'), ('k', 'NN'), ('IQ', 'NNP'), ('V', 'NNP'), ('IA', 'NNP'), ('c.', 'NN'), ('h', 'NN'), ('e', 'NN'), ('U', 'NNP'), ('ni', 'CC'), ('te', 'JJ'), ('St', 'NNP'), ('es', 'NN'), (',', ','), ('h', 'NN'), ('e', 'NN'), ('Eu', 'NNP'), ('ro', 'NN'), ('p', 'NN'), ('ea', 'NN'), ('n', 'JJ'), ('U', 'NNP'), ('ni', 'NN'), (',', ','), ('n', 'JJ'), ('va', 'NN'), ('ri', 'NN'), ('ou', 'NN'), ('ot', 'NN'), ('h', 'NN'), ('er', 'JJ'), ('c', 'NN'), ('ou', 'NN'), ('n', 'JJ'), ('tr', 'NN'), ('ie', 'NN'), ('s.', 'VBD'), ('3', 'CD'), ('.2', 'JJ'), ('02', 'CD'), ('1', 'CD'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['ri gh', 'gh ts', 'ts r', 'r es', 'es er', 'er d.', 'd. IQ', 'IQ V', 'V IA', 'IA ®', '® r', 'r eg', 'eg te', 'te tr', 'tr ad', 'ad em', 'em ar', 'ar k', 'k IQ', 'IQ V', 'V IA', 'IA c.', 'c. h', 'h e', 'e U', 'U ni', 'ni te', 'te St', 'St es', 'es ,', ', h', 'h e', 'e Eu', 'Eu ro', 'ro p', 'p ea', 'ea n', 'n U', 'U ni', 'ni ,', ', n', 'n va', 'va ri', 'ri ou', 'ou ot', 'ot h', 'h er', 'er c', 'c ou', 'ou n', 'n tr', 'tr ie', 'ie s.', 's. 3', '3 .2', '.2 02', '02 1', '1 .'] 
+
+ TOTAL BIGRAMS --> 58 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['ri gh ts', 'gh ts r', 'ts r es', 'r es er', 'es er d.', 'er d. IQ', 'd. IQ V', 'IQ V IA', 'V IA ®', 'IA ® r', '® r eg', 'r eg te', 'eg te tr', 'te tr ad', 'tr ad em', 'ad em ar', 'em ar k', 'ar k IQ', 'k IQ V', 'IQ V IA', 'V IA c.', 'IA c. h', 'c. h e', 'h e U', 'e U ni', 'U ni te', 'ni te St', 'te St es', 'St es ,', 'es , h', ', h e', 'h e Eu', 'e Eu ro', 'Eu ro p', 'ro p ea', 'p ea n', 'ea n U', 'n U ni', 'U ni ,', 'ni , n', ', n va', 'n va ri', 'va ri ou', 'ri ou ot', 'ou ot h', 'ot h er', 'h er c', 'er c ou', 'c ou n', 'ou n tr', 'n tr ie', 'tr ie s.', 'ie s. 3', 's. 3 .2', '3 .2 02', '.2 02 1', '02 1 .'] 
+
+ TOTAL TRIGRAMS --> 57 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['ri', 'gh', 'ts', 'r', 'es', 'er', 'd.', 'r', 'eg', 'te', 'tr', 'ad', 'em', 'ar', 'k', 'c.', 'h', 'e', 'es', 'h', 'e', 'ro', 'p', 'ea', 'ni', 'n va', 'ri', 'ou', 'ot', 'h', 'er c', 'ou', 'n tr', 'ie'] 
+
+ TOTAL NOUN PHRASES --> 34 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['IQ V', 'IQ V']
+ TOTAL ORGANIZATION ENTITY --> 2 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Eu']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['ri', 'gh', 'ts', 'r', 'es', 'er', 'd.', 'iq', 'v', 'ia', '®', 'r', 'eg', 'te', 'tr', 'ad', 'em', 'ar', 'k', 'iq', 'v', 'ia', 'c.', 'h', 'e', 'u', 'ni', 'te', 'st', 'es', ',', 'h', 'e', 'eu', 'ro', 'p', 'ea', 'n', 'u', 'ni', ',', 'n', 'va', 'ri', 'ou', 'ot', 'h', 'er', 'c', 'ou', 'n', 'tr', 'ie', 's.', '3', '.2', '02', '1', '.']
+
+ TOTAL PORTER STEM WORDS ==> 59
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['ri', 'gh', 'ts', 'r', 'es', 'er', 'd.', 'iq', 'v', 'ia', '®', 'r', 'eg', 'te', 'tr', 'ad', 'em', 'ar', 'k', 'iq', 'v', 'ia', 'c.', 'h', 'e', 'u', 'ni', 'te', 'st', 'es', ',', 'h', 'e', 'eu', 'ro', 'p', 'ea', 'n', 'u', 'ni', ',', 'n', 'va', 'ri', 'ou', 'ot', 'h', 'er', 'c', 'ou', 'n', 'tr', 'ie', 's.', '3', '.2', '02', '1', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 59
+
+
+
+ ---- LEMMATIZATION ----
+
+['ri', 'gh', 't', 'r', 'e', 'er', 'd.', 'IQ', 'V', 'IA', '®', 'r', 'eg', 'te', 'tr', 'ad', 'em', 'ar', 'k', 'IQ', 'V', 'IA', 'c.', 'h', 'e', 'U', 'ni', 'te', 'St', 'e', ',', 'h', 'e', 'Eu', 'ro', 'p', 'ea', 'n', 'U', 'ni', ',', 'n', 'va', 'ri', 'ou', 'ot', 'h', 'er', 'c', 'ou', 'n', 'tr', 'ie', 's.', '3', '.2', '02', '1', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 59
+
+************************************************************************************************************************
+
+8 --> R W S NLP DATA FACTORY KEY FEATURES • Effective robust solution for extracting value from  textual data - think of it as intelligent ETL (Extract  -Transform-Load) of free text. 
+
+
+ ---- TOKENS ----
+
+ ['R', 'W', 'S', 'NLP', 'DATA', 'FACTORY', 'KEY', 'FEATURES', '•', 'Effective', 'robust', 'solution', 'for', 'extracting', 'value', 'from', 'textual', 'data', '-', 'think', 'of', 'it', 'as', 'intelligent', 'ETL', '(', 'Extract', '-Transform-Load', ')', 'of', 'free', 'text', '.'] 
+
+ TOTAL TOKENS ==> 33
+
+ ---- POST ----
+
+ [('R', 'NNP'), ('W', 'NNP'), ('S', 'NNP'), ('NLP', 'NNP'), ('DATA', 'NNP'), ('FACTORY', 'NNP'), ('KEY', 'NNP'), ('FEATURES', 'NNP'), ('•', 'NNP'), ('Effective', 'NNP'), ('robust', 'JJ'), ('solution', 'NN'), ('for', 'IN'), ('extracting', 'VBG'), ('value', 'NN'), ('from', 'IN'), ('textual', 'JJ'), ('data', 'NNS'), ('-', ':'), ('think', 'NN'), ('of', 'IN'), ('it', 'PRP'), ('as', 'IN'), ('intelligent', 'JJ'), ('ETL', 'NNP'), ('(', '('), ('Extract', 'NNP'), ('-Transform-Load', 'NNP'), (')', ')'), ('of', 'IN'), ('free', 'JJ'), ('text', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['R', 'W', 'NLP', 'DATA', 'FACTORY', 'KEY', 'FEATURES', '•', 'Effective', 'robust', 'solution', 'extracting', 'value', 'textual', 'data', '-', 'think', 'intelligent', 'ETL', '(', 'Extract', '-Transform-Load', ')', 'free', 'text', '.']
+
+ TOTAL FILTERED TOKENS ==>  26
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('R', 'NNP'), ('W', 'NNP'), ('NLP', 'NNP'), ('DATA', 'NNP'), ('FACTORY', 'NNP'), ('KEY', 'NNP'), ('FEATURES', 'NNP'), ('•', 'NNP'), ('Effective', 'NNP'), ('robust', 'JJ'), ('solution', 'NN'), ('extracting', 'VBG'), ('value', 'NN'), ('textual', 'JJ'), ('data', 'NNS'), ('-', ':'), ('think', 'VB'), ('intelligent', 'JJ'), ('ETL', 'NNP'), ('(', '('), ('Extract', 'NNP'), ('-Transform-Load', 'NNP'), (')', ')'), ('free', 'JJ'), ('text', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['R W', 'W NLP', 'NLP DATA', 'DATA FACTORY', 'FACTORY KEY', 'KEY FEATURES', 'FEATURES •', '• Effective', 'Effective robust', 'robust solution', 'solution extracting', 'extracting value', 'value textual', 'textual data', 'data -', '- think', 'think intelligent', 'intelligent ETL', 'ETL (', '( Extract', 'Extract -Transform-Load', '-Transform-Load )', ') free', 'free text', 'text .'] 
+
+ TOTAL BIGRAMS --> 25 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['R W NLP', 'W NLP DATA', 'NLP DATA FACTORY', 'DATA FACTORY KEY', 'FACTORY KEY FEATURES', 'KEY FEATURES •', 'FEATURES • Effective', '• Effective robust', 'Effective robust solution', 'robust solution extracting', 'solution extracting value', 'extracting value textual', 'value textual data', 'textual data -', 'data - think', '- think intelligent', 'think intelligent ETL', 'intelligent ETL (', 'ETL ( Extract', '( Extract -Transform-Load', 'Extract -Transform-Load )', '-Transform-Load ) free', ') free text', 'free text .'] 
+
+ TOTAL TRIGRAMS --> 24 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['robust solution', 'value', 'free text'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['FEATURES', 'ETL']
+ TOTAL ORGANIZATION ENTITY --> 2 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['r', 'w', 'nlp', 'data', 'factori', 'key', 'featur', '•', 'effect', 'robust', 'solut', 'extract', 'valu', 'textual', 'data', '-', 'think', 'intellig', 'etl', '(', 'extract', '-transform-load', ')', 'free', 'text', '.']
+
+ TOTAL PORTER STEM WORDS ==> 26
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['r', 'w', 'nlp', 'data', 'factori', 'key', 'featur', '•', 'effect', 'robust', 'solut', 'extract', 'valu', 'textual', 'data', '-', 'think', 'intellig', 'etl', '(', 'extract', '-transform-load', ')', 'free', 'text', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 26
+
+
+
+ ---- LEMMATIZATION ----
+
+['R', 'W', 'NLP', 'DATA', 'FACTORY', 'KEY', 'FEATURES', '•', 'Effective', 'robust', 'solution', 'extracting', 'value', 'textual', 'data', '-', 'think', 'intelligent', 'ETL', '(', 'Extract', '-Transform-Load', ')', 'free', 'text', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 26
+
+************************************************************************************************************************
+
+9 --> • World-class NLP to surface and transform data      from a wide range of formats to common data  standards outputs • Integrated OCR to ensure scanned text is not            left behind • Embeds seamlessly into existing enterprise  architectures and workflows • Deployable on-premise, in cloud environments or  with a hybrid implementation  • Recognizes and normalizes complex constructs such  as cancer staging • Seamlessly incorporates trained ML models TECHNICAL OVERVIEW Industry-proven NLP technology. 
+
+
+ ---- TOKENS ----
+
+ ['•', 'World-class', 'NLP', 'to', 'surface', 'and', 'transform', 'data', 'from', 'a', 'wide', 'range', 'of', 'formats', 'to', 'common', 'data', 'standards', 'outputs', '•', 'Integrated', 'OCR', 'to', 'ensure', 'scanned', 'text', 'is', 'not', 'left', 'behind', '•', 'Embeds', 'seamlessly', 'into', 'existing', 'enterprise', 'architectures', 'and', 'workflows', '•', 'Deployable', 'on-premise', ',', 'in', 'cloud', 'environments', 'or', 'with', 'a', 'hybrid', 'implementation', '•', 'Recognizes', 'and', 'normalizes', 'complex', 'constructs', 'such', 'as', 'cancer', 'staging', '•', 'Seamlessly', 'incorporates', 'trained', 'ML', 'models', 'TECHNICAL', 'OVERVIEW', 'Industry-proven', 'NLP', 'technology', '.'] 
+
+ TOTAL TOKENS ==> 73
+
+ ---- POST ----
+
+ [('•', 'JJ'), ('World-class', 'NNP'), ('NLP', 'NNP'), ('to', 'TO'), ('surface', 'VB'), ('and', 'CC'), ('transform', 'VB'), ('data', 'NNS'), ('from', 'IN'), ('a', 'DT'), ('wide', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('formats', 'NNS'), ('to', 'TO'), ('common', 'JJ'), ('data', 'NN'), ('standards', 'NNS'), ('outputs', 'VBZ'), ('•', 'RB'), ('Integrated', 'VBN'), ('OCR', 'NNP'), ('to', 'TO'), ('ensure', 'VB'), ('scanned', 'VBN'), ('text', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('left', 'VBN'), ('behind', 'IN'), ('•', 'JJ'), ('Embeds', 'NNP'), ('seamlessly', 'RB'), ('into', 'IN'), ('existing', 'VBG'), ('enterprise', 'NN'), ('architectures', 'NNS'), ('and', 'CC'), ('workflows', 'NNS'), ('•', 'VBP'), ('Deployable', 'JJ'), ('on-premise', 'NN'), (',', ','), ('in', 'IN'), ('cloud', 'JJ'), ('environments', 'NNS'), ('or', 'CC'), ('with', 'IN'), ('a', 'DT'), ('hybrid', 'JJ'), ('implementation', 'NN'), ('•', 'NN'), ('Recognizes', 'NNP'), ('and', 'CC'), ('normalizes', 'VBZ'), ('complex', 'JJ'), ('constructs', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('cancer', 'NN'), ('staging', 'VBG'), ('•', 'NNP'), ('Seamlessly', 'NNP'), ('incorporates', 'VBZ'), ('trained', 'JJ'), ('ML', 'NNP'), ('models', 'NNS'), ('TECHNICAL', 'NNP'), ('OVERVIEW', 'NNP'), ('Industry-proven', 'NNP'), ('NLP', 'NNP'), ('technology', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['•', 'World-class', 'NLP', 'surface', 'transform', 'data', 'wide', 'range', 'formats', 'common', 'data', 'standards', 'outputs', '•', 'Integrated', 'OCR', 'ensure', 'scanned', 'text', 'left', 'behind', '•', 'Embeds', 'seamlessly', 'existing', 'enterprise', 'architectures', 'workflows', '•', 'Deployable', 'on-premise', ',', 'cloud', 'environments', 'hybrid', 'implementation', '•', 'Recognizes', 'normalizes', 'complex', 'constructs', 'cancer', 'staging', '•', 'Seamlessly', 'incorporates', 'trained', 'ML', 'models', 'TECHNICAL', 'OVERVIEW', 'Industry-proven', 'NLP', 'technology', '.']
+
+ TOTAL FILTERED TOKENS ==>  55
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('•', 'JJ'), ('World-class', 'NNP'), ('NLP', 'NNP'), ('surface', 'NN'), ('transform', 'NN'), ('data', 'NNS'), ('wide', 'JJ'), ('range', 'NN'), ('formats', 'NNS'), ('common', 'JJ'), ('data', 'NNS'), ('standards', 'NNS'), ('outputs', 'NNS'), ('•', 'RB'), ('Integrated', 'NNP'), ('OCR', 'NNP'), ('ensure', 'VB'), ('scanned', 'VBN'), ('text', 'NN'), ('left', 'VBD'), ('behind', 'RP'), ('•', 'JJ'), ('Embeds', 'NNP'), ('seamlessly', 'RB'), ('existing', 'VBG'), ('enterprise', 'NN'), ('architectures', 'NNS'), ('workflows', 'VBZ'), ('•', 'NNP'), ('Deployable', 'NNP'), ('on-premise', 'NN'), (',', ','), ('cloud', 'JJ'), ('environments', 'NNS'), ('hybrid', 'JJ'), ('implementation', 'NN'), ('•', 'NN'), ('Recognizes', 'NNP'), ('normalizes', 'VBZ'), ('complex', 'JJ'), ('constructs', 'NNS'), ('cancer', 'NN'), ('staging', 'VBG'), ('•', 'NNP'), ('Seamlessly', 'NNP'), ('incorporates', 'VBZ'), ('trained', 'JJ'), ('ML', 'NNP'), ('models', 'NNS'), ('TECHNICAL', 'NNP'), ('OVERVIEW', 'NNP'), ('Industry-proven', 'NNP'), ('NLP', 'NNP'), ('technology', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['• World-class', 'World-class NLP', 'NLP surface', 'surface transform', 'transform data', 'data wide', 'wide range', 'range formats', 'formats common', 'common data', 'data standards', 'standards outputs', 'outputs •', '• Integrated', 'Integrated OCR', 'OCR ensure', 'ensure scanned', 'scanned text', 'text left', 'left behind', 'behind •', '• Embeds', 'Embeds seamlessly', 'seamlessly existing', 'existing enterprise', 'enterprise architectures', 'architectures workflows', 'workflows •', '• Deployable', 'Deployable on-premise', 'on-premise ,', ', cloud', 'cloud environments', 'environments hybrid', 'hybrid implementation', 'implementation •', '• Recognizes', 'Recognizes normalizes', 'normalizes complex', 'complex constructs', 'constructs cancer', 'cancer staging', 'staging •', '• Seamlessly', 'Seamlessly incorporates', 'incorporates trained', 'trained ML', 'ML models', 'models TECHNICAL', 'TECHNICAL OVERVIEW', 'OVERVIEW Industry-proven', 'Industry-proven NLP', 'NLP technology', 'technology .'] 
+
+ TOTAL BIGRAMS --> 54 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['• World-class NLP', 'World-class NLP surface', 'NLP surface transform', 'surface transform data', 'transform data wide', 'data wide range', 'wide range formats', 'range formats common', 'formats common data', 'common data standards', 'data standards outputs', 'standards outputs •', 'outputs • Integrated', '• Integrated OCR', 'Integrated OCR ensure', 'OCR ensure scanned', 'ensure scanned text', 'scanned text left', 'text left behind', 'left behind •', 'behind • Embeds', '• Embeds seamlessly', 'Embeds seamlessly existing', 'seamlessly existing enterprise', 'existing enterprise architectures', 'enterprise architectures workflows', 'architectures workflows •', 'workflows • Deployable', '• Deployable on-premise', 'Deployable on-premise ,', 'on-premise , cloud', ', cloud environments', 'cloud environments hybrid', 'environments hybrid implementation', 'hybrid implementation •', 'implementation • Recognizes', '• Recognizes normalizes', 'Recognizes normalizes complex', 'normalizes complex constructs', 'complex constructs cancer', 'constructs cancer staging', 'cancer staging •', 'staging • Seamlessly', '• Seamlessly incorporates', 'Seamlessly incorporates trained', 'incorporates trained ML', 'trained ML models', 'ML models TECHNICAL', 'models TECHNICAL OVERVIEW', 'TECHNICAL OVERVIEW Industry-proven', 'OVERVIEW Industry-proven NLP', 'Industry-proven NLP technology', 'NLP technology .'] 
+
+ TOTAL TRIGRAMS --> 53 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['surface', 'transform', 'wide range', 'text', 'enterprise', 'on-premise', 'hybrid implementation', '•', 'cancer', 'technology'] 
+
+ TOTAL NOUN PHRASES --> 10 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['Integrated', 'Recognizes', 'TECHNICAL']
+ TOTAL ORGANIZATION ENTITY --> 3 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['•', 'world-class', 'nlp', 'surfac', 'transform', 'data', 'wide', 'rang', 'format', 'common', 'data', 'standard', 'output', '•', 'integr', 'ocr', 'ensur', 'scan', 'text', 'left', 'behind', '•', 'emb', 'seamlessli', 'exist', 'enterpris', 'architectur', 'workflow', '•', 'deploy', 'on-premis', ',', 'cloud', 'environ', 'hybrid', 'implement', '•', 'recogn', 'normal', 'complex', 'construct', 'cancer', 'stage', '•', 'seamlessli', 'incorpor', 'train', 'ml', 'model', 'technic', 'overview', 'industry-proven', 'nlp', 'technolog', '.']
+
+ TOTAL PORTER STEM WORDS ==> 55
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['•', 'world-class', 'nlp', 'surfac', 'transform', 'data', 'wide', 'rang', 'format', 'common', 'data', 'standard', 'output', '•', 'integr', 'ocr', 'ensur', 'scan', 'text', 'left', 'behind', '•', 'emb', 'seamless', 'exist', 'enterpris', 'architectur', 'workflow', '•', 'deploy', 'on-premis', ',', 'cloud', 'environ', 'hybrid', 'implement', '•', 'recogn', 'normal', 'complex', 'construct', 'cancer', 'stage', '•', 'seamless', 'incorpor', 'train', 'ml', 'model', 'technic', 'overview', 'industry-proven', 'nlp', 'technolog', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 55
+
+
+
+ ---- LEMMATIZATION ----
+
+['•', 'World-class', 'NLP', 'surface', 'transform', 'data', 'wide', 'range', 'format', 'common', 'data', 'standard', 'output', '•', 'Integrated', 'OCR', 'ensure', 'scanned', 'text', 'left', 'behind', '•', 'Embeds', 'seamlessly', 'existing', 'enterprise', 'architecture', 'workflow', '•', 'Deployable', 'on-premise', ',', 'cloud', 'environment', 'hybrid', 'implementation', '•', 'Recognizes', 'normalizes', 'complex', 'construct', 'cancer', 'staging', '•', 'Seamlessly', 'incorporates', 'trained', 'ML', 'model', 'TECHNICAL', 'OVERVIEW', 'Industry-proven', 'NLP', 'technology', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 55
+
+************************************************************************************************************************
+
+10 --> The NLP Data  Factory uses IQVIA NLP technologies to power the  normalization and standardization of input data. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'NLP', 'Data', 'Factory', 'uses', 'IQVIA', 'NLP', 'technologies', 'to', 'power', 'the', 'normalization', 'and', 'standardization', 'of', 'input', 'data', '.'] 
+
+ TOTAL TOKENS ==> 18
+
+ ---- POST ----
+
+ [('The', 'DT'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('uses', 'VBZ'), ('IQVIA', 'NNP'), ('NLP', 'NNP'), ('technologies', 'NNS'), ('to', 'TO'), ('power', 'NN'), ('the', 'DT'), ('normalization', 'NN'), ('and', 'CC'), ('standardization', 'NN'), ('of', 'IN'), ('input', 'NN'), ('data', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['NLP', 'Data', 'Factory', 'uses', 'IQVIA', 'NLP', 'technologies', 'power', 'normalization', 'standardization', 'input', 'data', '.']
+
+ TOTAL FILTERED TOKENS ==>  13
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('uses', 'VBZ'), ('IQVIA', 'NNP'), ('NLP', 'NNP'), ('technologies', 'NNS'), ('power', 'NN'), ('normalization', 'NN'), ('standardization', 'NN'), ('input', 'NN'), ('data', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['NLP Data', 'Data Factory', 'Factory uses', 'uses IQVIA', 'IQVIA NLP', 'NLP technologies', 'technologies power', 'power normalization', 'normalization standardization', 'standardization input', 'input data', 'data .'] 
+
+ TOTAL BIGRAMS --> 12 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['NLP Data Factory', 'Data Factory uses', 'Factory uses IQVIA', 'uses IQVIA NLP', 'IQVIA NLP technologies', 'NLP technologies power', 'technologies power normalization', 'power normalization standardization', 'normalization standardization input', 'standardization input data', 'input data .'] 
+
+ TOTAL TRIGRAMS --> 11 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['power', 'normalization', 'standardization', 'input'] 
+
+ TOTAL NOUN PHRASES --> 4 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['NLP Data Factory', 'IQVIA']
+ TOTAL ORGANIZATION ENTITY --> 2 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['nlp', 'data', 'factori', 'use', 'iqvia', 'nlp', 'technolog', 'power', 'normal', 'standard', 'input', 'data', '.']
+
+ TOTAL PORTER STEM WORDS ==> 13
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['nlp', 'data', 'factori', 'use', 'iqvia', 'nlp', 'technolog', 'power', 'normal', 'standard', 'input', 'data', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 13
+
+
+
+ ---- LEMMATIZATION ----
+
+['NLP', 'Data', 'Factory', 'us', 'IQVIA', 'NLP', 'technology', 'power', 'normalization', 'standardization', 'input', 'data', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 13
+
+************************************************************************************************************************
+
+11 --> This blend of methods combines rule-based queries,  machine learning, terminology matching, pattern  extraction and relationship identification to ensure the  highest possible accuracy for the task in hand. 
+
+
+ ---- TOKENS ----
+
+ ['This', 'blend', 'of', 'methods', 'combines', 'rule-based', 'queries', ',', 'machine', 'learning', ',', 'terminology', 'matching', ',', 'pattern', 'extraction', 'and', 'relationship', 'identification', 'to', 'ensure', 'the', 'highest', 'possible', 'accuracy', 'for', 'the', 'task', 'in', 'hand', '.'] 
+
+ TOTAL TOKENS ==> 31
+
+ ---- POST ----
+
+ [('This', 'DT'), ('blend', 'NN'), ('of', 'IN'), ('methods', 'NNS'), ('combines', 'NNS'), ('rule-based', 'JJ'), ('queries', 'NNS'), (',', ','), ('machine', 'NN'), ('learning', 'NN'), (',', ','), ('terminology', 'NN'), ('matching', 'NN'), (',', ','), ('pattern', 'JJ'), ('extraction', 'NN'), ('and', 'CC'), ('relationship', 'NN'), ('identification', 'NN'), ('to', 'TO'), ('ensure', 'VB'), ('the', 'DT'), ('highest', 'JJS'), ('possible', 'JJ'), ('accuracy', 'NN'), ('for', 'IN'), ('the', 'DT'), ('task', 'NN'), ('in', 'IN'), ('hand', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['blend', 'methods', 'combines', 'rule-based', 'queries', ',', 'machine', 'learning', ',', 'terminology', 'matching', ',', 'pattern', 'extraction', 'relationship', 'identification', 'ensure', 'highest', 'possible', 'accuracy', 'task', 'hand', '.']
+
+ TOTAL FILTERED TOKENS ==>  23
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('blend', 'NN'), ('methods', 'NNS'), ('combines', 'VBZ'), ('rule-based', 'JJ'), ('queries', 'NNS'), (',', ','), ('machine', 'NN'), ('learning', 'NN'), (',', ','), ('terminology', 'NN'), ('matching', 'NN'), (',', ','), ('pattern', 'JJ'), ('extraction', 'NN'), ('relationship', 'NN'), ('identification', 'NN'), ('ensure', 'VB'), ('highest', 'JJS'), ('possible', 'JJ'), ('accuracy', 'NN'), ('task', 'NN'), ('hand', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['blend methods', 'methods combines', 'combines rule-based', 'rule-based queries', 'queries ,', ', machine', 'machine learning', 'learning ,', ', terminology', 'terminology matching', 'matching ,', ', pattern', 'pattern extraction', 'extraction relationship', 'relationship identification', 'identification ensure', 'ensure highest', 'highest possible', 'possible accuracy', 'accuracy task', 'task hand', 'hand .'] 
+
+ TOTAL BIGRAMS --> 22 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['blend methods combines', 'methods combines rule-based', 'combines rule-based queries', 'rule-based queries ,', 'queries , machine', ', machine learning', 'machine learning ,', 'learning , terminology', ', terminology matching', 'terminology matching ,', 'matching , pattern', ', pattern extraction', 'pattern extraction relationship', 'extraction relationship identification', 'relationship identification ensure', 'identification ensure highest', 'ensure highest possible', 'highest possible accuracy', 'possible accuracy task', 'accuracy task hand', 'task hand .'] 
+
+ TOTAL TRIGRAMS --> 21 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['blend', 'machine', 'learning', 'terminology', 'matching', 'pattern extraction', 'relationship', 'identification', 'possible accuracy', 'task', 'hand'] 
+
+ TOTAL NOUN PHRASES --> 11 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['blend', 'method', 'combin', 'rule-bas', 'queri', ',', 'machin', 'learn', ',', 'terminolog', 'match', ',', 'pattern', 'extract', 'relationship', 'identif', 'ensur', 'highest', 'possibl', 'accuraci', 'task', 'hand', '.']
+
+ TOTAL PORTER STEM WORDS ==> 23
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['blend', 'method', 'combin', 'rule-bas', 'queri', ',', 'machin', 'learn', ',', 'terminolog', 'match', ',', 'pattern', 'extract', 'relationship', 'identif', 'ensur', 'highest', 'possibl', 'accuraci', 'task', 'hand', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 23
+
+
+
+ ---- LEMMATIZATION ----
+
+['blend', 'method', 'combine', 'rule-based', 'query', ',', 'machine', 'learning', ',', 'terminology', 'matching', ',', 'pattern', 'extraction', 'relationship', 'identification', 'ensure', 'highest', 'possible', 'accuracy', 'task', 'hand', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 23
+
+************************************************************************************************************************
+
+12 --> Fast, scalable, architecture. 
+
+
+ ---- TOKENS ----
+
+ ['Fast', ',', 'scalable', ',', 'architecture', '.'] 
+
+ TOTAL TOKENS ==> 6
+
+ ---- POST ----
+
+ [('Fast', 'NNP'), (',', ','), ('scalable', 'JJ'), (',', ','), ('architecture', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Fast', ',', 'scalable', ',', 'architecture', '.']
+
+ TOTAL FILTERED TOKENS ==>  6
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Fast', 'NNP'), (',', ','), ('scalable', 'JJ'), (',', ','), ('architecture', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Fast ,', ', scalable', 'scalable ,', ', architecture', 'architecture .'] 
+
+ TOTAL BIGRAMS --> 5 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Fast , scalable', ', scalable ,', 'scalable , architecture', ', architecture .'] 
+
+ TOTAL TRIGRAMS --> 4 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['architecture'] 
+
+ TOTAL NOUN PHRASES --> 1 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Fast']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['fast', ',', 'scalabl', ',', 'architectur', '.']
+
+ TOTAL PORTER STEM WORDS ==> 6
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['fast', ',', 'scalabl', ',', 'architectur', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 6
+
+
+
+ ---- LEMMATIZATION ----
+
+['Fast', ',', 'scalable', ',', 'architecture', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 6
+
+************************************************************************************************************************
+
+13 --> The components required  to power the NLP Data Factory has been developed  together to optimize the efficiency of the system. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'components', 'required', 'to', 'power', 'the', 'NLP', 'Data', 'Factory', 'has', 'been', 'developed', 'together', 'to', 'optimize', 'the', 'efficiency', 'of', 'the', 'system', '.'] 
+
+ TOTAL TOKENS ==> 21
+
+ ---- POST ----
+
+ [('The', 'DT'), ('components', 'NNS'), ('required', 'VBN'), ('to', 'TO'), ('power', 'NN'), ('the', 'DT'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('developed', 'VBN'), ('together', 'RB'), ('to', 'TO'), ('optimize', 'VB'), ('the', 'DT'), ('efficiency', 'NN'), ('of', 'IN'), ('the', 'DT'), ('system', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['components', 'required', 'power', 'NLP', 'Data', 'Factory', 'developed', 'together', 'optimize', 'efficiency', 'system', '.']
+
+ TOTAL FILTERED TOKENS ==>  12
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('components', 'NNS'), ('required', 'VBN'), ('power', 'NN'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('developed', 'VBD'), ('together', 'RB'), ('optimize', 'JJ'), ('efficiency', 'NN'), ('system', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['components required', 'required power', 'power NLP', 'NLP Data', 'Data Factory', 'Factory developed', 'developed together', 'together optimize', 'optimize efficiency', 'efficiency system', 'system .'] 
+
+ TOTAL BIGRAMS --> 11 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['components required power', 'required power NLP', 'power NLP Data', 'NLP Data Factory', 'Data Factory developed', 'Factory developed together', 'developed together optimize', 'together optimize efficiency', 'optimize efficiency system', 'efficiency system .'] 
+
+ TOTAL TRIGRAMS --> 10 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['power', 'optimize efficiency', 'system'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['NLP Data Factory']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['compon', 'requir', 'power', 'nlp', 'data', 'factori', 'develop', 'togeth', 'optim', 'effici', 'system', '.']
+
+ TOTAL PORTER STEM WORDS ==> 12
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['compon', 'requir', 'power', 'nlp', 'data', 'factori', 'develop', 'togeth', 'optim', 'effici', 'system', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 12
+
+
+
+ ---- LEMMATIZATION ----
+
+['component', 'required', 'power', 'NLP', 'Data', 'Factory', 'developed', 'together', 'optimize', 'efficiency', 'system', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 12
+
+************************************************************************************************************************
+
+14 --> An internal orchestration component is designed to  parallelize incoming data, ensuring that scaling is  effective and matches the availability of resources. 
+
+
+ ---- TOKENS ----
+
+ ['An', 'internal', 'orchestration', 'component', 'is', 'designed', 'to', 'parallelize', 'incoming', 'data', ',', 'ensuring', 'that', 'scaling', 'is', 'effective', 'and', 'matches', 'the', 'availability', 'of', 'resources', '.'] 
+
+ TOTAL TOKENS ==> 23
+
+ ---- POST ----
+
+ [('An', 'DT'), ('internal', 'JJ'), ('orchestration', 'NN'), ('component', 'NN'), ('is', 'VBZ'), ('designed', 'VBN'), ('to', 'TO'), ('parallelize', 'VB'), ('incoming', 'VBG'), ('data', 'NNS'), (',', ','), ('ensuring', 'VBG'), ('that', 'IN'), ('scaling', 'VBG'), ('is', 'VBZ'), ('effective', 'JJ'), ('and', 'CC'), ('matches', 'VBZ'), ('the', 'DT'), ('availability', 'NN'), ('of', 'IN'), ('resources', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['internal', 'orchestration', 'component', 'designed', 'parallelize', 'incoming', 'data', ',', 'ensuring', 'scaling', 'effective', 'matches', 'availability', 'resources', '.']
+
+ TOTAL FILTERED TOKENS ==>  15
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('internal', 'JJ'), ('orchestration', 'NN'), ('component', 'NN'), ('designed', 'VBN'), ('parallelize', 'IN'), ('incoming', 'VBG'), ('data', 'NNS'), (',', ','), ('ensuring', 'VBG'), ('scaling', 'VBG'), ('effective', 'JJ'), ('matches', 'NNS'), ('availability', 'NN'), ('resources', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['internal orchestration', 'orchestration component', 'component designed', 'designed parallelize', 'parallelize incoming', 'incoming data', 'data ,', ', ensuring', 'ensuring scaling', 'scaling effective', 'effective matches', 'matches availability', 'availability resources', 'resources .'] 
+
+ TOTAL BIGRAMS --> 14 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['internal orchestration component', 'orchestration component designed', 'component designed parallelize', 'designed parallelize incoming', 'parallelize incoming data', 'incoming data ,', 'data , ensuring', ', ensuring scaling', 'ensuring scaling effective', 'scaling effective matches', 'effective matches availability', 'matches availability resources', 'availability resources .'] 
+
+ TOTAL TRIGRAMS --> 13 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['internal orchestration', 'component', 'availability'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['intern', 'orchestr', 'compon', 'design', 'parallel', 'incom', 'data', ',', 'ensur', 'scale', 'effect', 'match', 'avail', 'resourc', '.']
+
+ TOTAL PORTER STEM WORDS ==> 15
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['intern', 'orchestr', 'compon', 'design', 'parallel', 'incom', 'data', ',', 'ensur', 'scale', 'effect', 'match', 'avail', 'resourc', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 15
+
+
+
+ ---- LEMMATIZATION ----
+
+['internal', 'orchestration', 'component', 'designed', 'parallelize', 'incoming', 'data', ',', 'ensuring', 'scaling', 'effective', 'match', 'availability', 'resource', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 15
+
+************************************************************************************************************************
+
+15 --> Flexible NLP framework. 
+
+
+ ---- TOKENS ----
+
+ ['Flexible', 'NLP', 'framework', '.'] 
+
+ TOTAL TOKENS ==> 4
+
+ ---- POST ----
+
+ [('Flexible', 'JJ'), ('NLP', 'NNP'), ('framework', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Flexible', 'NLP', 'framework', '.']
+
+ TOTAL FILTERED TOKENS ==>  4
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Flexible', 'JJ'), ('NLP', 'NNP'), ('framework', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Flexible NLP', 'NLP framework', 'framework .'] 
+
+ TOTAL BIGRAMS --> 3 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Flexible NLP framework', 'NLP framework .'] 
+
+ TOTAL TRIGRAMS --> 2 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['framework'] 
+
+ TOTAL NOUN PHRASES --> 1 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['NLP']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['flexibl', 'nlp', 'framework', '.']
+
+ TOTAL PORTER STEM WORDS ==> 4
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['flexibl', 'nlp', 'framework', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 4
+
+
+
+ ---- LEMMATIZATION ----
+
+['Flexible', 'NLP', 'framework', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 4
+
+************************************************************************************************************************
+
+16 --> The flexible nature of the  IQVIA NLP query engines ensures that new modules  can be dropped into the NLP Data Factory with no  effort. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'flexible', 'nature', 'of', 'the', 'IQVIA', 'NLP', 'query', 'engines', 'ensures', 'that', 'new', 'modules', 'can', 'be', 'dropped', 'into', 'the', 'NLP', 'Data', 'Factory', 'with', 'no', 'effort', '.'] 
+
+ TOTAL TOKENS ==> 25
+
+ ---- POST ----
+
+ [('The', 'DT'), ('flexible', 'JJ'), ('nature', 'NN'), ('of', 'IN'), ('the', 'DT'), ('IQVIA', 'NNP'), ('NLP', 'NNP'), ('query', 'NN'), ('engines', 'NNS'), ('ensures', 'VBZ'), ('that', 'IN'), ('new', 'JJ'), ('modules', 'NNS'), ('can', 'MD'), ('be', 'VB'), ('dropped', 'VBN'), ('into', 'IN'), ('the', 'DT'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('with', 'IN'), ('no', 'DT'), ('effort', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['flexible', 'nature', 'IQVIA', 'NLP', 'query', 'engines', 'ensures', 'new', 'modules', 'dropped', 'NLP', 'Data', 'Factory', 'effort', '.']
+
+ TOTAL FILTERED TOKENS ==>  15
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('flexible', 'JJ'), ('nature', 'NN'), ('IQVIA', 'NNP'), ('NLP', 'NNP'), ('query', 'NN'), ('engines', 'NNS'), ('ensures', 'VBZ'), ('new', 'JJ'), ('modules', 'NNS'), ('dropped', 'VBD'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('effort', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['flexible nature', 'nature IQVIA', 'IQVIA NLP', 'NLP query', 'query engines', 'engines ensures', 'ensures new', 'new modules', 'modules dropped', 'dropped NLP', 'NLP Data', 'Data Factory', 'Factory effort', 'effort .'] 
+
+ TOTAL BIGRAMS --> 14 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['flexible nature IQVIA', 'nature IQVIA NLP', 'IQVIA NLP query', 'NLP query engines', 'query engines ensures', 'engines ensures new', 'ensures new modules', 'new modules dropped', 'modules dropped NLP', 'dropped NLP Data', 'NLP Data Factory', 'Data Factory effort', 'Factory effort .'] 
+
+ TOTAL TRIGRAMS --> 13 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['flexible nature', 'query', 'effort'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['IQVIA', 'NLP Data Factory']
+ TOTAL ORGANIZATION ENTITY --> 2 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['flexibl', 'natur', 'iqvia', 'nlp', 'queri', 'engin', 'ensur', 'new', 'modul', 'drop', 'nlp', 'data', 'factori', 'effort', '.']
+
+ TOTAL PORTER STEM WORDS ==> 15
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['flexibl', 'natur', 'iqvia', 'nlp', 'queri', 'engin', 'ensur', 'new', 'modul', 'drop', 'nlp', 'data', 'factori', 'effort', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 15
+
+
+
+ ---- LEMMATIZATION ----
+
+['flexible', 'nature', 'IQVIA', 'NLP', 'query', 'engine', 'ensures', 'new', 'module', 'dropped', 'NLP', 'Data', 'Factory', 'effort', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 15
+
+************************************************************************************************************************
+
+17 --> These modules can be used right away or can be  tuned further using a powerful browser-based query  editing tool. 
+
+
+ ---- TOKENS ----
+
+ ['These', 'modules', 'can', 'be', 'used', 'right', 'away', 'or', 'can', 'be', 'tuned', 'further', 'using', 'a', 'powerful', 'browser-based', 'query', 'editing', 'tool', '.'] 
+
+ TOTAL TOKENS ==> 20
+
+ ---- POST ----
+
+ [('These', 'DT'), ('modules', 'NNS'), ('can', 'MD'), ('be', 'VB'), ('used', 'VBN'), ('right', 'RB'), ('away', 'RB'), ('or', 'CC'), ('can', 'MD'), ('be', 'VB'), ('tuned', 'VBN'), ('further', 'JJ'), ('using', 'VBG'), ('a', 'DT'), ('powerful', 'JJ'), ('browser-based', 'JJ'), ('query', 'NN'), ('editing', 'VBG'), ('tool', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['modules', 'used', 'right', 'away', 'tuned', 'using', 'powerful', 'browser-based', 'query', 'editing', 'tool', '.']
+
+ TOTAL FILTERED TOKENS ==>  12
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('modules', 'NNS'), ('used', 'VBN'), ('right', 'RB'), ('away', 'RB'), ('tuned', 'VBN'), ('using', 'VBG'), ('powerful', 'JJ'), ('browser-based', 'JJ'), ('query', 'NN'), ('editing', 'VBG'), ('tool', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['modules used', 'used right', 'right away', 'away tuned', 'tuned using', 'using powerful', 'powerful browser-based', 'browser-based query', 'query editing', 'editing tool', 'tool .'] 
+
+ TOTAL BIGRAMS --> 11 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['modules used right', 'used right away', 'right away tuned', 'away tuned using', 'tuned using powerful', 'using powerful browser-based', 'powerful browser-based query', 'browser-based query editing', 'query editing tool', 'editing tool .'] 
+
+ TOTAL TRIGRAMS --> 10 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['powerful browser-based query', 'tool'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['modul', 'use', 'right', 'away', 'tune', 'use', 'power', 'browser-bas', 'queri', 'edit', 'tool', '.']
+
+ TOTAL PORTER STEM WORDS ==> 12
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['modul', 'use', 'right', 'away', 'tune', 'use', 'power', 'browser-bas', 'queri', 'edit', 'tool', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 12
+
+
+
+ ---- LEMMATIZATION ----
+
+['module', 'used', 'right', 'away', 'tuned', 'using', 'powerful', 'browser-based', 'query', 'editing', 'tool', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 12
+
+************************************************************************************************************************
+
+18 --> Easy deployment via Kubernetes. 
+
+
+ ---- TOKENS ----
+
+ ['Easy', 'deployment', 'via', 'Kubernetes', '.'] 
+
+ TOTAL TOKENS ==> 5
+
+ ---- POST ----
+
+ [('Easy', 'JJ'), ('deployment', 'NN'), ('via', 'IN'), ('Kubernetes', 'NNP'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Easy', 'deployment', 'via', 'Kubernetes', '.']
+
+ TOTAL FILTERED TOKENS ==>  5
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Easy', 'JJ'), ('deployment', 'NN'), ('via', 'IN'), ('Kubernetes', 'NNP'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Easy deployment', 'deployment via', 'via Kubernetes', 'Kubernetes .'] 
+
+ TOTAL BIGRAMS --> 4 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Easy deployment via', 'deployment via Kubernetes', 'via Kubernetes .'] 
+
+ TOTAL TRIGRAMS --> 3 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['Easy deployment'] 
+
+ TOTAL NOUN PHRASES --> 1 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Easy', 'Kubernetes']
+ TOTAL GPE ENTITY --> 2 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['easi', 'deploy', 'via', 'kubernet', '.']
+
+ TOTAL PORTER STEM WORDS ==> 5
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['easi', 'deploy', 'via', 'kubernet', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 5
+
+
+
+ ---- LEMMATIZATION ----
+
+['Easy', 'deployment', 'via', 'Kubernetes', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 5
+
+************************************************************************************************************************
+
+19 --> Components in the  system are containerized for simpler management. 
+
+
+ ---- TOKENS ----
+
+ ['Components', 'in', 'the', 'system', 'are', 'containerized', 'for', 'simpler', 'management', '.'] 
+
+ TOTAL TOKENS ==> 10
+
+ ---- POST ----
+
+ [('Components', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('system', 'NN'), ('are', 'VBP'), ('containerized', 'VBN'), ('for', 'IN'), ('simpler', 'NN'), ('management', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Components', 'system', 'containerized', 'simpler', 'management', '.']
+
+ TOTAL FILTERED TOKENS ==>  6
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Components', 'NNS'), ('system', 'NN'), ('containerized', 'VBN'), ('simpler', 'JJ'), ('management', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Components system', 'system containerized', 'containerized simpler', 'simpler management', 'management .'] 
+
+ TOTAL BIGRAMS --> 5 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Components system containerized', 'system containerized simpler', 'containerized simpler management', 'simpler management .'] 
+
+ TOTAL TRIGRAMS --> 4 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['system', 'simpler management'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['compon', 'system', 'container', 'simpler', 'manag', '.']
+
+ TOTAL PORTER STEM WORDS ==> 6
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['compon', 'system', 'container', 'simpler', 'manag', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 6
+
+
+
+ ---- LEMMATIZATION ----
+
+['Components', 'system', 'containerized', 'simpler', 'management', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 6
+
+************************************************************************************************************************
+
+20 --> Furthermore the full system is deployed using  Kubernetes or equivalent, allowing for simpler  installation, easier service monitoring and automated  scaling of the system. 
+
+
+ ---- TOKENS ----
+
+ ['Furthermore', 'the', 'full', 'system', 'is', 'deployed', 'using', 'Kubernetes', 'or', 'equivalent', ',', 'allowing', 'for', 'simpler', 'installation', ',', 'easier', 'service', 'monitoring', 'and', 'automated', 'scaling', 'of', 'the', 'system', '.'] 
+
+ TOTAL TOKENS ==> 26
+
+ ---- POST ----
+
+ [('Furthermore', 'RB'), ('the', 'DT'), ('full', 'JJ'), ('system', 'NN'), ('is', 'VBZ'), ('deployed', 'VBN'), ('using', 'VBG'), ('Kubernetes', 'NNS'), ('or', 'CC'), ('equivalent', 'NN'), (',', ','), ('allowing', 'VBG'), ('for', 'IN'), ('simpler', 'JJR'), ('installation', 'NN'), (',', ','), ('easier', 'JJR'), ('service', 'NN'), ('monitoring', 'NN'), ('and', 'CC'), ('automated', 'VBD'), ('scaling', 'NN'), ('of', 'IN'), ('the', 'DT'), ('system', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Furthermore', 'full', 'system', 'deployed', 'using', 'Kubernetes', 'equivalent', ',', 'allowing', 'simpler', 'installation', ',', 'easier', 'service', 'monitoring', 'automated', 'scaling', 'system', '.']
+
+ TOTAL FILTERED TOKENS ==>  19
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Furthermore', 'RB'), ('full', 'JJ'), ('system', 'NN'), ('deployed', 'VBD'), ('using', 'VBG'), ('Kubernetes', 'NNP'), ('equivalent', 'NN'), (',', ','), ('allowing', 'VBG'), ('simpler', 'JJR'), ('installation', 'NN'), (',', ','), ('easier', 'JJR'), ('service', 'NN'), ('monitoring', 'NN'), ('automated', 'VBD'), ('scaling', 'VBG'), ('system', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Furthermore full', 'full system', 'system deployed', 'deployed using', 'using Kubernetes', 'Kubernetes equivalent', 'equivalent ,', ', allowing', 'allowing simpler', 'simpler installation', 'installation ,', ', easier', 'easier service', 'service monitoring', 'monitoring automated', 'automated scaling', 'scaling system', 'system .'] 
+
+ TOTAL BIGRAMS --> 18 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Furthermore full system', 'full system deployed', 'system deployed using', 'deployed using Kubernetes', 'using Kubernetes equivalent', 'Kubernetes equivalent ,', 'equivalent , allowing', ', allowing simpler', 'allowing simpler installation', 'simpler installation ,', 'installation , easier', ', easier service', 'easier service monitoring', 'service monitoring automated', 'monitoring automated scaling', 'automated scaling system', 'scaling system .'] 
+
+ TOTAL TRIGRAMS --> 17 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['full system', 'equivalent', 'installation', 'service', 'monitoring', 'system'] 
+
+ TOTAL NOUN PHRASES --> 6 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> ['Kubernetes']
+ TOTAL PERSON ENTITY --> 1 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['furthermor', 'full', 'system', 'deploy', 'use', 'kubernet', 'equival', ',', 'allow', 'simpler', 'instal', ',', 'easier', 'servic', 'monitor', 'autom', 'scale', 'system', '.']
+
+ TOTAL PORTER STEM WORDS ==> 19
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['furthermor', 'full', 'system', 'deploy', 'use', 'kubernet', 'equival', ',', 'allow', 'simpler', 'instal', ',', 'easier', 'servic', 'monitor', 'autom', 'scale', 'system', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 19
+
+
+
+ ---- LEMMATIZATION ----
+
+['Furthermore', 'full', 'system', 'deployed', 'using', 'Kubernetes', 'equivalent', ',', 'allowing', 'simpler', 'installation', ',', 'easier', 'service', 'monitoring', 'automated', 'scaling', 'system', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 19
+
+************************************************************************************************************************
+
+21 --> Oncology profile Clinical trial  analytics Biomarker discovery Novel target  intelligence Clinical Documentation Improvement SNOMED coding Social determinants of health Metadata enrichment Safety case  processingNLP Data Factory Medical affairs  insights Examples where NLP Data Factory can transform your business Contact nlp@iqvia.com for more information about how your organization can repeatably harness and utilize your  heterogenous unstructured data at scale with the NLP Data Factory. 
+
+
+ ---- TOKENS ----
+
+ ['Oncology', 'profile', 'Clinical', 'trial', 'analytics', 'Biomarker', 'discovery', 'Novel', 'target', 'intelligence', 'Clinical', 'Documentation', 'Improvement', 'SNOMED', 'coding', 'Social', 'determinants', 'of', 'health', 'Metadata', 'enrichment', 'Safety', 'case', 'processingNLP', 'Data', 'Factory', 'Medical', 'affairs', 'insights', 'Examples', 'where', 'NLP', 'Data', 'Factory', 'can', 'transform', 'your', 'business', 'Contact', 'nlp', '@', 'iqvia.com', 'for', 'more', 'information', 'about', 'how', 'your', 'organization', 'can', 'repeatably', 'harness', 'and', 'utilize', 'your', 'heterogenous', 'unstructured', 'data', 'at', 'scale', 'with', 'the', 'NLP', 'Data', 'Factory', '.'] 
+
+ TOTAL TOKENS ==> 66
+
+ ---- POST ----
+
+ [('Oncology', 'NNP'), ('profile', 'JJ'), ('Clinical', 'NNP'), ('trial', 'NN'), ('analytics', 'NNS'), ('Biomarker', 'NNP'), ('discovery', 'NN'), ('Novel', 'NNP'), ('target', 'NN'), ('intelligence', 'NN'), ('Clinical', 'JJ'), ('Documentation', 'NNP'), ('Improvement', 'NNP'), ('SNOMED', 'NNP'), ('coding', 'VBG'), ('Social', 'NNP'), ('determinants', 'NNS'), ('of', 'IN'), ('health', 'NN'), ('Metadata', 'NNP'), ('enrichment', 'NN'), ('Safety', 'NNP'), ('case', 'NN'), ('processingNLP', 'NN'), ('Data', 'NNP'), ('Factory', 'NNP'), ('Medical', 'NNP'), ('affairs', 'NNS'), ('insights', 'NNS'), ('Examples', 'NNP'), ('where', 'WRB'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('can', 'MD'), ('transform', 'VB'), ('your', 'PRP$'), ('business', 'NN'), ('Contact', 'NNP'), ('nlp', 'NN'), ('@', 'NNP'), ('iqvia.com', 'NN'), ('for', 'IN'), ('more', 'JJR'), ('information', 'NN'), ('about', 'IN'), ('how', 'WRB'), ('your', 'PRP$'), ('organization', 'NN'), ('can', 'MD'), ('repeatably', 'VB'), ('harness', 'NN'), ('and', 'CC'), ('utilize', 'VB'), ('your', 'PRP$'), ('heterogenous', 'JJ'), ('unstructured', 'JJ'), ('data', 'NNS'), ('at', 'IN'), ('scale', 'NN'), ('with', 'IN'), ('the', 'DT'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Oncology', 'profile', 'Clinical', 'trial', 'analytics', 'Biomarker', 'discovery', 'Novel', 'target', 'intelligence', 'Clinical', 'Documentation', 'Improvement', 'SNOMED', 'coding', 'Social', 'determinants', 'health', 'Metadata', 'enrichment', 'Safety', 'case', 'processingNLP', 'Data', 'Factory', 'Medical', 'affairs', 'insights', 'Examples', 'NLP', 'Data', 'Factory', 'transform', 'business', 'Contact', 'nlp', '@', 'iqvia.com', 'information', 'organization', 'repeatably', 'harness', 'utilize', 'heterogenous', 'unstructured', 'data', 'scale', 'NLP', 'Data', 'Factory', '.']
+
+ TOTAL FILTERED TOKENS ==>  51
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Oncology', 'NNP'), ('profile', 'JJ'), ('Clinical', 'NNP'), ('trial', 'NN'), ('analytics', 'NNS'), ('Biomarker', 'NNP'), ('discovery', 'NN'), ('Novel', 'NNP'), ('target', 'NN'), ('intelligence', 'NN'), ('Clinical', 'JJ'), ('Documentation', 'NNP'), ('Improvement', 'NNP'), ('SNOMED', 'NNP'), ('coding', 'VBG'), ('Social', 'NNP'), ('determinants', 'NNS'), ('health', 'NN'), ('Metadata', 'NNP'), ('enrichment', 'NN'), ('Safety', 'NNP'), ('case', 'NN'), ('processingNLP', 'NN'), ('Data', 'NNP'), ('Factory', 'NNP'), ('Medical', 'NNP'), ('affairs', 'NNS'), ('insights', 'NNS'), ('Examples', 'NNP'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('transform', 'NN'), ('business', 'NN'), ('Contact', 'NNP'), ('nlp', 'NN'), ('@', 'NNP'), ('iqvia.com', 'NN'), ('information', 'NN'), ('organization', 'NN'), ('repeatably', 'RB'), ('harness', 'JJ'), ('utilize', 'RB'), ('heterogenous', 'JJ'), ('unstructured', 'JJ'), ('data', 'NNS'), ('scale', 'NN'), ('NLP', 'NNP'), ('Data', 'NNP'), ('Factory', 'NNP'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Oncology profile', 'profile Clinical', 'Clinical trial', 'trial analytics', 'analytics Biomarker', 'Biomarker discovery', 'discovery Novel', 'Novel target', 'target intelligence', 'intelligence Clinical', 'Clinical Documentation', 'Documentation Improvement', 'Improvement SNOMED', 'SNOMED coding', 'coding Social', 'Social determinants', 'determinants health', 'health Metadata', 'Metadata enrichment', 'enrichment Safety', 'Safety case', 'case processingNLP', 'processingNLP Data', 'Data Factory', 'Factory Medical', 'Medical affairs', 'affairs insights', 'insights Examples', 'Examples NLP', 'NLP Data', 'Data Factory', 'Factory transform', 'transform business', 'business Contact', 'Contact nlp', 'nlp @', '@ iqvia.com', 'iqvia.com information', 'information organization', 'organization repeatably', 'repeatably harness', 'harness utilize', 'utilize heterogenous', 'heterogenous unstructured', 'unstructured data', 'data scale', 'scale NLP', 'NLP Data', 'Data Factory', 'Factory .'] 
+
+ TOTAL BIGRAMS --> 50 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Oncology profile Clinical', 'profile Clinical trial', 'Clinical trial analytics', 'trial analytics Biomarker', 'analytics Biomarker discovery', 'Biomarker discovery Novel', 'discovery Novel target', 'Novel target intelligence', 'target intelligence Clinical', 'intelligence Clinical Documentation', 'Clinical Documentation Improvement', 'Documentation Improvement SNOMED', 'Improvement SNOMED coding', 'SNOMED coding Social', 'coding Social determinants', 'Social determinants health', 'determinants health Metadata', 'health Metadata enrichment', 'Metadata enrichment Safety', 'enrichment Safety case', 'Safety case processingNLP', 'case processingNLP Data', 'processingNLP Data Factory', 'Data Factory Medical', 'Factory Medical affairs', 'Medical affairs insights', 'affairs insights Examples', 'insights Examples NLP', 'Examples NLP Data', 'NLP Data Factory', 'Data Factory transform', 'Factory transform business', 'transform business Contact', 'business Contact nlp', 'Contact nlp @', 'nlp @ iqvia.com', '@ iqvia.com information', 'iqvia.com information organization', 'information organization repeatably', 'organization repeatably harness', 'repeatably harness utilize', 'harness utilize heterogenous', 'utilize heterogenous unstructured', 'heterogenous unstructured data', 'unstructured data scale', 'data scale NLP', 'scale NLP Data', 'NLP Data Factory', 'Data Factory .'] 
+
+ TOTAL TRIGRAMS --> 49 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['trial', 'discovery', 'target', 'intelligence', 'health', 'enrichment', 'case', 'processingNLP', 'transform', 'business', 'nlp', 'iqvia.com', 'information', 'organization', 'scale'] 
+
+ TOTAL NOUN PHRASES --> 15 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['Social', 'Metadata', 'processingNLP Data Factory Medical', 'NLP Data Factory']
+ TOTAL ORGANIZATION ENTITY --> 4 
+
+
+ PERSON ---> ['Clinical', 'Biomarker', 'Novel', 'Clinical Documentation Improvement', 'Safety', 'Examples NLP Data Factory']
+ TOTAL PERSON ENTITY --> 6 
+
+
+ GPE ---> ['Oncology']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['oncolog', 'profil', 'clinic', 'trial', 'analyt', 'biomark', 'discoveri', 'novel', 'target', 'intellig', 'clinic', 'document', 'improv', 'snome', 'code', 'social', 'determin', 'health', 'metadata', 'enrich', 'safeti', 'case', 'processingnlp', 'data', 'factori', 'medic', 'affair', 'insight', 'exampl', 'nlp', 'data', 'factori', 'transform', 'busi', 'contact', 'nlp', '@', 'iqvia.com', 'inform', 'organ', 'repeat', 'har', 'util', 'heterogen', 'unstructur', 'data', 'scale', 'nlp', 'data', 'factori', '.']
+
+ TOTAL PORTER STEM WORDS ==> 51
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['oncolog', 'profil', 'clinic', 'trial', 'analyt', 'biomark', 'discoveri', 'novel', 'target', 'intellig', 'clinic', 'document', 'improv', 'snome', 'code', 'social', 'determin', 'health', 'metadata', 'enrich', 'safeti', 'case', 'processingnlp', 'data', 'factori', 'medic', 'affair', 'insight', 'exampl', 'nlp', 'data', 'factori', 'transform', 'busi', 'contact', 'nlp', '@', 'iqvia.com', 'inform', 'organ', 'repeat', 'har', 'util', 'heterogen', 'unstructur', 'data', 'scale', 'nlp', 'data', 'factori', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 51
+
+
+
+ ---- LEMMATIZATION ----
+
+['Oncology', 'profile', 'Clinical', 'trial', 'analytics', 'Biomarker', 'discovery', 'Novel', 'target', 'intelligence', 'Clinical', 'Documentation', 'Improvement', 'SNOMED', 'coding', 'Social', 'determinant', 'health', 'Metadata', 'enrichment', 'Safety', 'case', 'processingNLP', 'Data', 'Factory', 'Medical', 'affair', 'insight', 'Examples', 'NLP', 'Data', 'Factory', 'transform', 'business', 'Contact', 'nlp', '@', 'iqvia.com', 'information', 'organization', 'repeatably', 'harness', 'utilize', 'heterogenous', 'unstructured', 'data', 'scale', 'NLP', 'Data', 'Factory', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 51
+
+************************************************************************************************************************
+
+22 --> http://www.iqvia.com mailto:nlp%40iqvia.com?subject= 
+
+
+ ---- TOKENS ----
+
+ ['http', ':', '//www.iqvia.com', 'mailto', ':', 'nlp', '%', '40iqvia.com', '?', 'subject='] 
+
+ TOTAL TOKENS ==> 10
+
+ ---- POST ----
+
+ [('http', 'NN'), (':', ':'), ('//www.iqvia.com', 'JJ'), ('mailto', 'NN'), (':', ':'), ('nlp', 'NN'), ('%', 'NN'), ('40iqvia.com', 'CD'), ('?', '.'), ('subject=', 'NN')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['http', ':', '//www.iqvia.com', 'mailto', ':', 'nlp', '%', '40iqvia.com', '?', 'subject=']
+
+ TOTAL FILTERED TOKENS ==>  10
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('http', 'NN'), (':', ':'), ('//www.iqvia.com', 'JJ'), ('mailto', 'NN'), (':', ':'), ('nlp', 'NN'), ('%', 'NN'), ('40iqvia.com', 'CD'), ('?', '.'), ('subject=', 'NN')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['http :', ': //www.iqvia.com', '//www.iqvia.com mailto', 'mailto :', ': nlp', 'nlp %', '% 40iqvia.com', '40iqvia.com ?', '? subject='] 
+
+ TOTAL BIGRAMS --> 9 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['http : //www.iqvia.com', ': //www.iqvia.com mailto', '//www.iqvia.com mailto :', 'mailto : nlp', ': nlp %', 'nlp % 40iqvia.com', '% 40iqvia.com ?', '40iqvia.com ? subject='] 
+
+ TOTAL TRIGRAMS --> 8 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['http', ' mailto', 'nlp', '%', 'subject='] 
+
+ TOTAL NOUN PHRASES --> 5 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['http', ':', '//www.iqvia.com', 'mailto', ':', 'nlp', '%', '40iqvia.com', '?', 'subject=']
+
+ TOTAL PORTER STEM WORDS ==> 10
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['http', ':', '//www.iqvia.com', 'mailto', ':', 'nlp', '%', '40iqvia.com', '?', 'subject=']
+
+ TOTAL SNOWBALL STEM WORDS ==> 10
+
+
+
+ ---- LEMMATIZATION ----
+
+['http', ':', '//www.iqvia.com', 'mailto', ':', 'nlp', '%', '40iqvia.com', '?', 'subject=']
+
+ TOTAL LEMMATIZE WORDS ==> 10
+
+************************************************************************************************************************
+

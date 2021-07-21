@@ -1,0 +1,404 @@
+
+
+ ['research-based biopharmaceutical company']
+
+
+
+ ['global scale', 'optimize']
+
+
+
+ ['research']
+
+
+
+ ['language', 'translation', 'service', 'model', 'second-generation']
+
+
+
+ ['improvement', 'throughput', 'language', 'translation', 'oneDNN.1 second use', 'case', 'model']
+
+
+
+ ['research']
+
+
+
+ ['toolkit', 'second-generation', 'processor', 'hardware.1', 'inference', 'large organization', 'additional hardware', 'acceleration']
+
+
+
+ ['global research-based biopharmaceutical company']
+
+
+
+ ['research', 'great number', 'clinical trial', 'reports—in', 'fact']
+
+
+
+ ['scale', 'advantage', 'algorithms', 'allow', 'biomedical research', 'development']
+
+
+
+ ['company']
+
+
+
+ ['right time']
+
+
+
+ ['available language', 'translation', 'domain-specific biomedical text']
+
+
+
+ ['solve', 'problem', 'create translation', 'search']
+
+
+
+ ['backup', 'configuration']
+
+
+
+ ['complete information', 'performance', 'benchmark', 'visit']
+
+
+
+ ['http', 'language', 'translation', 'service']
+
+
+
+ ['model', 'translation', 'biomedical terminology', 'translation']
+
+
+
+ ['texts', 'year', 'service', 'minute']
+
+
+
+ ['service', 'processor-']
+
+
+
+ ['inference', 'copy', 'model', 'every core']
+
+
+
+ ['divide', 'input', 'section', 'chunk', 'core']
+
+
+
+ ['translation', 'service', 'low latency']
+
+
+
+ ['addition', 'input', 'batching', 'Abbelfish model', 'model', 'generate', 'overall document']
+
+
+
+ ['translation']
+
+
+
+ ['updated model', 'Transformer-based topology', 'work', 'scientific language']
+
+
+
+ ['model', 'train']
+
+
+
+ ['custom', 'topology', 'available translation']
+
+
+
+ ['question search', 'tool', 'biomedical research']
+
+
+
+ ['transformer model']
+
+
+
+ ['base', 'model', 'dataset']
+
+
+
+ ['model', 'open-source collection', 'biomedical research']
+
+
+
+ ['Figure', 'example', 'model']
+
+
+
+ ['question', 'question', 'collection', 'research', 'transformer-based model']
+
+
+
+ ['model', 'likely character', 'position', 'context', 'answer']
+
+
+
+ ['benefit', 'approach', 'model', 'able create', 'context']
+
+
+
+ ['verifiable quick scan original scientific article']
+
+
+
+ ['severity', 'individual', 'respiratory', 'symptom', 'score', 'sum severity', 'throat', 'sneezing', 'respiratory', 'symptom', 'score', 'sum severity', 'difficulty', 'breathing', 'hoarseness', 'chest', 'discomfort', 'gastrointestinal symptom', 'score', 'sum severity', 'anorexia', 'nausea']
+
+
+
+ ['season-to-season variability', 'study', 'five-year period', 'demonstrate', 'human coronavirus', 'important cause', 'influenza-like illness', '%', '%']
+
+
+
+ [']', ']', ']', 'season-to-', 'season', 'variability', 'strain', 'circulation']
+
+
+
+ ['Figure']
+
+
+
+ ['question', 'answer', 'model', 'biomedical corpus']
+
+
+
+ ['develop', 'specific biopharmaceutical research']
+
+
+
+ ['question', 'context', 'space', 'model']
+
+
+
+ ['model', 'position', 'context', 'answer']
+
+
+
+ ['Question']
+
+
+
+ ['user', 'question', 'collection', 'contexts']
+
+
+
+ ['model', 'answer']
+
+
+
+ ['backup', 'configuration']
+
+
+
+ ['complete information', 'performance', 'benchmark', 'visit']
+
+
+
+ ['https', ' https', ' http', 'version', 'model', '8-language translation', 'model']
+
+
+
+ ['large portion', 'workload', 'batch', 'process']
+
+
+
+ ['meet', 'target', 'sentence']
+
+
+
+ ['important note', 'inference', 'significant value', 'product', 'expense', 'hardware']
+
+
+
+ ['strategy', 'offload', 'translation', 'free hardware']
+
+
+
+ ['translation', 'model', 'gen', 'processor-based server']
+
+
+
+ ['model', 'pipeline', 'library', 'version']
+
+
+
+ ['addition', 'inference', 'able create', 'parallel inference', 'stream', 'half', 'socket', 'numactl command']
+
+
+
+ ['Figure', 'model', '’ performance']
+
+
+
+ ['parallel inference', 'size']
+
+
+
+ ['effective throughput', 'parallel inference', 'second', 'second']
+
+
+
+ ['performance', 'performance', 'sufficient meet', 'requirement']
+
+
+
+ ['performance', 'single stream', 'requirement']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['deployment', 'processor-based server', 'balance', 'non-AI workload', 'performance']
+
+
+
+ ['speedup']
+
+
+
+ ['better']
+
+
+
+ ['ce', 'p', 'performance', 'ce', 'p', 'stream', 'stream', 'performance']
+
+
+
+ ['inference', 'backup', 'configuration']
+
+
+
+ ['complete information', 'performance', 'benchmark', 'visit']
+
+
+
+ ['speedup']
+
+
+
+ ['better']
+
+
+
+ ['ue st', 'io', 'ns p', 'er', 'performance', 'model']
+
+
+
+ ['processor', 'server', 'benchmark']
+
+
+
+ ['toolkit', 'speedup number', 'unoptimized version', '.1', 'scientific article', 'clinical report']
+
+
+
+ ['future', 'company', 'gRPC-based microservice']
+
+
+
+ ['https', '', 'https', ' https', ' https', 'use', 'toolkit', 'speed']
+
+
+
+ ['deployment', 'additional hardware']
+
+
+
+ ['leverage', 'inference', 'worldwide research', 'processor-']
+
+
+
+ ['information', 'visit', 'intel.com information', 'toolkit', 'visit', 'intel.com']
+
+
+
+ ['performance', 'performance']
+
+
+
+ ['Performance', 'specific computer', 'software']
+
+
+
+ ['change']
+
+
+
+ ['consult', 'information', 'performance', 'performance', 'product']
+
+
+
+ ['complete information', 'visit', 'www.intel.com']
+
+
+
+ ['instruction']
+
+
+
+ ['guarantee', 'availability', 'functionality', 'effectiveness optimization']
+
+
+
+ ['product']
+
+
+
+ ['microarchitecture']
+
+
+
+ ['applicable product', 'information', 'specific instruction', 'notice']
+
+
+
+ ['backup configuration']
+
+
+
+ ['product', 'component', 'secure']
+
+
+
+ ['enabled hardware', 'software', 'service', 'activation']
+
+
+
+ ['logo']
+
+
+
+ ['property']
+
+
+
+ ['https', 'Pre- training', 'https', '']
+
+
+
+ ['pre-trained biomedical language', 'representation', 'biomedical text', 'mining', '”', 'Volume', '•', 'question', 'competition', '”']
+
+
+
+ ['https', 'System']
+
+
+
+ ['socket', 'version', 'version', 'toolkit']
+
+
+
+ ['http', ' http', ' https']
+

@@ -1,0 +1,252 @@
+
+
+ ['functionality', 'wide range', 'collection', 'thesauri']
+
+
+
+ ['look']
+
+
+
+ ['Generation']
+
+
+
+ ['back-end', 'software', 'system', 'extract information', 'text']
+
+
+
+ ['domain-relevant thesauri', 'fingerprint', 'engine', 'index', 'text']
+
+
+
+ ['identification', 'extraction', 'enrich thesauri']
+
+
+
+ ['back-office', 'processing', 'component', 'number', 'stand-alone service']
+
+
+
+ ['text', 'functionality', 'out-of-the-box text', 'functionality', 'meet institution']
+
+
+
+ ['need in- depth', 'insight support', 'academic government', 'technology']
+
+
+
+ ['publication', 'project', 'map', 'text']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['allow presentation', 'navigation', 'reporting', 'scientific output']
+
+
+
+ ['author', 'additional content', 'institution']
+
+
+
+ ['directory', 'research', 'expertise', 'enable collaboration', 'outside organization']
+
+
+
+ ['framework', 'enable funding', 'research', 'fund']
+
+
+
+ ['flexible platform', 'institution', 'answer']
+
+
+
+ ['wide range', 'collection', 'thesauri', 'thesauri support', 'number', 'thesaurus']
+
+
+
+ ['coverage', 'use', 'thesauri']
+
+
+
+ ['current standard', 'configuration', 'thesaurus', 'thesaurus', 'thesaurus', 'thesaurus', 'thesaurus', 'thesaurus', 'thesaurus', 'thesaurus', 'thesaurus', 'terminology']
+
+
+
+ ['look']
+
+
+
+ ['thesaurus', 'vocabulary']
+
+
+
+ ['concept', 'algorithm sensitive lexical grammatical', 'casing', 'word', 'order', 'e.g.', 'noun verb', 'lead']
+
+
+
+ ['time', 'e.g.', "'tumor", 'failure', "'failure kidney", 'etc']
+
+
+
+ ['addition', 'concept', 'account', 'context']
+
+
+
+ ['e.g.', 'tree human ancestry', 'plant', 'environment', 'e.g.', "interpret 'administration", 'management', 'text drug', 'treatment', 'disease']
+
+
+
+ ['frequency', 'occurrence', 'text', 'title', 'text', 'body', 'recent solution', 'occurrence', 'text', 'body']
+
+
+
+ ['thesauri', 'proper']
+
+
+
+ ['language', 'insensitive technology', 'handle language', 'input', 'English language', 'support', 'scientific lingua', 'franca']
+
+
+
+ ['Generation', 'addition', 'help', 'scratch']
+
+
+
+ ['workbench', 'framework', 'configuration']
+
+
+
+ ['detail', 'third party', 'text', 'unlimited type', 'number']
+
+
+
+ ['infrastructure', '.Net platform', 'collection', 'text', 'analysis', 'host', 'process']
+
+
+
+ ['language']
+
+
+
+ ['Tokenization', 'punctuation']
+
+
+
+ ['Dehyphenation', 'instance', 'dehyph- enation', 'dehyphenation', '”']
+
+
+
+ ['Coordination', 'Expansion']
+
+
+
+ ['instance', 'phrase', 'intra- extramural ”', '“ intramural extramural ”']
+
+
+
+ ['full noun']
+
+
+
+ ['Normalization', 'British American spelling']
+
+
+
+ ['Abbreviation', 'Expansion', 'text']
+
+
+
+ ['instance', 'phrase', 'group', '”', 'text', 'group']
+
+
+
+ ['Entity', 'Recognition', 'email']
+
+
+
+ ['example', 'a- z', '”']
+
+
+
+ ['Part-of-Speech Tagging', 'speech']
+
+
+
+ ['context']
+
+
+
+ ['word', 'lead', '’', '“ lead conclusion', '”', 'noun “', 'lead', 'concentration', 'high ”']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['instance', 'novel', 'association', 'locus', 'evidence', '”', 'novel', 'association', 'locus', 'evidence', '”']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Term Annotation', 'text', 'information', 'assignment', 'disambiguation', 'context differ', 'meaning', 'thesaurus']
+
+
+
+ ['concept assignment']
+
+
+
+ ['instance', '“ hand', 'concept', 'hand']
+
+
+
+ ['Fingerprint Creation', 'found', 'assigns weight', 'concept']
+
+
+
+ ['process', 'provide', 'consistency', 'transparency', 'funded research']
+
+
+
+ ['new process', 'system', 'custom solution', 'mine', 'text', 'grant', 'extract', 'describe', 'research', 'category']
+
+
+
+ ['total funding', 'research', 'category', 'estimate', 'category definition']
+
+
+
+ ['system', 'research', 'funding', 'year']
+
+
+
+ ['enhance', 'reporting']
+
+
+
+ ['inconsistent static reporting', 'applied keyword', 'technology', 'define', 'search', 'date', 'accurate', 'flexible consistent reporting']
+
+
+
+ ['mine', 'text', 'grant', 'extract', 'describe', 'submission']
+

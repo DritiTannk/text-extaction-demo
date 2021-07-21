@@ -1,0 +1,4560 @@
+1 --> Clinical natural language processing:  Unearthing deeper oncology insights by mining unstructured medical notes optum.com Anne-Marie Guerra Currie, PhD, Director, Data Science Bertrand Lefebvre, PhD, Principal Data Scientist Kazuki Shintani, MS, Principal Data Scientist Tonnam Balankura, PhD, Sr. Data Scientist Oncology  Clinical natural language processing: Unearthing deeper oncology insights by mining unstructured medical notes Page 2optum.com We surface this critical and detailed oncology data by leveraging our proprietary natural language processing  (NLP) system that performs automated information extraction on the free-text medical records repository  within the Optum electronic health record (EHR) data asset to provide key oncology-related insights to our  clients in an easy-to-use format. 
+
+
+ ---- TOKENS ----
+
+ ['Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insights', 'by', 'mining', 'unstructured', 'medical', 'notes', 'optum.com', 'Anne-Marie', 'Guerra', 'Currie', ',', 'PhD', ',', 'Director', ',', 'Data', 'Science', 'Bertrand', 'Lefebvre', ',', 'PhD', ',', 'Principal', 'Data', 'Scientist', 'Kazuki', 'Shintani', ',', 'MS', ',', 'Principal', 'Data', 'Scientist', 'Tonnam', 'Balankura', ',', 'PhD', ',', 'Sr.', 'Data', 'Scientist', 'Oncology', 'Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insights', 'by', 'mining', 'unstructured', 'medical', 'notes', 'Page', '2optum.com', 'We', 'surface', 'this', 'critical', 'and', 'detailed', 'oncology', 'data', 'by', 'leveraging', 'our', 'proprietary', 'natural', 'language', 'processing', '(', 'NLP', ')', 'system', 'that', 'performs', 'automated', 'information', 'extraction', 'on', 'the', 'free-text', 'medical', 'records', 'repository', 'within', 'the', 'Optum', 'electronic', 'health', 'record', '(', 'EHR', ')', 'data', 'asset', 'to', 'provide', 'key', 'oncology-related', 'insights', 'to', 'our', 'clients', 'in', 'an', 'easy-to-use', 'format', '.'] 
+
+ TOTAL TOKENS ==> 120
+
+ ---- POST ----
+
+ [('Clinical', 'JJ'), ('natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), (':', ':'), ('Unearthing', 'NNP'), ('deeper', 'JJR'), ('oncology', 'NN'), ('insights', 'NNS'), ('by', 'IN'), ('mining', 'VBG'), ('unstructured', 'JJ'), ('medical', 'JJ'), ('notes', 'NNS'), ('optum.com', 'IN'), ('Anne-Marie', 'NNP'), ('Guerra', 'NNP'), ('Currie', 'NNP'), (',', ','), ('PhD', 'NNP'), (',', ','), ('Director', 'NNP'), (',', ','), ('Data', 'NNP'), ('Science', 'NNP'), ('Bertrand', 'NNP'), ('Lefebvre', 'NNP'), (',', ','), ('PhD', 'NNP'), (',', ','), ('Principal', 'NNP'), ('Data', 'NNP'), ('Scientist', 'NNP'), ('Kazuki', 'NNP'), ('Shintani', 'NNP'), (',', ','), ('MS', 'NNP'), (',', ','), ('Principal', 'NNP'), ('Data', 'NNP'), ('Scientist', 'NNP'), ('Tonnam', 'NNP'), ('Balankura', 'NNP'), (',', ','), ('PhD', 'NNP'), (',', ','), ('Sr.', 'NNP'), ('Data', 'NNP'), ('Scientist', 'NNP'), ('Oncology', 'NNP'), ('Clinical', 'NNP'), ('natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), (':', ':'), ('Unearthing', 'NNP'), ('deeper', 'JJR'), ('oncology', 'NN'), ('insights', 'NNS'), ('by', 'IN'), ('mining', 'VBG'), ('unstructured', 'JJ'), ('medical', 'JJ'), ('notes', 'NNS'), ('Page', 'VBP'), ('2optum.com', 'CD'), ('We', 'PRP'), ('surface', 'VBP'), ('this', 'DT'), ('critical', 'JJ'), ('and', 'CC'), ('detailed', 'JJ'), ('oncology', 'NN'), ('data', 'NNS'), ('by', 'IN'), ('leveraging', 'VBG'), ('our', 'PRP$'), ('proprietary', 'JJ'), ('natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), ('(', '('), ('NLP', 'NNP'), (')', ')'), ('system', 'NN'), ('that', 'WDT'), ('performs', 'VBZ'), ('automated', 'VBN'), ('information', 'NN'), ('extraction', 'NN'), ('on', 'IN'), ('the', 'DT'), ('free-text', 'JJ'), ('medical', 'JJ'), ('records', 'NNS'), ('repository', 'NN'), ('within', 'IN'), ('the', 'DT'), ('Optum', 'NNP'), ('electronic', 'JJ'), ('health', 'NN'), ('record', 'NN'), ('(', '('), ('EHR', 'NNP'), (')', ')'), ('data', 'NNS'), ('asset', 'NN'), ('to', 'TO'), ('provide', 'VB'), ('key', 'JJ'), ('oncology-related', 'JJ'), ('insights', 'NNS'), ('to', 'TO'), ('our', 'PRP$'), ('clients', 'NNS'), ('in', 'IN'), ('an', 'DT'), ('easy-to-use', 'JJ'), ('format', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insights', 'mining', 'unstructured', 'medical', 'notes', 'optum.com', 'Anne-Marie', 'Guerra', 'Currie', ',', 'PhD', ',', 'Director', ',', 'Data', 'Science', 'Bertrand', 'Lefebvre', ',', 'PhD', ',', 'Principal', 'Data', 'Scientist', 'Kazuki', 'Shintani', ',', 'MS', ',', 'Principal', 'Data', 'Scientist', 'Tonnam', 'Balankura', ',', 'PhD', ',', 'Sr.', 'Data', 'Scientist', 'Oncology', 'Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insights', 'mining', 'unstructured', 'medical', 'notes', 'Page', '2optum.com', 'surface', 'critical', 'detailed', 'oncology', 'data', 'leveraging', 'proprietary', 'natural', 'language', 'processing', '(', 'NLP', ')', 'system', 'performs', 'automated', 'information', 'extraction', 'free-text', 'medical', 'records', 'repository', 'within', 'Optum', 'electronic', 'health', 'record', '(', 'EHR', ')', 'data', 'asset', 'provide', 'key', 'oncology-related', 'insights', 'clients', 'easy-to-use', 'format', '.']
+
+ TOTAL FILTERED TOKENS ==>  104
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Clinical', 'JJ'), ('natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), (':', ':'), ('Unearthing', 'NNP'), ('deeper', 'JJR'), ('oncology', 'NN'), ('insights', 'NNS'), ('mining', 'NN'), ('unstructured', 'JJ'), ('medical', 'JJ'), ('notes', 'NNS'), ('optum.com', 'IN'), ('Anne-Marie', 'NNP'), ('Guerra', 'NNP'), ('Currie', 'NNP'), (',', ','), ('PhD', 'NNP'), (',', ','), ('Director', 'NNP'), (',', ','), ('Data', 'NNP'), ('Science', 'NNP'), ('Bertrand', 'NNP'), ('Lefebvre', 'NNP'), (',', ','), ('PhD', 'NNP'), (',', ','), ('Principal', 'NNP'), ('Data', 'NNP'), ('Scientist', 'NNP'), ('Kazuki', 'NNP'), ('Shintani', 'NNP'), (',', ','), ('MS', 'NNP'), (',', ','), ('Principal', 'NNP'), ('Data', 'NNP'), ('Scientist', 'NNP'), ('Tonnam', 'NNP'), ('Balankura', 'NNP'), (',', ','), ('PhD', 'NNP'), (',', ','), ('Sr.', 'NNP'), ('Data', 'NNP'), ('Scientist', 'NNP'), ('Oncology', 'NNP'), ('Clinical', 'NNP'), ('natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), (':', ':'), ('Unearthing', 'NNP'), ('deeper', 'JJR'), ('oncology', 'NN'), ('insights', 'NNS'), ('mining', 'NN'), ('unstructured', 'JJ'), ('medical', 'JJ'), ('notes', 'NNS'), ('Page', 'VBP'), ('2optum.com', 'CD'), ('surface', 'NN'), ('critical', 'JJ'), ('detailed', 'JJ'), ('oncology', 'NN'), ('data', 'NNS'), ('leveraging', 'VBG'), ('proprietary', 'JJ'), ('natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), ('(', '('), ('NLP', 'NNP'), (')', ')'), ('system', 'NN'), ('performs', 'NNS'), ('automated', 'VBN'), ('information', 'NN'), ('extraction', 'NN'), ('free-text', 'JJ'), ('medical', 'JJ'), ('records', 'NNS'), ('repository', 'NN'), ('within', 'IN'), ('Optum', 'NNP'), ('electronic', 'JJ'), ('health', 'NN'), ('record', 'NN'), ('(', '('), ('EHR', 'NNP'), (')', ')'), ('data', 'NNS'), ('asset', 'NN'), ('provide', 'VBP'), ('key', 'JJ'), ('oncology-related', 'JJ'), ('insights', 'NNS'), ('clients', 'NNS'), ('easy-to-use', 'RB'), ('format', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Clinical natural', 'natural language', 'language processing', 'processing :', ': Unearthing', 'Unearthing deeper', 'deeper oncology', 'oncology insights', 'insights mining', 'mining unstructured', 'unstructured medical', 'medical notes', 'notes optum.com', 'optum.com Anne-Marie', 'Anne-Marie Guerra', 'Guerra Currie', 'Currie ,', ', PhD', 'PhD ,', ', Director', 'Director ,', ', Data', 'Data Science', 'Science Bertrand', 'Bertrand Lefebvre', 'Lefebvre ,', ', PhD', 'PhD ,', ', Principal', 'Principal Data', 'Data Scientist', 'Scientist Kazuki', 'Kazuki Shintani', 'Shintani ,', ', MS', 'MS ,', ', Principal', 'Principal Data', 'Data Scientist', 'Scientist Tonnam', 'Tonnam Balankura', 'Balankura ,', ', PhD', 'PhD ,', ', Sr.', 'Sr. Data', 'Data Scientist', 'Scientist Oncology', 'Oncology Clinical', 'Clinical natural', 'natural language', 'language processing', 'processing :', ': Unearthing', 'Unearthing deeper', 'deeper oncology', 'oncology insights', 'insights mining', 'mining unstructured', 'unstructured medical', 'medical notes', 'notes Page', 'Page 2optum.com', '2optum.com surface', 'surface critical', 'critical detailed', 'detailed oncology', 'oncology data', 'data leveraging', 'leveraging proprietary', 'proprietary natural', 'natural language', 'language processing', 'processing (', '( NLP', 'NLP )', ') system', 'system performs', 'performs automated', 'automated information', 'information extraction', 'extraction free-text', 'free-text medical', 'medical records', 'records repository', 'repository within', 'within Optum', 'Optum electronic', 'electronic health', 'health record', 'record (', '( EHR', 'EHR )', ') data', 'data asset', 'asset provide', 'provide key', 'key oncology-related', 'oncology-related insights', 'insights clients', 'clients easy-to-use', 'easy-to-use format', 'format .'] 
+
+ TOTAL BIGRAMS --> 103 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Clinical natural language', 'natural language processing', 'language processing :', 'processing : Unearthing', ': Unearthing deeper', 'Unearthing deeper oncology', 'deeper oncology insights', 'oncology insights mining', 'insights mining unstructured', 'mining unstructured medical', 'unstructured medical notes', 'medical notes optum.com', 'notes optum.com Anne-Marie', 'optum.com Anne-Marie Guerra', 'Anne-Marie Guerra Currie', 'Guerra Currie ,', 'Currie , PhD', ', PhD ,', 'PhD , Director', ', Director ,', 'Director , Data', ', Data Science', 'Data Science Bertrand', 'Science Bertrand Lefebvre', 'Bertrand Lefebvre ,', 'Lefebvre , PhD', ', PhD ,', 'PhD , Principal', ', Principal Data', 'Principal Data Scientist', 'Data Scientist Kazuki', 'Scientist Kazuki Shintani', 'Kazuki Shintani ,', 'Shintani , MS', ', MS ,', 'MS , Principal', ', Principal Data', 'Principal Data Scientist', 'Data Scientist Tonnam', 'Scientist Tonnam Balankura', 'Tonnam Balankura ,', 'Balankura , PhD', ', PhD ,', 'PhD , Sr.', ', Sr. Data', 'Sr. Data Scientist', 'Data Scientist Oncology', 'Scientist Oncology Clinical', 'Oncology Clinical natural', 'Clinical natural language', 'natural language processing', 'language processing :', 'processing : Unearthing', ': Unearthing deeper', 'Unearthing deeper oncology', 'deeper oncology insights', 'oncology insights mining', 'insights mining unstructured', 'mining unstructured medical', 'unstructured medical notes', 'medical notes Page', 'notes Page 2optum.com', 'Page 2optum.com surface', '2optum.com surface critical', 'surface critical detailed', 'critical detailed oncology', 'detailed oncology data', 'oncology data leveraging', 'data leveraging proprietary', 'leveraging proprietary natural', 'proprietary natural language', 'natural language processing', 'language processing (', 'processing ( NLP', '( NLP )', 'NLP ) system', ') system performs', 'system performs automated', 'performs automated information', 'automated information extraction', 'information extraction free-text', 'extraction free-text medical', 'free-text medical records', 'medical records repository', 'records repository within', 'repository within Optum', 'within Optum electronic', 'Optum electronic health', 'electronic health record', 'health record (', 'record ( EHR', '( EHR )', 'EHR ) data', ') data asset', 'data asset provide', 'asset provide key', 'provide key oncology-related', 'key oncology-related insights', 'oncology-related insights clients', 'insights clients easy-to-use', 'clients easy-to-use format', 'easy-to-use format .'] 
+
+ TOTAL TRIGRAMS --> 102 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['Clinical natural language', 'processing', 'oncology', 'mining', 'natural language', 'processing', 'oncology', 'mining', 'surface', 'critical detailed oncology', 'proprietary natural language', 'processing', 'system', 'information', 'extraction', 'repository', 'electronic health', 'record', 'asset'] 
+
+ TOTAL NOUN PHRASES --> 19 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['PhD', 'PhD', 'PhD']
+ TOTAL ORGANIZATION ENTITY --> 3 
+
+
+ PERSON ---> ['Clinical', 'Anne-Marie Guerra Currie', 'Director', 'Data Science Bertrand Lefebvre', 'Principal Data Scientist Kazuki Shintani', 'Principal Data Scientist Tonnam Balankura', 'Clinical', 'Optum']
+ TOTAL PERSON ENTITY --> 8 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['clinic', 'natur', 'languag', 'process', ':', 'unearth', 'deeper', 'oncolog', 'insight', 'mine', 'unstructur', 'medic', 'note', 'optum.com', 'anne-mari', 'guerra', 'curri', ',', 'phd', ',', 'director', ',', 'data', 'scienc', 'bertrand', 'lefebvr', ',', 'phd', ',', 'princip', 'data', 'scientist', 'kazuki', 'shintani', ',', 'ms', ',', 'princip', 'data', 'scientist', 'tonnam', 'balankura', ',', 'phd', ',', 'sr.', 'data', 'scientist', 'oncolog', 'clinic', 'natur', 'languag', 'process', ':', 'unearth', 'deeper', 'oncolog', 'insight', 'mine', 'unstructur', 'medic', 'note', 'page', '2optum.com', 'surfac', 'critic', 'detail', 'oncolog', 'data', 'leverag', 'proprietari', 'natur', 'languag', 'process', '(', 'nlp', ')', 'system', 'perform', 'autom', 'inform', 'extract', 'free-text', 'medic', 'record', 'repositori', 'within', 'optum', 'electron', 'health', 'record', '(', 'ehr', ')', 'data', 'asset', 'provid', 'key', 'oncology-rel', 'insight', 'client', 'easy-to-us', 'format', '.']
+
+ TOTAL PORTER STEM WORDS ==> 104
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['clinic', 'natur', 'languag', 'process', ':', 'unearth', 'deeper', 'oncolog', 'insight', 'mine', 'unstructur', 'medic', 'note', 'optum.com', 'anne-mari', 'guerra', 'curri', ',', 'phd', ',', 'director', ',', 'data', 'scienc', 'bertrand', 'lefebvr', ',', 'phd', ',', 'princip', 'data', 'scientist', 'kazuki', 'shintani', ',', 'ms', ',', 'princip', 'data', 'scientist', 'tonnam', 'balankura', ',', 'phd', ',', 'sr.', 'data', 'scientist', 'oncolog', 'clinic', 'natur', 'languag', 'process', ':', 'unearth', 'deeper', 'oncolog', 'insight', 'mine', 'unstructur', 'medic', 'note', 'page', '2optum.com', 'surfac', 'critic', 'detail', 'oncolog', 'data', 'leverag', 'proprietari', 'natur', 'languag', 'process', '(', 'nlp', ')', 'system', 'perform', 'autom', 'inform', 'extract', 'free-text', 'medic', 'record', 'repositori', 'within', 'optum', 'electron', 'health', 'record', '(', 'ehr', ')', 'data', 'asset', 'provid', 'key', 'oncology-rel', 'insight', 'client', 'easy-to-us', 'format', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 104
+
+
+
+ ---- LEMMATIZATION ----
+
+['Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insight', 'mining', 'unstructured', 'medical', 'note', 'optum.com', 'Anne-Marie', 'Guerra', 'Currie', ',', 'PhD', ',', 'Director', ',', 'Data', 'Science', 'Bertrand', 'Lefebvre', ',', 'PhD', ',', 'Principal', 'Data', 'Scientist', 'Kazuki', 'Shintani', ',', 'MS', ',', 'Principal', 'Data', 'Scientist', 'Tonnam', 'Balankura', ',', 'PhD', ',', 'Sr.', 'Data', 'Scientist', 'Oncology', 'Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insight', 'mining', 'unstructured', 'medical', 'note', 'Page', '2optum.com', 'surface', 'critical', 'detailed', 'oncology', 'data', 'leveraging', 'proprietary', 'natural', 'language', 'processing', '(', 'NLP', ')', 'system', 'performs', 'automated', 'information', 'extraction', 'free-text', 'medical', 'record', 'repository', 'within', 'Optum', 'electronic', 'health', 'record', '(', 'EHR', ')', 'data', 'asset', 'provide', 'key', 'oncology-related', 'insight', 'client', 'easy-to-use', 'format', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 104
+
+************************************************************************************************************************
+
+2 --> Our oncology-focused NLP system is designed to identify the positive occurrences of desired oncology  concepts, such as cancer type, TNM, stage and biomarkers, as well as enable the exclusion of semantic  contexts that are not desired oncology contexts. 
+
+
+ ---- TOKENS ----
+
+ ['Our', 'oncology-focused', 'NLP', 'system', 'is', 'designed', 'to', 'identify', 'the', 'positive', 'occurrences', 'of', 'desired', 'oncology', 'concepts', ',', 'such', 'as', 'cancer', 'type', ',', 'TNM', ',', 'stage', 'and', 'biomarkers', ',', 'as', 'well', 'as', 'enable', 'the', 'exclusion', 'of', 'semantic', 'contexts', 'that', 'are', 'not', 'desired', 'oncology', 'contexts', '.'] 
+
+ TOTAL TOKENS ==> 43
+
+ ---- POST ----
+
+ [('Our', 'PRP$'), ('oncology-focused', 'JJ'), ('NLP', 'NNP'), ('system', 'NN'), ('is', 'VBZ'), ('designed', 'VBN'), ('to', 'TO'), ('identify', 'VB'), ('the', 'DT'), ('positive', 'JJ'), ('occurrences', 'NNS'), ('of', 'IN'), ('desired', 'JJ'), ('oncology', 'NN'), ('concepts', 'NNS'), (',', ','), ('such', 'JJ'), ('as', 'IN'), ('cancer', 'NN'), ('type', 'NN'), (',', ','), ('TNM', 'NNP'), (',', ','), ('stage', 'NN'), ('and', 'CC'), ('biomarkers', 'NNS'), (',', ','), ('as', 'RB'), ('well', 'RB'), ('as', 'IN'), ('enable', 'JJ'), ('the', 'DT'), ('exclusion', 'NN'), ('of', 'IN'), ('semantic', 'JJ'), ('contexts', 'NN'), ('that', 'WDT'), ('are', 'VBP'), ('not', 'RB'), ('desired', 'VBN'), ('oncology', 'NN'), ('contexts', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['oncology-focused', 'NLP', 'system', 'designed', 'identify', 'positive', 'occurrences', 'desired', 'oncology', 'concepts', ',', 'cancer', 'type', ',', 'TNM', ',', 'stage', 'biomarkers', ',', 'well', 'enable', 'exclusion', 'semantic', 'contexts', 'desired', 'oncology', 'contexts', '.']
+
+ TOTAL FILTERED TOKENS ==>  28
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('oncology-focused', 'JJ'), ('NLP', 'NNP'), ('system', 'NN'), ('designed', 'VBN'), ('identify', 'RB'), ('positive', 'JJ'), ('occurrences', 'NNS'), ('desired', 'VBD'), ('oncology', 'NN'), ('concepts', 'NNS'), (',', ','), ('cancer', 'NN'), ('type', 'NN'), (',', ','), ('TNM', 'NNP'), (',', ','), ('stage', 'NN'), ('biomarkers', 'NNS'), (',', ','), ('well', 'RB'), ('enable', 'JJ'), ('exclusion', 'NN'), ('semantic', 'JJ'), ('contexts', 'NN'), ('desired', 'VBD'), ('oncology', 'JJ'), ('contexts', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['oncology-focused NLP', 'NLP system', 'system designed', 'designed identify', 'identify positive', 'positive occurrences', 'occurrences desired', 'desired oncology', 'oncology concepts', 'concepts ,', ', cancer', 'cancer type', 'type ,', ', TNM', 'TNM ,', ', stage', 'stage biomarkers', 'biomarkers ,', ', well', 'well enable', 'enable exclusion', 'exclusion semantic', 'semantic contexts', 'contexts desired', 'desired oncology', 'oncology contexts', 'contexts .'] 
+
+ TOTAL BIGRAMS --> 27 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['oncology-focused NLP system', 'NLP system designed', 'system designed identify', 'designed identify positive', 'identify positive occurrences', 'positive occurrences desired', 'occurrences desired oncology', 'desired oncology concepts', 'oncology concepts ,', 'concepts , cancer', ', cancer type', 'cancer type ,', 'type , TNM', ', TNM ,', 'TNM , stage', ', stage biomarkers', 'stage biomarkers ,', 'biomarkers , well', ', well enable', 'well enable exclusion', 'enable exclusion semantic', 'exclusion semantic contexts', 'semantic contexts desired', 'contexts desired oncology', 'desired oncology contexts', 'oncology contexts .'] 
+
+ TOTAL TRIGRAMS --> 26 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['system', 'oncology', 'cancer', 'type', 'stage', 'enable exclusion', 'semantic contexts', 'oncology contexts'] 
+
+ TOTAL NOUN PHRASES --> 8 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['NLP', 'TNM']
+ TOTAL ORGANIZATION ENTITY --> 2 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['oncology-focus', 'nlp', 'system', 'design', 'identifi', 'posit', 'occurr', 'desir', 'oncolog', 'concept', ',', 'cancer', 'type', ',', 'tnm', ',', 'stage', 'biomark', ',', 'well', 'enabl', 'exclus', 'semant', 'context', 'desir', 'oncolog', 'context', '.']
+
+ TOTAL PORTER STEM WORDS ==> 28
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['oncology-focus', 'nlp', 'system', 'design', 'identifi', 'posit', 'occurr', 'desir', 'oncolog', 'concept', ',', 'cancer', 'type', ',', 'tnm', ',', 'stage', 'biomark', ',', 'well', 'enabl', 'exclus', 'semant', 'context', 'desir', 'oncolog', 'context', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 28
+
+
+
+ ---- LEMMATIZATION ----
+
+['oncology-focused', 'NLP', 'system', 'designed', 'identify', 'positive', 'occurrence', 'desired', 'oncology', 'concept', ',', 'cancer', 'type', ',', 'TNM', ',', 'stage', 'biomarkers', ',', 'well', 'enable', 'exclusion', 'semantic', 'context', 'desired', 'oncology', 'context', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 28
+
+************************************************************************************************************************
+
+3 --> For example, if the goal is to identify patients with prostate cancer, the Optum NLP system identifies different  semantic contexts and appropriately extracts the desired contexts into a structured format. 
+
+
+ ---- TOKENS ----
+
+ ['For', 'example', ',', 'if', 'the', 'goal', 'is', 'to', 'identify', 'patients', 'with', 'prostate', 'cancer', ',', 'the', 'Optum', 'NLP', 'system', 'identifies', 'different', 'semantic', 'contexts', 'and', 'appropriately', 'extracts', 'the', 'desired', 'contexts', 'into', 'a', 'structured', 'format', '.'] 
+
+ TOTAL TOKENS ==> 33
+
+ ---- POST ----
+
+ [('For', 'IN'), ('example', 'NN'), (',', ','), ('if', 'IN'), ('the', 'DT'), ('goal', 'NN'), ('is', 'VBZ'), ('to', 'TO'), ('identify', 'VB'), ('patients', 'NNS'), ('with', 'IN'), ('prostate', 'JJ'), ('cancer', 'NN'), (',', ','), ('the', 'DT'), ('Optum', 'NNP'), ('NLP', 'NNP'), ('system', 'NN'), ('identifies', 'NNS'), ('different', 'JJ'), ('semantic', 'JJ'), ('contexts', 'NN'), ('and', 'CC'), ('appropriately', 'RB'), ('extracts', 'VBZ'), ('the', 'DT'), ('desired', 'JJ'), ('contexts', 'NN'), ('into', 'IN'), ('a', 'DT'), ('structured', 'JJ'), ('format', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['example', ',', 'goal', 'identify', 'patients', 'prostate', 'cancer', ',', 'Optum', 'NLP', 'system', 'identifies', 'different', 'semantic', 'contexts', 'appropriately', 'extracts', 'desired', 'contexts', 'structured', 'format', '.']
+
+ TOTAL FILTERED TOKENS ==>  22
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('example', 'NN'), (',', ','), ('goal', 'NN'), ('identify', 'NN'), ('patients', 'NNS'), ('prostate', 'JJ'), ('cancer', 'NN'), (',', ','), ('Optum', 'NNP'), ('NLP', 'NNP'), ('system', 'NN'), ('identifies', 'NNS'), ('different', 'JJ'), ('semantic', 'JJ'), ('contexts', 'NN'), ('appropriately', 'RB'), ('extracts', 'VBZ'), ('desired', 'JJ'), ('contexts', 'NNS'), ('structured', 'VBD'), ('format', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['example ,', ', goal', 'goal identify', 'identify patients', 'patients prostate', 'prostate cancer', 'cancer ,', ', Optum', 'Optum NLP', 'NLP system', 'system identifies', 'identifies different', 'different semantic', 'semantic contexts', 'contexts appropriately', 'appropriately extracts', 'extracts desired', 'desired contexts', 'contexts structured', 'structured format', 'format .'] 
+
+ TOTAL BIGRAMS --> 21 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['example , goal', ', goal identify', 'goal identify patients', 'identify patients prostate', 'patients prostate cancer', 'prostate cancer ,', 'cancer , Optum', ', Optum NLP', 'Optum NLP system', 'NLP system identifies', 'system identifies different', 'identifies different semantic', 'different semantic contexts', 'semantic contexts appropriately', 'contexts appropriately extracts', 'appropriately extracts desired', 'extracts desired contexts', 'desired contexts structured', 'contexts structured format', 'structured format .'] 
+
+ TOTAL TRIGRAMS --> 20 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['example', 'goal', 'identify', 'prostate cancer', 'system', 'different semantic contexts', 'format'] 
+
+ TOTAL NOUN PHRASES --> 7 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> ['Optum NLP']
+ TOTAL PERSON ENTITY --> 1 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['exampl', ',', 'goal', 'identifi', 'patient', 'prostat', 'cancer', ',', 'optum', 'nlp', 'system', 'identifi', 'differ', 'semant', 'context', 'appropri', 'extract', 'desir', 'context', 'structur', 'format', '.']
+
+ TOTAL PORTER STEM WORDS ==> 22
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['exampl', ',', 'goal', 'identifi', 'patient', 'prostat', 'cancer', ',', 'optum', 'nlp', 'system', 'identifi', 'differ', 'semant', 'context', 'appropri', 'extract', 'desir', 'context', 'structur', 'format', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 22
+
+
+
+ ---- LEMMATIZATION ----
+
+['example', ',', 'goal', 'identify', 'patient', 'prostate', 'cancer', ',', 'Optum', 'NLP', 'system', 'identifies', 'different', 'semantic', 'context', 'appropriately', 'extract', 'desired', 'context', 'structured', 'format', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 22
+
+************************************************************************************************************************
+
+4 --> The concepts are  then able to be easily searched by our clients. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'concepts', 'are', 'then', 'able', 'to', 'be', 'easily', 'searched', 'by', 'our', 'clients', '.'] 
+
+ TOTAL TOKENS ==> 13
+
+ ---- POST ----
+
+ [('The', 'DT'), ('concepts', 'NNS'), ('are', 'VBP'), ('then', 'RB'), ('able', 'JJ'), ('to', 'TO'), ('be', 'VB'), ('easily', 'RB'), ('searched', 'VBN'), ('by', 'IN'), ('our', 'PRP$'), ('clients', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['concepts', 'able', 'easily', 'searched', 'clients', '.']
+
+ TOTAL FILTERED TOKENS ==>  6
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('concepts', 'NNS'), ('able', 'JJ'), ('easily', 'RB'), ('searched', 'VBD'), ('clients', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['concepts able', 'able easily', 'easily searched', 'searched clients', 'clients .'] 
+
+ TOTAL BIGRAMS --> 5 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['concepts able easily', 'able easily searched', 'easily searched clients', 'searched clients .'] 
+
+ TOTAL TRIGRAMS --> 4 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ [] 
+
+ TOTAL NOUN PHRASES --> 0 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['concept', 'abl', 'easili', 'search', 'client', '.']
+
+ TOTAL PORTER STEM WORDS ==> 6
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['concept', 'abl', 'easili', 'search', 'client', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 6
+
+
+
+ ---- LEMMATIZATION ----
+
+['concept', 'able', 'easily', 'searched', 'client', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 6
+
+************************************************************************************************************************
+
+5 --> Some examples of the contexts that occur within the notes are  shown in Table 1: Table 1. 
+
+
+ ---- TOKENS ----
+
+ ['Some', 'examples', 'of', 'the', 'contexts', 'that', 'occur', 'within', 'the', 'notes', 'are', 'shown', 'in', 'Table', '1', ':', 'Table', '1', '.'] 
+
+ TOTAL TOKENS ==> 19
+
+ ---- POST ----
+
+ [('Some', 'DT'), ('examples', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('contexts', 'NN'), ('that', 'WDT'), ('occur', 'VBP'), ('within', 'IN'), ('the', 'DT'), ('notes', 'NNS'), ('are', 'VBP'), ('shown', 'VBN'), ('in', 'IN'), ('Table', 'JJ'), ('1', 'CD'), (':', ':'), ('Table', 'JJ'), ('1', 'CD'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['examples', 'contexts', 'occur', 'within', 'notes', 'shown', 'Table', '1', ':', 'Table', '1', '.']
+
+ TOTAL FILTERED TOKENS ==>  12
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('examples', 'NNS'), ('contexts', 'VBP'), ('occur', 'IN'), ('within', 'IN'), ('notes', 'NNS'), ('shown', 'VBN'), ('Table', 'JJ'), ('1', 'CD'), (':', ':'), ('Table', 'JJ'), ('1', 'CD'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['examples contexts', 'contexts occur', 'occur within', 'within notes', 'notes shown', 'shown Table', 'Table 1', '1 :', ': Table', 'Table 1', '1 .'] 
+
+ TOTAL BIGRAMS --> 11 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['examples contexts occur', 'contexts occur within', 'occur within notes', 'within notes shown', 'notes shown Table', 'shown Table 1', 'Table 1 :', '1 : Table', ': Table 1', 'Table 1 .'] 
+
+ TOTAL TRIGRAMS --> 10 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ [] 
+
+ TOTAL NOUN PHRASES --> 0 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['exampl', 'context', 'occur', 'within', 'note', 'shown', 'tabl', '1', ':', 'tabl', '1', '.']
+
+ TOTAL PORTER STEM WORDS ==> 12
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['exampl', 'context', 'occur', 'within', 'note', 'shown', 'tabl', '1', ':', 'tabl', '1', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 12
+
+
+
+ ---- LEMMATIZATION ----
+
+['example', 'context', 'occur', 'within', 'note', 'shown', 'Table', '1', ':', 'Table', '1', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 12
+
+************************************************************************************************************************
+
+6 --> Sample of contexts for cancer statements Sample text Concept “Patient has stage II prostate cancer” Patient positive for prostate cancer “Negative for prostate cancer” Patient negative for prostate cancer “ If prostate cancer is found, patient may require  additional imaging” Hypothetical prostate cancer situation “Might be prostate cancer” Hedged prostate cancer statement “ Prostate cancer is a common cancer among males” Prostate cancer not relevant to patient Optum oncology data initiatives include enriching  our data by extracting essential information from the  oncology patient’s medical records and making it usable  for researchers. 
+
+
+ ---- TOKENS ----
+
+ ['Sample', 'of', 'contexts', 'for', 'cancer', 'statements', 'Sample', 'text', 'Concept', '“', 'Patient', 'has', 'stage', 'II', 'prostate', 'cancer', '”', 'Patient', 'positive', 'for', 'prostate', 'cancer', '“', 'Negative', 'for', 'prostate', 'cancer', '”', 'Patient', 'negative', 'for', 'prostate', 'cancer', '“', 'If', 'prostate', 'cancer', 'is', 'found', ',', 'patient', 'may', 'require', 'additional', 'imaging', '”', 'Hypothetical', 'prostate', 'cancer', 'situation', '“', 'Might', 'be', 'prostate', 'cancer', '”', 'Hedged', 'prostate', 'cancer', 'statement', '“', 'Prostate', 'cancer', 'is', 'a', 'common', 'cancer', 'among', 'males', '”', 'Prostate', 'cancer', 'not', 'relevant', 'to', 'patient', 'Optum', 'oncology', 'data', 'initiatives', 'include', 'enriching', 'our', 'data', 'by', 'extracting', 'essential', 'information', 'from', 'the', 'oncology', 'patient', '’', 's', 'medical', 'records', 'and', 'making', 'it', 'usable', 'for', 'researchers', '.'] 
+
+ TOTAL TOKENS ==> 103
+
+ ---- POST ----
+
+ [('Sample', 'NN'), ('of', 'IN'), ('contexts', 'NN'), ('for', 'IN'), ('cancer', 'NN'), ('statements', 'NNS'), ('Sample', 'NNP'), ('text', 'NN'), ('Concept', 'NNP'), ('“', 'NNP'), ('Patient', 'NNP'), ('has', 'VBZ'), ('stage', 'NN'), ('II', 'NNP'), ('prostate', 'NN'), ('cancer', 'NN'), ('”', 'NNP'), ('Patient', 'NNP'), ('positive', 'JJ'), ('for', 'IN'), ('prostate', 'NN'), ('cancer', 'NN'), ('“', 'NNP'), ('Negative', 'NNP'), ('for', 'IN'), ('prostate', 'NN'), ('cancer', 'NN'), ('”', 'NNP'), ('Patient', 'NNP'), ('negative', 'JJ'), ('for', 'IN'), ('prostate', 'NN'), ('cancer', 'NN'), ('“', 'NN'), ('If', 'IN'), ('prostate', 'JJ'), ('cancer', 'NN'), ('is', 'VBZ'), ('found', 'VBN'), (',', ','), ('patient', 'NN'), ('may', 'MD'), ('require', 'VB'), ('additional', 'JJ'), ('imaging', 'NN'), ('”', 'NNP'), ('Hypothetical', 'NNP'), ('prostate', 'NN'), ('cancer', 'NN'), ('situation', 'NN'), ('“', 'NN'), ('Might', 'NNP'), ('be', 'VB'), ('prostate', 'JJ'), ('cancer', 'NN'), ('”', 'NNP'), ('Hedged', 'NNP'), ('prostate', 'NN'), ('cancer', 'NN'), ('statement', 'NN'), ('“', 'NNP'), ('Prostate', 'NNP'), ('cancer', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('cancer', 'NN'), ('among', 'IN'), ('males', 'NNS'), ('”', 'VBP'), ('Prostate', 'NNP'), ('cancer', 'NN'), ('not', 'RB'), ('relevant', 'JJ'), ('to', 'TO'), ('patient', 'VB'), ('Optum', 'NNP'), ('oncology', 'NN'), ('data', 'NNS'), ('initiatives', 'NNS'), ('include', 'VBP'), ('enriching', 'VBG'), ('our', 'PRP$'), ('data', 'NNS'), ('by', 'IN'), ('extracting', 'VBG'), ('essential', 'JJ'), ('information', 'NN'), ('from', 'IN'), ('the', 'DT'), ('oncology', 'NN'), ('patient', 'NN'), ('’', 'NNP'), ('s', 'VBZ'), ('medical', 'JJ'), ('records', 'NNS'), ('and', 'CC'), ('making', 'VBG'), ('it', 'PRP'), ('usable', 'JJ'), ('for', 'IN'), ('researchers', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Sample', 'contexts', 'cancer', 'statements', 'Sample', 'text', 'Concept', '“', 'Patient', 'stage', 'II', 'prostate', 'cancer', '”', 'Patient', 'positive', 'prostate', 'cancer', '“', 'Negative', 'prostate', 'cancer', '”', 'Patient', 'negative', 'prostate', 'cancer', '“', 'prostate', 'cancer', 'found', ',', 'patient', 'may', 'require', 'additional', 'imaging', '”', 'Hypothetical', 'prostate', 'cancer', 'situation', '“', 'Might', 'prostate', 'cancer', '”', 'Hedged', 'prostate', 'cancer', 'statement', '“', 'Prostate', 'cancer', 'common', 'cancer', 'among', 'males', '”', 'Prostate', 'cancer', 'relevant', 'patient', 'Optum', 'oncology', 'data', 'initiatives', 'include', 'enriching', 'data', 'extracting', 'essential', 'information', 'oncology', 'patient', '’', 'medical', 'records', 'making', 'usable', 'researchers', '.']
+
+ TOTAL FILTERED TOKENS ==>  82
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Sample', 'NNP'), ('contexts', 'NN'), ('cancer', 'NN'), ('statements', 'NNS'), ('Sample', 'NNP'), ('text', 'NN'), ('Concept', 'NNP'), ('“', 'NNP'), ('Patient', 'NNP'), ('stage', 'NN'), ('II', 'NNP'), ('prostate', 'NN'), ('cancer', 'NN'), ('”', 'NNP'), ('Patient', 'NNP'), ('positive', 'JJ'), ('prostate', 'NN'), ('cancer', 'NN'), ('“', 'NNP'), ('Negative', 'NNP'), ('prostate', 'NN'), ('cancer', 'NN'), ('”', 'NNP'), ('Patient', 'NNP'), ('negative', 'JJ'), ('prostate', 'NN'), ('cancer', 'NN'), ('“', 'NNP'), ('prostate', 'NN'), ('cancer', 'NN'), ('found', 'VBD'), (',', ','), ('patient', 'NN'), ('may', 'MD'), ('require', 'VB'), ('additional', 'JJ'), ('imaging', 'NN'), ('”', 'NNP'), ('Hypothetical', 'NNP'), ('prostate', 'NN'), ('cancer', 'NN'), ('situation', 'NN'), ('“', 'NN'), ('Might', 'NNP'), ('prostate', 'NN'), ('cancer', 'NN'), ('”', 'NNP'), ('Hedged', 'NNP'), ('prostate', 'NN'), ('cancer', 'NN'), ('statement', 'NN'), ('“', 'NNP'), ('Prostate', 'NNP'), ('cancer', 'NN'), ('common', 'JJ'), ('cancer', 'NN'), ('among', 'IN'), ('males', 'NNS'), ('”', 'VBP'), ('Prostate', 'NNP'), ('cancer', 'NN'), ('relevant', 'JJ'), ('patient', 'NN'), ('Optum', 'NNP'), ('oncology', 'NN'), ('data', 'NNS'), ('initiatives', 'NNS'), ('include', 'VBP'), ('enriching', 'VBG'), ('data', 'NNS'), ('extracting', 'VBG'), ('essential', 'JJ'), ('information', 'NN'), ('oncology', 'NN'), ('patient', 'NN'), ('’', 'NNP'), ('medical', 'JJ'), ('records', 'NNS'), ('making', 'VBG'), ('usable', 'JJ'), ('researchers', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Sample contexts', 'contexts cancer', 'cancer statements', 'statements Sample', 'Sample text', 'text Concept', 'Concept “', '“ Patient', 'Patient stage', 'stage II', 'II prostate', 'prostate cancer', 'cancer ”', '” Patient', 'Patient positive', 'positive prostate', 'prostate cancer', 'cancer “', '“ Negative', 'Negative prostate', 'prostate cancer', 'cancer ”', '” Patient', 'Patient negative', 'negative prostate', 'prostate cancer', 'cancer “', '“ prostate', 'prostate cancer', 'cancer found', 'found ,', ', patient', 'patient may', 'may require', 'require additional', 'additional imaging', 'imaging ”', '” Hypothetical', 'Hypothetical prostate', 'prostate cancer', 'cancer situation', 'situation “', '“ Might', 'Might prostate', 'prostate cancer', 'cancer ”', '” Hedged', 'Hedged prostate', 'prostate cancer', 'cancer statement', 'statement “', '“ Prostate', 'Prostate cancer', 'cancer common', 'common cancer', 'cancer among', 'among males', 'males ”', '” Prostate', 'Prostate cancer', 'cancer relevant', 'relevant patient', 'patient Optum', 'Optum oncology', 'oncology data', 'data initiatives', 'initiatives include', 'include enriching', 'enriching data', 'data extracting', 'extracting essential', 'essential information', 'information oncology', 'oncology patient', 'patient ’', '’ medical', 'medical records', 'records making', 'making usable', 'usable researchers', 'researchers .'] 
+
+ TOTAL BIGRAMS --> 81 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Sample contexts cancer', 'contexts cancer statements', 'cancer statements Sample', 'statements Sample text', 'Sample text Concept', 'text Concept “', 'Concept “ Patient', '“ Patient stage', 'Patient stage II', 'stage II prostate', 'II prostate cancer', 'prostate cancer ”', 'cancer ” Patient', '” Patient positive', 'Patient positive prostate', 'positive prostate cancer', 'prostate cancer “', 'cancer “ Negative', '“ Negative prostate', 'Negative prostate cancer', 'prostate cancer ”', 'cancer ” Patient', '” Patient negative', 'Patient negative prostate', 'negative prostate cancer', 'prostate cancer “', 'cancer “ prostate', '“ prostate cancer', 'prostate cancer found', 'cancer found ,', 'found , patient', ', patient may', 'patient may require', 'may require additional', 'require additional imaging', 'additional imaging ”', 'imaging ” Hypothetical', '” Hypothetical prostate', 'Hypothetical prostate cancer', 'prostate cancer situation', 'cancer situation “', 'situation “ Might', '“ Might prostate', 'Might prostate cancer', 'prostate cancer ”', 'cancer ” Hedged', '” Hedged prostate', 'Hedged prostate cancer', 'prostate cancer statement', 'cancer statement “', 'statement “ Prostate', '“ Prostate cancer', 'Prostate cancer common', 'cancer common cancer', 'common cancer among', 'cancer among males', 'among males ”', 'males ” Prostate', '” Prostate cancer', 'Prostate cancer relevant', 'cancer relevant patient', 'relevant patient Optum', 'patient Optum oncology', 'Optum oncology data', 'oncology data initiatives', 'data initiatives include', 'initiatives include enriching', 'include enriching data', 'enriching data extracting', 'data extracting essential', 'extracting essential information', 'essential information oncology', 'information oncology patient', 'oncology patient ’', 'patient ’ medical', '’ medical records', 'medical records making', 'records making usable', 'making usable researchers', 'usable researchers .'] 
+
+ TOTAL TRIGRAMS --> 80 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['contexts', 'cancer', 'text', 'stage', 'prostate', 'cancer', 'positive prostate', 'cancer', 'prostate', 'cancer', 'negative prostate', 'cancer', 'prostate', 'cancer', 'patient', 'additional imaging', 'prostate', 'cancer', 'situation', '“', 'prostate', 'cancer', 'prostate', 'cancer', 'statement', 'cancer', 'common cancer', 'cancer', 'relevant patient', 'oncology', 'essential information', 'oncology', 'patient'] 
+
+ TOTAL NOUN PHRASES --> 33 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['Prostate']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> ['Sample', 'Concept', 'Might', 'Optum']
+ TOTAL PERSON ENTITY --> 4 
+
+
+ GPE ---> ['Sample']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['sampl', 'context', 'cancer', 'statement', 'sampl', 'text', 'concept', '“', 'patient', 'stage', 'ii', 'prostat', 'cancer', '”', 'patient', 'posit', 'prostat', 'cancer', '“', 'neg', 'prostat', 'cancer', '”', 'patient', 'neg', 'prostat', 'cancer', '“', 'prostat', 'cancer', 'found', ',', 'patient', 'may', 'requir', 'addit', 'imag', '”', 'hypothet', 'prostat', 'cancer', 'situat', '“', 'might', 'prostat', 'cancer', '”', 'hedg', 'prostat', 'cancer', 'statement', '“', 'prostat', 'cancer', 'common', 'cancer', 'among', 'male', '”', 'prostat', 'cancer', 'relev', 'patient', 'optum', 'oncolog', 'data', 'initi', 'includ', 'enrich', 'data', 'extract', 'essenti', 'inform', 'oncolog', 'patient', '’', 'medic', 'record', 'make', 'usabl', 'research', '.']
+
+ TOTAL PORTER STEM WORDS ==> 82
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['sampl', 'context', 'cancer', 'statement', 'sampl', 'text', 'concept', '“', 'patient', 'stage', 'ii', 'prostat', 'cancer', '”', 'patient', 'posit', 'prostat', 'cancer', '“', 'negat', 'prostat', 'cancer', '”', 'patient', 'negat', 'prostat', 'cancer', '“', 'prostat', 'cancer', 'found', ',', 'patient', 'may', 'requir', 'addit', 'imag', '”', 'hypothet', 'prostat', 'cancer', 'situat', '“', 'might', 'prostat', 'cancer', '”', 'hedg', 'prostat', 'cancer', 'statement', '“', 'prostat', 'cancer', 'common', 'cancer', 'among', 'male', '”', 'prostat', 'cancer', 'relev', 'patient', 'optum', 'oncolog', 'data', 'initi', 'includ', 'enrich', 'data', 'extract', 'essenti', 'inform', 'oncolog', 'patient', '’', 'medic', 'record', 'make', 'usabl', 'research', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 82
+
+
+
+ ---- LEMMATIZATION ----
+
+['Sample', 'context', 'cancer', 'statement', 'Sample', 'text', 'Concept', '“', 'Patient', 'stage', 'II', 'prostate', 'cancer', '”', 'Patient', 'positive', 'prostate', 'cancer', '“', 'Negative', 'prostate', 'cancer', '”', 'Patient', 'negative', 'prostate', 'cancer', '“', 'prostate', 'cancer', 'found', ',', 'patient', 'may', 'require', 'additional', 'imaging', '”', 'Hypothetical', 'prostate', 'cancer', 'situation', '“', 'Might', 'prostate', 'cancer', '”', 'Hedged', 'prostate', 'cancer', 'statement', '“', 'Prostate', 'cancer', 'common', 'cancer', 'among', 'male', '”', 'Prostate', 'cancer', 'relevant', 'patient', 'Optum', 'oncology', 'data', 'initiative', 'include', 'enriching', 'data', 'extracting', 'essential', 'information', 'oncology', 'patient', '’', 'medical', 'record', 'making', 'usable', 'researcher', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 82
+
+************************************************************************************************************************
+
+7 --> Specific oncology concepts important in  understanding the progression of the disease are often  not available in structured formats, particularly the tumor,  node and metastasis (TNM) values, stage information and  biomarkers. 
+
+
+ ---- TOKENS ----
+
+ ['Specific', 'oncology', 'concepts', 'important', 'in', 'understanding', 'the', 'progression', 'of', 'the', 'disease', 'are', 'often', 'not', 'available', 'in', 'structured', 'formats', ',', 'particularly', 'the', 'tumor', ',', 'node', 'and', 'metastasis', '(', 'TNM', ')', 'values', ',', 'stage', 'information', 'and', 'biomarkers', '.'] 
+
+ TOTAL TOKENS ==> 36
+
+ ---- POST ----
+
+ [('Specific', 'JJ'), ('oncology', 'NN'), ('concepts', 'NNS'), ('important', 'JJ'), ('in', 'IN'), ('understanding', 'VBG'), ('the', 'DT'), ('progression', 'NN'), ('of', 'IN'), ('the', 'DT'), ('disease', 'NN'), ('are', 'VBP'), ('often', 'RB'), ('not', 'RB'), ('available', 'JJ'), ('in', 'IN'), ('structured', 'JJ'), ('formats', 'NNS'), (',', ','), ('particularly', 'RB'), ('the', 'DT'), ('tumor', 'NN'), (',', ','), ('node', 'NN'), ('and', 'CC'), ('metastasis', 'NN'), ('(', '('), ('TNM', 'NNP'), (')', ')'), ('values', 'NNS'), (',', ','), ('stage', 'NN'), ('information', 'NN'), ('and', 'CC'), ('biomarkers', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Specific', 'oncology', 'concepts', 'important', 'understanding', 'progression', 'disease', 'often', 'available', 'structured', 'formats', ',', 'particularly', 'tumor', ',', 'node', 'metastasis', '(', 'TNM', ')', 'values', ',', 'stage', 'information', 'biomarkers', '.']
+
+ TOTAL FILTERED TOKENS ==>  26
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Specific', 'JJ'), ('oncology', 'NN'), ('concepts', 'NNS'), ('important', 'JJ'), ('understanding', 'JJ'), ('progression', 'NN'), ('disease', 'NN'), ('often', 'RB'), ('available', 'JJ'), ('structured', 'JJ'), ('formats', 'NNS'), (',', ','), ('particularly', 'RB'), ('tumor', 'NN'), (',', ','), ('node', 'JJ'), ('metastasis', 'NN'), ('(', '('), ('TNM', 'NNP'), (')', ')'), ('values', 'NNS'), (',', ','), ('stage', 'NN'), ('information', 'NN'), ('biomarkers', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Specific oncology', 'oncology concepts', 'concepts important', 'important understanding', 'understanding progression', 'progression disease', 'disease often', 'often available', 'available structured', 'structured formats', 'formats ,', ', particularly', 'particularly tumor', 'tumor ,', ', node', 'node metastasis', 'metastasis (', '( TNM', 'TNM )', ') values', 'values ,', ', stage', 'stage information', 'information biomarkers', 'biomarkers .'] 
+
+ TOTAL BIGRAMS --> 25 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Specific oncology concepts', 'oncology concepts important', 'concepts important understanding', 'important understanding progression', 'understanding progression disease', 'progression disease often', 'disease often available', 'often available structured', 'available structured formats', 'structured formats ,', 'formats , particularly', ', particularly tumor', 'particularly tumor ,', 'tumor , node', ', node metastasis', 'node metastasis (', 'metastasis ( TNM', '( TNM )', 'TNM ) values', ') values ,', 'values , stage', ', stage information', 'stage information biomarkers', 'information biomarkers .'] 
+
+ TOTAL TRIGRAMS --> 24 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['Specific oncology', 'important understanding progression', 'disease', 'tumor', 'node metastasis', 'stage', 'information'] 
+
+ TOTAL NOUN PHRASES --> 7 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Specific']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['specif', 'oncolog', 'concept', 'import', 'understand', 'progress', 'diseas', 'often', 'avail', 'structur', 'format', ',', 'particularli', 'tumor', ',', 'node', 'metastasi', '(', 'tnm', ')', 'valu', ',', 'stage', 'inform', 'biomark', '.']
+
+ TOTAL PORTER STEM WORDS ==> 26
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['specif', 'oncolog', 'concept', 'import', 'understand', 'progress', 'diseas', 'often', 'avail', 'structur', 'format', ',', 'particular', 'tumor', ',', 'node', 'metastasi', '(', 'tnm', ')', 'valu', ',', 'stage', 'inform', 'biomark', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 26
+
+
+
+ ---- LEMMATIZATION ----
+
+['Specific', 'oncology', 'concept', 'important', 'understanding', 'progression', 'disease', 'often', 'available', 'structured', 'format', ',', 'particularly', 'tumor', ',', 'node', 'metastasis', '(', 'TNM', ')', 'value', ',', 'stage', 'information', 'biomarkers', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 26
+
+************************************************************************************************************************
+
+8 --> patients who have at least  one solid tumor ICD code2M Within the Optum EHR data source, there are 2 million patients who have at least one solid tumor ICD code. 
+
+
+ ---- TOKENS ----
+
+ ['patients', 'who', 'have', 'at', 'least', 'one', 'solid', 'tumor', 'ICD', 'code2M', 'Within', 'the', 'Optum', 'EHR', 'data', 'source', ',', 'there', 'are', '2', 'million', 'patients', 'who', 'have', 'at', 'least', 'one', 'solid', 'tumor', 'ICD', 'code', '.'] 
+
+ TOTAL TOKENS ==> 32
+
+ ---- POST ----
+
+ [('patients', 'NNS'), ('who', 'WP'), ('have', 'VBP'), ('at', 'IN'), ('least', 'JJS'), ('one', 'CD'), ('solid', 'JJ'), ('tumor', 'NN'), ('ICD', 'NNP'), ('code2M', 'NN'), ('Within', 'IN'), ('the', 'DT'), ('Optum', 'NNP'), ('EHR', 'NNP'), ('data', 'NNS'), ('source', 'NN'), (',', ','), ('there', 'EX'), ('are', 'VBP'), ('2', 'CD'), ('million', 'CD'), ('patients', 'NNS'), ('who', 'WP'), ('have', 'VBP'), ('at', 'IN'), ('least', 'JJS'), ('one', 'CD'), ('solid', 'JJ'), ('tumor', 'NN'), ('ICD', 'NNP'), ('code', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['patients', 'least', 'one', 'solid', 'tumor', 'ICD', 'code2M', 'Within', 'Optum', 'EHR', 'data', 'source', ',', '2', 'million', 'patients', 'least', 'one', 'solid', 'tumor', 'ICD', 'code', '.']
+
+ TOTAL FILTERED TOKENS ==>  23
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('patients', 'NNS'), ('least', 'JJS'), ('one', 'CD'), ('solid', 'JJ'), ('tumor', 'NN'), ('ICD', 'NNP'), ('code2M', 'NN'), ('Within', 'NNP'), ('Optum', 'NNP'), ('EHR', 'NNP'), ('data', 'NNS'), ('source', 'NN'), (',', ','), ('2', 'CD'), ('million', 'CD'), ('patients', 'NNS'), ('least', 'JJ'), ('one', 'CD'), ('solid', 'JJ'), ('tumor', 'NN'), ('ICD', 'NNP'), ('code', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['patients least', 'least one', 'one solid', 'solid tumor', 'tumor ICD', 'ICD code2M', 'code2M Within', 'Within Optum', 'Optum EHR', 'EHR data', 'data source', 'source ,', ', 2', '2 million', 'million patients', 'patients least', 'least one', 'one solid', 'solid tumor', 'tumor ICD', 'ICD code', 'code .'] 
+
+ TOTAL BIGRAMS --> 22 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['patients least one', 'least one solid', 'one solid tumor', 'solid tumor ICD', 'tumor ICD code2M', 'ICD code2M Within', 'code2M Within Optum', 'Within Optum EHR', 'Optum EHR data', 'EHR data source', 'data source ,', 'source , 2', ', 2 million', '2 million patients', 'million patients least', 'patients least one', 'least one solid', 'one solid tumor', 'solid tumor ICD', 'tumor ICD code', 'ICD code .'] 
+
+ TOTAL TRIGRAMS --> 21 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['solid tumor', 'code2M', 'source', 'solid tumor', 'code'] 
+
+ TOTAL NOUN PHRASES --> 5 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['ICD', 'code2M Within Optum', 'ICD']
+ TOTAL ORGANIZATION ENTITY --> 3 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['patient', 'least', 'one', 'solid', 'tumor', 'icd', 'code2m', 'within', 'optum', 'ehr', 'data', 'sourc', ',', '2', 'million', 'patient', 'least', 'one', 'solid', 'tumor', 'icd', 'code', '.']
+
+ TOTAL PORTER STEM WORDS ==> 23
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['patient', 'least', 'one', 'solid', 'tumor', 'icd', 'code2m', 'within', 'optum', 'ehr', 'data', 'sourc', ',', '2', 'million', 'patient', 'least', 'one', 'solid', 'tumor', 'icd', 'code', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 23
+
+
+
+ ---- LEMMATIZATION ----
+
+['patient', 'least', 'one', 'solid', 'tumor', 'ICD', 'code2M', 'Within', 'Optum', 'EHR', 'data', 'source', ',', '2', 'million', 'patient', 'least', 'one', 'solid', 'tumor', 'ICD', 'code', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 23
+
+************************************************************************************************************************
+
+9 --> Manually reviewing hundreds of millions of documents, and manually extracting clinical data for research,  is not a scalable approach. 
+
+
+ ---- TOKENS ----
+
+ ['Manually', 'reviewing', 'hundreds', 'of', 'millions', 'of', 'documents', ',', 'and', 'manually', 'extracting', 'clinical', 'data', 'for', 'research', ',', 'is', 'not', 'a', 'scalable', 'approach', '.'] 
+
+ TOTAL TOKENS ==> 22
+
+ ---- POST ----
+
+ [('Manually', 'RB'), ('reviewing', 'VBG'), ('hundreds', 'NNS'), ('of', 'IN'), ('millions', 'NNS'), ('of', 'IN'), ('documents', 'NNS'), (',', ','), ('and', 'CC'), ('manually', 'RB'), ('extracting', 'VBG'), ('clinical', 'JJ'), ('data', 'NNS'), ('for', 'IN'), ('research', 'NN'), (',', ','), ('is', 'VBZ'), ('not', 'RB'), ('a', 'DT'), ('scalable', 'JJ'), ('approach', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Manually', 'reviewing', 'hundreds', 'millions', 'documents', ',', 'manually', 'extracting', 'clinical', 'data', 'research', ',', 'scalable', 'approach', '.']
+
+ TOTAL FILTERED TOKENS ==>  15
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Manually', 'RB'), ('reviewing', 'VBG'), ('hundreds', 'NNS'), ('millions', 'NNS'), ('documents', 'NNS'), (',', ','), ('manually', 'RB'), ('extracting', 'VBG'), ('clinical', 'JJ'), ('data', 'NNS'), ('research', 'NN'), (',', ','), ('scalable', 'JJ'), ('approach', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Manually reviewing', 'reviewing hundreds', 'hundreds millions', 'millions documents', 'documents ,', ', manually', 'manually extracting', 'extracting clinical', 'clinical data', 'data research', 'research ,', ', scalable', 'scalable approach', 'approach .'] 
+
+ TOTAL BIGRAMS --> 14 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Manually reviewing hundreds', 'reviewing hundreds millions', 'hundreds millions documents', 'millions documents ,', 'documents , manually', ', manually extracting', 'manually extracting clinical', 'extracting clinical data', 'clinical data research', 'data research ,', 'research , scalable', ', scalable approach', 'scalable approach .'] 
+
+ TOTAL TRIGRAMS --> 13 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['research', 'scalable approach'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['manual', 'review', 'hundr', 'million', 'document', ',', 'manual', 'extract', 'clinic', 'data', 'research', ',', 'scalabl', 'approach', '.']
+
+ TOTAL PORTER STEM WORDS ==> 15
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['manual', 'review', 'hundr', 'million', 'document', ',', 'manual', 'extract', 'clinic', 'data', 'research', ',', 'scalabl', 'approach', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 15
+
+
+
+ ---- LEMMATIZATION ----
+
+['Manually', 'reviewing', 'hundred', 'million', 'document', ',', 'manually', 'extracting', 'clinical', 'data', 'research', ',', 'scalable', 'approach', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 15
+
+************************************************************************************************************************
+
+10 --> Our NLP system offers an automated solution for providing insights from a large  collection of medical notes that continues to grow each day. 
+
+
+ ---- TOKENS ----
+
+ ['Our', 'NLP', 'system', 'offers', 'an', 'automated', 'solution', 'for', 'providing', 'insights', 'from', 'a', 'large', 'collection', 'of', 'medical', 'notes', 'that', 'continues', 'to', 'grow', 'each', 'day', '.'] 
+
+ TOTAL TOKENS ==> 24
+
+ ---- POST ----
+
+ [('Our', 'PRP$'), ('NLP', 'NNP'), ('system', 'NN'), ('offers', 'VBZ'), ('an', 'DT'), ('automated', 'JJ'), ('solution', 'NN'), ('for', 'IN'), ('providing', 'VBG'), ('insights', 'NNS'), ('from', 'IN'), ('a', 'DT'), ('large', 'JJ'), ('collection', 'NN'), ('of', 'IN'), ('medical', 'JJ'), ('notes', 'NNS'), ('that', 'WDT'), ('continues', 'VBZ'), ('to', 'TO'), ('grow', 'VB'), ('each', 'DT'), ('day', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['NLP', 'system', 'offers', 'automated', 'solution', 'providing', 'insights', 'large', 'collection', 'medical', 'notes', 'continues', 'grow', 'day', '.']
+
+ TOTAL FILTERED TOKENS ==>  15
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('NLP', 'NNP'), ('system', 'NN'), ('offers', 'NNS'), ('automated', 'VBN'), ('solution', 'NN'), ('providing', 'VBG'), ('insights', 'NNS'), ('large', 'JJ'), ('collection', 'NN'), ('medical', 'JJ'), ('notes', 'NNS'), ('continues', 'VBZ'), ('grow', 'JJ'), ('day', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['NLP system', 'system offers', 'offers automated', 'automated solution', 'solution providing', 'providing insights', 'insights large', 'large collection', 'collection medical', 'medical notes', 'notes continues', 'continues grow', 'grow day', 'day .'] 
+
+ TOTAL BIGRAMS --> 14 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['NLP system offers', 'system offers automated', 'offers automated solution', 'automated solution providing', 'solution providing insights', 'providing insights large', 'insights large collection', 'large collection medical', 'collection medical notes', 'medical notes continues', 'notes continues grow', 'continues grow day', 'grow day .'] 
+
+ TOTAL TRIGRAMS --> 13 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['system', 'solution', 'large collection', 'grow day'] 
+
+ TOTAL NOUN PHRASES --> 4 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['nlp', 'system', 'offer', 'autom', 'solut', 'provid', 'insight', 'larg', 'collect', 'medic', 'note', 'continu', 'grow', 'day', '.']
+
+ TOTAL PORTER STEM WORDS ==> 15
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['nlp', 'system', 'offer', 'autom', 'solut', 'provid', 'insight', 'larg', 'collect', 'medic', 'note', 'continu', 'grow', 'day', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 15
+
+
+
+ ---- LEMMATIZATION ----
+
+['NLP', 'system', 'offer', 'automated', 'solution', 'providing', 'insight', 'large', 'collection', 'medical', 'note', 'continues', 'grow', 'day', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 15
+
+************************************************************************************************************************
+
+11 --> Page 3optum.com Clinical natural language processing: Unearthing deeper oncology insights by mining unstructured medical notes Sentence: “Left breast cancer stage T1b N1mi M0.” Entity tagging: Relation linking: has direction has stage Frame cancer Cancer breast Direction left Stage_tnm T1b N1mi M0 Entity, relation, frame extraction: Left stage_tnmdirection cancer stage_tnmdirection cancer breast cancer stage T1b N1mi M0 Left breast cancer stage T1b N1mi M0 Information extraction process: Entities, relations and frames As the NLP system processes the clinical notes data, our trained models extract relevant entities in the  text and the relationships between them using three approaches:  Example A shows the entity, relations and frame extraction. 
+
+
+ ---- TOKENS ----
+
+ ['Page', '3optum.com', 'Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insights', 'by', 'mining', 'unstructured', 'medical', 'notes', 'Sentence', ':', '“', 'Left', 'breast', 'cancer', 'stage', 'T1b', 'N1mi', 'M0.', '”', 'Entity', 'tagging', ':', 'Relation', 'linking', ':', 'has', 'direction', 'has', 'stage', 'Frame', 'cancer', 'Cancer', 'breast', 'Direction', 'left', 'Stage_tnm', 'T1b', 'N1mi', 'M0', 'Entity', ',', 'relation', ',', 'frame', 'extraction', ':', 'Left', 'stage_tnmdirection', 'cancer', 'stage_tnmdirection', 'cancer', 'breast', 'cancer', 'stage', 'T1b', 'N1mi', 'M0', 'Left', 'breast', 'cancer', 'stage', 'T1b', 'N1mi', 'M0', 'Information', 'extraction', 'process', ':', 'Entities', ',', 'relations', 'and', 'frames', 'As', 'the', 'NLP', 'system', 'processes', 'the', 'clinical', 'notes', 'data', ',', 'our', 'trained', 'models', 'extract', 'relevant', 'entities', 'in', 'the', 'text', 'and', 'the', 'relationships', 'between', 'them', 'using', 'three', 'approaches', ':', 'Example', 'A', 'shows', 'the', 'entity', ',', 'relations', 'and', 'frame', 'extraction', '.'] 
+
+ TOTAL TOKENS ==> 120
+
+ ---- POST ----
+
+ [('Page', 'NN'), ('3optum.com', 'CD'), ('Clinical', 'JJ'), ('natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), (':', ':'), ('Unearthing', 'NNP'), ('deeper', 'JJR'), ('oncology', 'NN'), ('insights', 'NNS'), ('by', 'IN'), ('mining', 'VBG'), ('unstructured', 'JJ'), ('medical', 'JJ'), ('notes', 'NNS'), ('Sentence', 'NN'), (':', ':'), ('“', 'NN'), ('Left', 'VBD'), ('breast', 'NN'), ('cancer', 'NN'), ('stage', 'NN'), ('T1b', 'NNP'), ('N1mi', 'NNP'), ('M0.', 'NNP'), ('”', 'NNP'), ('Entity', 'NNP'), ('tagging', 'NN'), (':', ':'), ('Relation', 'NN'), ('linking', 'NN'), (':', ':'), ('has', 'VBZ'), ('direction', 'NN'), ('has', 'VBZ'), ('stage', 'NN'), ('Frame', 'NNP'), ('cancer', 'NN'), ('Cancer', 'NNP'), ('breast', 'NN'), ('Direction', 'NNP'), ('left', 'VBD'), ('Stage_tnm', 'NNP'), ('T1b', 'NNP'), ('N1mi', 'NNP'), ('M0', 'NNP'), ('Entity', 'NNP'), (',', ','), ('relation', 'NN'), (',', ','), ('frame', 'JJ'), ('extraction', 'NN'), (':', ':'), ('Left', 'JJ'), ('stage_tnmdirection', 'NN'), ('cancer', 'NN'), ('stage_tnmdirection', 'NN'), ('cancer', 'NN'), ('breast', 'NN'), ('cancer', 'NN'), ('stage', 'NN'), ('T1b', 'NNP'), ('N1mi', 'NNP'), ('M0', 'NNP'), ('Left', 'NNP'), ('breast', 'NN'), ('cancer', 'NN'), ('stage', 'NN'), ('T1b', 'NNP'), ('N1mi', 'NNP'), ('M0', 'NNP'), ('Information', 'NNP'), ('extraction', 'NN'), ('process', 'NN'), (':', ':'), ('Entities', 'NNS'), (',', ','), ('relations', 'NNS'), ('and', 'CC'), ('frames', 'NNS'), ('As', 'IN'), ('the', 'DT'), ('NLP', 'NNP'), ('system', 'NN'), ('processes', 'VBZ'), ('the', 'DT'), ('clinical', 'JJ'), ('notes', 'NNS'), ('data', 'NNS'), (',', ','), ('our', 'PRP$'), ('trained', 'JJ'), ('models', 'NNS'), ('extract', 'VBP'), ('relevant', 'JJ'), ('entities', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('text', 'NN'), ('and', 'CC'), ('the', 'DT'), ('relationships', 'NNS'), ('between', 'IN'), ('them', 'PRP'), ('using', 'VBG'), ('three', 'CD'), ('approaches', 'NNS'), (':', ':'), ('Example', 'VB'), ('A', 'DT'), ('shows', 'VBZ'), ('the', 'DT'), ('entity', 'NN'), (',', ','), ('relations', 'NNS'), ('and', 'CC'), ('frame', 'NN'), ('extraction', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Page', '3optum.com', 'Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insights', 'mining', 'unstructured', 'medical', 'notes', 'Sentence', ':', '“', 'Left', 'breast', 'cancer', 'stage', 'T1b', 'N1mi', 'M0.', '”', 'Entity', 'tagging', ':', 'Relation', 'linking', ':', 'direction', 'stage', 'Frame', 'cancer', 'Cancer', 'breast', 'Direction', 'left', 'Stage_tnm', 'T1b', 'N1mi', 'M0', 'Entity', ',', 'relation', ',', 'frame', 'extraction', ':', 'Left', 'stage_tnmdirection', 'cancer', 'stage_tnmdirection', 'cancer', 'breast', 'cancer', 'stage', 'T1b', 'N1mi', 'M0', 'Left', 'breast', 'cancer', 'stage', 'T1b', 'N1mi', 'M0', 'Information', 'extraction', 'process', ':', 'Entities', ',', 'relations', 'frames', 'NLP', 'system', 'processes', 'clinical', 'notes', 'data', ',', 'trained', 'models', 'extract', 'relevant', 'entities', 'text', 'relationships', 'using', 'three', 'approaches', ':', 'Example', 'shows', 'entity', ',', 'relations', 'frame', 'extraction', '.']
+
+ TOTAL FILTERED TOKENS ==>  103
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Page', 'NN'), ('3optum.com', 'CD'), ('Clinical', 'JJ'), ('natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), (':', ':'), ('Unearthing', 'NNP'), ('deeper', 'JJR'), ('oncology', 'NN'), ('insights', 'NNS'), ('mining', 'NN'), ('unstructured', 'JJ'), ('medical', 'JJ'), ('notes', 'NNS'), ('Sentence', 'NN'), (':', ':'), ('“', 'NN'), ('Left', 'VBD'), ('breast', 'NN'), ('cancer', 'NN'), ('stage', 'NN'), ('T1b', 'NNP'), ('N1mi', 'NNP'), ('M0.', 'NNP'), ('”', 'NNP'), ('Entity', 'NNP'), ('tagging', 'NN'), (':', ':'), ('Relation', 'NN'), ('linking', 'VBG'), (':', ':'), ('direction', 'NN'), ('stage', 'NN'), ('Frame', 'NNP'), ('cancer', 'NN'), ('Cancer', 'NNP'), ('breast', 'NN'), ('Direction', 'NNP'), ('left', 'VBD'), ('Stage_tnm', 'NNP'), ('T1b', 'NNP'), ('N1mi', 'NNP'), ('M0', 'NNP'), ('Entity', 'NNP'), (',', ','), ('relation', 'NN'), (',', ','), ('frame', 'JJ'), ('extraction', 'NN'), (':', ':'), ('Left', 'JJ'), ('stage_tnmdirection', 'NN'), ('cancer', 'NN'), ('stage_tnmdirection', 'NN'), ('cancer', 'NN'), ('breast', 'NN'), ('cancer', 'NN'), ('stage', 'NN'), ('T1b', 'NNP'), ('N1mi', 'NNP'), ('M0', 'NNP'), ('Left', 'NNP'), ('breast', 'NN'), ('cancer', 'NN'), ('stage', 'NN'), ('T1b', 'NNP'), ('N1mi', 'NNP'), ('M0', 'NNP'), ('Information', 'NNP'), ('extraction', 'NN'), ('process', 'NN'), (':', ':'), ('Entities', 'NNS'), (',', ','), ('relations', 'NNS'), ('frames', 'VBP'), ('NLP', 'NNP'), ('system', 'NN'), ('processes', 'VBZ'), ('clinical', 'JJ'), ('notes', 'NNS'), ('data', 'NNS'), (',', ','), ('trained', 'JJ'), ('models', 'NNS'), ('extract', 'VBP'), ('relevant', 'JJ'), ('entities', 'NNS'), ('text', 'IN'), ('relationships', 'NNS'), ('using', 'VBG'), ('three', 'CD'), ('approaches', 'NNS'), (':', ':'), ('Example', 'NN'), ('shows', 'VBZ'), ('entity', 'NN'), (',', ','), ('relations', 'NNS'), ('frame', 'VBP'), ('extraction', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Page 3optum.com', '3optum.com Clinical', 'Clinical natural', 'natural language', 'language processing', 'processing :', ': Unearthing', 'Unearthing deeper', 'deeper oncology', 'oncology insights', 'insights mining', 'mining unstructured', 'unstructured medical', 'medical notes', 'notes Sentence', 'Sentence :', ': “', '“ Left', 'Left breast', 'breast cancer', 'cancer stage', 'stage T1b', 'T1b N1mi', 'N1mi M0.', 'M0. ”', '” Entity', 'Entity tagging', 'tagging :', ': Relation', 'Relation linking', 'linking :', ': direction', 'direction stage', 'stage Frame', 'Frame cancer', 'cancer Cancer', 'Cancer breast', 'breast Direction', 'Direction left', 'left Stage_tnm', 'Stage_tnm T1b', 'T1b N1mi', 'N1mi M0', 'M0 Entity', 'Entity ,', ', relation', 'relation ,', ', frame', 'frame extraction', 'extraction :', ': Left', 'Left stage_tnmdirection', 'stage_tnmdirection cancer', 'cancer stage_tnmdirection', 'stage_tnmdirection cancer', 'cancer breast', 'breast cancer', 'cancer stage', 'stage T1b', 'T1b N1mi', 'N1mi M0', 'M0 Left', 'Left breast', 'breast cancer', 'cancer stage', 'stage T1b', 'T1b N1mi', 'N1mi M0', 'M0 Information', 'Information extraction', 'extraction process', 'process :', ': Entities', 'Entities ,', ', relations', 'relations frames', 'frames NLP', 'NLP system', 'system processes', 'processes clinical', 'clinical notes', 'notes data', 'data ,', ', trained', 'trained models', 'models extract', 'extract relevant', 'relevant entities', 'entities text', 'text relationships', 'relationships using', 'using three', 'three approaches', 'approaches :', ': Example', 'Example shows', 'shows entity', 'entity ,', ', relations', 'relations frame', 'frame extraction', 'extraction .'] 
+
+ TOTAL BIGRAMS --> 102 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Page 3optum.com Clinical', '3optum.com Clinical natural', 'Clinical natural language', 'natural language processing', 'language processing :', 'processing : Unearthing', ': Unearthing deeper', 'Unearthing deeper oncology', 'deeper oncology insights', 'oncology insights mining', 'insights mining unstructured', 'mining unstructured medical', 'unstructured medical notes', 'medical notes Sentence', 'notes Sentence :', 'Sentence : “', ': “ Left', '“ Left breast', 'Left breast cancer', 'breast cancer stage', 'cancer stage T1b', 'stage T1b N1mi', 'T1b N1mi M0.', 'N1mi M0. ”', 'M0. ” Entity', '” Entity tagging', 'Entity tagging :', 'tagging : Relation', ': Relation linking', 'Relation linking :', 'linking : direction', ': direction stage', 'direction stage Frame', 'stage Frame cancer', 'Frame cancer Cancer', 'cancer Cancer breast', 'Cancer breast Direction', 'breast Direction left', 'Direction left Stage_tnm', 'left Stage_tnm T1b', 'Stage_tnm T1b N1mi', 'T1b N1mi M0', 'N1mi M0 Entity', 'M0 Entity ,', 'Entity , relation', ', relation ,', 'relation , frame', ', frame extraction', 'frame extraction :', 'extraction : Left', ': Left stage_tnmdirection', 'Left stage_tnmdirection cancer', 'stage_tnmdirection cancer stage_tnmdirection', 'cancer stage_tnmdirection cancer', 'stage_tnmdirection cancer breast', 'cancer breast cancer', 'breast cancer stage', 'cancer stage T1b', 'stage T1b N1mi', 'T1b N1mi M0', 'N1mi M0 Left', 'M0 Left breast', 'Left breast cancer', 'breast cancer stage', 'cancer stage T1b', 'stage T1b N1mi', 'T1b N1mi M0', 'N1mi M0 Information', 'M0 Information extraction', 'Information extraction process', 'extraction process :', 'process : Entities', ': Entities ,', 'Entities , relations', ', relations frames', 'relations frames NLP', 'frames NLP system', 'NLP system processes', 'system processes clinical', 'processes clinical notes', 'clinical notes data', 'notes data ,', 'data , trained', ', trained models', 'trained models extract', 'models extract relevant', 'extract relevant entities', 'relevant entities text', 'entities text relationships', 'text relationships using', 'relationships using three', 'using three approaches', 'three approaches :', 'approaches : Example', ': Example shows', 'Example shows entity', 'shows entity ,', 'entity , relations', ', relations frame', 'relations frame extraction', 'frame extraction .'] 
+
+ TOTAL TRIGRAMS --> 101 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['Page', 'Clinical natural language', 'processing', 'oncology', 'mining', 'Sentence', '“', 'breast', 'cancer', 'stage', 'tagging', 'Relation', 'direction', 'stage', 'cancer', 'breast', 'relation', 'frame extraction', 'Left stage_tnmdirection', 'cancer', 'stage_tnmdirection', 'cancer', 'breast', 'cancer', 'stage', 'breast', 'cancer', 'stage', 'extraction', 'process', 'system', 'Example', 'entity', 'extraction'] 
+
+ TOTAL NOUN PHRASES --> 34 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['T1b', 'Stage_tnm', 'T1b', 'T1b', 'NLP']
+ TOTAL ORGANIZATION ENTITY --> 5 
+
+
+ PERSON ---> ['Frame', 'Direction']
+ TOTAL PERSON ENTITY --> 2 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['page', '3optum.com', 'clinic', 'natur', 'languag', 'process', ':', 'unearth', 'deeper', 'oncolog', 'insight', 'mine', 'unstructur', 'medic', 'note', 'sentenc', ':', '“', 'left', 'breast', 'cancer', 'stage', 't1b', 'n1mi', 'm0.', '”', 'entiti', 'tag', ':', 'relat', 'link', ':', 'direct', 'stage', 'frame', 'cancer', 'cancer', 'breast', 'direct', 'left', 'stage_tnm', 't1b', 'n1mi', 'm0', 'entiti', ',', 'relat', ',', 'frame', 'extract', ':', 'left', 'stage_tnmdirect', 'cancer', 'stage_tnmdirect', 'cancer', 'breast', 'cancer', 'stage', 't1b', 'n1mi', 'm0', 'left', 'breast', 'cancer', 'stage', 't1b', 'n1mi', 'm0', 'inform', 'extract', 'process', ':', 'entiti', ',', 'relat', 'frame', 'nlp', 'system', 'process', 'clinic', 'note', 'data', ',', 'train', 'model', 'extract', 'relev', 'entiti', 'text', 'relationship', 'use', 'three', 'approach', ':', 'exampl', 'show', 'entiti', ',', 'relat', 'frame', 'extract', '.']
+
+ TOTAL PORTER STEM WORDS ==> 103
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['page', '3optum.com', 'clinic', 'natur', 'languag', 'process', ':', 'unearth', 'deeper', 'oncolog', 'insight', 'mine', 'unstructur', 'medic', 'note', 'sentenc', ':', '“', 'left', 'breast', 'cancer', 'stage', 't1b', 'n1mi', 'm0.', '”', 'entiti', 'tag', ':', 'relat', 'link', ':', 'direct', 'stage', 'frame', 'cancer', 'cancer', 'breast', 'direct', 'left', 'stage_tnm', 't1b', 'n1mi', 'm0', 'entiti', ',', 'relat', ',', 'frame', 'extract', ':', 'left', 'stage_tnmdirect', 'cancer', 'stage_tnmdirect', 'cancer', 'breast', 'cancer', 'stage', 't1b', 'n1mi', 'm0', 'left', 'breast', 'cancer', 'stage', 't1b', 'n1mi', 'm0', 'inform', 'extract', 'process', ':', 'entiti', ',', 'relat', 'frame', 'nlp', 'system', 'process', 'clinic', 'note', 'data', ',', 'train', 'model', 'extract', 'relev', 'entiti', 'text', 'relationship', 'use', 'three', 'approach', ':', 'exampl', 'show', 'entiti', ',', 'relat', 'frame', 'extract', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 103
+
+
+
+ ---- LEMMATIZATION ----
+
+['Page', '3optum.com', 'Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insight', 'mining', 'unstructured', 'medical', 'note', 'Sentence', ':', '“', 'Left', 'breast', 'cancer', 'stage', 'T1b', 'N1mi', 'M0.', '”', 'Entity', 'tagging', ':', 'Relation', 'linking', ':', 'direction', 'stage', 'Frame', 'cancer', 'Cancer', 'breast', 'Direction', 'left', 'Stage_tnm', 'T1b', 'N1mi', 'M0', 'Entity', ',', 'relation', ',', 'frame', 'extraction', ':', 'Left', 'stage_tnmdirection', 'cancer', 'stage_tnmdirection', 'cancer', 'breast', 'cancer', 'stage', 'T1b', 'N1mi', 'M0', 'Left', 'breast', 'cancer', 'stage', 'T1b', 'N1mi', 'M0', 'Information', 'extraction', 'process', ':', 'Entities', ',', 'relation', 'frame', 'NLP', 'system', 'process', 'clinical', 'note', 'data', ',', 'trained', 'model', 'extract', 'relevant', 'entity', 'text', 'relationship', 'using', 'three', 'approach', ':', 'Example', 'show', 'entity', ',', 'relation', 'frame', 'extraction', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 103
+
+************************************************************************************************************************
+
+12 --> Individual entities are tagged, or labeled and  linked to one another via relations. 
+
+
+ ---- TOKENS ----
+
+ ['Individual', 'entities', 'are', 'tagged', ',', 'or', 'labeled', 'and', 'linked', 'to', 'one', 'another', 'via', 'relations', '.'] 
+
+ TOTAL TOKENS ==> 15
+
+ ---- POST ----
+
+ [('Individual', 'JJ'), ('entities', 'NNS'), ('are', 'VBP'), ('tagged', 'VBN'), (',', ','), ('or', 'CC'), ('labeled', 'VBN'), ('and', 'CC'), ('linked', 'VBN'), ('to', 'TO'), ('one', 'CD'), ('another', 'DT'), ('via', 'IN'), ('relations', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Individual', 'entities', 'tagged', ',', 'labeled', 'linked', 'one', 'another', 'via', 'relations', '.']
+
+ TOTAL FILTERED TOKENS ==>  11
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Individual', 'JJ'), ('entities', 'NNS'), ('tagged', 'VBN'), (',', ','), ('labeled', 'VBD'), ('linked', 'VBN'), ('one', 'CD'), ('another', 'DT'), ('via', 'IN'), ('relations', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Individual entities', 'entities tagged', 'tagged ,', ', labeled', 'labeled linked', 'linked one', 'one another', 'another via', 'via relations', 'relations .'] 
+
+ TOTAL BIGRAMS --> 10 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Individual entities tagged', 'entities tagged ,', 'tagged , labeled', ', labeled linked', 'labeled linked one', 'linked one another', 'one another via', 'another via relations', 'via relations .'] 
+
+ TOTAL TRIGRAMS --> 9 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ [] 
+
+ TOTAL NOUN PHRASES --> 0 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Individual']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['individu', 'entiti', 'tag', ',', 'label', 'link', 'one', 'anoth', 'via', 'relat', '.']
+
+ TOTAL PORTER STEM WORDS ==> 11
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['individu', 'entiti', 'tag', ',', 'label', 'link', 'one', 'anoth', 'via', 'relat', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 11
+
+
+
+ ---- LEMMATIZATION ----
+
+['Individual', 'entity', 'tagged', ',', 'labeled', 'linked', 'one', 'another', 'via', 'relation', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 11
+
+************************************************************************************************************************
+
+13 --> Relation extraction links one tag to another tag. 
+
+
+ ---- TOKENS ----
+
+ ['Relation', 'extraction', 'links', 'one', 'tag', 'to', 'another', 'tag', '.'] 
+
+ TOTAL TOKENS ==> 9
+
+ ---- POST ----
+
+ [('Relation', 'NNP'), ('extraction', 'NN'), ('links', 'VBZ'), ('one', 'CD'), ('tag', 'NN'), ('to', 'TO'), ('another', 'DT'), ('tag', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Relation', 'extraction', 'links', 'one', 'tag', 'another', 'tag', '.']
+
+ TOTAL FILTERED TOKENS ==>  8
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Relation', 'NNP'), ('extraction', 'NN'), ('links', 'VBZ'), ('one', 'CD'), ('tag', 'NN'), ('another', 'DT'), ('tag', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Relation extraction', 'extraction links', 'links one', 'one tag', 'tag another', 'another tag', 'tag .'] 
+
+ TOTAL BIGRAMS --> 7 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Relation extraction links', 'extraction links one', 'links one tag', 'one tag another', 'tag another tag', 'another tag .'] 
+
+ TOTAL TRIGRAMS --> 6 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['extraction', 'tag', 'another tag'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Relation']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['relat', 'extract', 'link', 'one', 'tag', 'anoth', 'tag', '.']
+
+ TOTAL PORTER STEM WORDS ==> 8
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['relat', 'extract', 'link', 'one', 'tag', 'anoth', 'tag', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 8
+
+
+
+ ---- LEMMATIZATION ----
+
+['Relation', 'extraction', 'link', 'one', 'tag', 'another', 'tag', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 8
+
+************************************************************************************************************************
+
+14 --> In Example A, “cancer” tag links to “direction” and “stage_tnm” tags. 
+
+
+ ---- TOKENS ----
+
+ ['In', 'Example', 'A', ',', '“', 'cancer', '”', 'tag', 'links', 'to', '“', 'direction', '”', 'and', '“', 'stage_tnm', '”', 'tags', '.'] 
+
+ TOTAL TOKENS ==> 19
+
+ ---- POST ----
+
+ [('In', 'IN'), ('Example', 'NNP'), ('A', 'NNP'), (',', ','), ('“', 'NNP'), ('cancer', 'NN'), ('”', 'NNP'), ('tag', 'VBZ'), ('links', 'NNS'), ('to', 'TO'), ('“', 'VB'), ('direction', 'NN'), ('”', 'NNP'), ('and', 'CC'), ('“', 'NNP'), ('stage_tnm', 'VBP'), ('”', 'NNP'), ('tags', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Example', ',', '“', 'cancer', '”', 'tag', 'links', '“', 'direction', '”', '“', 'stage_tnm', '”', 'tags', '.']
+
+ TOTAL FILTERED TOKENS ==>  15
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Example', 'NNP'), (',', ','), ('“', 'NNP'), ('cancer', 'NN'), ('”', 'NNP'), ('tag', 'VBZ'), ('links', 'NNS'), ('“', 'JJ'), ('direction', 'NN'), ('”', 'NNP'), ('“', 'NNP'), ('stage_tnm', 'VBD'), ('”', 'NNP'), ('tags', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Example ,', ', “', '“ cancer', 'cancer ”', '” tag', 'tag links', 'links “', '“ direction', 'direction ”', '” “', '“ stage_tnm', 'stage_tnm ”', '” tags', 'tags .'] 
+
+ TOTAL BIGRAMS --> 14 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Example , “', ', “ cancer', '“ cancer ”', 'cancer ” tag', '” tag links', 'tag links “', 'links “ direction', '“ direction ”', 'direction ” “', '” “ stage_tnm', '“ stage_tnm ”', 'stage_tnm ” tags', '” tags .'] 
+
+ TOTAL TRIGRAMS --> 13 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['cancer', '“ direction'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Example']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['exampl', ',', '“', 'cancer', '”', 'tag', 'link', '“', 'direct', '”', '“', 'stage_tnm', '”', 'tag', '.']
+
+ TOTAL PORTER STEM WORDS ==> 15
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['exampl', ',', '“', 'cancer', '”', 'tag', 'link', '“', 'direct', '”', '“', 'stage_tnm', '”', 'tag', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 15
+
+
+
+ ---- LEMMATIZATION ----
+
+['Example', ',', '“', 'cancer', '”', 'tag', 'link', '“', 'direction', '”', '“', 'stage_tnm', '”', 'tag', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 15
+
+************************************************************************************************************************
+
+15 --> Frame extraction groups relations  originating from the same parent concept into a structure that is more easily consumable as table-like data. 
+
+
+ ---- TOKENS ----
+
+ ['Frame', 'extraction', 'groups', 'relations', 'originating', 'from', 'the', 'same', 'parent', 'concept', 'into', 'a', 'structure', 'that', 'is', 'more', 'easily', 'consumable', 'as', 'table-like', 'data', '.'] 
+
+ TOTAL TOKENS ==> 22
+
+ ---- POST ----
+
+ [('Frame', 'NNP'), ('extraction', 'NN'), ('groups', 'NNS'), ('relations', 'NNS'), ('originating', 'VBG'), ('from', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('parent', 'NN'), ('concept', 'NN'), ('into', 'IN'), ('a', 'DT'), ('structure', 'NN'), ('that', 'WDT'), ('is', 'VBZ'), ('more', 'JJR'), ('easily', 'RB'), ('consumable', 'JJ'), ('as', 'IN'), ('table-like', 'JJ'), ('data', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Frame', 'extraction', 'groups', 'relations', 'originating', 'parent', 'concept', 'structure', 'easily', 'consumable', 'table-like', 'data', '.']
+
+ TOTAL FILTERED TOKENS ==>  13
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Frame', 'NNP'), ('extraction', 'NN'), ('groups', 'NNS'), ('relations', 'NNS'), ('originating', 'VBG'), ('parent', 'NN'), ('concept', 'NN'), ('structure', 'NN'), ('easily', 'RB'), ('consumable', 'JJ'), ('table-like', 'JJ'), ('data', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Frame extraction', 'extraction groups', 'groups relations', 'relations originating', 'originating parent', 'parent concept', 'concept structure', 'structure easily', 'easily consumable', 'consumable table-like', 'table-like data', 'data .'] 
+
+ TOTAL BIGRAMS --> 12 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Frame extraction groups', 'extraction groups relations', 'groups relations originating', 'relations originating parent', 'originating parent concept', 'parent concept structure', 'concept structure easily', 'structure easily consumable', 'easily consumable table-like', 'consumable table-like data', 'table-like data .'] 
+
+ TOTAL TRIGRAMS --> 11 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['extraction', 'parent', 'concept', 'structure'] 
+
+ TOTAL NOUN PHRASES --> 4 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Frame']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['frame', 'extract', 'group', 'relat', 'origin', 'parent', 'concept', 'structur', 'easili', 'consum', 'table-lik', 'data', '.']
+
+ TOTAL PORTER STEM WORDS ==> 13
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['frame', 'extract', 'group', 'relat', 'origin', 'parent', 'concept', 'structur', 'easili', 'consum', 'table-lik', 'data', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 13
+
+
+
+ ---- LEMMATIZATION ----
+
+['Frame', 'extraction', 'group', 'relation', 'originating', 'parent', 'concept', 'structure', 'easily', 'consumable', 'table-like', 'data', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 13
+
+************************************************************************************************************************
+
+16 --> The frame is a logical set of semantic units, and the frame for the cancer stage context is shown extracted into  table format in Example A. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'frame', 'is', 'a', 'logical', 'set', 'of', 'semantic', 'units', ',', 'and', 'the', 'frame', 'for', 'the', 'cancer', 'stage', 'context', 'is', 'shown', 'extracted', 'into', 'table', 'format', 'in', 'Example', 'A', '.'] 
+
+ TOTAL TOKENS ==> 28
+
+ ---- POST ----
+
+ [('The', 'DT'), ('frame', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('logical', 'JJ'), ('set', 'NN'), ('of', 'IN'), ('semantic', 'JJ'), ('units', 'NNS'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('frame', 'NN'), ('for', 'IN'), ('the', 'DT'), ('cancer', 'NN'), ('stage', 'NN'), ('context', 'NN'), ('is', 'VBZ'), ('shown', 'VBN'), ('extracted', 'JJ'), ('into', 'IN'), ('table', 'JJ'), ('format', 'NN'), ('in', 'IN'), ('Example', 'NNP'), ('A', 'NNP'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['frame', 'logical', 'set', 'semantic', 'units', ',', 'frame', 'cancer', 'stage', 'context', 'shown', 'extracted', 'table', 'format', 'Example', '.']
+
+ TOTAL FILTERED TOKENS ==>  16
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('frame', 'JJ'), ('logical', 'JJ'), ('set', 'VBN'), ('semantic', 'JJ'), ('units', 'NNS'), (',', ','), ('frame', 'NN'), ('cancer', 'NN'), ('stage', 'NN'), ('context', 'JJ'), ('shown', 'VBN'), ('extracted', 'JJ'), ('table', 'JJ'), ('format', 'JJ'), ('Example', 'NNP'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['frame logical', 'logical set', 'set semantic', 'semantic units', 'units ,', ', frame', 'frame cancer', 'cancer stage', 'stage context', 'context shown', 'shown extracted', 'extracted table', 'table format', 'format Example', 'Example .'] 
+
+ TOTAL BIGRAMS --> 15 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['frame logical set', 'logical set semantic', 'set semantic units', 'semantic units ,', 'units , frame', ', frame cancer', 'frame cancer stage', 'cancer stage context', 'stage context shown', 'context shown extracted', 'shown extracted table', 'extracted table format', 'table format Example', 'format Example .'] 
+
+ TOTAL TRIGRAMS --> 14 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['frame', 'cancer', 'stage'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['frame', 'logic', 'set', 'semant', 'unit', ',', 'frame', 'cancer', 'stage', 'context', 'shown', 'extract', 'tabl', 'format', 'exampl', '.']
+
+ TOTAL PORTER STEM WORDS ==> 16
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['frame', 'logic', 'set', 'semant', 'unit', ',', 'frame', 'cancer', 'stage', 'context', 'shown', 'extract', 'tabl', 'format', 'exampl', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 16
+
+
+
+ ---- LEMMATIZATION ----
+
+['frame', 'logical', 'set', 'semantic', 'unit', ',', 'frame', 'cancer', 'stage', 'context', 'shown', 'extracted', 'table', 'format', 'Example', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 16
+
+************************************************************************************************************************
+
+17 --> 1 Entity extractionThe extraction of a concept or entity represented by lexical units or phrases in the free text. 
+
+
+ ---- TOKENS ----
+
+ ['1', 'Entity', 'extractionThe', 'extraction', 'of', 'a', 'concept', 'or', 'entity', 'represented', 'by', 'lexical', 'units', 'or', 'phrases', 'in', 'the', 'free', 'text', '.'] 
+
+ TOTAL TOKENS ==> 20
+
+ ---- POST ----
+
+ [('1', 'CD'), ('Entity', 'NNP'), ('extractionThe', 'JJ'), ('extraction', 'NN'), ('of', 'IN'), ('a', 'DT'), ('concept', 'NN'), ('or', 'CC'), ('entity', 'NN'), ('represented', 'VBN'), ('by', 'IN'), ('lexical', 'JJ'), ('units', 'NNS'), ('or', 'CC'), ('phrases', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('free', 'JJ'), ('text', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['1', 'Entity', 'extractionThe', 'extraction', 'concept', 'entity', 'represented', 'lexical', 'units', 'phrases', 'free', 'text', '.']
+
+ TOTAL FILTERED TOKENS ==>  13
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('1', 'CD'), ('Entity', 'NNP'), ('extractionThe', 'JJ'), ('extraction', 'NN'), ('concept', 'NN'), ('entity', 'NN'), ('represented', 'VBN'), ('lexical', 'JJ'), ('units', 'NNS'), ('phrases', 'NNS'), ('free', 'JJ'), ('text', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['1 Entity', 'Entity extractionThe', 'extractionThe extraction', 'extraction concept', 'concept entity', 'entity represented', 'represented lexical', 'lexical units', 'units phrases', 'phrases free', 'free text', 'text .'] 
+
+ TOTAL BIGRAMS --> 12 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['1 Entity extractionThe', 'Entity extractionThe extraction', 'extractionThe extraction concept', 'extraction concept entity', 'concept entity represented', 'entity represented lexical', 'represented lexical units', 'lexical units phrases', 'units phrases free', 'phrases free text', 'free text .'] 
+
+ TOTAL TRIGRAMS --> 11 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['extractionThe extraction', 'concept', 'entity', 'free text'] 
+
+ TOTAL NOUN PHRASES --> 4 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['1', 'entiti', 'extractionth', 'extract', 'concept', 'entiti', 'repres', 'lexic', 'unit', 'phrase', 'free', 'text', '.']
+
+ TOTAL PORTER STEM WORDS ==> 13
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['1', 'entiti', 'extractionth', 'extract', 'concept', 'entiti', 'repres', 'lexic', 'unit', 'phrase', 'free', 'text', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 13
+
+
+
+ ---- LEMMATIZATION ----
+
+['1', 'Entity', 'extractionThe', 'extraction', 'concept', 'entity', 'represented', 'lexical', 'unit', 'phrase', 'free', 'text', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 13
+
+************************************************************************************************************************
+
+18 --> Relation extraction The extraction of the relationships between entities.2 3 Frame extractionThe extraction of the logical semantic group of lexical units and the collection of any relevant relations. 
+
+
+ ---- TOKENS ----
+
+ ['Relation', 'extraction', 'The', 'extraction', 'of', 'the', 'relationships', 'between', 'entities.2', '3', 'Frame', 'extractionThe', 'extraction', 'of', 'the', 'logical', 'semantic', 'group', 'of', 'lexical', 'units', 'and', 'the', 'collection', 'of', 'any', 'relevant', 'relations', '.'] 
+
+ TOTAL TOKENS ==> 29
+
+ ---- POST ----
+
+ [('Relation', 'NNP'), ('extraction', 'NN'), ('The', 'DT'), ('extraction', 'NN'), ('of', 'IN'), ('the', 'DT'), ('relationships', 'NNS'), ('between', 'IN'), ('entities.2', '$'), ('3', 'CD'), ('Frame', 'NNP'), ('extractionThe', 'JJ'), ('extraction', 'NN'), ('of', 'IN'), ('the', 'DT'), ('logical', 'JJ'), ('semantic', 'JJ'), ('group', 'NN'), ('of', 'IN'), ('lexical', 'JJ'), ('units', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('collection', 'NN'), ('of', 'IN'), ('any', 'DT'), ('relevant', 'JJ'), ('relations', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Relation', 'extraction', 'extraction', 'relationships', 'entities.2', '3', 'Frame', 'extractionThe', 'extraction', 'logical', 'semantic', 'group', 'lexical', 'units', 'collection', 'relevant', 'relations', '.']
+
+ TOTAL FILTERED TOKENS ==>  18
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Relation', 'NNP'), ('extraction', 'NN'), ('extraction', 'NN'), ('relationships', 'NNS'), ('entities.2', 'VBP'), ('3', 'CD'), ('Frame', 'NNP'), ('extractionThe', 'JJ'), ('extraction', 'NN'), ('logical', 'JJ'), ('semantic', 'JJ'), ('group', 'NN'), ('lexical', 'JJ'), ('units', 'NNS'), ('collection', 'NN'), ('relevant', 'JJ'), ('relations', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Relation extraction', 'extraction extraction', 'extraction relationships', 'relationships entities.2', 'entities.2 3', '3 Frame', 'Frame extractionThe', 'extractionThe extraction', 'extraction logical', 'logical semantic', 'semantic group', 'group lexical', 'lexical units', 'units collection', 'collection relevant', 'relevant relations', 'relations .'] 
+
+ TOTAL BIGRAMS --> 17 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Relation extraction extraction', 'extraction extraction relationships', 'extraction relationships entities.2', 'relationships entities.2 3', 'entities.2 3 Frame', '3 Frame extractionThe', 'Frame extractionThe extraction', 'extractionThe extraction logical', 'extraction logical semantic', 'logical semantic group', 'semantic group lexical', 'group lexical units', 'lexical units collection', 'units collection relevant', 'collection relevant relations', 'relevant relations .'] 
+
+ TOTAL TRIGRAMS --> 16 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['extraction', 'extraction', 'extractionThe extraction', 'logical semantic group', 'collection'] 
+
+ TOTAL NOUN PHRASES --> 5 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Relation']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['relat', 'extract', 'extract', 'relationship', 'entities.2', '3', 'frame', 'extractionth', 'extract', 'logic', 'semant', 'group', 'lexic', 'unit', 'collect', 'relev', 'relat', '.']
+
+ TOTAL PORTER STEM WORDS ==> 18
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['relat', 'extract', 'extract', 'relationship', 'entities.2', '3', 'frame', 'extractionth', 'extract', 'logic', 'semant', 'group', 'lexic', 'unit', 'collect', 'relev', 'relat', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 18
+
+
+
+ ---- LEMMATIZATION ----
+
+['Relation', 'extraction', 'extraction', 'relationship', 'entities.2', '3', 'Frame', 'extractionThe', 'extraction', 'logical', 'semantic', 'group', 'lexical', 'unit', 'collection', 'relevant', 'relation', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 18
+
+************************************************************************************************************************
+
+19 --> Example A. 
+
+
+ ---- TOKENS ----
+
+ ['Example', 'A', '.'] 
+
+ TOTAL TOKENS ==> 3
+
+ ---- POST ----
+
+ [('Example', 'VB'), ('A', 'NNP'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Example', '.']
+
+ TOTAL FILTERED TOKENS ==>  2
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Example', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Example .'] 
+
+ TOTAL BIGRAMS --> 1 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ [] 
+
+ TOTAL TRIGRAMS --> 0 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['Example'] 
+
+ TOTAL NOUN PHRASES --> 1 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Example']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['exampl', '.']
+
+ TOTAL PORTER STEM WORDS ==> 2
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['exampl', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 2
+
+
+
+ ---- LEMMATIZATION ----
+
+['Example', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 2
+
+************************************************************************************************************************
+
+20 --> Entity, relation, frame tagging and extraction  Page 4optum.com Clinical natural language processing: Unearthing deeper oncology insights by mining unstructured medical notes Modeling approach The Optum oncology NLP system leverages best practices in data science and automation. 
+
+
+ ---- TOKENS ----
+
+ ['Entity', ',', 'relation', ',', 'frame', 'tagging', 'and', 'extraction', 'Page', '4optum.com', 'Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insights', 'by', 'mining', 'unstructured', 'medical', 'notes', 'Modeling', 'approach', 'The', 'Optum', 'oncology', 'NLP', 'system', 'leverages', 'best', 'practices', 'in', 'data', 'science', 'and', 'automation', '.'] 
+
+ TOTAL TOKENS ==> 40
+
+ ---- POST ----
+
+ [('Entity', 'NN'), (',', ','), ('relation', 'NN'), (',', ','), ('frame', 'NN'), ('tagging', 'NN'), ('and', 'CC'), ('extraction', 'NN'), ('Page', 'NNP'), ('4optum.com', 'CD'), ('Clinical', 'NNP'), ('natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), (':', ':'), ('Unearthing', 'NNP'), ('deeper', 'JJR'), ('oncology', 'NN'), ('insights', 'NNS'), ('by', 'IN'), ('mining', 'VBG'), ('unstructured', 'JJ'), ('medical', 'JJ'), ('notes', 'NNS'), ('Modeling', 'VBG'), ('approach', 'NN'), ('The', 'DT'), ('Optum', 'NNP'), ('oncology', 'NN'), ('NLP', 'NNP'), ('system', 'NN'), ('leverages', 'VBZ'), ('best', 'JJS'), ('practices', 'NNS'), ('in', 'IN'), ('data', 'NNS'), ('science', 'NN'), ('and', 'CC'), ('automation', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Entity', ',', 'relation', ',', 'frame', 'tagging', 'extraction', 'Page', '4optum.com', 'Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insights', 'mining', 'unstructured', 'medical', 'notes', 'Modeling', 'approach', 'Optum', 'oncology', 'NLP', 'system', 'leverages', 'best', 'practices', 'data', 'science', 'automation', '.']
+
+ TOTAL FILTERED TOKENS ==>  35
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Entity', 'NN'), (',', ','), ('relation', 'NN'), (',', ','), ('frame', 'NN'), ('tagging', 'VBG'), ('extraction', 'NN'), ('Page', 'NNP'), ('4optum.com', 'CD'), ('Clinical', 'NNP'), ('natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), (':', ':'), ('Unearthing', 'NNP'), ('deeper', 'JJR'), ('oncology', 'NN'), ('insights', 'NNS'), ('mining', 'NN'), ('unstructured', 'JJ'), ('medical', 'JJ'), ('notes', 'NNS'), ('Modeling', 'VBG'), ('approach', 'NN'), ('Optum', 'NNP'), ('oncology', 'NN'), ('NLP', 'NNP'), ('system', 'NN'), ('leverages', 'VBZ'), ('best', 'RBS'), ('practices', 'NNS'), ('data', 'VBP'), ('science', 'NN'), ('automation', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Entity ,', ', relation', 'relation ,', ', frame', 'frame tagging', 'tagging extraction', 'extraction Page', 'Page 4optum.com', '4optum.com Clinical', 'Clinical natural', 'natural language', 'language processing', 'processing :', ': Unearthing', 'Unearthing deeper', 'deeper oncology', 'oncology insights', 'insights mining', 'mining unstructured', 'unstructured medical', 'medical notes', 'notes Modeling', 'Modeling approach', 'approach Optum', 'Optum oncology', 'oncology NLP', 'NLP system', 'system leverages', 'leverages best', 'best practices', 'practices data', 'data science', 'science automation', 'automation .'] 
+
+ TOTAL BIGRAMS --> 34 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Entity , relation', ', relation ,', 'relation , frame', ', frame tagging', 'frame tagging extraction', 'tagging extraction Page', 'extraction Page 4optum.com', 'Page 4optum.com Clinical', '4optum.com Clinical natural', 'Clinical natural language', 'natural language processing', 'language processing :', 'processing : Unearthing', ': Unearthing deeper', 'Unearthing deeper oncology', 'deeper oncology insights', 'oncology insights mining', 'insights mining unstructured', 'mining unstructured medical', 'unstructured medical notes', 'medical notes Modeling', 'notes Modeling approach', 'Modeling approach Optum', 'approach Optum oncology', 'Optum oncology NLP', 'oncology NLP system', 'NLP system leverages', 'system leverages best', 'leverages best practices', 'best practices data', 'practices data science', 'data science automation', 'science automation .'] 
+
+ TOTAL TRIGRAMS --> 33 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['Entity', 'relation', 'frame', 'extraction', 'natural language', 'processing', 'oncology', 'mining', 'approach', 'oncology', 'system', 'science', 'automation'] 
+
+ TOTAL NOUN PHRASES --> 13 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['NLP']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> ['Clinical', 'Optum']
+ TOTAL PERSON ENTITY --> 2 
+
+
+ GPE ---> ['Entity']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['entiti', ',', 'relat', ',', 'frame', 'tag', 'extract', 'page', '4optum.com', 'clinic', 'natur', 'languag', 'process', ':', 'unearth', 'deeper', 'oncolog', 'insight', 'mine', 'unstructur', 'medic', 'note', 'model', 'approach', 'optum', 'oncolog', 'nlp', 'system', 'leverag', 'best', 'practic', 'data', 'scienc', 'autom', '.']
+
+ TOTAL PORTER STEM WORDS ==> 35
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['entiti', ',', 'relat', ',', 'frame', 'tag', 'extract', 'page', '4optum.com', 'clinic', 'natur', 'languag', 'process', ':', 'unearth', 'deeper', 'oncolog', 'insight', 'mine', 'unstructur', 'medic', 'note', 'model', 'approach', 'optum', 'oncolog', 'nlp', 'system', 'leverag', 'best', 'practic', 'data', 'scienc', 'autom', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 35
+
+
+
+ ---- LEMMATIZATION ----
+
+['Entity', ',', 'relation', ',', 'frame', 'tagging', 'extraction', 'Page', '4optum.com', 'Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insight', 'mining', 'unstructured', 'medical', 'note', 'Modeling', 'approach', 'Optum', 'oncology', 'NLP', 'system', 'leverage', 'best', 'practice', 'data', 'science', 'automation', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 35
+
+************************************************************************************************************************
+
+21 --> Our sophisticated  system goes beyond term-matching and rules-based approaches by incorporating machine learning and deep  learning, in order to ensure the correct identification of the desired oncology context. 
+
+
+ ---- TOKENS ----
+
+ ['Our', 'sophisticated', 'system', 'goes', 'beyond', 'term-matching', 'and', 'rules-based', 'approaches', 'by', 'incorporating', 'machine', 'learning', 'and', 'deep', 'learning', ',', 'in', 'order', 'to', 'ensure', 'the', 'correct', 'identification', 'of', 'the', 'desired', 'oncology', 'context', '.'] 
+
+ TOTAL TOKENS ==> 30
+
+ ---- POST ----
+
+ [('Our', 'PRP$'), ('sophisticated', 'JJ'), ('system', 'NN'), ('goes', 'VBZ'), ('beyond', 'IN'), ('term-matching', 'JJ'), ('and', 'CC'), ('rules-based', 'JJ'), ('approaches', 'NNS'), ('by', 'IN'), ('incorporating', 'VBG'), ('machine', 'NN'), ('learning', 'NN'), ('and', 'CC'), ('deep', 'JJ'), ('learning', 'NN'), (',', ','), ('in', 'IN'), ('order', 'NN'), ('to', 'TO'), ('ensure', 'VB'), ('the', 'DT'), ('correct', 'JJ'), ('identification', 'NN'), ('of', 'IN'), ('the', 'DT'), ('desired', 'JJ'), ('oncology', 'NN'), ('context', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['sophisticated', 'system', 'goes', 'beyond', 'term-matching', 'rules-based', 'approaches', 'incorporating', 'machine', 'learning', 'deep', 'learning', ',', 'order', 'ensure', 'correct', 'identification', 'desired', 'oncology', 'context', '.']
+
+ TOTAL FILTERED TOKENS ==>  21
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('sophisticated', 'JJ'), ('system', 'NN'), ('goes', 'VBZ'), ('beyond', 'IN'), ('term-matching', 'JJ'), ('rules-based', 'JJ'), ('approaches', 'NNS'), ('incorporating', 'VBG'), ('machine', 'NN'), ('learning', 'VBG'), ('deep', 'JJ'), ('learning', 'NN'), (',', ','), ('order', 'NN'), ('ensure', 'VB'), ('correct', 'JJ'), ('identification', 'NN'), ('desired', 'VBD'), ('oncology', 'JJ'), ('context', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['sophisticated system', 'system goes', 'goes beyond', 'beyond term-matching', 'term-matching rules-based', 'rules-based approaches', 'approaches incorporating', 'incorporating machine', 'machine learning', 'learning deep', 'deep learning', 'learning ,', ', order', 'order ensure', 'ensure correct', 'correct identification', 'identification desired', 'desired oncology', 'oncology context', 'context .'] 
+
+ TOTAL BIGRAMS --> 20 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['sophisticated system goes', 'system goes beyond', 'goes beyond term-matching', 'beyond term-matching rules-based', 'term-matching rules-based approaches', 'rules-based approaches incorporating', 'approaches incorporating machine', 'incorporating machine learning', 'machine learning deep', 'learning deep learning', 'deep learning ,', 'learning , order', ', order ensure', 'order ensure correct', 'ensure correct identification', 'correct identification desired', 'identification desired oncology', 'desired oncology context', 'oncology context .'] 
+
+ TOTAL TRIGRAMS --> 19 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['sophisticated system', 'machine', 'deep learning', 'order', 'correct identification', 'oncology context'] 
+
+ TOTAL NOUN PHRASES --> 6 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['sophist', 'system', 'goe', 'beyond', 'term-match', 'rules-bas', 'approach', 'incorpor', 'machin', 'learn', 'deep', 'learn', ',', 'order', 'ensur', 'correct', 'identif', 'desir', 'oncolog', 'context', '.']
+
+ TOTAL PORTER STEM WORDS ==> 21
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['sophist', 'system', 'goe', 'beyond', 'term-match', 'rules-bas', 'approach', 'incorpor', 'machin', 'learn', 'deep', 'learn', ',', 'order', 'ensur', 'correct', 'identif', 'desir', 'oncolog', 'context', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 21
+
+
+
+ ---- LEMMATIZATION ----
+
+['sophisticated', 'system', 'go', 'beyond', 'term-matching', 'rules-based', 'approach', 'incorporating', 'machine', 'learning', 'deep', 'learning', ',', 'order', 'ensure', 'correct', 'identification', 'desired', 'oncology', 'context', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 21
+
+************************************************************************************************************************
+
+22 --> The advantage of leveraging supervised machine learning models is the ability to accurately identify the  appropriate contexts in an automated fashion over highly variable text. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'advantage', 'of', 'leveraging', 'supervised', 'machine', 'learning', 'models', 'is', 'the', 'ability', 'to', 'accurately', 'identify', 'the', 'appropriate', 'contexts', 'in', 'an', 'automated', 'fashion', 'over', 'highly', 'variable', 'text', '.'] 
+
+ TOTAL TOKENS ==> 26
+
+ ---- POST ----
+
+ [('The', 'DT'), ('advantage', 'NN'), ('of', 'IN'), ('leveraging', 'VBG'), ('supervised', 'JJ'), ('machine', 'NN'), ('learning', 'NN'), ('models', 'NNS'), ('is', 'VBZ'), ('the', 'DT'), ('ability', 'NN'), ('to', 'TO'), ('accurately', 'RB'), ('identify', 'VB'), ('the', 'DT'), ('appropriate', 'JJ'), ('contexts', 'NN'), ('in', 'IN'), ('an', 'DT'), ('automated', 'JJ'), ('fashion', 'NN'), ('over', 'IN'), ('highly', 'RB'), ('variable', 'JJ'), ('text', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['advantage', 'leveraging', 'supervised', 'machine', 'learning', 'models', 'ability', 'accurately', 'identify', 'appropriate', 'contexts', 'automated', 'fashion', 'highly', 'variable', 'text', '.']
+
+ TOTAL FILTERED TOKENS ==>  17
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('advantage', 'NN'), ('leveraging', 'VBG'), ('supervised', 'VBN'), ('machine', 'NN'), ('learning', 'VBG'), ('models', 'NNS'), ('ability', 'NN'), ('accurately', 'RB'), ('identify', 'VB'), ('appropriate', 'JJ'), ('contexts', 'NNS'), ('automated', 'VBN'), ('fashion', 'NN'), ('highly', 'RB'), ('variable', 'JJ'), ('text', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['advantage leveraging', 'leveraging supervised', 'supervised machine', 'machine learning', 'learning models', 'models ability', 'ability accurately', 'accurately identify', 'identify appropriate', 'appropriate contexts', 'contexts automated', 'automated fashion', 'fashion highly', 'highly variable', 'variable text', 'text .'] 
+
+ TOTAL BIGRAMS --> 16 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['advantage leveraging supervised', 'leveraging supervised machine', 'supervised machine learning', 'machine learning models', 'learning models ability', 'models ability accurately', 'ability accurately identify', 'accurately identify appropriate', 'identify appropriate contexts', 'appropriate contexts automated', 'contexts automated fashion', 'automated fashion highly', 'fashion highly variable', 'highly variable text', 'variable text .'] 
+
+ TOTAL TRIGRAMS --> 15 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['advantage', 'machine', 'ability', 'fashion', 'variable text'] 
+
+ TOTAL NOUN PHRASES --> 5 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['advantag', 'leverag', 'supervis', 'machin', 'learn', 'model', 'abil', 'accur', 'identifi', 'appropri', 'context', 'autom', 'fashion', 'highli', 'variabl', 'text', '.']
+
+ TOTAL PORTER STEM WORDS ==> 17
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['advantag', 'leverag', 'supervis', 'machin', 'learn', 'model', 'abil', 'accur', 'identifi', 'appropri', 'context', 'autom', 'fashion', 'high', 'variabl', 'text', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 17
+
+
+
+ ---- LEMMATIZATION ----
+
+['advantage', 'leveraging', 'supervised', 'machine', 'learning', 'model', 'ability', 'accurately', 'identify', 'appropriate', 'context', 'automated', 'fashion', 'highly', 'variable', 'text', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 17
+
+************************************************************************************************************************
+
+23 --> Our supervised machine-learning  models are trained to identify broader patterns that are not explicitly and manually created by a human as  a rule, but instead, the machine learns from a sample of labeled data that will then enable the system to  generalize to relevant contexts. 
+
+
+ ---- TOKENS ----
+
+ ['Our', 'supervised', 'machine-learning', 'models', 'are', 'trained', 'to', 'identify', 'broader', 'patterns', 'that', 'are', 'not', 'explicitly', 'and', 'manually', 'created', 'by', 'a', 'human', 'as', 'a', 'rule', ',', 'but', 'instead', ',', 'the', 'machine', 'learns', 'from', 'a', 'sample', 'of', 'labeled', 'data', 'that', 'will', 'then', 'enable', 'the', 'system', 'to', 'generalize', 'to', 'relevant', 'contexts', '.'] 
+
+ TOTAL TOKENS ==> 48
+
+ ---- POST ----
+
+ [('Our', 'PRP$'), ('supervised', 'VBD'), ('machine-learning', 'NN'), ('models', 'NNS'), ('are', 'VBP'), ('trained', 'VBN'), ('to', 'TO'), ('identify', 'VB'), ('broader', 'JJR'), ('patterns', 'NNS'), ('that', 'WDT'), ('are', 'VBP'), ('not', 'RB'), ('explicitly', 'RB'), ('and', 'CC'), ('manually', 'RB'), ('created', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('human', 'JJ'), ('as', 'IN'), ('a', 'DT'), ('rule', 'NN'), (',', ','), ('but', 'CC'), ('instead', 'RB'), (',', ','), ('the', 'DT'), ('machine', 'NN'), ('learns', 'VBZ'), ('from', 'IN'), ('a', 'DT'), ('sample', 'NN'), ('of', 'IN'), ('labeled', 'VBN'), ('data', 'NN'), ('that', 'WDT'), ('will', 'MD'), ('then', 'RB'), ('enable', 'VB'), ('the', 'DT'), ('system', 'NN'), ('to', 'TO'), ('generalize', 'VB'), ('to', 'TO'), ('relevant', 'VB'), ('contexts', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['supervised', 'machine-learning', 'models', 'trained', 'identify', 'broader', 'patterns', 'explicitly', 'manually', 'created', 'human', 'rule', ',', 'instead', ',', 'machine', 'learns', 'sample', 'labeled', 'data', 'enable', 'system', 'generalize', 'relevant', 'contexts', '.']
+
+ TOTAL FILTERED TOKENS ==>  26
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('supervised', 'VBN'), ('machine-learning', 'JJ'), ('models', 'NNS'), ('trained', 'VBN'), ('identify', 'JJ'), ('broader', 'JJR'), ('patterns', 'NNS'), ('explicitly', 'RB'), ('manually', 'RB'), ('created', 'VBN'), ('human', 'JJ'), ('rule', 'NN'), (',', ','), ('instead', 'RB'), (',', ','), ('machine', 'NN'), ('learns', 'NNS'), ('sample', 'NN'), ('labeled', 'VBN'), ('data', 'NNS'), ('enable', 'JJ'), ('system', 'NN'), ('generalize', 'VB'), ('relevant', 'JJ'), ('contexts', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['supervised machine-learning', 'machine-learning models', 'models trained', 'trained identify', 'identify broader', 'broader patterns', 'patterns explicitly', 'explicitly manually', 'manually created', 'created human', 'human rule', 'rule ,', ', instead', 'instead ,', ', machine', 'machine learns', 'learns sample', 'sample labeled', 'labeled data', 'data enable', 'enable system', 'system generalize', 'generalize relevant', 'relevant contexts', 'contexts .'] 
+
+ TOTAL BIGRAMS --> 25 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['supervised machine-learning models', 'machine-learning models trained', 'models trained identify', 'trained identify broader', 'identify broader patterns', 'broader patterns explicitly', 'patterns explicitly manually', 'explicitly manually created', 'manually created human', 'created human rule', 'human rule ,', 'rule , instead', ', instead ,', 'instead , machine', ', machine learns', 'machine learns sample', 'learns sample labeled', 'sample labeled data', 'labeled data enable', 'data enable system', 'enable system generalize', 'system generalize relevant', 'generalize relevant contexts', 'relevant contexts .'] 
+
+ TOTAL TRIGRAMS --> 24 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['human rule', 'machine', 'sample', 'enable system', 'relevant contexts'] 
+
+ TOTAL NOUN PHRASES --> 5 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['supervis', 'machine-learn', 'model', 'train', 'identifi', 'broader', 'pattern', 'explicitli', 'manual', 'creat', 'human', 'rule', ',', 'instead', ',', 'machin', 'learn', 'sampl', 'label', 'data', 'enabl', 'system', 'gener', 'relev', 'context', '.']
+
+ TOTAL PORTER STEM WORDS ==> 26
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['supervis', 'machine-learn', 'model', 'train', 'identifi', 'broader', 'pattern', 'explicit', 'manual', 'creat', 'human', 'rule', ',', 'instead', ',', 'machin', 'learn', 'sampl', 'label', 'data', 'enabl', 'system', 'general', 'relev', 'context', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 26
+
+
+
+ ---- LEMMATIZATION ----
+
+['supervised', 'machine-learning', 'model', 'trained', 'identify', 'broader', 'pattern', 'explicitly', 'manually', 'created', 'human', 'rule', ',', 'instead', ',', 'machine', 'learns', 'sample', 'labeled', 'data', 'enable', 'system', 'generalize', 'relevant', 'context', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 26
+
+************************************************************************************************************************
+
+24 --> Our models are evaluated against a held-out annotated test set, which the models has not seen before. 
+
+
+ ---- TOKENS ----
+
+ ['Our', 'models', 'are', 'evaluated', 'against', 'a', 'held-out', 'annotated', 'test', 'set', ',', 'which', 'the', 'models', 'has', 'not', 'seen', 'before', '.'] 
+
+ TOTAL TOKENS ==> 19
+
+ ---- POST ----
+
+ [('Our', 'PRP$'), ('models', 'NNS'), ('are', 'VBP'), ('evaluated', 'VBN'), ('against', 'IN'), ('a', 'DT'), ('held-out', 'NN'), ('annotated', 'JJ'), ('test', 'NN'), ('set', 'NN'), (',', ','), ('which', 'WDT'), ('the', 'DT'), ('models', 'NNS'), ('has', 'VBZ'), ('not', 'RB'), ('seen', 'VBN'), ('before', 'RB'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['models', 'evaluated', 'held-out', 'annotated', 'test', 'set', ',', 'models', 'seen', '.']
+
+ TOTAL FILTERED TOKENS ==>  10
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('models', 'NNS'), ('evaluated', 'VBN'), ('held-out', 'RB'), ('annotated', 'JJ'), ('test', 'NN'), ('set', 'NN'), (',', ','), ('models', 'NNS'), ('seen', 'VBN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['models evaluated', 'evaluated held-out', 'held-out annotated', 'annotated test', 'test set', 'set ,', ', models', 'models seen', 'seen .'] 
+
+ TOTAL BIGRAMS --> 9 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['models evaluated held-out', 'evaluated held-out annotated', 'held-out annotated test', 'annotated test set', 'test set ,', 'set , models', ', models seen', 'models seen .'] 
+
+ TOTAL TRIGRAMS --> 8 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['annotated test', 'set'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['model', 'evalu', 'held-out', 'annot', 'test', 'set', ',', 'model', 'seen', '.']
+
+ TOTAL PORTER STEM WORDS ==> 10
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['model', 'evalu', 'held-out', 'annot', 'test', 'set', ',', 'model', 'seen', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 10
+
+
+
+ ---- LEMMATIZATION ----
+
+['model', 'evaluated', 'held-out', 'annotated', 'test', 'set', ',', 'model', 'seen', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 10
+
+************************************************************************************************************************
+
+25 --> The  results of this test help ensure we are not overfitting to the training data and that the model will remain  reliably accurate with new data. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'results', 'of', 'this', 'test', 'help', 'ensure', 'we', 'are', 'not', 'overfitting', 'to', 'the', 'training', 'data', 'and', 'that', 'the', 'model', 'will', 'remain', 'reliably', 'accurate', 'with', 'new', 'data', '.'] 
+
+ TOTAL TOKENS ==> 27
+
+ ---- POST ----
+
+ [('The', 'DT'), ('results', 'NNS'), ('of', 'IN'), ('this', 'DT'), ('test', 'NN'), ('help', 'NN'), ('ensure', 'VB'), ('we', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('overfitting', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('training', 'NN'), ('data', 'NNS'), ('and', 'CC'), ('that', 'IN'), ('the', 'DT'), ('model', 'NN'), ('will', 'MD'), ('remain', 'VB'), ('reliably', 'RB'), ('accurate', 'JJ'), ('with', 'IN'), ('new', 'JJ'), ('data', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['results', 'test', 'help', 'ensure', 'overfitting', 'training', 'data', 'model', 'remain', 'reliably', 'accurate', 'new', 'data', '.']
+
+ TOTAL FILTERED TOKENS ==>  14
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('results', 'NNS'), ('test', 'VBP'), ('help', 'NN'), ('ensure', 'VB'), ('overfitting', 'VBG'), ('training', 'VBG'), ('data', 'NNS'), ('model', 'NN'), ('remain', 'VBP'), ('reliably', 'RB'), ('accurate', 'JJ'), ('new', 'JJ'), ('data', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['results test', 'test help', 'help ensure', 'ensure overfitting', 'overfitting training', 'training data', 'data model', 'model remain', 'remain reliably', 'reliably accurate', 'accurate new', 'new data', 'data .'] 
+
+ TOTAL BIGRAMS --> 13 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['results test help', 'test help ensure', 'help ensure overfitting', 'ensure overfitting training', 'overfitting training data', 'training data model', 'data model remain', 'model remain reliably', 'remain reliably accurate', 'reliably accurate new', 'accurate new data', 'new data .'] 
+
+ TOTAL TRIGRAMS --> 12 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['help', 'model'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['result', 'test', 'help', 'ensur', 'overfit', 'train', 'data', 'model', 'remain', 'reliabl', 'accur', 'new', 'data', '.']
+
+ TOTAL PORTER STEM WORDS ==> 14
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['result', 'test', 'help', 'ensur', 'overfit', 'train', 'data', 'model', 'remain', 'reliabl', 'accur', 'new', 'data', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 14
+
+
+
+ ---- LEMMATIZATION ----
+
+['result', 'test', 'help', 'ensure', 'overfitting', 'training', 'data', 'model', 'remain', 'reliably', 'accurate', 'new', 'data', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 14
+
+************************************************************************************************************************
+
+26 --> Annotation design and gold standard data development The thoughtful crafting and designing of an annotation scheme and appropriate sampling of notes  to annotate are critical to ensure high-performing NLP models. 
+
+
+ ---- TOKENS ----
+
+ ['Annotation', 'design', 'and', 'gold', 'standard', 'data', 'development', 'The', 'thoughtful', 'crafting', 'and', 'designing', 'of', 'an', 'annotation', 'scheme', 'and', 'appropriate', 'sampling', 'of', 'notes', 'to', 'annotate', 'are', 'critical', 'to', 'ensure', 'high-performing', 'NLP', 'models', '.'] 
+
+ TOTAL TOKENS ==> 31
+
+ ---- POST ----
+
+ [('Annotation', 'NNP'), ('design', 'NN'), ('and', 'CC'), ('gold', 'JJ'), ('standard', 'NN'), ('data', 'NNS'), ('development', 'NN'), ('The', 'DT'), ('thoughtful', 'JJ'), ('crafting', 'NN'), ('and', 'CC'), ('designing', 'NN'), ('of', 'IN'), ('an', 'DT'), ('annotation', 'NN'), ('scheme', 'NN'), ('and', 'CC'), ('appropriate', 'JJ'), ('sampling', 'NN'), ('of', 'IN'), ('notes', 'NNS'), ('to', 'TO'), ('annotate', 'VB'), ('are', 'VBP'), ('critical', 'JJ'), ('to', 'TO'), ('ensure', 'VB'), ('high-performing', 'JJ'), ('NLP', 'NNP'), ('models', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Annotation', 'design', 'gold', 'standard', 'data', 'development', 'thoughtful', 'crafting', 'designing', 'annotation', 'scheme', 'appropriate', 'sampling', 'notes', 'annotate', 'critical', 'ensure', 'high-performing', 'NLP', 'models', '.']
+
+ TOTAL FILTERED TOKENS ==>  21
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Annotation', 'NNP'), ('design', 'NN'), ('gold', 'NN'), ('standard', 'NN'), ('data', 'NNS'), ('development', 'NN'), ('thoughtful', 'JJ'), ('crafting', 'VBG'), ('designing', 'VBG'), ('annotation', 'NN'), ('scheme', 'NN'), ('appropriate', 'JJ'), ('sampling', 'NN'), ('notes', 'NNS'), ('annotate', 'VBP'), ('critical', 'JJ'), ('ensure', 'VB'), ('high-performing', 'JJ'), ('NLP', 'NNP'), ('models', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Annotation design', 'design gold', 'gold standard', 'standard data', 'data development', 'development thoughtful', 'thoughtful crafting', 'crafting designing', 'designing annotation', 'annotation scheme', 'scheme appropriate', 'appropriate sampling', 'sampling notes', 'notes annotate', 'annotate critical', 'critical ensure', 'ensure high-performing', 'high-performing NLP', 'NLP models', 'models .'] 
+
+ TOTAL BIGRAMS --> 20 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Annotation design gold', 'design gold standard', 'gold standard data', 'standard data development', 'data development thoughtful', 'development thoughtful crafting', 'thoughtful crafting designing', 'crafting designing annotation', 'designing annotation scheme', 'annotation scheme appropriate', 'scheme appropriate sampling', 'appropriate sampling notes', 'sampling notes annotate', 'notes annotate critical', 'annotate critical ensure', 'critical ensure high-performing', 'ensure high-performing NLP', 'high-performing NLP models', 'NLP models .'] 
+
+ TOTAL TRIGRAMS --> 19 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['design', 'gold', 'standard', 'development', 'annotation', 'scheme', 'appropriate sampling'] 
+
+ TOTAL NOUN PHRASES --> 7 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['NLP']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Annotation']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['annot', 'design', 'gold', 'standard', 'data', 'develop', 'thought', 'craft', 'design', 'annot', 'scheme', 'appropri', 'sampl', 'note', 'annot', 'critic', 'ensur', 'high-perform', 'nlp', 'model', '.']
+
+ TOTAL PORTER STEM WORDS ==> 21
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['annot', 'design', 'gold', 'standard', 'data', 'develop', 'thought', 'craft', 'design', 'annot', 'scheme', 'appropri', 'sampl', 'note', 'annot', 'critic', 'ensur', 'high-perform', 'nlp', 'model', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 21
+
+
+
+ ---- LEMMATIZATION ----
+
+['Annotation', 'design', 'gold', 'standard', 'data', 'development', 'thoughtful', 'crafting', 'designing', 'annotation', 'scheme', 'appropriate', 'sampling', 'note', 'annotate', 'critical', 'ensure', 'high-performing', 'NLP', 'model', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 21
+
+************************************************************************************************************************
+
+27 --> The annotation design and sampling  methodology is systematically developed with NLP data scientists specialized in the field of clinical NLP in close  consultation with clinical experts (oncologists, oncology clinicians, pharmacists, molecular biologists, medical  informaticists and other physicians). 
+
+
+ ---- TOKENS ----
+
+ ['The', 'annotation', 'design', 'and', 'sampling', 'methodology', 'is', 'systematically', 'developed', 'with', 'NLP', 'data', 'scientists', 'specialized', 'in', 'the', 'field', 'of', 'clinical', 'NLP', 'in', 'close', 'consultation', 'with', 'clinical', 'experts', '(', 'oncologists', ',', 'oncology', 'clinicians', ',', 'pharmacists', ',', 'molecular', 'biologists', ',', 'medical', 'informaticists', 'and', 'other', 'physicians', ')', '.'] 
+
+ TOTAL TOKENS ==> 44
+
+ ---- POST ----
+
+ [('The', 'DT'), ('annotation', 'NN'), ('design', 'NN'), ('and', 'CC'), ('sampling', 'VBG'), ('methodology', 'NN'), ('is', 'VBZ'), ('systematically', 'RB'), ('developed', 'VBN'), ('with', 'IN'), ('NLP', 'NNP'), ('data', 'NNS'), ('scientists', 'NNS'), ('specialized', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('field', 'NN'), ('of', 'IN'), ('clinical', 'JJ'), ('NLP', 'NNP'), ('in', 'IN'), ('close', 'JJ'), ('consultation', 'NN'), ('with', 'IN'), ('clinical', 'JJ'), ('experts', 'NNS'), ('(', '('), ('oncologists', 'NNS'), (',', ','), ('oncology', 'NN'), ('clinicians', 'NNS'), (',', ','), ('pharmacists', 'NNS'), (',', ','), ('molecular', 'JJ'), ('biologists', 'NNS'), (',', ','), ('medical', 'JJ'), ('informaticists', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('physicians', 'NNS'), (')', ')'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['annotation', 'design', 'sampling', 'methodology', 'systematically', 'developed', 'NLP', 'data', 'scientists', 'specialized', 'field', 'clinical', 'NLP', 'close', 'consultation', 'clinical', 'experts', '(', 'oncologists', ',', 'oncology', 'clinicians', ',', 'pharmacists', ',', 'molecular', 'biologists', ',', 'medical', 'informaticists', 'physicians', ')', '.']
+
+ TOTAL FILTERED TOKENS ==>  33
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('annotation', 'NN'), ('design', 'NN'), ('sampling', 'VBG'), ('methodology', 'NN'), ('systematically', 'RB'), ('developed', 'VBD'), ('NLP', 'NNP'), ('data', 'NNS'), ('scientists', 'NNS'), ('specialized', 'VBD'), ('field', 'NN'), ('clinical', 'JJ'), ('NLP', 'NNP'), ('close', 'NN'), ('consultation', 'NN'), ('clinical', 'JJ'), ('experts', 'NNS'), ('(', '('), ('oncologists', 'NNS'), (',', ','), ('oncology', 'NN'), ('clinicians', 'NNS'), (',', ','), ('pharmacists', 'NNS'), (',', ','), ('molecular', 'JJ'), ('biologists', 'NNS'), (',', ','), ('medical', 'JJ'), ('informaticists', 'NNS'), ('physicians', 'NNS'), (')', ')'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['annotation design', 'design sampling', 'sampling methodology', 'methodology systematically', 'systematically developed', 'developed NLP', 'NLP data', 'data scientists', 'scientists specialized', 'specialized field', 'field clinical', 'clinical NLP', 'NLP close', 'close consultation', 'consultation clinical', 'clinical experts', 'experts (', '( oncologists', 'oncologists ,', ', oncology', 'oncology clinicians', 'clinicians ,', ', pharmacists', 'pharmacists ,', ', molecular', 'molecular biologists', 'biologists ,', ', medical', 'medical informaticists', 'informaticists physicians', 'physicians )', ') .'] 
+
+ TOTAL BIGRAMS --> 32 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['annotation design sampling', 'design sampling methodology', 'sampling methodology systematically', 'methodology systematically developed', 'systematically developed NLP', 'developed NLP data', 'NLP data scientists', 'data scientists specialized', 'scientists specialized field', 'specialized field clinical', 'field clinical NLP', 'clinical NLP close', 'NLP close consultation', 'close consultation clinical', 'consultation clinical experts', 'clinical experts (', 'experts ( oncologists', '( oncologists ,', 'oncologists , oncology', ', oncology clinicians', 'oncology clinicians ,', 'clinicians , pharmacists', ', pharmacists ,', 'pharmacists , molecular', ', molecular biologists', 'molecular biologists ,', 'biologists , medical', ', medical informaticists', 'medical informaticists physicians', 'informaticists physicians )', 'physicians ) .'] 
+
+ TOTAL TRIGRAMS --> 31 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['annotation', 'design', 'methodology', 'field', 'close', 'consultation'] 
+
+ TOTAL NOUN PHRASES --> 6 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['NLP', 'NLP']
+ TOTAL ORGANIZATION ENTITY --> 2 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['annot', 'design', 'sampl', 'methodolog', 'systemat', 'develop', 'nlp', 'data', 'scientist', 'special', 'field', 'clinic', 'nlp', 'close', 'consult', 'clinic', 'expert', '(', 'oncologist', ',', 'oncolog', 'clinician', ',', 'pharmacist', ',', 'molecular', 'biologist', ',', 'medic', 'informaticist', 'physician', ')', '.']
+
+ TOTAL PORTER STEM WORDS ==> 33
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['annot', 'design', 'sampl', 'methodolog', 'systemat', 'develop', 'nlp', 'data', 'scientist', 'special', 'field', 'clinic', 'nlp', 'close', 'consult', 'clinic', 'expert', '(', 'oncologist', ',', 'oncolog', 'clinician', ',', 'pharmacist', ',', 'molecular', 'biologist', ',', 'medic', 'informaticist', 'physician', ')', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 33
+
+
+
+ ---- LEMMATIZATION ----
+
+['annotation', 'design', 'sampling', 'methodology', 'systematically', 'developed', 'NLP', 'data', 'scientist', 'specialized', 'field', 'clinical', 'NLP', 'close', 'consultation', 'clinical', 'expert', '(', 'oncologist', ',', 'oncology', 'clinician', ',', 'pharmacist', ',', 'molecular', 'biologist', ',', 'medical', 'informaticists', 'physician', ')', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 33
+
+************************************************************************************************************************
+
+28 --> During the annotation design stage, the team carefully and thoughtfully  outlines the entities and relations to annotate and extract. 
+
+
+ ---- TOKENS ----
+
+ ['During', 'the', 'annotation', 'design', 'stage', ',', 'the', 'team', 'carefully', 'and', 'thoughtfully', 'outlines', 'the', 'entities', 'and', 'relations', 'to', 'annotate', 'and', 'extract', '.'] 
+
+ TOTAL TOKENS ==> 21
+
+ ---- POST ----
+
+ [('During', 'IN'), ('the', 'DT'), ('annotation', 'NN'), ('design', 'NN'), ('stage', 'NN'), (',', ','), ('the', 'DT'), ('team', 'NN'), ('carefully', 'RB'), ('and', 'CC'), ('thoughtfully', 'RB'), ('outlines', 'VBZ'), ('the', 'DT'), ('entities', 'NNS'), ('and', 'CC'), ('relations', 'NNS'), ('to', 'TO'), ('annotate', 'VB'), ('and', 'CC'), ('extract', 'VB'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['annotation', 'design', 'stage', ',', 'team', 'carefully', 'thoughtfully', 'outlines', 'entities', 'relations', 'annotate', 'extract', '.']
+
+ TOTAL FILTERED TOKENS ==>  13
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('annotation', 'NN'), ('design', 'NN'), ('stage', 'NN'), (',', ','), ('team', 'NN'), ('carefully', 'RB'), ('thoughtfully', 'RB'), ('outlines', 'JJ'), ('entities', 'NNS'), ('relations', 'NNS'), ('annotate', 'VBP'), ('extract', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['annotation design', 'design stage', 'stage ,', ', team', 'team carefully', 'carefully thoughtfully', 'thoughtfully outlines', 'outlines entities', 'entities relations', 'relations annotate', 'annotate extract', 'extract .'] 
+
+ TOTAL BIGRAMS --> 12 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['annotation design stage', 'design stage ,', 'stage , team', ', team carefully', 'team carefully thoughtfully', 'carefully thoughtfully outlines', 'thoughtfully outlines entities', 'outlines entities relations', 'entities relations annotate', 'relations annotate extract', 'annotate extract .'] 
+
+ TOTAL TRIGRAMS --> 11 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['annotation', 'design', 'stage', 'team', 'extract'] 
+
+ TOTAL NOUN PHRASES --> 5 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['annot', 'design', 'stage', ',', 'team', 'care', 'thought', 'outlin', 'entiti', 'relat', 'annot', 'extract', '.']
+
+ TOTAL PORTER STEM WORDS ==> 13
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['annot', 'design', 'stage', ',', 'team', 'care', 'thought', 'outlin', 'entiti', 'relat', 'annot', 'extract', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 13
+
+
+
+ ---- LEMMATIZATION ----
+
+['annotation', 'design', 'stage', ',', 'team', 'carefully', 'thoughtfully', 'outline', 'entity', 'relation', 'annotate', 'extract', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 13
+
+************************************************************************************************************************
+
+29 --> This design focuses on both the clinical context as  well as the generalizability of the concept space to ensure scalability and extensibility of the NLP approach for  our overall data enrichment. 
+
+
+ ---- TOKENS ----
+
+ ['This', 'design', 'focuses', 'on', 'both', 'the', 'clinical', 'context', 'as', 'well', 'as', 'the', 'generalizability', 'of', 'the', 'concept', 'space', 'to', 'ensure', 'scalability', 'and', 'extensibility', 'of', 'the', 'NLP', 'approach', 'for', 'our', 'overall', 'data', 'enrichment', '.'] 
+
+ TOTAL TOKENS ==> 32
+
+ ---- POST ----
+
+ [('This', 'DT'), ('design', 'NN'), ('focuses', 'VBZ'), ('on', 'IN'), ('both', 'DT'), ('the', 'DT'), ('clinical', 'JJ'), ('context', 'NN'), ('as', 'RB'), ('well', 'RB'), ('as', 'IN'), ('the', 'DT'), ('generalizability', 'NN'), ('of', 'IN'), ('the', 'DT'), ('concept', 'NN'), ('space', 'NN'), ('to', 'TO'), ('ensure', 'VB'), ('scalability', 'NN'), ('and', 'CC'), ('extensibility', 'NN'), ('of', 'IN'), ('the', 'DT'), ('NLP', 'NNP'), ('approach', 'NN'), ('for', 'IN'), ('our', 'PRP$'), ('overall', 'JJ'), ('data', 'NNS'), ('enrichment', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['design', 'focuses', 'clinical', 'context', 'well', 'generalizability', 'concept', 'space', 'ensure', 'scalability', 'extensibility', 'NLP', 'approach', 'overall', 'data', 'enrichment', '.']
+
+ TOTAL FILTERED TOKENS ==>  17
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('design', 'NN'), ('focuses', 'VBZ'), ('clinical', 'JJ'), ('context', 'NN'), ('well', 'RB'), ('generalizability', 'NN'), ('concept', 'NN'), ('space', 'NN'), ('ensure', 'VB'), ('scalability', 'NN'), ('extensibility', 'NN'), ('NLP', 'NNP'), ('approach', 'NN'), ('overall', 'JJ'), ('data', 'NNS'), ('enrichment', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['design focuses', 'focuses clinical', 'clinical context', 'context well', 'well generalizability', 'generalizability concept', 'concept space', 'space ensure', 'ensure scalability', 'scalability extensibility', 'extensibility NLP', 'NLP approach', 'approach overall', 'overall data', 'data enrichment', 'enrichment .'] 
+
+ TOTAL BIGRAMS --> 16 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['design focuses clinical', 'focuses clinical context', 'clinical context well', 'context well generalizability', 'well generalizability concept', 'generalizability concept space', 'concept space ensure', 'space ensure scalability', 'ensure scalability extensibility', 'scalability extensibility NLP', 'extensibility NLP approach', 'NLP approach overall', 'approach overall data', 'overall data enrichment', 'data enrichment .'] 
+
+ TOTAL TRIGRAMS --> 15 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['design', 'clinical context', 'generalizability', 'concept', 'space', 'scalability', 'extensibility', 'approach', 'enrichment'] 
+
+ TOTAL NOUN PHRASES --> 9 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['NLP']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['design', 'focus', 'clinic', 'context', 'well', 'generaliz', 'concept', 'space', 'ensur', 'scalabl', 'extens', 'nlp', 'approach', 'overal', 'data', 'enrich', '.']
+
+ TOTAL PORTER STEM WORDS ==> 17
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['design', 'focus', 'clinic', 'context', 'well', 'generaliz', 'concept', 'space', 'ensur', 'scalabl', 'extens', 'nlp', 'approach', 'overal', 'data', 'enrich', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 17
+
+
+
+ ---- LEMMATIZATION ----
+
+['design', 'focus', 'clinical', 'context', 'well', 'generalizability', 'concept', 'space', 'ensure', 'scalability', 'extensibility', 'NLP', 'approach', 'overall', 'data', 'enrichment', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 17
+
+************************************************************************************************************************
+
+30 --> Our annotation guides are iteratively improved over time, and changes are tracked and reviewed in version  control to ensure consistency and reliability of our process. 
+
+
+ ---- TOKENS ----
+
+ ['Our', 'annotation', 'guides', 'are', 'iteratively', 'improved', 'over', 'time', ',', 'and', 'changes', 'are', 'tracked', 'and', 'reviewed', 'in', 'version', 'control', 'to', 'ensure', 'consistency', 'and', 'reliability', 'of', 'our', 'process', '.'] 
+
+ TOTAL TOKENS ==> 27
+
+ ---- POST ----
+
+ [('Our', 'PRP$'), ('annotation', 'NN'), ('guides', 'NNS'), ('are', 'VBP'), ('iteratively', 'RB'), ('improved', 'VBN'), ('over', 'IN'), ('time', 'NN'), (',', ','), ('and', 'CC'), ('changes', 'NNS'), ('are', 'VBP'), ('tracked', 'VBN'), ('and', 'CC'), ('reviewed', 'VBN'), ('in', 'IN'), ('version', 'NN'), ('control', 'NN'), ('to', 'TO'), ('ensure', 'VB'), ('consistency', 'NN'), ('and', 'CC'), ('reliability', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('process', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['annotation', 'guides', 'iteratively', 'improved', 'time', ',', 'changes', 'tracked', 'reviewed', 'version', 'control', 'ensure', 'consistency', 'reliability', 'process', '.']
+
+ TOTAL FILTERED TOKENS ==>  16
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('annotation', 'NN'), ('guides', 'NNS'), ('iteratively', 'RB'), ('improved', 'JJ'), ('time', 'NN'), (',', ','), ('changes', 'NNS'), ('tracked', 'VBD'), ('reviewed', 'JJ'), ('version', 'NN'), ('control', 'NN'), ('ensure', 'VB'), ('consistency', 'NN'), ('reliability', 'NN'), ('process', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['annotation guides', 'guides iteratively', 'iteratively improved', 'improved time', 'time ,', ', changes', 'changes tracked', 'tracked reviewed', 'reviewed version', 'version control', 'control ensure', 'ensure consistency', 'consistency reliability', 'reliability process', 'process .'] 
+
+ TOTAL BIGRAMS --> 15 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['annotation guides iteratively', 'guides iteratively improved', 'iteratively improved time', 'improved time ,', 'time , changes', ', changes tracked', 'changes tracked reviewed', 'tracked reviewed version', 'reviewed version control', 'version control ensure', 'control ensure consistency', 'ensure consistency reliability', 'consistency reliability process', 'reliability process .'] 
+
+ TOTAL TRIGRAMS --> 14 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['annotation', 'improved time', 'reviewed version', 'control', 'consistency', 'reliability', 'process'] 
+
+ TOTAL NOUN PHRASES --> 7 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['annot', 'guid', 'iter', 'improv', 'time', ',', 'chang', 'track', 'review', 'version', 'control', 'ensur', 'consist', 'reliabl', 'process', '.']
+
+ TOTAL PORTER STEM WORDS ==> 16
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['annot', 'guid', 'iter', 'improv', 'time', ',', 'chang', 'track', 'review', 'version', 'control', 'ensur', 'consist', 'reliabl', 'process', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 16
+
+
+
+ ---- LEMMATIZATION ----
+
+['annotation', 'guide', 'iteratively', 'improved', 'time', ',', 'change', 'tracked', 'reviewed', 'version', 'control', 'ensure', 'consistency', 'reliability', 'process', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 16
+
+************************************************************************************************************************
+
+31 --> An iterative and careful review is conducted on the  annotation design by a team of diverse clinical and data science subject-matter experts for clinical content, as  well as for data science design structure. 
+
+
+ ---- TOKENS ----
+
+ ['An', 'iterative', 'and', 'careful', 'review', 'is', 'conducted', 'on', 'the', 'annotation', 'design', 'by', 'a', 'team', 'of', 'diverse', 'clinical', 'and', 'data', 'science', 'subject-matter', 'experts', 'for', 'clinical', 'content', ',', 'as', 'well', 'as', 'for', 'data', 'science', 'design', 'structure', '.'] 
+
+ TOTAL TOKENS ==> 35
+
+ ---- POST ----
+
+ [('An', 'DT'), ('iterative', 'JJ'), ('and', 'CC'), ('careful', 'JJ'), ('review', 'NN'), ('is', 'VBZ'), ('conducted', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('annotation', 'NN'), ('design', 'NN'), ('by', 'IN'), ('a', 'DT'), ('team', 'NN'), ('of', 'IN'), ('diverse', 'JJ'), ('clinical', 'JJ'), ('and', 'CC'), ('data', 'NNS'), ('science', 'NN'), ('subject-matter', 'NN'), ('experts', 'NNS'), ('for', 'IN'), ('clinical', 'JJ'), ('content', 'NN'), (',', ','), ('as', 'RB'), ('well', 'RB'), ('as', 'IN'), ('for', 'IN'), ('data', 'NNS'), ('science', 'NN'), ('design', 'NN'), ('structure', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['iterative', 'careful', 'review', 'conducted', 'annotation', 'design', 'team', 'diverse', 'clinical', 'data', 'science', 'subject-matter', 'experts', 'clinical', 'content', ',', 'well', 'data', 'science', 'design', 'structure', '.']
+
+ TOTAL FILTERED TOKENS ==>  22
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('iterative', 'JJ'), ('careful', 'JJ'), ('review', 'NN'), ('conducted', 'VBN'), ('annotation', 'NN'), ('design', 'NN'), ('team', 'NN'), ('diverse', 'NN'), ('clinical', 'JJ'), ('data', 'NNS'), ('science', 'NN'), ('subject-matter', 'NN'), ('experts', 'NNS'), ('clinical', 'JJ'), ('content', 'NN'), (',', ','), ('well', 'RB'), ('data', 'NNS'), ('science', 'NN'), ('design', 'NN'), ('structure', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['iterative careful', 'careful review', 'review conducted', 'conducted annotation', 'annotation design', 'design team', 'team diverse', 'diverse clinical', 'clinical data', 'data science', 'science subject-matter', 'subject-matter experts', 'experts clinical', 'clinical content', 'content ,', ', well', 'well data', 'data science', 'science design', 'design structure', 'structure .'] 
+
+ TOTAL BIGRAMS --> 21 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['iterative careful review', 'careful review conducted', 'review conducted annotation', 'conducted annotation design', 'annotation design team', 'design team diverse', 'team diverse clinical', 'diverse clinical data', 'clinical data science', 'data science subject-matter', 'science subject-matter experts', 'subject-matter experts clinical', 'experts clinical content', 'clinical content ,', 'content , well', ', well data', 'well data science', 'data science design', 'science design structure', 'design structure .'] 
+
+ TOTAL TRIGRAMS --> 20 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['iterative careful review', 'annotation', 'design', 'team', 'diverse', 'science', 'subject-matter', 'clinical content', 'science', 'design', 'structure'] 
+
+ TOTAL NOUN PHRASES --> 11 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['iter', 'care', 'review', 'conduct', 'annot', 'design', 'team', 'divers', 'clinic', 'data', 'scienc', 'subject-matt', 'expert', 'clinic', 'content', ',', 'well', 'data', 'scienc', 'design', 'structur', '.']
+
+ TOTAL PORTER STEM WORDS ==> 22
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['iter', 'care', 'review', 'conduct', 'annot', 'design', 'team', 'divers', 'clinic', 'data', 'scienc', 'subject-matt', 'expert', 'clinic', 'content', ',', 'well', 'data', 'scienc', 'design', 'structur', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 22
+
+
+
+ ---- LEMMATIZATION ----
+
+['iterative', 'careful', 'review', 'conducted', 'annotation', 'design', 'team', 'diverse', 'clinical', 'data', 'science', 'subject-matter', 'expert', 'clinical', 'content', ',', 'well', 'data', 'science', 'design', 'structure', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 22
+
+************************************************************************************************************************
+
+32 --> Once the annotation design and the random sampling methodology  are refined, a random sample of data is drawn and additional refinements may be made to the specifications  during the annotation process. 
+
+
+ ---- TOKENS ----
+
+ ['Once', 'the', 'annotation', 'design', 'and', 'the', 'random', 'sampling', 'methodology', 'are', 'refined', ',', 'a', 'random', 'sample', 'of', 'data', 'is', 'drawn', 'and', 'additional', 'refinements', 'may', 'be', 'made', 'to', 'the', 'specifications', 'during', 'the', 'annotation', 'process', '.'] 
+
+ TOTAL TOKENS ==> 33
+
+ ---- POST ----
+
+ [('Once', 'RB'), ('the', 'DT'), ('annotation', 'NN'), ('design', 'NN'), ('and', 'CC'), ('the', 'DT'), ('random', 'NN'), ('sampling', 'VBG'), ('methodology', 'NN'), ('are', 'VBP'), ('refined', 'VBN'), (',', ','), ('a', 'DT'), ('random', 'JJ'), ('sample', 'NN'), ('of', 'IN'), ('data', 'NNS'), ('is', 'VBZ'), ('drawn', 'VBN'), ('and', 'CC'), ('additional', 'JJ'), ('refinements', 'NNS'), ('may', 'MD'), ('be', 'VB'), ('made', 'VBN'), ('to', 'TO'), ('the', 'DT'), ('specifications', 'NNS'), ('during', 'IN'), ('the', 'DT'), ('annotation', 'NN'), ('process', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['annotation', 'design', 'random', 'sampling', 'methodology', 'refined', ',', 'random', 'sample', 'data', 'drawn', 'additional', 'refinements', 'may', 'made', 'specifications', 'annotation', 'process', '.']
+
+ TOTAL FILTERED TOKENS ==>  19
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('annotation', 'NN'), ('design', 'NN'), ('random', 'NN'), ('sampling', 'VBG'), ('methodology', 'NN'), ('refined', 'VBN'), (',', ','), ('random', 'JJ'), ('sample', 'NN'), ('data', 'NNS'), ('drawn', 'VBP'), ('additional', 'JJ'), ('refinements', 'NNS'), ('may', 'MD'), ('made', 'VB'), ('specifications', 'NNS'), ('annotation', 'JJ'), ('process', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['annotation design', 'design random', 'random sampling', 'sampling methodology', 'methodology refined', 'refined ,', ', random', 'random sample', 'sample data', 'data drawn', 'drawn additional', 'additional refinements', 'refinements may', 'may made', 'made specifications', 'specifications annotation', 'annotation process', 'process .'] 
+
+ TOTAL BIGRAMS --> 18 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['annotation design random', 'design random sampling', 'random sampling methodology', 'sampling methodology refined', 'methodology refined ,', 'refined , random', ', random sample', 'random sample data', 'sample data drawn', 'data drawn additional', 'drawn additional refinements', 'additional refinements may', 'refinements may made', 'may made specifications', 'made specifications annotation', 'specifications annotation process', 'annotation process .'] 
+
+ TOTAL TRIGRAMS --> 17 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['annotation', 'design', 'random', 'methodology', 'random sample', 'annotation process'] 
+
+ TOTAL NOUN PHRASES --> 6 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['annot', 'design', 'random', 'sampl', 'methodolog', 'refin', ',', 'random', 'sampl', 'data', 'drawn', 'addit', 'refin', 'may', 'made', 'specif', 'annot', 'process', '.']
+
+ TOTAL PORTER STEM WORDS ==> 19
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['annot', 'design', 'random', 'sampl', 'methodolog', 'refin', ',', 'random', 'sampl', 'data', 'drawn', 'addit', 'refin', 'may', 'made', 'specif', 'annot', 'process', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 19
+
+
+
+ ---- LEMMATIZATION ----
+
+['annotation', 'design', 'random', 'sampling', 'methodology', 'refined', ',', 'random', 'sample', 'data', 'drawn', 'additional', 'refinement', 'may', 'made', 'specification', 'annotation', 'process', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 19
+
+************************************************************************************************************************
+
+33 --> Each note in the sample is double-annotated by two annotators and any  conflicts are resolved in a third review by a curator. 
+
+
+ ---- TOKENS ----
+
+ ['Each', 'note', 'in', 'the', 'sample', 'is', 'double-annotated', 'by', 'two', 'annotators', 'and', 'any', 'conflicts', 'are', 'resolved', 'in', 'a', 'third', 'review', 'by', 'a', 'curator', '.'] 
+
+ TOTAL TOKENS ==> 23
+
+ ---- POST ----
+
+ [('Each', 'DT'), ('note', 'NN'), ('in', 'IN'), ('the', 'DT'), ('sample', 'NN'), ('is', 'VBZ'), ('double-annotated', 'JJ'), ('by', 'IN'), ('two', 'CD'), ('annotators', 'NNS'), ('and', 'CC'), ('any', 'DT'), ('conflicts', 'NNS'), ('are', 'VBP'), ('resolved', 'VBN'), ('in', 'IN'), ('a', 'DT'), ('third', 'JJ'), ('review', 'NN'), ('by', 'IN'), ('a', 'DT'), ('curator', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['note', 'sample', 'double-annotated', 'two', 'annotators', 'conflicts', 'resolved', 'third', 'review', 'curator', '.']
+
+ TOTAL FILTERED TOKENS ==>  11
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('note', 'NN'), ('sample', 'JJ'), ('double-annotated', 'JJ'), ('two', 'CD'), ('annotators', 'NNS'), ('conflicts', 'VBZ'), ('resolved', 'JJ'), ('third', 'JJ'), ('review', 'NN'), ('curator', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['note sample', 'sample double-annotated', 'double-annotated two', 'two annotators', 'annotators conflicts', 'conflicts resolved', 'resolved third', 'third review', 'review curator', 'curator .'] 
+
+ TOTAL BIGRAMS --> 10 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['note sample double-annotated', 'sample double-annotated two', 'double-annotated two annotators', 'two annotators conflicts', 'annotators conflicts resolved', 'conflicts resolved third', 'resolved third review', 'third review curator', 'review curator .'] 
+
+ TOTAL TRIGRAMS --> 9 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['note', 'resolved third review', 'curator'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['note', 'sampl', 'double-annot', 'two', 'annot', 'conflict', 'resolv', 'third', 'review', 'curat', '.']
+
+ TOTAL PORTER STEM WORDS ==> 11
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['note', 'sampl', 'double-annot', 'two', 'annot', 'conflict', 'resolv', 'third', 'review', 'curat', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 11
+
+
+
+ ---- LEMMATIZATION ----
+
+['note', 'sample', 'double-annotated', 'two', 'annotator', 'conflict', 'resolved', 'third', 'review', 'curator', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 11
+
+************************************************************************************************************************
+
+34 --> This process occurs with each document in our sample. 
+
+
+ ---- TOKENS ----
+
+ ['This', 'process', 'occurs', 'with', 'each', 'document', 'in', 'our', 'sample', '.'] 
+
+ TOTAL TOKENS ==> 10
+
+ ---- POST ----
+
+ [('This', 'DT'), ('process', 'NN'), ('occurs', 'VBZ'), ('with', 'IN'), ('each', 'DT'), ('document', 'NN'), ('in', 'IN'), ('our', 'PRP$'), ('sample', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['process', 'occurs', 'document', 'sample', '.']
+
+ TOTAL FILTERED TOKENS ==>  5
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('process', 'NN'), ('occurs', 'VBZ'), ('document', 'JJ'), ('sample', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['process occurs', 'occurs document', 'document sample', 'sample .'] 
+
+ TOTAL BIGRAMS --> 4 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['process occurs document', 'occurs document sample', 'document sample .'] 
+
+ TOTAL TRIGRAMS --> 3 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['process', 'document sample'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['process', 'occur', 'document', 'sampl', '.']
+
+ TOTAL PORTER STEM WORDS ==> 5
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['process', 'occur', 'document', 'sampl', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 5
+
+
+
+ ---- LEMMATIZATION ----
+
+['process', 'occurs', 'document', 'sample', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 5
+
+************************************************************************************************************************
+
+35 --> The sample is then subdivided into the subsets of train, validation and test. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'sample', 'is', 'then', 'subdivided', 'into', 'the', 'subsets', 'of', 'train', ',', 'validation', 'and', 'test', '.'] 
+
+ TOTAL TOKENS ==> 15
+
+ ---- POST ----
+
+ [('The', 'DT'), ('sample', 'NN'), ('is', 'VBZ'), ('then', 'RB'), ('subdivided', 'VBN'), ('into', 'IN'), ('the', 'DT'), ('subsets', 'NNS'), ('of', 'IN'), ('train', 'NN'), (',', ','), ('validation', 'NN'), ('and', 'CC'), ('test', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['sample', 'subdivided', 'subsets', 'train', ',', 'validation', 'test', '.']
+
+ TOTAL FILTERED TOKENS ==>  8
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('sample', 'NN'), ('subdivided', 'VBD'), ('subsets', 'NNS'), ('train', 'VBP'), (',', ','), ('validation', 'JJ'), ('test', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['sample subdivided', 'subdivided subsets', 'subsets train', 'train ,', ', validation', 'validation test', 'test .'] 
+
+ TOTAL BIGRAMS --> 7 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['sample subdivided subsets', 'subdivided subsets train', 'subsets train ,', 'train , validation', ', validation test', 'validation test .'] 
+
+ TOTAL TRIGRAMS --> 6 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['sample', 'validation test'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['sampl', 'subdivid', 'subset', 'train', ',', 'valid', 'test', '.']
+
+ TOTAL PORTER STEM WORDS ==> 8
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['sampl', 'subdivid', 'subset', 'train', ',', 'valid', 'test', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 8
+
+
+
+ ---- LEMMATIZATION ----
+
+['sample', 'subdivided', 'subset', 'train', ',', 'validation', 'test', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 8
+
+************************************************************************************************************************
+
+36 --> Once models are finalized, these models are run at scale in a distributed manner on our collection of notes. 
+
+
+ ---- TOKENS ----
+
+ ['Once', 'models', 'are', 'finalized', ',', 'these', 'models', 'are', 'run', 'at', 'scale', 'in', 'a', 'distributed', 'manner', 'on', 'our', 'collection', 'of', 'notes', '.'] 
+
+ TOTAL TOKENS ==> 21
+
+ ---- POST ----
+
+ [('Once', 'RB'), ('models', 'NNS'), ('are', 'VBP'), ('finalized', 'VBN'), (',', ','), ('these', 'DT'), ('models', 'NNS'), ('are', 'VBP'), ('run', 'VBN'), ('at', 'IN'), ('scale', 'NN'), ('in', 'IN'), ('a', 'DT'), ('distributed', 'JJ'), ('manner', 'NN'), ('on', 'IN'), ('our', 'PRP$'), ('collection', 'NN'), ('of', 'IN'), ('notes', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['models', 'finalized', ',', 'models', 'run', 'scale', 'distributed', 'manner', 'collection', 'notes', '.']
+
+ TOTAL FILTERED TOKENS ==>  11
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('models', 'NNS'), ('finalized', 'VBN'), (',', ','), ('models', 'NNS'), ('run', 'VBP'), ('scale', 'RB'), ('distributed', 'VBN'), ('manner', 'NN'), ('collection', 'NN'), ('notes', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['models finalized', 'finalized ,', ', models', 'models run', 'run scale', 'scale distributed', 'distributed manner', 'manner collection', 'collection notes', 'notes .'] 
+
+ TOTAL BIGRAMS --> 10 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['models finalized ,', 'finalized , models', ', models run', 'models run scale', 'run scale distributed', 'scale distributed manner', 'distributed manner collection', 'manner collection notes', 'collection notes .'] 
+
+ TOTAL TRIGRAMS --> 9 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['manner', 'collection'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['model', 'final', ',', 'model', 'run', 'scale', 'distribut', 'manner', 'collect', 'note', '.']
+
+ TOTAL PORTER STEM WORDS ==> 11
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['model', 'final', ',', 'model', 'run', 'scale', 'distribut', 'manner', 'collect', 'note', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 11
+
+
+
+ ---- LEMMATIZATION ----
+
+['model', 'finalized', ',', 'model', 'run', 'scale', 'distributed', 'manner', 'collection', 'note', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 11
+
+************************************************************************************************************************
+
+37 --> Extracted entities are normalized in order to reduce the variability of the output and to facilitate analysis, and  whenever possible, linked to controlled vocabularies and ontologies. 
+
+
+ ---- TOKENS ----
+
+ ['Extracted', 'entities', 'are', 'normalized', 'in', 'order', 'to', 'reduce', 'the', 'variability', 'of', 'the', 'output', 'and', 'to', 'facilitate', 'analysis', ',', 'and', 'whenever', 'possible', ',', 'linked', 'to', 'controlled', 'vocabularies', 'and', 'ontologies', '.'] 
+
+ TOTAL TOKENS ==> 29
+
+ ---- POST ----
+
+ [('Extracted', 'JJ'), ('entities', 'NNS'), ('are', 'VBP'), ('normalized', 'VBN'), ('in', 'IN'), ('order', 'NN'), ('to', 'TO'), ('reduce', 'VB'), ('the', 'DT'), ('variability', 'NN'), ('of', 'IN'), ('the', 'DT'), ('output', 'NN'), ('and', 'CC'), ('to', 'TO'), ('facilitate', 'VB'), ('analysis', 'NN'), (',', ','), ('and', 'CC'), ('whenever', 'WRB'), ('possible', 'JJ'), (',', ','), ('linked', 'VBN'), ('to', 'TO'), ('controlled', 'VB'), ('vocabularies', 'NNS'), ('and', 'CC'), ('ontologies', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Extracted', 'entities', 'normalized', 'order', 'reduce', 'variability', 'output', 'facilitate', 'analysis', ',', 'whenever', 'possible', ',', 'linked', 'controlled', 'vocabularies', 'ontologies', '.']
+
+ TOTAL FILTERED TOKENS ==>  18
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Extracted', 'JJ'), ('entities', 'NNS'), ('normalized', 'VBN'), ('order', 'NN'), ('reduce', 'VB'), ('variability', 'NN'), ('output', 'NN'), ('facilitate', 'NN'), ('analysis', 'NN'), (',', ','), ('whenever', 'WRB'), ('possible', 'JJ'), (',', ','), ('linked', 'VBN'), ('controlled', 'JJ'), ('vocabularies', 'NNS'), ('ontologies', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Extracted entities', 'entities normalized', 'normalized order', 'order reduce', 'reduce variability', 'variability output', 'output facilitate', 'facilitate analysis', 'analysis ,', ', whenever', 'whenever possible', 'possible ,', ', linked', 'linked controlled', 'controlled vocabularies', 'vocabularies ontologies', 'ontologies .'] 
+
+ TOTAL BIGRAMS --> 17 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Extracted entities normalized', 'entities normalized order', 'normalized order reduce', 'order reduce variability', 'reduce variability output', 'variability output facilitate', 'output facilitate analysis', 'facilitate analysis ,', 'analysis , whenever', ', whenever possible', 'whenever possible ,', 'possible , linked', ', linked controlled', 'linked controlled vocabularies', 'controlled vocabularies ontologies', 'vocabularies ontologies .'] 
+
+ TOTAL TRIGRAMS --> 16 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['order', 'variability', 'output', 'facilitate', 'analysis'] 
+
+ TOTAL NOUN PHRASES --> 5 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Extracted']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['extract', 'entiti', 'normal', 'order', 'reduc', 'variabl', 'output', 'facilit', 'analysi', ',', 'whenev', 'possibl', ',', 'link', 'control', 'vocabulari', 'ontolog', '.']
+
+ TOTAL PORTER STEM WORDS ==> 18
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['extract', 'entiti', 'normal', 'order', 'reduc', 'variabl', 'output', 'facilit', 'analysi', ',', 'whenev', 'possibl', ',', 'link', 'control', 'vocabulari', 'ontolog', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 18
+
+
+
+ ---- LEMMATIZATION ----
+
+['Extracted', 'entity', 'normalized', 'order', 'reduce', 'variability', 'output', 'facilitate', 'analysis', ',', 'whenever', 'possible', ',', 'linked', 'controlled', 'vocabulary', 'ontology', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 18
+
+************************************************************************************************************************
+
+38 --> Annotation  & Curation Model  Development Sampling Gold  Standard Production  Models EHR data (Clinical  Notes) Output Models promoted to production Annotation Guide Data Exploration  & Requirements 11000 Optum Circle, Eden Prairie, MN 55344 Optum® is a registered trademark of Optum, Inc. in the U.S. and other jurisdictions. 
+
+
+ ---- TOKENS ----
+
+ ['Annotation', '&', 'Curation', 'Model', 'Development', 'Sampling', 'Gold', 'Standard', 'Production', 'Models', 'EHR', 'data', '(', 'Clinical', 'Notes', ')', 'Output', 'Models', 'promoted', 'to', 'production', 'Annotation', 'Guide', 'Data', 'Exploration', '&', 'Requirements', '11000', 'Optum', 'Circle', ',', 'Eden', 'Prairie', ',', 'MN', '55344', 'Optum®', 'is', 'a', 'registered', 'trademark', 'of', 'Optum', ',', 'Inc.', 'in', 'the', 'U.S.', 'and', 'other', 'jurisdictions', '.'] 
+
+ TOTAL TOKENS ==> 52
+
+ ---- POST ----
+
+ [('Annotation', 'NNP'), ('&', 'CC'), ('Curation', 'NNP'), ('Model', 'NNP'), ('Development', 'NNP'), ('Sampling', 'NNP'), ('Gold', 'NNP'), ('Standard', 'NNP'), ('Production', 'NNP'), ('Models', 'NNP'), ('EHR', 'NNP'), ('data', 'NNS'), ('(', '('), ('Clinical', 'JJ'), ('Notes', 'NNS'), (')', ')'), ('Output', 'NNP'), ('Models', 'NNP'), ('promoted', 'VBD'), ('to', 'TO'), ('production', 'NN'), ('Annotation', 'NNP'), ('Guide', 'NNP'), ('Data', 'NNP'), ('Exploration', 'NNP'), ('&', 'CC'), ('Requirements', 'NNP'), ('11000', 'CD'), ('Optum', 'NNP'), ('Circle', 'NNP'), (',', ','), ('Eden', 'NNP'), ('Prairie', 'NNP'), (',', ','), ('MN', 'NNP'), ('55344', 'CD'), ('Optum®', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('registered', 'JJ'), ('trademark', 'NN'), ('of', 'IN'), ('Optum', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('jurisdictions', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Annotation', '&', 'Curation', 'Model', 'Development', 'Sampling', 'Gold', 'Standard', 'Production', 'Models', 'EHR', 'data', '(', 'Clinical', 'Notes', ')', 'Output', 'Models', 'promoted', 'production', 'Annotation', 'Guide', 'Data', 'Exploration', '&', 'Requirements', '11000', 'Optum', 'Circle', ',', 'Eden', 'Prairie', ',', 'MN', '55344', 'Optum®', 'registered', 'trademark', 'Optum', ',', 'Inc.', 'U.S.', 'jurisdictions', '.']
+
+ TOTAL FILTERED TOKENS ==>  44
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Annotation', 'NNP'), ('&', 'CC'), ('Curation', 'NNP'), ('Model', 'NNP'), ('Development', 'NNP'), ('Sampling', 'NNP'), ('Gold', 'NNP'), ('Standard', 'NNP'), ('Production', 'NNP'), ('Models', 'NNP'), ('EHR', 'NNP'), ('data', 'NNS'), ('(', '('), ('Clinical', 'JJ'), ('Notes', 'NNS'), (')', ')'), ('Output', 'NNP'), ('Models', 'NNP'), ('promoted', 'VBN'), ('production', 'NN'), ('Annotation', 'NNP'), ('Guide', 'NNP'), ('Data', 'NNP'), ('Exploration', 'NNP'), ('&', 'CC'), ('Requirements', 'NNP'), ('11000', 'CD'), ('Optum', 'NNP'), ('Circle', 'NNP'), (',', ','), ('Eden', 'NNP'), ('Prairie', 'NNP'), (',', ','), ('MN', 'NNP'), ('55344', 'CD'), ('Optum®', 'NNP'), ('registered', 'VBD'), ('trademark', 'NN'), ('Optum', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('U.S.', 'NNP'), ('jurisdictions', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Annotation &', '& Curation', 'Curation Model', 'Model Development', 'Development Sampling', 'Sampling Gold', 'Gold Standard', 'Standard Production', 'Production Models', 'Models EHR', 'EHR data', 'data (', '( Clinical', 'Clinical Notes', 'Notes )', ') Output', 'Output Models', 'Models promoted', 'promoted production', 'production Annotation', 'Annotation Guide', 'Guide Data', 'Data Exploration', 'Exploration &', '& Requirements', 'Requirements 11000', '11000 Optum', 'Optum Circle', 'Circle ,', ', Eden', 'Eden Prairie', 'Prairie ,', ', MN', 'MN 55344', '55344 Optum®', 'Optum® registered', 'registered trademark', 'trademark Optum', 'Optum ,', ', Inc.', 'Inc. U.S.', 'U.S. jurisdictions', 'jurisdictions .'] 
+
+ TOTAL BIGRAMS --> 43 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Annotation & Curation', '& Curation Model', 'Curation Model Development', 'Model Development Sampling', 'Development Sampling Gold', 'Sampling Gold Standard', 'Gold Standard Production', 'Standard Production Models', 'Production Models EHR', 'Models EHR data', 'EHR data (', 'data ( Clinical', '( Clinical Notes', 'Clinical Notes )', 'Notes ) Output', ') Output Models', 'Output Models promoted', 'Models promoted production', 'promoted production Annotation', 'production Annotation Guide', 'Annotation Guide Data', 'Guide Data Exploration', 'Data Exploration &', 'Exploration & Requirements', '& Requirements 11000', 'Requirements 11000 Optum', '11000 Optum Circle', 'Optum Circle ,', 'Circle , Eden', ', Eden Prairie', 'Eden Prairie ,', 'Prairie , MN', ', MN 55344', 'MN 55344 Optum®', '55344 Optum® registered', 'Optum® registered trademark', 'registered trademark Optum', 'trademark Optum ,', 'Optum , Inc.', ', Inc. U.S.', 'Inc. U.S. jurisdictions', 'U.S. jurisdictions .'] 
+
+ TOTAL TRIGRAMS --> 42 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['production', 'trademark'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> ['Curation Model Development Sampling Gold Standard', 'Output Models', 'Annotation Guide Data', 'Eden Prairie', 'Optum']
+ TOTAL PERSON ENTITY --> 5 
+
+
+ GPE ---> ['U.S.']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['annot', '&', 'curat', 'model', 'develop', 'sampl', 'gold', 'standard', 'product', 'model', 'ehr', 'data', '(', 'clinic', 'note', ')', 'output', 'model', 'promot', 'product', 'annot', 'guid', 'data', 'explor', '&', 'requir', '11000', 'optum', 'circl', ',', 'eden', 'prairi', ',', 'mn', '55344', 'optum®', 'regist', 'trademark', 'optum', ',', 'inc.', 'u.s.', 'jurisdict', '.']
+
+ TOTAL PORTER STEM WORDS ==> 44
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['annot', '&', 'curat', 'model', 'develop', 'sampl', 'gold', 'standard', 'product', 'model', 'ehr', 'data', '(', 'clinic', 'note', ')', 'output', 'model', 'promot', 'product', 'annot', 'guid', 'data', 'explor', '&', 'requir', '11000', 'optum', 'circl', ',', 'eden', 'prairi', ',', 'mn', '55344', 'optum®', 'regist', 'trademark', 'optum', ',', 'inc.', 'u.s.', 'jurisdict', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 44
+
+
+
+ ---- LEMMATIZATION ----
+
+['Annotation', '&', 'Curation', 'Model', 'Development', 'Sampling', 'Gold', 'Standard', 'Production', 'Models', 'EHR', 'data', '(', 'Clinical', 'Notes', ')', 'Output', 'Models', 'promoted', 'production', 'Annotation', 'Guide', 'Data', 'Exploration', '&', 'Requirements', '11000', 'Optum', 'Circle', ',', 'Eden', 'Prairie', ',', 'MN', '55344', 'Optum®', 'registered', 'trademark', 'Optum', ',', 'Inc.', 'U.S.', 'jurisdiction', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 44
+
+************************************************************************************************************************
+
+39 --> All other brand or  product names are the property of their respective owners. 
+
+
+ ---- TOKENS ----
+
+ ['All', 'other', 'brand', 'or', 'product', 'names', 'are', 'the', 'property', 'of', 'their', 'respective', 'owners', '.'] 
+
+ TOTAL TOKENS ==> 14
+
+ ---- POST ----
+
+ [('All', 'DT'), ('other', 'JJ'), ('brand', 'NN'), ('or', 'CC'), ('product', 'NN'), ('names', 'NNS'), ('are', 'VBP'), ('the', 'DT'), ('property', 'NN'), ('of', 'IN'), ('their', 'PRP$'), ('respective', 'JJ'), ('owners', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['brand', 'product', 'names', 'property', 'respective', 'owners', '.']
+
+ TOTAL FILTERED TOKENS ==>  7
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('brand', 'NN'), ('product', 'NN'), ('names', 'NNS'), ('property', 'NN'), ('respective', 'NN'), ('owners', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['brand product', 'product names', 'names property', 'property respective', 'respective owners', 'owners .'] 
+
+ TOTAL BIGRAMS --> 6 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['brand product names', 'product names property', 'names property respective', 'property respective owners', 'respective owners .'] 
+
+ TOTAL TRIGRAMS --> 5 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['brand', 'product', 'property', 'respective'] 
+
+ TOTAL NOUN PHRASES --> 4 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['brand', 'product', 'name', 'properti', 'respect', 'owner', '.']
+
+ TOTAL PORTER STEM WORDS ==> 7
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['brand', 'product', 'name', 'properti', 'respect', 'owner', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 7
+
+
+
+ ---- LEMMATIZATION ----
+
+['brand', 'product', 'name', 'property', 'respective', 'owner', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 7
+
+************************************************************************************************************************
+
+40 --> Because we are continuously improving our  products and services, Optum reserves the right to change specifications without prior notice. 
+
+
+ ---- TOKENS ----
+
+ ['Because', 'we', 'are', 'continuously', 'improving', 'our', 'products', 'and', 'services', ',', 'Optum', 'reserves', 'the', 'right', 'to', 'change', 'specifications', 'without', 'prior', 'notice', '.'] 
+
+ TOTAL TOKENS ==> 21
+
+ ---- POST ----
+
+ [('Because', 'IN'), ('we', 'PRP'), ('are', 'VBP'), ('continuously', 'RB'), ('improving', 'VBG'), ('our', 'PRP$'), ('products', 'NNS'), ('and', 'CC'), ('services', 'NNS'), (',', ','), ('Optum', 'NNP'), ('reserves', 'NNS'), ('the', 'DT'), ('right', 'NN'), ('to', 'TO'), ('change', 'VB'), ('specifications', 'NNS'), ('without', 'IN'), ('prior', 'JJ'), ('notice', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['continuously', 'improving', 'products', 'services', ',', 'Optum', 'reserves', 'right', 'change', 'specifications', 'without', 'prior', 'notice', '.']
+
+ TOTAL FILTERED TOKENS ==>  14
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('continuously', 'RB'), ('improving', 'VBG'), ('products', 'NNS'), ('services', 'NNS'), (',', ','), ('Optum', 'NNP'), ('reserves', 'NNS'), ('right', 'RB'), ('change', 'VBP'), ('specifications', 'NNS'), ('without', 'IN'), ('prior', 'JJ'), ('notice', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['continuously improving', 'improving products', 'products services', 'services ,', ', Optum', 'Optum reserves', 'reserves right', 'right change', 'change specifications', 'specifications without', 'without prior', 'prior notice', 'notice .'] 
+
+ TOTAL BIGRAMS --> 13 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['continuously improving products', 'improving products services', 'products services ,', 'services , Optum', ', Optum reserves', 'Optum reserves right', 'reserves right change', 'right change specifications', 'change specifications without', 'specifications without prior', 'without prior notice', 'prior notice .'] 
+
+ TOTAL TRIGRAMS --> 12 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['prior notice'] 
+
+ TOTAL NOUN PHRASES --> 1 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Optum']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['continu', 'improv', 'product', 'servic', ',', 'optum', 'reserv', 'right', 'chang', 'specif', 'without', 'prior', 'notic', '.']
+
+ TOTAL PORTER STEM WORDS ==> 14
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['continu', 'improv', 'product', 'servic', ',', 'optum', 'reserv', 'right', 'chang', 'specif', 'without', 'prior', 'notic', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 14
+
+
+
+ ---- LEMMATIZATION ----
+
+['continuously', 'improving', 'product', 'service', ',', 'Optum', 'reserve', 'right', 'change', 'specification', 'without', 'prior', 'notice', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 14
+
+************************************************************************************************************************
+
+41 --> Optum is  an equal opportunity employer. 
+
+
+ ---- TOKENS ----
+
+ ['Optum', 'is', 'an', 'equal', 'opportunity', 'employer', '.'] 
+
+ TOTAL TOKENS ==> 7
+
+ ---- POST ----
+
+ [('Optum', 'NNP'), ('is', 'VBZ'), ('an', 'DT'), ('equal', 'JJ'), ('opportunity', 'NN'), ('employer', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Optum', 'equal', 'opportunity', 'employer', '.']
+
+ TOTAL FILTERED TOKENS ==>  5
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Optum', 'NNP'), ('equal', 'JJ'), ('opportunity', 'NN'), ('employer', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Optum equal', 'equal opportunity', 'opportunity employer', 'employer .'] 
+
+ TOTAL BIGRAMS --> 4 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Optum equal opportunity', 'equal opportunity employer', 'opportunity employer .'] 
+
+ TOTAL TRIGRAMS --> 3 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['equal opportunity', 'employer'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Optum']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['optum', 'equal', 'opportun', 'employ', '.']
+
+ TOTAL PORTER STEM WORDS ==> 5
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['optum', 'equal', 'opportun', 'employ', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 5
+
+
+
+ ---- LEMMATIZATION ----
+
+['Optum', 'equal', 'opportunity', 'employer', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 5
+
+************************************************************************************************************************
+
+42 --> © 2020 Optum, Inc. All rights reserved. 
+
+
+ ---- TOKENS ----
+
+ ['©', '2020', 'Optum', ',', 'Inc.', 'All', 'rights', 'reserved', '.'] 
+
+ TOTAL TOKENS ==> 9
+
+ ---- POST ----
+
+ [('©', 'NN'), ('2020', 'CD'), ('Optum', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('All', 'NNP'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['©', '2020', 'Optum', ',', 'Inc.', 'rights', 'reserved', '.']
+
+ TOTAL FILTERED TOKENS ==>  8
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('©', 'NN'), ('2020', 'CD'), ('Optum', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['© 2020', '2020 Optum', 'Optum ,', ', Inc.', 'Inc. rights', 'rights reserved', 'reserved .'] 
+
+ TOTAL BIGRAMS --> 7 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['© 2020 Optum', '2020 Optum ,', 'Optum , Inc.', ', Inc. rights', 'Inc. rights reserved', 'rights reserved .'] 
+
+ TOTAL TRIGRAMS --> 6 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['©'] 
+
+ TOTAL NOUN PHRASES --> 1 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['©', '2020', 'optum', ',', 'inc.', 'right', 'reserv', '.']
+
+ TOTAL PORTER STEM WORDS ==> 8
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['©', '2020', 'optum', ',', 'inc.', 'right', 'reserv', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 8
+
+
+
+ ---- LEMMATIZATION ----
+
+['©', '2020', 'Optum', ',', 'Inc.', 'right', 'reserved', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 8
+
+************************************************************************************************************************
+
+43 --> WF2202949 04/20 optum.com Figure 1. 
+
+
+ ---- TOKENS ----
+
+ ['WF2202949', '04/20', 'optum.com', 'Figure', '1', '.'] 
+
+ TOTAL TOKENS ==> 6
+
+ ---- POST ----
+
+ [('WF2202949', '$'), ('04/20', 'CD'), ('optum.com', 'JJ'), ('Figure', 'NN'), ('1', 'CD'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['WF2202949', '04/20', 'optum.com', 'Figure', '1', '.']
+
+ TOTAL FILTERED TOKENS ==>  6
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('WF2202949', '$'), ('04/20', 'CD'), ('optum.com', 'JJ'), ('Figure', 'NN'), ('1', 'CD'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['WF2202949 04/20', '04/20 optum.com', 'optum.com Figure', 'Figure 1', '1 .'] 
+
+ TOTAL BIGRAMS --> 5 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['WF2202949 04/20 optum.com', '04/20 optum.com Figure', 'optum.com Figure 1', 'Figure 1 .'] 
+
+ TOTAL TRIGRAMS --> 4 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['optum.com Figure'] 
+
+ TOTAL NOUN PHRASES --> 1 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['wf2202949', '04/20', 'optum.com', 'figur', '1', '.']
+
+ TOTAL PORTER STEM WORDS ==> 6
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['wf2202949', '04/20', 'optum.com', 'figur', '1', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 6
+
+
+
+ ---- LEMMATIZATION ----
+
+['WF2202949', '04/20', 'optum.com', 'Figure', '1', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 6
+
+************************************************************************************************************************
+
+44 --> Model development and production process Benefits & Results The advantages of our rigorous approach and combination of techniques is scalability, comprehensive  extraction, and extraction that is methodically consistent and reliable. 
+
+
+ ---- TOKENS ----
+
+ ['Model', 'development', 'and', 'production', 'process', 'Benefits', '&', 'Results', 'The', 'advantages', 'of', 'our', 'rigorous', 'approach', 'and', 'combination', 'of', 'techniques', 'is', 'scalability', ',', 'comprehensive', 'extraction', ',', 'and', 'extraction', 'that', 'is', 'methodically', 'consistent', 'and', 'reliable', '.'] 
+
+ TOTAL TOKENS ==> 33
+
+ ---- POST ----
+
+ [('Model', 'NNP'), ('development', 'NN'), ('and', 'CC'), ('production', 'NN'), ('process', 'NN'), ('Benefits', 'NNP'), ('&', 'CC'), ('Results', 'NNP'), ('The', 'DT'), ('advantages', 'NNS'), ('of', 'IN'), ('our', 'PRP$'), ('rigorous', 'JJ'), ('approach', 'NN'), ('and', 'CC'), ('combination', 'NN'), ('of', 'IN'), ('techniques', 'NNS'), ('is', 'VBZ'), ('scalability', 'NN'), (',', ','), ('comprehensive', 'JJ'), ('extraction', 'NN'), (',', ','), ('and', 'CC'), ('extraction', 'NN'), ('that', 'WDT'), ('is', 'VBZ'), ('methodically', 'RB'), ('consistent', 'JJ'), ('and', 'CC'), ('reliable', 'JJ'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Model', 'development', 'production', 'process', 'Benefits', '&', 'Results', 'advantages', 'rigorous', 'approach', 'combination', 'techniques', 'scalability', ',', 'comprehensive', 'extraction', ',', 'extraction', 'methodically', 'consistent', 'reliable', '.']
+
+ TOTAL FILTERED TOKENS ==>  22
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Model', 'NNP'), ('development', 'NN'), ('production', 'NN'), ('process', 'NN'), ('Benefits', 'NNP'), ('&', 'CC'), ('Results', 'NNP'), ('advantages', 'VBZ'), ('rigorous', 'JJ'), ('approach', 'NN'), ('combination', 'NN'), ('techniques', 'NNS'), ('scalability', 'NN'), (',', ','), ('comprehensive', 'JJ'), ('extraction', 'NN'), (',', ','), ('extraction', 'NN'), ('methodically', 'RB'), ('consistent', 'JJ'), ('reliable', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Model development', 'development production', 'production process', 'process Benefits', 'Benefits &', '& Results', 'Results advantages', 'advantages rigorous', 'rigorous approach', 'approach combination', 'combination techniques', 'techniques scalability', 'scalability ,', ', comprehensive', 'comprehensive extraction', 'extraction ,', ', extraction', 'extraction methodically', 'methodically consistent', 'consistent reliable', 'reliable .'] 
+
+ TOTAL BIGRAMS --> 21 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Model development production', 'development production process', 'production process Benefits', 'process Benefits &', 'Benefits & Results', '& Results advantages', 'Results advantages rigorous', 'advantages rigorous approach', 'rigorous approach combination', 'approach combination techniques', 'combination techniques scalability', 'techniques scalability ,', 'scalability , comprehensive', ', comprehensive extraction', 'comprehensive extraction ,', 'extraction , extraction', ', extraction methodically', 'extraction methodically consistent', 'methodically consistent reliable', 'consistent reliable .'] 
+
+ TOTAL TRIGRAMS --> 20 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['development', 'production', 'process', 'rigorous approach', 'combination', 'scalability', 'comprehensive extraction', 'extraction', 'consistent reliable'] 
+
+ TOTAL NOUN PHRASES --> 9 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> ['Benefits', 'Results']
+ TOTAL PERSON ENTITY --> 2 
+
+
+ GPE ---> ['Model']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['model', 'develop', 'product', 'process', 'benefit', '&', 'result', 'advantag', 'rigor', 'approach', 'combin', 'techniqu', 'scalabl', ',', 'comprehens', 'extract', ',', 'extract', 'method', 'consist', 'reliabl', '.']
+
+ TOTAL PORTER STEM WORDS ==> 22
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['model', 'develop', 'product', 'process', 'benefit', '&', 'result', 'advantag', 'rigor', 'approach', 'combin', 'techniqu', 'scalabl', ',', 'comprehens', 'extract', ',', 'extract', 'method', 'consist', 'reliabl', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 22
+
+
+
+ ---- LEMMATIZATION ----
+
+['Model', 'development', 'production', 'process', 'Benefits', '&', 'Results', 'advantage', 'rigorous', 'approach', 'combination', 'technique', 'scalability', ',', 'comprehensive', 'extraction', ',', 'extraction', 'methodically', 'consistent', 'reliable', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 22
+
+************************************************************************************************************************
+
+45 --> Overall, the combination of rules,  traditional machine learning and deep learning techniques leads to effective and highly accurate results. 
+
+
+ ---- TOKENS ----
+
+ ['Overall', ',', 'the', 'combination', 'of', 'rules', ',', 'traditional', 'machine', 'learning', 'and', 'deep', 'learning', 'techniques', 'leads', 'to', 'effective', 'and', 'highly', 'accurate', 'results', '.'] 
+
+ TOTAL TOKENS ==> 22
+
+ ---- POST ----
+
+ [('Overall', 'JJ'), (',', ','), ('the', 'DT'), ('combination', 'NN'), ('of', 'IN'), ('rules', 'NNS'), (',', ','), ('traditional', 'JJ'), ('machine', 'NN'), ('learning', 'NN'), ('and', 'CC'), ('deep', 'JJ'), ('learning', 'NN'), ('techniques', 'NNS'), ('leads', 'VBZ'), ('to', 'TO'), ('effective', 'JJ'), ('and', 'CC'), ('highly', 'RB'), ('accurate', 'JJ'), ('results', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Overall', ',', 'combination', 'rules', ',', 'traditional', 'machine', 'learning', 'deep', 'learning', 'techniques', 'leads', 'effective', 'highly', 'accurate', 'results', '.']
+
+ TOTAL FILTERED TOKENS ==>  17
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Overall', 'JJ'), (',', ','), ('combination', 'NN'), ('rules', 'NNS'), (',', ','), ('traditional', 'JJ'), ('machine', 'NN'), ('learning', 'VBG'), ('deep', 'JJ'), ('learning', 'NN'), ('techniques', 'NNS'), ('leads', 'VBZ'), ('effective', 'JJ'), ('highly', 'RB'), ('accurate', 'JJ'), ('results', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Overall ,', ', combination', 'combination rules', 'rules ,', ', traditional', 'traditional machine', 'machine learning', 'learning deep', 'deep learning', 'learning techniques', 'techniques leads', 'leads effective', 'effective highly', 'highly accurate', 'accurate results', 'results .'] 
+
+ TOTAL BIGRAMS --> 16 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Overall , combination', ', combination rules', 'combination rules ,', 'rules , traditional', ', traditional machine', 'traditional machine learning', 'machine learning deep', 'learning deep learning', 'deep learning techniques', 'learning techniques leads', 'techniques leads effective', 'leads effective highly', 'effective highly accurate', 'highly accurate results', 'accurate results .'] 
+
+ TOTAL TRIGRAMS --> 15 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['combination', 'traditional machine', 'deep learning'] 
+
+ TOTAL NOUN PHRASES --> 3 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> ['Overall']
+ TOTAL GPE ENTITY --> 1 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['overal', ',', 'combin', 'rule', ',', 'tradit', 'machin', 'learn', 'deep', 'learn', 'techniqu', 'lead', 'effect', 'highli', 'accur', 'result', '.']
+
+ TOTAL PORTER STEM WORDS ==> 17
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['overal', ',', 'combin', 'rule', ',', 'tradit', 'machin', 'learn', 'deep', 'learn', 'techniqu', 'lead', 'effect', 'high', 'accur', 'result', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 17
+
+
+
+ ---- LEMMATIZATION ----
+
+['Overall', ',', 'combination', 'rule', ',', 'traditional', 'machine', 'learning', 'deep', 'learning', 'technique', 'lead', 'effective', 'highly', 'accurate', 'result', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 17
+
+************************************************************************************************************************
+
+46 --> The extraction results for specific oncology concepts for cancer, stage and TNM are consistently above  90% precision and all 58 biomarkers in our product are above 80% precision. 
+
+
+ ---- TOKENS ----
+
+ ['The', 'extraction', 'results', 'for', 'specific', 'oncology', 'concepts', 'for', 'cancer', ',', 'stage', 'and', 'TNM', 'are', 'consistently', 'above', '90', '%', 'precision', 'and', 'all', '58', 'biomarkers', 'in', 'our', 'product', 'are', 'above', '80', '%', 'precision', '.'] 
+
+ TOTAL TOKENS ==> 32
+
+ ---- POST ----
+
+ [('The', 'DT'), ('extraction', 'NN'), ('results', 'NNS'), ('for', 'IN'), ('specific', 'JJ'), ('oncology', 'NN'), ('concepts', 'NNS'), ('for', 'IN'), ('cancer', 'NN'), (',', ','), ('stage', 'NN'), ('and', 'CC'), ('TNM', 'NNP'), ('are', 'VBP'), ('consistently', 'RB'), ('above', 'IN'), ('90', 'CD'), ('%', 'NN'), ('precision', 'NN'), ('and', 'CC'), ('all', 'DT'), ('58', 'CD'), ('biomarkers', 'NNS'), ('in', 'IN'), ('our', 'PRP$'), ('product', 'NN'), ('are', 'VBP'), ('above', 'IN'), ('80', 'CD'), ('%', 'NN'), ('precision', 'NN'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['extraction', 'results', 'specific', 'oncology', 'concepts', 'cancer', ',', 'stage', 'TNM', 'consistently', '90', '%', 'precision', '58', 'biomarkers', 'product', '80', '%', 'precision', '.']
+
+ TOTAL FILTERED TOKENS ==>  20
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('extraction', 'NN'), ('results', 'NNS'), ('specific', 'JJ'), ('oncology', 'JJ'), ('concepts', 'NNS'), ('cancer', 'NN'), (',', ','), ('stage', 'NN'), ('TNM', 'NNP'), ('consistently', 'RB'), ('90', 'CD'), ('%', 'NN'), ('precision', 'NN'), ('58', 'CD'), ('biomarkers', 'NNS'), ('product', 'NN'), ('80', 'CD'), ('%', 'NN'), ('precision', 'NN'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['extraction results', 'results specific', 'specific oncology', 'oncology concepts', 'concepts cancer', 'cancer ,', ', stage', 'stage TNM', 'TNM consistently', 'consistently 90', '90 %', '% precision', 'precision 58', '58 biomarkers', 'biomarkers product', 'product 80', '80 %', '% precision', 'precision .'] 
+
+ TOTAL BIGRAMS --> 19 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['extraction results specific', 'results specific oncology', 'specific oncology concepts', 'oncology concepts cancer', 'concepts cancer ,', 'cancer , stage', ', stage TNM', 'stage TNM consistently', 'TNM consistently 90', 'consistently 90 %', '90 % precision', '% precision 58', 'precision 58 biomarkers', '58 biomarkers product', 'biomarkers product 80', 'product 80 %', '80 % precision', '% precision .'] 
+
+ TOTAL TRIGRAMS --> 18 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['extraction', 'cancer', 'stage', '%', 'precision', 'product', '%', 'precision'] 
+
+ TOTAL NOUN PHRASES --> 8 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> ['TNM']
+ TOTAL ORGANIZATION ENTITY --> 1 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['extract', 'result', 'specif', 'oncolog', 'concept', 'cancer', ',', 'stage', 'tnm', 'consist', '90', '%', 'precis', '58', 'biomark', 'product', '80', '%', 'precis', '.']
+
+ TOTAL PORTER STEM WORDS ==> 20
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['extract', 'result', 'specif', 'oncolog', 'concept', 'cancer', ',', 'stage', 'tnm', 'consist', '90', '%', 'precis', '58', 'biomark', 'product', '80', '%', 'precis', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 20
+
+
+
+ ---- LEMMATIZATION ----
+
+['extraction', 'result', 'specific', 'oncology', 'concept', 'cancer', ',', 'stage', 'TNM', 'consistently', '90', '%', 'precision', '58', 'biomarkers', 'product', '80', '%', 'precision', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 20
+
+************************************************************************************************************************
+
+47 --> These high-quality results  allow our clients to be confident that our data is robust enough for their research purposes. 
+
+
+ ---- TOKENS ----
+
+ ['These', 'high-quality', 'results', 'allow', 'our', 'clients', 'to', 'be', 'confident', 'that', 'our', 'data', 'is', 'robust', 'enough', 'for', 'their', 'research', 'purposes', '.'] 
+
+ TOTAL TOKENS ==> 20
+
+ ---- POST ----
+
+ [('These', 'DT'), ('high-quality', 'JJ'), ('results', 'NNS'), ('allow', 'VB'), ('our', 'PRP$'), ('clients', 'NNS'), ('to', 'TO'), ('be', 'VB'), ('confident', 'JJ'), ('that', 'IN'), ('our', 'PRP$'), ('data', 'NNS'), ('is', 'VBZ'), ('robust', 'JJ'), ('enough', 'RB'), ('for', 'IN'), ('their', 'PRP$'), ('research', 'NN'), ('purposes', 'NNS'), ('.', '.')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['high-quality', 'results', 'allow', 'clients', 'confident', 'data', 'robust', 'enough', 'research', 'purposes', '.']
+
+ TOTAL FILTERED TOKENS ==>  11
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('high-quality', 'NN'), ('results', 'NNS'), ('allow', 'JJ'), ('clients', 'NNS'), ('confident', 'JJ'), ('data', 'NNS'), ('robust', 'VBP'), ('enough', 'JJ'), ('research', 'NN'), ('purposes', 'NNS'), ('.', '.')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['high-quality results', 'results allow', 'allow clients', 'clients confident', 'confident data', 'data robust', 'robust enough', 'enough research', 'research purposes', 'purposes .'] 
+
+ TOTAL BIGRAMS --> 10 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['high-quality results allow', 'results allow clients', 'allow clients confident', 'clients confident data', 'confident data robust', 'data robust enough', 'robust enough research', 'enough research purposes', 'research purposes .'] 
+
+ TOTAL TRIGRAMS --> 9 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['high-quality', 'enough research'] 
+
+ TOTAL NOUN PHRASES --> 2 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> []
+ TOTAL PERSON ENTITY --> 0 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['high-qual', 'result', 'allow', 'client', 'confid', 'data', 'robust', 'enough', 'research', 'purpos', '.']
+
+ TOTAL PORTER STEM WORDS ==> 11
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['high-qual', 'result', 'allow', 'client', 'confid', 'data', 'robust', 'enough', 'research', 'purpos', '.']
+
+ TOTAL SNOWBALL STEM WORDS ==> 11
+
+
+
+ ---- LEMMATIZATION ----
+
+['high-quality', 'result', 'allow', 'client', 'confident', 'data', 'robust', 'enough', 'research', 'purpose', '.']
+
+ TOTAL LEMMATIZE WORDS ==> 11
+
+************************************************************************************************************************
+
+48 --> Clinical natural language processing: Unearthing deeper oncology insights by mining unstructured medical notes 
+
+
+ ---- TOKENS ----
+
+ ['Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insights', 'by', 'mining', 'unstructured', 'medical', 'notes'] 
+
+ TOTAL TOKENS ==> 14
+
+ ---- POST ----
+
+ [('Clinical', 'JJ'), ('natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), (':', ':'), ('Unearthing', 'NNP'), ('deeper', 'JJR'), ('oncology', 'NN'), ('insights', 'NNS'), ('by', 'IN'), ('mining', 'VBG'), ('unstructured', 'JJ'), ('medical', 'JJ'), ('notes', 'NNS')] 
+
+
+
+ ---- TOKENS AFTER STOP-WORDS REMOVAL ---- 
+
+ ['Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insights', 'mining', 'unstructured', 'medical', 'notes']
+
+ TOTAL FILTERED TOKENS ==>  13
+
+ ---- POST FOR FILTERED TOKENS ----
+
+ [('Clinical', 'JJ'), ('natural', 'JJ'), ('language', 'NN'), ('processing', 'NN'), (':', ':'), ('Unearthing', 'NNP'), ('deeper', 'JJR'), ('oncology', 'NN'), ('insights', 'NNS'), ('mining', 'NN'), ('unstructured', 'JJ'), ('medical', 'JJ'), ('notes', 'NNS')] 
+
+
+
+ ---- BI-GRAMS ---- 
+
+ ['Clinical natural', 'natural language', 'language processing', 'processing :', ': Unearthing', 'Unearthing deeper', 'deeper oncology', 'oncology insights', 'insights mining', 'mining unstructured', 'unstructured medical', 'medical notes'] 
+
+ TOTAL BIGRAMS --> 12 
+
+
+
+ ---- TRI-GRAMS ---- 
+
+ ['Clinical natural language', 'natural language processing', 'language processing :', 'processing : Unearthing', ': Unearthing deeper', 'Unearthing deeper oncology', 'deeper oncology insights', 'oncology insights mining', 'insights mining unstructured', 'mining unstructured medical', 'unstructured medical notes'] 
+
+ TOTAL TRIGRAMS --> 11 
+
+
+
+ ---- NOUN PHRASES ---- 
+
+ ['Clinical natural language', 'processing', 'oncology', 'mining'] 
+
+ TOTAL NOUN PHRASES --> 4 
+
+
+
+ ---- NER ----
+
+ 
+ ORGANIZATION ---> []
+ TOTAL ORGANIZATION ENTITY --> 0 
+
+
+ PERSON ---> ['Clinical']
+ TOTAL PERSON ENTITY --> 1 
+
+
+ GPE ---> []
+ TOTAL GPE ENTITY --> 0 
+
+
+ DATE ---> []
+ TOTAL DATE ENTITY --> 0 
+
+
+
+ ---- PORTER STEMMING ----
+
+['clinic', 'natur', 'languag', 'process', ':', 'unearth', 'deeper', 'oncolog', 'insight', 'mine', 'unstructur', 'medic', 'note']
+
+ TOTAL PORTER STEM WORDS ==> 13
+
+
+
+ ---- SNOWBALL STEMMING ----
+
+['clinic', 'natur', 'languag', 'process', ':', 'unearth', 'deeper', 'oncolog', 'insight', 'mine', 'unstructur', 'medic', 'note']
+
+ TOTAL SNOWBALL STEM WORDS ==> 13
+
+
+
+ ---- LEMMATIZATION ----
+
+['Clinical', 'natural', 'language', 'processing', ':', 'Unearthing', 'deeper', 'oncology', 'insight', 'mining', 'unstructured', 'medical', 'note']
+
+ TOTAL LEMMATIZE WORDS ==> 13
+
+************************************************************************************************************************
+

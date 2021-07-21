@@ -1,0 +1,100 @@
+
+
+ ['concept', 'extraction']
+
+
+
+ ['Machine', 'artificial intelligence', '’ hardest']
+
+
+
+ ['reality', 'novel technology', 'subjective judgement', '“ black box', 'little transparency', 'quality', 'accuracy', 'solution']
+
+
+
+ ['Machine', 'problem', 'different service']
+
+
+
+ ['machine', 'learning']
+
+
+
+ ['paper', 'provide', 'machine', 'compare', 'output', 'concept extraction']
+
+
+
+ ['machine', 'artificial intelligence', 'solve number', 'exclusive domain', '” knowledge', 'human expert', 'algorithms capable qualitative evaluation', 'subject matter', 'significant human engineering', 'effort', 'coherent', 'model']
+
+
+
+ ['combination', 'knowledge', 'form', 'thesauri', 'hard-coded rule', 'adaptive machine', 'text', 'facilitate', 'development', 'document', 'similarity', 'reader', 'interest', 'trend', 'analysis']
+
+
+
+ ['concept', 'extraction', 'available today']
+
+
+
+ ['test', 'performance', 'variety']
+
+
+
+ ['full text', 'article', 'service', 'weight']
+
+
+
+ []
+
+
+
+ ['concept', 'point', 'score', 'document evaluation', 'score', 'sum total class', 'score']
+
+
+
+ ['example', 'one-gram ontology', 'point', 'document', 'evaluation', 'score', 'common use', 'domain']
+
+
+
+ ['another concept', 'connection', 'subject matter', 'metadata']
+
+
+
+ ['point', 'point', 'point', 'contrast', 'document']
+
+
+
+ ['service', 'abstract', 'concept phrase', 'relevant subject matter', 'whole article']
+
+
+
+ ['job', 'domain', 'article']
+
+
+
+ ['%', 'competition']
+
+
+
+ ['score']
+
+
+
+ ['performance']
+
+
+
+ ['numerous broad ontology', 'little descriptive value', 'unsuited classification']
+
+
+
+ ['service', 'output', 'detail', 'Table']
+
+
+
+ ['phase', 'group', 'model', 'percent', 'percentage', 'noise', '%']
+
+
+
+ ['www.unsilo.ai']
+

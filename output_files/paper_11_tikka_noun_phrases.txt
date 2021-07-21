@@ -1,0 +1,2172 @@
+
+
+ ['author', 'publication', 'https', 'Processing', 'Poisson-Exponential Distribution', 'prediction', 'project', 'distribution', 'view', 'point', 'project', 'content', 'page']
+
+
+
+ ['enhancement', 'file']
+
+
+
+ ['https', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', '', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', '', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'https', 'enrichSource=Y292ZXJQYWdlOzMxOTE2NDI0MztBUzo2MTA1NzA2ODg1NDQ3NjhAMTUyMjU4MjgwNDM4Mg %', '%', 'Processing']
+
+
+
+ ['language', 'processing', 'much attention', 'human language']
+
+
+
+ ['spread', 'machine', 'translation', 'spam detection', 'information', 'extraction', 'summarization', 'question', 'etc']
+
+
+
+ ['paper', 'history', 'evolution', 'state', 'art']
+
+
+
+ ['Natural language', 'processing', 'ease user', 'work', 'satisfy', 'wish communicate', 'computer', 'natural language']
+
+
+
+ ['well-versed machine', 'specific language', 'enough time', 'perfection']
+
+
+
+ ['language', 'symbol']
+
+
+
+ ['Symbol', 'information', 'information']
+
+
+
+ ['i.e']
+
+
+
+ ['task understand generate', 'text']
+
+
+
+ ['Figure']
+
+
+
+ ['science', 'language', 'word', 'formation', 'sentence', 'structure', 'syntax']
+
+
+
+ ['twelfth century', 'unique position', 'field', 'area', 'syntax', ']']
+
+
+
+ ['speech recognition', 'natural language']
+
+
+
+ ['etc']
+
+
+
+ ['direct real world', 'translation', 'entity', 'recognition', 'character', 'recognition', 'etc']
+
+
+
+ ['Automatic summarization', 'understandable summary set', 'text', 'information', 'text', 'type']
+
+
+
+ ['resolution', 'sentence', 'text', 'word', 'refer', 'object']
+
+
+
+ ['analysis', 'discourse', 'structure', 'text']
+
+
+
+ ['Machine', 'translation', 'automatic translation', 'human language']
+
+
+
+ ['Morphological segmentation', 'word', 'class']
+
+
+
+ ['entity', 'recognition', 'stream text']
+
+
+
+ ['Optical character', 'recognition', 'image', 'text', 'help', 'related text']
+
+
+
+ ['Part', 'speech', 'describes sentence', 'part', 'speech', 'word']
+
+
+
+ ['convenience']
+
+
+
+ ['task', 'automatic summarisation', 'co-reference', 'analysis', 'etc']
+
+
+
+ ['act', 'subtask']
+
+
+
+ ['goal', 'system']
+
+
+
+ ['assess', 'algorithmic system', 'integration', 'language', 'understanding language', 'generation']
+
+
+
+ ['multilingual event', 'detection', 'al']
+
+
+
+ ['novel modular system', 'cross- lingual event', 'extraction', 'texts']
+
+
+
+ ['system', 'modular set', 'foremost']
+
+
+
+ ['pipeline', 'processing', 'entity', 'semantic role', 'labelling', 'time', 'normalization']
+
+
+
+ ['cross-lingual framework', 'interpretation', 'time']
+
+
+
+ ['input', 'system', 'event', 'centric', 'knowledge', 'graphs']
+
+
+
+ ['standard', 'input', 'annotation', 'standard output', 'next module', 'centric architecture']
+
+
+
+ ['modular architecture', 'dynamic distribution']
+
+
+
+ ['work', 'computer', 'interest', 'psychologist']
+
+
+
+ ['ironical aspect', 'knowledge', 'human language']
+
+
+
+ ['field', 'problem', 'natural language']
+
+
+
+ ['major problem', 'natural language', 'syntactic level', 'subtask', 'lexical morphology', 'study', 'word', 'formation']
+
+
+
+ ['knowledge', 'complete sentence']
+
+
+
+ ['ambiguity', ']']
+
+
+
+ ['ambiguity', 'ambiguity', ']', 'line', 'cover', 'wide range', 'statistical element', 'implicit approach']
+
+
+
+ ['language', 'explanatory', 'method', 'processing']
+
+
+
+ ['Figure']
+
+
+
+ ['architecture', 'science', 'language', 'language', 'context', 'language']
+
+
+
+ ['Processing']
+
+
+
+ ['part', 'systematic arrangement', 'sound']
+
+
+
+ ['term', 'phonology', 'Greek term', 'voice', 'sound', 'suffix –logy', 'word', 'speech']
+
+
+
+ ['study', 'system', 'language']
+
+
+
+ ['phonology', 'language', 'lathe sub', 'discipline', 'phonology', 'proper concerned function', 'behaviour organization']
+
+
+
+ ['semantic use', 'sound encode', 'language']
+
+
+
+ [']']
+
+
+
+ ['word', 'represent']
+
+
+
+ ['comprise', 'Nature']
+
+
+
+ ['example', 'word', 'precancellation', 'prefix', 'pre', 'root', 'cancella', 'suffix -tion']
+
+
+
+ ['interpretation', 'morpheme', 'unknown word']
+
+
+
+ ['example', 'verb', 'conveys action', 'verb', 'place', 'past']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['https', ' https']
+
+
+
+ ['bestow', 'word-level understanding', '–', 'part-of-speech tag', 'word']
+
+
+
+ ['processing', 'part- of-speech', 'probable part-of speech', 'tag', 'context occur']
+
+
+
+ ['lexical level', 'meaning']
+
+
+
+ ['system', 'nature representation', 'semantic theory']
+
+
+
+ ['Syntactic level', 'emphasis', 'sentence', 'grammatical structure', 'sentence']
+
+
+
+ ['grammar', 'parser', 'level']
+
+
+
+ ['output', 'level', 'representation', 'sentence', 'divulge structural dependency']
+
+
+
+ ['twirl', 'whack', 'option', 'parser']
+
+
+
+ ['full parse', 'prepositional phrase', 'attachment', 'conjunction', 'audit', 'impede plea', 'phrasal', 'clausal', ']']
+
+
+
+ ['order', 'dependency', 'contribute connotation']
+
+
+
+ ['example', '‘ cat', 'mouse', 'cat.', 'differ', 'syntax']
+
+
+
+ ['meaning']
+
+
+
+ ['Semantic processing', 'sentence', 'sentence']
+
+
+
+ ['level', 'processing', 'incorporate semantic disambiguation', 'way', 'syntactic disambiguation', 'multiple parts-of-speech adroit syntactic level']
+
+
+
+ ['example', 'file', 'either binder', 'gathering', 'tool form', '’', 'line', ']']
+
+
+
+ ['semantic level', 'dictionary elucidation', 'elucidation', 'derive milieu', 'sentence']
+
+
+
+ ['elucidation', 'spot', 'rest', 'sentence']
+
+
+
+ ['syntax', 'discourse level', 'sentence', 'i.e', 'interpret multi', 'sentence', 'texts', 'sequence']
+
+
+
+ ['whole convey', ']']
+
+
+
+ ['resolution', 'pertinent entity', 'refer']
+
+
+
+ ['Discourse structure', 'recognition', 'sway', 'turn', 'meaningful representation', 'text']
+
+
+
+ ['Pragmatic concerned firm', 'use', 'language', 'utilizes nub nub', 'text', 'understanding goal', 'extra meaning', 'read', 'texts']
+
+
+
+ ['much world', 'knowledge']
+
+
+
+ ['example', 'aspiration', 'anaphoric term', 'aspiration', 'pragmatic world', 'knowledge', ']']
+
+
+
+ ['process', 'meaningful internal representation']
+
+
+
+ ['part', 'identifying', 'situation', 'text [ Figure', ']']
+
+
+
+ ['Figure']
+
+
+
+ ['generate', 'text', 'need', 'speaker', 'application', 'generator', 'program', 'fluent phrase', 'relevant situation']
+
+
+
+ ['process', 'language', 'generation']
+
+
+
+ ['Content selection', 'Information', 'included set']
+
+
+
+ ['information', 'default']
+
+
+
+ ['information', 'grammar']
+
+
+
+ ['support', 'information', 'realization']
+
+
+
+ ['end']
+
+
+
+ ['Realization', 'actual text', 'voice', 'output']
+
+
+
+ ['Application', 'model', 'situation']
+
+
+
+ ['speaker', 'part', 'language', 'generation']
+
+
+
+ ['history', 'relevant deploys representation']
+
+
+
+ ['form', 'situation', 'subset', 'speaker']
+
+
+
+ ['requirement', 'speaker', 'sense', 'situation']
+
+
+
+ ['term', 'existence', 'work', 'machine', 'translation']
+
+
+
+ ['period']
+
+
+
+ ['dominant', ']']
+
+
+
+ ['research', 'report']
+
+
+
+ ['production', 'output', ']']
+
+
+
+ ['time', 'work', 'use']
+
+
+
+ ['signature', 'work', ']']
+
+
+
+ ['stepped sophistication', 'linguistic task', 'processing']
+
+
+
+ ['widespread belief', 'progress', 'project', 'major system', 'database', 'front']
+
+
+
+ [']']
+
+
+
+ ['computational grammar', 'theory', 'active area', 'research', 'knowledge', 'ability', 'deal', 'user', 'beliefs', 'emphasis']
+
+
+
+ ['end', 'decade', 'powerful general purpose', 'sentence', ']', 'extended discourse', 'grammatico-logical framework']
+
+
+
+ ['period', 'community']
+
+
+
+ []
+
+
+
+ ['speech', 'recognition', 'message', 'understanding', 'emphasis', 'heavy evaluation', 'trend', 'major feature', ']']
+
+
+
+ ['strand', 'research', 'paper', 'discourse', 'structure', ']']
+
+
+
+ ['time', ']', 'rhetorical schemas', 'effective text']
+
+
+
+ ['word', 'sense', 'disambiguation', 'work', 'lexicon', 'direction']
+
+
+
+ ['Statistical language', 'processing', 'major thing', ']']
+
+
+
+ ['Information', 'extraction', 'automatic summarising', 'point', 'focus']
+
+
+
+ ['unsupervised semi-supervised learning', 'algorithms']
+
+
+
+ ['building', 'today']
+
+
+
+ ['detection', 'good topic', 'research']
+
+
+
+ ['analyser', ']']
+
+
+
+ ['Sentiment', 'analysis', 'topic', 'specific feature term', 'extraction', 'sentiment', 'extraction', 'association', 'relationship', 'analysis']
+
+
+
+ ['Sentiment', 'Analysis', 'analysis', 'sentiment', 'lexicon', 'sentiment', 'pattern database']
+
+
+
+ ['scale', '-5', '+5']
+
+
+
+ ['speech', 'research', 'speech', ']', '] etc']
+
+
+
+ ['tag classify', 'verbs etc']
+
+
+
+ ['part', 'speech', 'work']
+
+
+
+ ['part', 'speech', 'tagger', 'treebank', 'technique']
+
+
+
+ [']', 'approach', 'tag annotate', 'base', 'text']
+
+
+
+ ['Every word', 'unique', 'tag', 'tag', 'tag']
+
+
+
+ ['task']
+
+
+
+ ['test']
+
+
+
+ ['certain number', ']', '%', 'score']
+
+
+
+ ['tags']
+
+
+
+ ['Usage', 'problem', 'use traditional standard']
+
+
+
+ ['performance', 'standard natural language', 'processing']
+
+
+
+ ['domain', ']']
+
+
+
+ ['performance', 'standard natural language', 'processing']
+
+
+
+ ['Emotion', 'similar sentiment', 'analysis']
+
+
+
+ ['process', 'able identify', 'language', 'lexical category', 'mixed script', 'base', 'language', 'speaker']
+
+
+
+ ['semantic role', 'sentence']
+
+
+
+ ['example', '] formalism', 'assigns', 'verb sentence']
+
+
+
+ ['verb', 'frame', 'multiple verbs sentence']
+
+
+
+ ['parse', 'tree', 'parse', 'tree']
+
+
+
+ ['Event discovery', ']', 'graphical model', 'name person', 'name', 'venue', 'place', 'time', 'etc']
+
+
+
+ ['model', 'extract', 'multiple information', 'noise', 'irrelevant noisy', 'irregular message', 'language', 'model', 'able extract', 'high accuracy']
+
+
+
+ ['improvement', 'array']
+
+
+
+ ['detection', 'etc']
+
+
+
+ ['world', 'online', 'task', 'accessible available challenge']
+
+
+
+ ['Major challenge', 'accessible language', 'barrier']
+
+
+
+ ['multitude', 'different sentence', 'structure', 'grammar']
+
+
+
+ ['Machine', 'language', 'another help', 'statistical engine']
+
+
+
+ ['challenge', 'machine', 'translation', 'grammar']
+
+
+
+ ['statistical machine', 'likelihood something', 'something']
+
+
+
+ ['new machine', 'translation', 'system', 'learning']
+
+
+
+ ['evaluate machine', 'translation', 'quality', 'hypothesis', 'reference']
+
+
+
+ ['word', 'error', 'rate', 'position-independent word', 'error', 'rate', ']', 'generation', 'accuracy', ']', 'multi-reference', 'word', 'error', 'rate', ']', 'score', ']', 'score', ']', 'approximate human assessment', 'degree correlation', 'human subjective evaluation', 'fluency', 'adequacy', ']']
+
+
+
+ ['military casualty', 'market']
+
+
+
+ ['assign']
+
+
+
+ ['example', 'system', ']', 'much time', 'work', 'staff']
+
+
+
+ ['categorization', 'trouble']
+
+
+
+ ['Another application', 'text', 'categorization', 'email', 'spam']
+
+
+
+ ['important first line', 'defence']
+
+
+
+ ['heart', 'technology', 'challenge', 'meaning', 'text']
+
+
+
+ ['solution', 'email', 'system', 'spam']
+
+
+
+ ['content', 'message', 'determine', 'spam']
+
+
+
+ ['Header', 'header', 'fake information']
+
+
+
+ ['specific person', 'mail', 'specific word']
+
+
+
+ ['Permission', 'anyone', 'message', 'pre-approved recipient']
+
+
+
+ ['anyone', 'message', 'enter', 'code', 'order', 'gain', 'permission', 'send', 'email']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ [']']
+
+
+
+ ['classifier', 'hand']
+
+
+
+ ['performance', 'simplicity', ']']
+
+
+
+ ['vocabulary present']
+
+
+
+ ['model', 'document', 'subset', 'number', 'irrespective order']
+
+
+
+ ['model']
+
+
+
+ ['information', 'document', 'irrespective number', 'order']
+
+
+
+ ['second model', 'document', 'word', 'order']
+
+
+
+ ['model', 'multi-nomial model', 'addition', 'model', 'information', 'word', 'document']
+
+
+
+ ['text categorization', 'filtering', 'multi', 'variate', 'model', 'extraction', 'interest']
+
+
+
+ ['powerful way', 'summarize information', 'relevant user', '’']
+
+
+
+ ['case', 'domain', 'specific search', 'engine', 'automatic identification', 'important information', 'increase', 'accuracy', 'efficiency', 'search']
+
+
+
+ ['use', 'extract', 'research']
+
+
+
+ ['effective presentation', 'search']
+
+
+
+ ['example', 'pop', 'online store']
+
+
+
+ ['Information', ']']
+
+
+
+ ['vocabulary present']
+
+
+
+ ['model', 'document', 'subset', 'number', 'order']
+
+
+
+ ['model']
+
+
+
+ ['information', 'document', 'irrespective number', 'order']
+
+
+
+ ['second model', 'document', 'word', 'order']
+
+
+
+ ['model', 'multi-nomial model', 'addition', 'model', 'information', 'word', 'knowledge', 'research']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['information', 'variety', 'purpose', 'example', 'prepare', 'summary', 'text', 'pre-']
+
+
+
+ ['example', 'news', ']']
+
+
+
+ ['difficulty']
+
+
+
+ ['system', 'relative specific conceptual relation', ']']
+
+
+
+ ['word', 'recognition', 'discourse', 'analysis', 'level', 'complete document']
+
+
+
+ ['application', 'approach', 'analysis', 'real life', 'natural language', 'corpus', 'field', 'advertising']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['al']
+
+
+
+ [']', 'mainstream framework', 'text', 'mining', 'pragmatic discourse', 'level', 'text']
+
+
+
+ ['information', 'real thing', 'digital age', 'access', 'knowledge', 'information', 'capacity', 'understand']
+
+
+
+ ['trend', 'slowing', 'ability']
+
+
+
+ ['ability', 'understand', 'important information', 'large set', 'example', 'company', 'general sentiment', 'product', 'offering']
+
+
+
+ ['application', 'useful valuable marketing', 'asset']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['al']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['supervised system', 'relevant material']
+
+
+
+ ['Large amount', 'learning']
+
+
+
+ ['Bayesian Sentence', 'term-sentences term', 'document']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['approach']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['topic', 'capital', 'represent entity']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['dialogue', 'language', 'processing', 'dialog']
+
+
+
+ [']']
+
+
+
+ ['text', 'voice']
+
+
+
+ ['assistant', 'software']
+
+
+
+ ['medicine field']
+
+
+
+ ['field', 'medicine', ']']
+
+
+
+ ['extract summarize information', 'drug', 'dosage', 'response', 'aim', 'possible side', ']']
+
+
+
+ [']']
+
+
+
+ ['function', 'tool']
+
+
+
+ ['lexicon']
+
+
+
+ ['environment', ']']
+
+
+
+ ['first phase', 'patient']
+
+
+
+ ['stage', 'LSP-MLP adapted French [', ']', 'system', 'method', ']']
+
+
+
+ ['’ task', 'implement', 'multilingual system', 'free text', 'language', 'independent knowledge', 'representation', ']']
+
+
+
+ ['system', 'clinical information', 'textual information', 'representation', ']']
+
+
+
+ ['approach', 'symbolic approach', 'crucial part', 'knowledge', 'human mind', 'sense firm', 'advance', 'genetic heritance']
+
+
+
+ ['advocate', 'approach']
+
+
+
+ ['machine', 'function', 'human brain', 'fundamental knowledge', 'mechanism', 'rule', 'representation']
+
+
+
+ ['automatic process']
+
+
+
+ ['machine', 'entail evolution', 'algorithms', 'allow program', 'infer']
+
+
+
+ ['iterative process', 'algorithm', 'numerical measure', 'phase']
+
+
+
+ ['generative discriminative']
+
+
+
+ ['create', 'probability']
+
+
+
+ ['resemblance', 'spot', 'unknown speaker', 'language', 'deep knowledge', 'numerous language', 'perform', 'match']
+
+
+
+ ['knowledge- intensive approach', 'distinction', 'language']
+
+
+
+ ['use']
+
+
+
+ ['Logistic regression', 'conditional random']
+
+
+
+ ['system', 'place', 'feasible output']
+
+
+
+ ['descry', 'system']
+
+
+
+ ['problem', 'certain sequence', 'output', 'compute', 'candidate']
+
+
+
+ ['state-switch sequence', 'particular output- symbol', 'sequence']
+
+
+
+ ['output-symbol', 'chain', 'data', 'best']
+
+
+
+ ['speech', 'recognition', 'output', 'sequence', 'sequence']
+
+
+
+ ['advocate', 'every time', 'group', 'speech', 'recognizer', '’ performance']
+
+
+
+ ['application', 'example', 'multiple sequence', 'alignment', ']']
+
+
+
+ ['model', 'entire protein']
+
+
+
+ ['cue', 'domain', 'family', 'expert', 'knowledge', 'sequence', 'similarity', 'family', 'capability']
+
+
+
+ ['choice', 'area', 'word', 'segmentation', 'translation', 'segmentation', 'infant']
+
+
+
+ ['addition', 'exclusive article', 'use', 'research', 'algorithms investigation']
+
+
+
+ ['section', 'i.e', 'software', 'help', 'compliance']
+
+
+
+ ['business', 'system']
+
+
+
+ ['search', 'flag', 'report']
+
+
+
+ ['ability', 'personal data', 'view', 'personal data', 'attention', 'provide']
+
+
+
+ ['information', 'simple efficient way', 'need', 'physical approach', 'labour thorough']
+
+
+
+ ['compliance', 'universal paramountcy', 'exploit organisation', 'control', 'process']
+
+
+
+ ['LINK', 'http', ' wered_GDPR_Robot', '] http', ' http', 'chatbot']
+
+
+
+ ['natural language', 'chatbot']
+
+
+
+ ['Capital', 'natural language', 'bank', 'customer', 'ask', 'natural language']
+
+
+
+ ['text interface']
+
+
+
+ ['environment', 'human interacting']
+
+
+
+ ['vice', 'president', 'digital product', 'development', '“ kind', 'chatbot', '’', 'different platform']
+
+
+
+ ['much access', 'private information', 'person', 'trouble', 'privacy', 'work']
+
+
+
+ ['admin access']
+
+
+
+ ['case', 'personal banking', 'information', 'https', 'trend']
+
+
+
+ ['long way', 'this.BI', 'access']
+
+
+
+ ['text voice', 'command', 'smartphones.one', 'common example', 'today', 'weather']
+
+
+
+ ['chatbot', 'customer', 'sentiment', 'today', 'brand', 'week', 'street']
+
+
+
+ ['Today', 'natural language', 'machine', 'language']
+
+
+
+ ['time', 'technology', 'component', 'computer', '“', '” query start', 'deliver']
+
+
+
+ ['chatbot', 'ask question', '’ return', 'analyse']
+
+
+
+ ['question', 'formulation', 'necessary provide', 'intelligible answer']
+
+
+
+ ['Link', 'http', 'theory derivation', 'process', 'conceptual framework', 'medication', 'therapy', 'management', 'research']
+
+
+
+ ['service', 'model', 'chronic care', 'model', 'parent']
+
+
+
+ ['article', 'https', ' http', 'medication', 'therapy', 'management', 'chronic disease', 'care']
+
+
+
+ ['pairwise', 'cooccurrence']
+
+
+
+ ['information', 'construct', 'network', 'graph', 'co-occurrence', 'content new conceptual model']
+
+
+
+ ['adherence', 'drug', 'therapy', 'problem', 'self- management']
+
+
+
+ ['model']
+
+
+
+ ['framework', 'additional refinement', 'evaluation', 'determine', 'relevance', 'applicability', 'broad audience']
+
+
+
+ ['Link', 'https', '', 'world', '’', 'first language', 'world', '’', 'smart earpiece']
+
+
+
+ ['Spring', 'wise']
+
+
+
+ ['speech', 'translation', 'app', 'speech recognition', 'machine', 'translation', 'machine', 'speech synthesis', 'technology']
+
+
+
+ ['user hear', 'version', 'speech', 'second earpiece']
+
+
+
+ ['necessary conversation', 'place', 'discuss group']
+
+
+
+ ['user', 'second lag', 'speech translation', 'pursue']
+
+
+
+ ['music', 'voice']
+
+
+
+ ['Link', 'https']
+
+
+
+ [']', 'van']
+
+
+
+ ['event-centric knowledge', 'graphs', 'news']
+
+
+
+ ['Science']
+
+
+
+ ['management', 'natural language', 'generation']
+
+
+
+ ['machine', 'translation']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['generation', 'automata intersection']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['] Nation']
+
+
+
+ ['relationship', 'language', 'read', 'new vocabulary learning', 'comprehension']
+
+
+
+ [']']
+
+
+
+ ['Natural language', 'processing']
+
+
+
+ [']', 'Natural Language', 'Processing']
+
+
+
+ ['n.d']
+
+
+
+ [']']
+
+
+
+ ['Machine', 'translation', 'past', 'present', 'future']
+
+
+
+ ['Chichester']
+
+
+
+ [']']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Baseball', 'automatic question-answerer']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['natural language', 'question']
+
+
+
+ ['natural language', 'interface']
+
+
+
+ ['core', 'language', 'engine']
+
+
+
+ ['press']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['speech', 'recognition']
+
+
+
+ ['recognition', 'evaluation']
+
+
+
+ ['message']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['generation']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Cambridge', 'press']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['press']
+
+
+
+ ['Sentiment analyzer', 'natural language', 'processing']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Sentiment analyzer', 'natural language', 'processing']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['deep grammar', 'acquisition']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Part', 'speech', 'local word', 'natural language']
+
+
+
+ ['text', 'raw text', 'base', 'phrase']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['conditional random']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Flexible text', 'segmentation', 'multilabel classification']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['latent- dynamic shallow parsing', 'latent conditional model', 'inference']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['entity', 'recognition', 'experimental study']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Emotion']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['proposition', 'bank', 'corpus']
+
+
+
+ ['Event discovery']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['search', 'statistical translation']
+
+
+
+ ['Eurospeech']
+
+
+
+ ['Evaluation', 'generation']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Evaluation']
+
+
+
+ ['BLEU', 'method', 'automatic evaluation', 'machine', 'translation']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Automatic evaluation', 'machine', 'translation', 'quality', 'n-gram co-occurrence']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['BLEU', 'method', 'automatic evaluation', 'machine', 'translation']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Automatic evaluation', 'machine', 'translation', 'quality', 'n-gram co-occurrence']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Intelligent high-volume text', 'processing']
+
+
+
+ ['research', 'practice', 'information', 'extraction', 'retrieval']
+
+
+
+ [']']
+
+
+
+ ['e-mail']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Bayesian approach', 'junk', 'e-mail']
+
+
+
+ []
+
+
+
+ ['pp']
+
+
+
+ []
+
+
+
+ ['filter spam e-mail', 'comparison', 'naive bayesian memory-based approach']
+
+
+
+ ['arXiv preprint', 'cs']
+
+
+
+ ['ifile', 'application', 'machine', 'e-mail filtering']
+
+
+
+ [']']
+
+
+
+ ['vector', 'spam categorization']
+
+
+
+ ['1048-1054 [', ']']
+
+
+
+ ['anti-spam email', 'filtering']
+
+
+
+ ['arXiv preprint', 'cs']
+
+
+
+ ['maximum entropy', 'approach', 'natural language', 'processing']
+
+
+
+ ['[', ']']
+
+
+
+ ['anti-spam filtering e-mail']
+
+
+
+ ['arXiv preprint', 'cs', ']']
+
+
+
+ ['forty', 'independence', 'assumption', 'information', 'retrieval']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['comparison', 'event', 'text classification']
+
+
+
+ []
+
+
+
+ ['pp']
+
+
+
+ []
+
+
+
+ ['comparison', 'event', 'text classification']
+
+
+
+ []
+
+
+
+ ['pp']
+
+
+
+ []
+
+
+
+ ['algorithm suffix', 'stripping']
+
+
+
+ ['130-137 [']
+
+
+
+ ['Intelligent high-volume text', 'processing']
+
+
+
+ ['research', 'practice', 'information', 'extraction', 'retrieval', '227-242 [', ']']
+
+
+
+ ['Automatic acquisition', 'technical corpora']
+
+
+
+ ['Extraction', 'information', 'natural language', 'processing']
+
+
+
+ ['15-22 [', ']']
+
+
+
+ ['MITA', 'information-extraction approach', 'analysis', 'free-form text life', 'insurance']
+
+
+
+ ['magazine']
+
+
+
+ ['mining', 'descriptive phrase', 'extraction', 'digital document']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Single-document multi-document summarization', 'sentence', 'compression']
+
+
+
+ ['automatic text summarization']
+
+
+
+ [']']
+
+
+
+ ['text', 'summarization', 'relevance', 'measure', 'latent semantic analysis']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['QCS', 'system']
+
+
+
+ ['processing', 'management']
+
+
+
+ ['Information']
+
+
+
+ ['regression', 'multi-document summarization']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['press']
+
+
+
+ ['story', 'short–global', 'meeting', 'summarization']
+
+
+
+ ['Multi-document summarization', 'sentence-based topic']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['document', 'multidocument summarization']
+
+
+
+ ['aspect-oriented summarization', 'group', 'selection']
+
+
+
+ ['Medical language', 'processing', 'representation', 'automatic encoding']
+
+
+
+ ['information', 'medicine']
+
+
+
+ ['database']
+
+
+
+ ['linguistic string', 'parser']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['information', 'automatic processing']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Natural language', 'information', 'processing']
+
+
+
+ ['Computer-structured narrative ambulatory', 'care', 'use', 'longitudinal review']
+
+
+
+ ['representation', 'meaning']
+
+
+
+ ['information', 'medicine']
+
+
+
+ ['role', 'lexical knowledge', 'biomedical text', 'understanding']
+
+
+
+ ['Natural language', 'processing', 'intelligent information', 'retrieval']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['natural language', 'parser', 'knowledge']
+
+
+
+ ['variation']
+
+
+
+ ['server']
+
+
+
+ ['Medical office', 'automation', 'distributed architecture', 'hospital', 'information', 'system']
+
+
+
+ ['information', 'medicine']
+
+
+
+ ['Natural language', 'semantical representation', 'medical texts']
+
+
+
+ ['information', 'medicine']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['medical language', 'processor']
+
+
+
+ ['automatique', "rendus d'hospitalisation"]
+
+
+
+ ['rédacteurs']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['representation', 'discharge']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['Conceptual graphs', 'model', 'extension', 'knowledge', 'representation', 'medical texts']
+
+
+
+ ['Proximity']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['A.']
+
+
+
+ ['Natural language', 'processing', 'medical texts', 'environment']
+
+
+
+ ['A.']
+
+
+
+ ['medical jargon', 'system']
+
+
+
+ []
+
+
+
+ []
+
+
+
+ ['conceptual model', 'clinical radiology']
+
+
+
+ [']', 'Natural Language', 'Processing']
+
+
+
+ ['n.d']
+
+
+
+ ['http', ' www.cedar.buffalo.edu', ']']
+
+
+
+ ['http', '']
+
+
+
+ ['ucsd.edu']
+
+
+
+ ['al']
+
+
+
+ ['vector']
+
+
+
+ ['edn']
+
+
+
+ ['Prentice-Hall']
+
+
+
+ ['al']
+
+
+
+ ['Pfam', 'Multiple sequence', 'protein']
+
+
+
+ ['Pfam', 'multiple sequence', 'protein']
+
+
+
+ ['research']
+
+
+
+ ['Stock', 'Market']
+
+
+
+ ['n.d']
+
+
+
+ ['n.d']
+
+
+
+ ['n.d']
+
+
+
+ ['https', '']
+
+
+
+ ['https', 'publication', 'statsView', 'publication', '', 'dopt=Abstract https', '']
+
